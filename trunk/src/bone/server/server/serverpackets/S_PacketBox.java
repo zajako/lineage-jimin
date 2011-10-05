@@ -1,6 +1,3 @@
-/*
- * OpenEva - http://eva.pe.kr
- */
 package bone.server.server.serverpackets;
 
 import java.util.ArrayList;

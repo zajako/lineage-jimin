@@ -48,7 +48,7 @@ import bone.server.server.templates.L1PrivateShopSellList;
 import bone.server.server.serverpackets.S_Disconnect;
 
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 import server.system.autoshop.AutoShopManager;
 
 public class C_ShopAndWarehouse extends ClientBasePacket {
@@ -211,7 +211,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			if(!isAvailablePcWeight(pc, item, count)) break;
 								
 			w.tradeItem(item, count, pc.getInventory());
-			eva.LogWareHouseAppend("ÆÐÅ°Áö:", pc.getName(), "", item, count, objectId);
+			bone.LogWareHouseAppend("ÆÐÅ°Áö:", pc.getName(), "", item, count, objectId);
 			}
 	}
 
@@ -233,7 +233,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			
 			if (pc.getInventory().consumeItem(40494, 2)) {
 				elfwarehouse.tradeItem(item, count, pc.getInventory());
-				eva.LogWareHouseAppend("¿äÁ¤:Ã£", pc.getName(), "", item, count, objectId);
+				bone.LogWareHouseAppend("¿äÁ¤:Ã£", pc.getName(), "", item, count, objectId);
 			} else {
 				pc.sendPackets(new S_ServerMessage(337,"$767"));
 				break;
@@ -272,7 +272,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			
 			pc.getInventory().tradeItem(objectId, count, elfwarehouse);
 			pc.getLight().turnOnOffLight();
-			eva.LogWareHouseAppend("¿äÁ¤:¸Ã", pc.getName(), "", item, count, objectId);			
+			bone.LogWareHouseAppend("¿äÁ¤:¸Ã", pc.getName(), "", item, count, objectId);			
 		}
 	}
 
@@ -302,7 +302,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			if(!isAvailablePcWeight(pc, item, count)) break;
 			
 			clanWarehouse.tradeItem(item, count, pc.getInventory());			
-			eva.LogWareHouseAppend("Ç÷¸Í:Ã£", pc.getName(), pc.getClanname(), item, count, objectId);
+			bone.LogWareHouseAppend("Ç÷¸Í:Ã£", pc.getName(), pc.getClanname(), item, count, objectId);
 		}
 		clanWarehouse.unlock(pc.getId());
 	}
@@ -350,7 +350,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			pc.getInventory().tradeItem(objectId, count, clanWarehouse);
 			pc.getLight().turnOnOffLight();
 			
-			eva.LogWareHouseAppend("Ç÷¸Í:¸Ã", pc.getName(), pc.getClanname(), item, count, objectId);
+			bone.LogWareHouseAppend("Ç÷¸Í:¸Ã", pc.getName(), pc.getClanname(), item, count, objectId);
 		}
 		clanWarehouse.unlock(pc.getId());
 	}
@@ -371,7 +371,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			if(!hasAdena(pc)) break;
 			
 			warehouse.tradeItem(item, count, pc.getInventory());	
-			eva.LogWareHouseAppend("ÀÏ¹Ý:Ã£", pc.getName(), "", item, count, objectId);
+			bone.LogWareHouseAppend("ÀÏ¹Ý:Ã£", pc.getName(), "", item, count, objectId);
 		}
 	}
 
@@ -404,7 +404,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 			pc.getInventory().tradeItem(objectId, count, warehouse);					
 			pc.getLight().turnOnOffLight();
 			
-			eva.LogWareHouseAppend("ÀÏ¹Ý:¸Ã", pc.getName(), "", item, count, objectId);
+			bone.LogWareHouseAppend("ÀÏ¹Ý:¸Ã", pc.getName(), "", item, count, objectId);
 		}
 	} 
 
@@ -629,7 +629,7 @@ public class C_ShopAndWarehouse extends ClientBasePacket {
 	 */
 	private void writeLogbuyPrivateShop(L1PcInstance pc, L1PcInstance targetPc, L1ItemInstance item, int count, int price) {
 		String itemadena = item.getName()+"("+price+")";
-		eva.LogShopAppend("»óÁ¡", pc.getName(), targetPc.getName(), item.getEnchantLevel(), itemadena, item.getBless(), count, item.getId());
+		bone.LogShopAppend("»óÁ¡", pc.getName(), targetPc.getName(), item.getEnchantLevel(), itemadena, item.getBless(), count, item.getId());
 	}
 
 	private boolean isOverMaxAdena(L1PcInstance pc, int sellPrice, int count) {

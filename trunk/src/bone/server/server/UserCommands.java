@@ -31,7 +31,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.StringTokenizer;
 
-import server.manager.eva;
+import server.manager.bone;
 
 import bone.server.L1DatabaseFactory;
 import bone.server.GameSystem.Boss.BossSpawnTimeController;
@@ -110,7 +110,7 @@ public class UserCommands {
 					}
 				}
 			}
-			eva.LogChatAppend("¨Ú", pc.getName(), cmdLine);			
+			bone.LogChatAppend("¨Ú", pc.getName(), cmdLine);			
 		}
 	}
 

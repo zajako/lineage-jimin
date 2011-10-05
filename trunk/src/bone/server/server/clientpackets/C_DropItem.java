@@ -29,7 +29,7 @@ import bone.server.server.serverpackets.S_OwnCharStatus;
 import bone.server.server.serverpackets.S_ServerMessage; 
 import bone.server.server.serverpackets.S_SkillIconGFX;
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 import server.system.autoshop.AutoShopManager;
 
 public class C_DropItem extends ClientBasePacket {
@@ -124,7 +124,7 @@ public class C_DropItem extends ClientBasePacket {
 				pc.sendPackets(new S_ServerMessage(125));
 				return;
 			}
-			eva.LogObserverAppend("템드랍", pc.getName(), item, count, objectId);
+			bone.LogObserverAppend("템드랍", pc.getName(), item, count, objectId);
 			pc.getInventory().tradeItem(item, count, L1World.getInstance().getInventory(x, y, pc.getMapId()));
 			pc.getLight().turnOnOffLight();			
 		}

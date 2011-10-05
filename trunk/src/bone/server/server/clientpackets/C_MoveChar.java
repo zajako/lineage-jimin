@@ -20,13 +20,13 @@ package bone.server.server.clientpackets;
 import static bone.server.server.model.Instance.L1PcInstance.REGENSTATE_MOVE;
 
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 
 //import java.util.Random; // ½Ã°£ÀÇ ±Õ¿­ - Æ¼Ä®¿ë ÁÖ¼®
 
 import bone.server.GameSystem.CrockSystem;
 import bone.server.GameSystem.PetRacing;
-import bone.server.server.datatables.EvaSystemTable;
+import bone.server.server.datatables.BoneSystemTable;
 import bone.server.server.model.Broadcaster;
 import bone.server.server.model.Dungeon;
 import bone.server.server.model.DungeonRandom;
@@ -35,7 +35,7 @@ import bone.server.server.model.Instance.L1PcInstance;
 import bone.server.server.model.skill.L1SkillId;
 import bone.server.server.model.trap.L1WorldTraps;
 import bone.server.server.serverpackets.S_MoveCharPacket;
-import bone.server.server.templates.L1EvaSystem;
+import bone.server.server.templates.L1BoneSystem;
 
 //Referenced classes of package bone.server.server.clientpackets:
 //ClientBasePacket
@@ -80,7 +80,7 @@ public class C_MoveChar extends ClientBasePacket {
 		}
 		if (ck){
 			L1Teleport.teleport(pc, pc.getX(), pc.getY(),pc.getMapId(),pc.getMoveState().getHeading(), false);
-			eva.LogBugAppend("»ç¿ë:¶Õ¾î", pc, 2);		
+			bone.LogBugAppend("»ç¿ë:¶Õ¾î", pc, 2);		
 			return;
 		}
 		pc.getLocation().set(locx, locy);
@@ -88,10 +88,10 @@ public class C_MoveChar extends ClientBasePacket {
 		Broadcaster.broadcastPacket(pc, new S_MoveCharPacket(pc));
 
 		if(CrockSystem.getInstance().isOpen()){
-			L1EvaSystem eva = EvaSystemTable.getInstance().getSystem(1);
+			L1BoneSystem bone = BoneSystemTable.getInstance().getSystem(1);
 			int[] loc = CrockSystem.getInstance().loc();
 			if(Math.abs(loc[0]-pc.getX())<=1 && Math.abs(loc[1] - pc.getY())<=1 && loc[2] == pc.getMap().getId()) {
-				switch(eva.getMoveLocation()) {
+				switch(bone.getMoveLocation()) {
 				case 0: return;
 				case 1: L1Teleport.teleport(pc, 32639, 32876, (short) 780, 2, false); break;// Å×º£
 				case 2: L1Teleport.teleport(pc, 32793, 32754, (short) 783, 2, false); break;// Æ¼Ä®

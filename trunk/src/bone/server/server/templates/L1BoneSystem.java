@@ -7,9 +7,9 @@ package bone.server.server.templates;
 
 import java.util.Calendar;
 
-public class L1EvaSystem {
+public class L1BoneSystem {
 
-	public L1EvaSystem(int id) {
+	public L1BoneSystem(int id) {
 		_typeId = id;
 	}
 
@@ -22,8 +22,8 @@ public class L1EvaSystem {
 	private int _openContinuation;
 	
 	/** 시작등 캘린더 값을 가져온다 */
-	public Calendar getEvaTime() { return _time; }
-	public void setEvaTime(Calendar i) { _time = i; }
+	public Calendar getBoneTime() { return _time; }
+	public void setBoneTime(Calendar i) { _time = i; }
 
 	/**
 	 * 시간의 균열 열린 장소값을 가져 온다

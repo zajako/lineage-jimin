@@ -20,7 +20,7 @@
 package bone.server.server.clientpackets;
 
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 import bone.server.Config;
 //import bone.server.channel.ChatMonitorChannel;
 import bone.server.server.GMCommands;
@@ -123,7 +123,7 @@ public class C_Chat extends ClientBasePacket {
 						}
 					}
 				}
-				eva.LogChatAppend("ㄚ", pc.getName(), chatText);
+				bone.LogChatAppend("ㄚ", pc.getName(), chatText);
 			}
 				break;
 			case 2 :{
@@ -140,7 +140,7 @@ public class C_Chat extends ClientBasePacket {
 						listner.sendPackets(s_chatpacket);
 					}
 				}
-				eva.LogChatAppend("ㄚ", pc.getName(), chatText);
+				bone.LogChatAppend("ㄚ", pc.getName(), chatText);
 				// 到歧 贸府
 				L1MonsterInstance mob = null;
 				for (L1Object obj : pc.getNearObjects().getKnownObjects()) {
@@ -167,7 +167,7 @@ public class C_Chat extends ClientBasePacket {
 
 						// monitoring
 //						ChatMonitorChannel.getInstance().sendMsg(ChatMonitorChannel.CHAT_MONITOR_CLAN, chatText, pc);
-						eva.LogChatAppend("＠", pc.getName(),pc.getClanname(), chatText,"@");					
+						bone.LogChatAppend("＠", pc.getName(),pc.getClanname(), chatText,"@");					
 						for (L1PcInstance listner : clan.getOnlineClanMember()) {
 							if (!listner.getExcludingList().contains(pc.getName())) {
 								listner.sendPackets(s_chatpacket);
@@ -189,7 +189,7 @@ public class C_Chat extends ClientBasePacket {
 //					monitoring
 //					ChatMonitorChannel.getInstance().sendMsg(ChatMonitorChannel.CHAT_MONITOR_PARTY, chatText, pc);
 				}
-				eva.LogChatAppend("＃", pc.getName(), chatText);				
+				bone.LogChatAppend("＃", pc.getName(), chatText);				
 			}
 			break;
 			case 12 : { chatWorld(pc, chatText, chatType); } break;
@@ -211,7 +211,7 @@ public class C_Chat extends ClientBasePacket {
 					// monitoring
 					// ChatMonitorChannel.getInstance().sendMsg(ChatMonitorChannel.CHAT_MONITOR_CLAN, chatText, pc);
 				}
-				eva.LogChatAppend("＃", pc.getName(), chatText);
+				bone.LogChatAppend("＃", pc.getName(), chatText);
 			}
 			break;
 			case 14 : { // 盲泼 颇萍
@@ -226,7 +226,7 @@ public class C_Chat extends ClientBasePacket {
 				}
 				// monitoring
 				//ChatMonitorChannel.getInstance().sendMsg(ChatMonitorChannel.CHAT_MONITOR_PARTY, chatText, pc);
-				eva.LogChatAppend("＊", pc.getName(), chatText);
+				bone.LogChatAppend("＊", pc.getName(), chatText);
 			}
 			break;
 			case 15 :
@@ -243,13 +243,13 @@ public class C_Chat extends ClientBasePacket {
 	private void chatWorld(L1PcInstance pc, String chatText, int chatType) {
 		if (pc.isGm() || pc.getAccessLevel() == 1) {
 			L1World.getInstance().broadcastPacketToAll(new S_ChatPacket(pc, chatText, Opcodes.S_OPCODE_MSG, chatType));
-			eva.LogChatAppend("＆", pc.getName(), chatText);			
+			bone.LogChatAppend("＆", pc.getName(), chatText);			
 		} else if (pc.getLevel() >= Config.GLOBAL_CHAT_LEVEL) {
 			if (L1World.getInstance().isWorldChatElabled()) {
 				if (pc.get_food() >= 12) { //5%百瘤?
 //					ChatLogTable.getInstance().storeChat(pc, null, chatText, chatType);
 					pc.sendPackets(new S_PacketBox(S_PacketBox.FOOD, pc.get_food()));					
-					eva.LogChatAppend("＆", pc.getName(), chatText);
+					bone.LogChatAppend("＆", pc.getName(), chatText);
 					for (L1PcInstance listner : L1World.getInstance().getAllPlayers()) {
 						if (!listner.getExcludingList().contains(pc.getName())) {
 							if (listner.isShowTradeChat() && chatType == 12) {

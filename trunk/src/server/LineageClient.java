@@ -37,7 +37,7 @@ import bone.server.server.serverpackets.ServerBasePacket;
 
 import org.apache.mina.core.session.IoSession;
 
-import server.manager.eva;
+import server.manager.bone;
 import server.mina.coder.LineageEncryption;
 import server.threads.manager.DecoderManager;
 
@@ -200,7 +200,7 @@ public class LineageClient {
 	public void quitGame(L1PcInstance pc) {
 
 		//_log.info("캐릭터 종료: char=" + pc.getName() + " account=" + pc.getAccountName()	+ " host=" + L.getHostname());
-		eva.LogServerAppend("종료", pc,pc.getNetConnection().getHostname(), -1);
+		bone.LogServerAppend("종료", pc,pc.getNetConnection().getHostname(), -1);
 		pc.setadFeature(1);
 		pc.setDeathMatch(false);
 		pc.setHaunted(false);

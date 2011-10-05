@@ -1,8 +1,3 @@
-/* Eva Pack -http://eva.gg.gg
- * 본섭 리뉴얼된 안타라스 레이드 시스템
- * Eva ShaSha
- */
-
 package bone.server.GameSystem.Antaras;
 
 import java.sql.Timestamp;
@@ -11,8 +6,6 @@ import java.util.ArrayList;
 import bone.server.GameSystem.Antaras.AntarasRaidSystem.AntarasMsgTimer;
 import bone.server.server.GeneralThreadPool;
 import bone.server.server.model.Instance.L1PcInstance;
-
-
 
 public class AntarasRaid {
 

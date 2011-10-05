@@ -32,7 +32,7 @@ import java.util.StringTokenizer;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import server.manager.eva;
+import server.manager.bone;
 
 import bone.server.Base64;
 import bone.server.L1DatabaseFactory;
@@ -97,7 +97,7 @@ public class GMCommands {
 			Class<?> cls = Class.forName(complementClassName(command. getExecutorClassName()));
 			L1CommandExecutor exe = (L1CommandExecutor)cls.getMethod("getInstance").invoke(null);
 			exe.execute(pc, name, arg);
-			eva.LogCommandAppend(pc.getName(), name, arg);
+			bone.LogCommandAppend(pc.getName(), name, arg);
 			_log.info('('+ pc.getName() + ")가 " + name + " " + arg + "운영자 명령어를 사용했습니다. ");
 			return true;
 		} catch (Exception e) {
@@ -129,7 +129,7 @@ public class GMCommands {
 			gm.sendPackets(new S_ServerMessage(74, "[Command] 커맨드 " + cmd));
 			return;
 		}
-		eva.LogCommandAppend(gm.getName(), cmd, param);
+		bone.LogCommandAppend(gm.getName(), cmd, param);
 		// GM에 개방하는 커맨드는 여기에 쓴다
 		if (cmd.equalsIgnoreCase("도움말")) {
 			showHelp(gm);		

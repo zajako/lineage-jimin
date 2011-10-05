@@ -51,7 +51,7 @@ import bone.server.server.datatables.ClanTable;
 import bone.server.server.datatables.DoorSpawnTable;
 import bone.server.server.datatables.DropItemTable;
 import bone.server.server.datatables.DropTable;
-import bone.server.server.datatables.EvaSystemTable;
+import bone.server.server.datatables.BoneSystemTable;
 import bone.server.server.datatables.FurnitureSpawnTable;
 import bone.server.server.datatables.GetBackRestartTable;
 import bone.server.server.datatables.IpTable;
@@ -91,7 +91,7 @@ import bone.server.server.model.map.L1WorldMap;
 import bone.server.server.model.trap.L1WorldTraps;
 import bone.server.server.utils.SQLUtil;
 import server.controller.ItemDeleteController;
-import server.manager.eva;
+import server.manager.bone;
 import server.system.autoshop.AutoShopManager;
 import server.threads.manager.DecoderManager;
 import server.threads.pc.AutoSaveThread;
@@ -242,7 +242,7 @@ public class GameServer/* extends Thread*/ {
 
 		// 시간의 균열
 		CrockSystem.getInstance();
-		EvaSystemTable.getInstance();
+		BoneSystemTable.getInstance();
 
 		if (Config.ALT_HALLOWEENEVENT != true) {
 			Halloween();
@@ -286,7 +286,7 @@ public class GameServer/* extends Thread*/ {
 		// 가비지 컬렉터 실행 (Null) 객체의 해제
 		System.out.println("[GameServer] 로딩 완료!");
 		System.out.println("=================================================");
-		eva.refreshMemory();
+		bone.refreshMemory();
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
 
 		//this.start();
@@ -430,7 +430,7 @@ public class GameServer/* extends Thread*/ {
 
 	public void shutdown() {
 		disconnectAllCharacters();
-		eva.savelog();
+		bone.savelog();
 		System.exit(0);
 	}
 

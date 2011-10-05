@@ -29,7 +29,7 @@ import bone.server.server.serverpackets.S_NpcChatPacket;
 import bone.server.server.serverpackets.S_TradeAddItem;
 import bone.server.server.serverpackets.S_TradeStatus;
 import bone.server.server.templates.L1Castle;
-import server.manager.eva;
+import server.manager.bone;
 
 // Referenced classes of package bone.server.server.model:
 // L1Trade
@@ -105,14 +105,14 @@ public class L1Trade {
 				for (cnt = 0; cnt < player_tradecount; cnt++) {
 					pcitem = (L1ItemInstance) player_tradelist.get(0);
 					pc.getTradeWindowInventory().tradeItem(pcitem, pcitem.getCount(), tradepc.getInventory());
-					eva.LogTradeAppend("교환", pc.getName(), tradepc.getName(), pcitem.getEnchantLevel(), pcitem.getName(), 
+					bone.LogTradeAppend("교환", pc.getName(), tradepc.getName(), pcitem.getEnchantLevel(), pcitem.getName(), 
 							pcitem.getBless(), pcitem.getCount(), pcitem.getId());
 				}
 				L1ItemInstance tradepcitem = null;
 				for (cnt = 0; cnt < trading_partner_tradecount; cnt++) {
 					tradepcitem = (L1ItemInstance) trading_partner_tradelist.get(0);
 					tradepc.getTradeWindowInventory().tradeItem(tradepcitem, tradepcitem.getCount(), pc.getInventory());					
-					eva.LogTradeAppend("교환", tradepc.getName(), pc.getName(), tradepcitem.getEnchantLevel(), tradepcitem.getName(), 
+					bone.LogTradeAppend("교환", tradepc.getName(), pc.getName(), tradepcitem.getEnchantLevel(), tradepcitem.getName(), 
 							tradepcitem.getBless(), tradepcitem.getCount(), tradepcitem.getId());
 				}
 	

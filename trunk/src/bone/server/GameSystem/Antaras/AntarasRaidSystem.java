@@ -1,7 +1,3 @@
-/* Eva Pack -http://eva.gg.gg
- * 본섭 리뉴얼된 안타라스 레이드 시스템
- */
-
 package bone.server.GameSystem.Antaras;
 
 import java.util.ArrayList;
