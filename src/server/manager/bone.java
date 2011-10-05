@@ -32,10 +32,10 @@ import bone.server.server.utils.SystemUtil;
 
 import server.GameServer;
 import server.Server;
+import server.system.autoshop.AutoShopManager;
 
 /**
- *
- * @author code
+ * @author jimin
  */
 @SuppressWarnings("serial")
 public class bone extends javax.swing.JFrame {
@@ -93,7 +93,7 @@ public class bone extends javax.swing.JFrame {
 		lblMemory = new java.awt.Label();
 
 		setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
-		setTitle("Eva Server Manager");
+		setTitle("Bone Server Manager");
 
 		comboEventList = new java.awt.Choice();
 		for (int i=0,a=eventlist.length;i<a;i++){
@@ -155,6 +155,20 @@ public class bone extends javax.swing.JFrame {
 				buttonSaveClicked(evt);
 			}
 		});
+		buttongoitem = new java.awt.Button();
+		buttongoitem.setLabel("선물주기");
+		buttongoitem.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				buttongoitemClicked(evt);
+			}
+		});
+		buttonPoly = new java.awt.Button();
+		buttonPoly.setLabel("변신시키기");
+		buttonPoly.addMouseListener(new java.awt.event.MouseAdapter() {
+			public void mouseClicked(java.awt.event.MouseEvent evt) {
+				buttonPolyClicked(evt);
+			}
+		});
 
 		buttonSave.setLabel("서버저장");
 		buttonReload.setLabel("리로드실행");
@@ -184,6 +198,8 @@ public class bone extends javax.swing.JFrame {
 										.addComponent(buttonSetting, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 										.addComponent(buttonServer, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE))
 										.addComponent(buttonSave, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+										.addComponent(buttongoitem, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+										.addComponent(buttonPoly, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
 										.addComponent(comboReloadList, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
 										.addComponent(buttonReload, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
 										.addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
@@ -206,13 +222,17 @@ public class bone extends javax.swing.JFrame {
 				.addGroup(layout.createSequentialGroup()
 						.addContainerGap()
 						.addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-								.addComponent(jTabbedPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 493, Short.MAX_VALUE)
+								.addComponent(jTabbedPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
 								.addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-										.addComponent(buttonServer, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addComponent(buttonServer, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-										.addComponent(buttonSetting, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addComponent(buttonSetting, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-										.addComponent(buttonSave, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addComponent(buttonSave, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addComponent(buttongoitem, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+										.addComponent(buttonPoly, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
 										.addGap(44, 44, 44)
 										.addComponent(comboEventList, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
 										.addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -305,7 +325,7 @@ public class bone extends javax.swing.JFrame {
 		textBug.append("\n"+getLogTime()+"　"+s+"　"+pc.getName());
 		switch (type) {
 		case 1:	// 스핵
-//			textBug.append("　P:"+pc.getGfxId().getTempCharGfx()+"　R:"+pc.getSpeedRightInterval()+"　>I:"+pc.getSpeedInterval());			
+			textBug.append("　P:"+pc.getGfxId().getTempCharGfx()+"　R:"+pc.getSpeedRightInterval()+"　>I:"+pc.getSpeedInterval());			
 			break;
 		case 2: // 뚫어
 			textBug.append("　x,y,map:"+pc.getLocation().getX()+","+pc.getLocation().getY()+","+pc.getLocation().getMapId());
@@ -345,12 +365,28 @@ public class bone extends javax.swing.JFrame {
 			}
 		}else{errorMsg(NoServerStartMSG);}
 	}
+	private void buttongoitemClicked(java.awt.event.MouseEvent evt) {
+		// 선물주기 Click
+		if (isServerStarted) 	new goitem();
+		else 					errorMsg(NoServerStartMSG);
+	}
+	private void buttonPolyClicked(java.awt.event.MouseEvent evt) {
+		// 변신시키기 Click
+		if (isServerStarted) 	new Poly();
+		else 					errorMsg(NoServerStartMSG);
+	}
 	private void buttonEventClicked(java.awt.event.MouseEvent evt) {
 		// 이벤트실행 Click
 		if (isServerStarted){
 			if (comboEventList != null){
 				if (comboEventList.getSelectedItem().equalsIgnoreCase("전체버프")){
 					SpecialEventHandler.getInstance().doAllBuf();
+				}
+				else if (comboEventList.getSelectedItem().equalsIgnoreCase("무인상점 켜기")){
+					AutoShopManager.getInstance().isAutoShop(true);
+				}
+				else if (comboEventList.getSelectedItem().equalsIgnoreCase("무인상점 끄기")){
+					AutoShopManager.getInstance().isAutoShop(false);
 				}
 				else if (comboEventList.getSelectedItem().equalsIgnoreCase("채팅금지")){
 					SpecialEventHandler.getInstance().doNotChatEveryone();
@@ -400,7 +436,7 @@ public class bone extends javax.swing.JFrame {
 					pc.getSkillEffectTimerSet().setSkillEffect(L1SkillId.STATUS_CHAT_PROHIBITED, 10 * 60 * 1000);
 					pc.sendPackets(new S_SkillIconGFX(36, 10 * 60));
 					pc.sendPackets(new S_ServerMessage(286, String.valueOf(10))); // \f3게임에 적합하지 않는 행동이기 (위해)때문에, 향후%0분간 채팅을 금지합니다.
-					LogCommandAppend("******", "채금", "10");
+					LogCommandAppend("모니터", "채금", "10");
 					textSetUser.setText("");
 				}else{errorMsg(textSetUser.getText()+NoConnectUser);}
 			}else{errorMsg(blankSetUser);}
@@ -416,7 +452,7 @@ public class bone extends javax.swing.JFrame {
 					Account.ban(pc.getAccountName());	// 계정을 BAN시킨다.
 					iptable.banIp(pc.getNetConnection().getIp()); // BAN 리스트에 IP를 추가한다.					
 					pc.sendPackets(new S_Disconnect());
-					LogCommandAppend("******", "강력추방", pc.getName());
+					LogCommandAppend("모니터", "강력추방", pc.getName());
 					textSetUser.setText("");
 				}else{errorMsg(textSetUser.getText()+NoConnectUser);}
 			}else{errorMsg(blankSetUser);}
@@ -428,12 +464,12 @@ public class bone extends javax.swing.JFrame {
 			if (evt.getKeyCode() == KeyEvent.VK_ENTER) {
 				// 특정유저가 선택되어 있지 않다면			
 				if (textChatUser.getText().equalsIgnoreCase("")){
-					ServerChat.getInstance().sendChatToAll("[******] "+textChatSend.getText());
-					LogChatAppend("＆", "******", textChatSend.getText());
+					ServerChat.getInstance().sendChatToAll("[모니터] "+textChatSend.getText());
+					LogChatAppend("＆", "모니터", textChatSend.getText());
 				}else{
 					boolean result = ServerChat.getInstance().whisperToPlayer(textChatUser.getText(), textChatSend.getText());
 					if (result)
-						LogChatAppend("ⓦ", "******",textChatUser.getText(), textChatSend.getText(), ">");
+						LogChatAppend("ⓦ", "모니터",textChatUser.getText(), textChatSend.getText(), ">");
 					else
 						errorMsg(textChatUser.getText()+NoConnectUser);
 				}
@@ -508,6 +544,8 @@ public class bone extends javax.swing.JFrame {
 	private java.awt.Button buttonSetUserBAN;
 	private java.awt.Button buttonSetUserNG;
 	private java.awt.Button buttonSetting;
+	private java.awt.Button buttongoitem;
+	private java.awt.Button buttonPoly;
 	public static java.awt.Label lblMemory;
 	private java.awt.Choice comboEventList;
 	private java.awt.Choice comboReloadList;

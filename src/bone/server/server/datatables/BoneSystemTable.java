@@ -1,6 +1,3 @@
-/*
-
- */
 package bone.server.server.datatables;
 
 import java.sql.Connection;
