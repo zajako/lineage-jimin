@@ -65,7 +65,7 @@ INSERT IGNORE INTO `commands` VALUES
 ('영구추방', '9999', 'L1PowerKick'),
 ('계정압류', '9999', 'L1AccountBanKick'),
 ('변신', '9999', 'L1Poly'),
-('소생', '9999', 'L1Ress'),
+('부활', '9999', 'L1Ress'),
 ('킬', '9999', 'L1Kill'),
 ('귀환', '9999', 'L1GMRoom'),
 ('출두', '9999', 'L1ToPC'),

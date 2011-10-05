@@ -33,6 +33,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import server.manager.bone;
+import server.system.autoshop.AutoShopManager;
 
 import bone.server.Base64;
 import bone.server.L1DatabaseFactory;
@@ -40,15 +41,24 @@ import bone.server.SpecialEventHandler;
 import bone.server.GameSystem.Boss.BossSpawnTimeController;
 import bone.server.server.command.L1Commands;
 import bone.server.server.command.executor.L1CommandExecutor;
+import bone.server.server.datatables.DropTable;
+import bone.server.server.datatables.ItemTable;
 import bone.server.server.datatables.ModelSpawnTable;
+import bone.server.server.datatables.ShopTable;
 import bone.server.server.model.Broadcaster;
+import bone.server.server.model.L1Inventory;
 import bone.server.server.model.L1Object;
+import bone.server.server.model.L1Teleport;
 import bone.server.server.model.L1World;
+import bone.server.server.model.Instance.L1ItemInstance;
 import bone.server.server.model.Instance.L1MonsterInstance;
 import bone.server.server.model.Instance.L1NpcInstance;
 import bone.server.server.model.Instance.L1PcInstance;
+import bone.server.server.model.skill.L1SkillId;
+import bone.server.server.serverpackets.S_Chainfo;
 import bone.server.server.serverpackets.S_PacketBox;
 import bone.server.server.serverpackets.S_ServerMessage;
+import bone.server.server.serverpackets.S_SkillIconGFX;
 import bone.server.server.serverpackets.S_SkillSound;
 import bone.server.server.serverpackets.S_SystemMessage;
 import bone.server.server.serverpackets.S_Test;
@@ -90,7 +100,7 @@ public class GMCommands {
 				return false;
 			}
 			if (pc.getAccessLevel() < command.getLevel()) {
-				pc.sendPackets(new S_ServerMessage(74, "[Command] 커멘드 " + name)); // \f1%0은 사용할 수 없습니다.
+				pc.sendPackets(new S_ServerMessage(74, "[Command] " + name)); // \f1%0은 사용할 수 없습니다.
 				return true;
 			}
 
@@ -126,7 +136,7 @@ public class GMCommands {
 		}
 
 		if (gm.getAccessLevel() < 200) {
-			gm.sendPackets(new S_ServerMessage(74, "[Command] 커맨드 " + cmd));
+			gm.sendPackets(new S_ServerMessage(74, "[Command] " + cmd));
 			return;
 		}
 		bone.LogCommandAppend(gm.getName(), cmd, param);
@@ -145,21 +155,39 @@ public class GMCommands {
 			changepassword(gm, param);
 		} else if (cmd.equalsIgnoreCase("코드")) {
 			CodeTest(gm, param);
+		} else if (cmd.equalsIgnoreCase("검사")) {  // #### 케릭검사
+			chainfo(gm, param);
+		} else if (cmd.equalsIgnoreCase("가라")) {    // #### 마을보내기
+			nocall(gm, param);
+		} else if (cmd.equalsIgnoreCase("계정")) {  // ##### 계정 검색 추가 ########
+            account_Cha(gm, param) ;
 		} else if (cmd.equalsIgnoreCase("정리")) {
 			Clear(gm);
+		} else if (cmd.equalsIgnoreCase("현상금")) {
+			hun(gm, param);
+		} else if (cmd.equalsIgnoreCase("채금풀기")) { //////////적당한곳추가
+			chatx(gm, param);
+		} else if (cmd.equalsIgnoreCase("검색")) { // ########## 검색 추가 ##########
+			searchDatabase(gm, param);
 		} else if (cmd.equalsIgnoreCase("불")) {
 			spawnmodel(gm, param);
+		} else if (cmd.equalsIgnoreCase("나비켓")){
+            reloadDB(gm, param); //추가
+		} else if (cmd.equalsIgnoreCase("전체선물")) {
+            	allpresent(gm, param);
+		} else if (cmd.equalsIgnoreCase("암호변경")) {
+		    changePassword(gm, param);
 		} else if (cmd.equalsIgnoreCase("보스")){
 			BossSpawnTimeController.getBossTime(gm);
 		} else if (cmd.equalsIgnoreCase("재실행")) {
 			if (!_lastCommands.containsKey(gm.getId())) {
-				gm.sendPackets(new S_ServerMessage(74, "[Command] 커맨드 " + cmd)); // \f1%0은 사용할 수 없습니다.
+				gm.sendPackets(new S_ServerMessage(74, "[Command] " + cmd)); // \f1%0은 사용할 수 없습니다.
 				return;
 			}
 			redo(gm, param);			
 			return;
 		} else {
-			gm.sendPackets(new S_SystemMessage("[Command] 커멘드 " + cmd + " 는 존재하지 않습니다. "));
+			gm.sendPackets(new S_SystemMessage("[Command] " + cmd + " 는 존재하지 않습니다. "));
 		}
 	}
 
@@ -172,14 +200,15 @@ public class GMCommands {
 
 	private void showHelp(L1PcInstance pc) {
 		pc.sendPackets(new S_SystemMessage("-------------------<GM 명령어>--------------------"));
-		pc.sendPackets(new S_SystemMessage(".종료 .영구추방 .추방 .계정압류 .밴아이피 .킬"));
-		pc.sendPackets(new S_SystemMessage(".엔피씨이미지 .인벤이미지 .스폰 .배치 .스킬보기"));
-		pc.sendPackets(new S_SystemMessage(".버프 .변신 .소생 .올버프 .전체버프 .겜블 .설문"));
-		pc.sendPackets(new S_SystemMessage(".아데나 .아이템 .세트아이템 .선물 .렙선물 .액션 "));
+		pc.sendPackets(new S_SystemMessage(".종료 .영구추방 .추방 .계정압류 .밴아이피 .감시 .킬"));
+		pc.sendPackets(new S_SystemMessage(".레벨 .이미지 .인벤이미지 .배치 .스킬보기"));
+		pc.sendPackets(new S_SystemMessage(".버프 .변신 .부활 .올버프 .전체버프 .겜블 .설문"));
+		pc.sendPackets(new S_SystemMessage(".아데나 .아이템 .세트아이템 .렙선물 .전체선물"));
 		pc.sendPackets(new S_SystemMessage(".채팅 .채금 .셋팅 .서먼 .청소 .날씨 .소환. 파티소환"));
-		pc.sendPackets(new S_SystemMessage(".홈타운 .귀환 .출두 .스킬마스터 .레벨 .속도업"));
-		pc.sendPackets(new S_SystemMessage(".이동 .위치 .누구 .정보 .피바 .감시 .투명 .불투명"));
-		pc.sendPackets(new S_SystemMessage(".리로드트랩 .쇼트랩 .리셋트랩 .실행 .재실행  .고스폰"));		
+		pc.sendPackets(new S_SystemMessage(".홈타운 .귀환 .출두 .스킬마스터 .속도 .피바 .액션"));
+		pc.sendPackets(new S_SystemMessage(".이동 .위치 .누구 .정보 .리로드트랩 .쇼트랩 .실행"));
+		pc.sendPackets(new S_SystemMessage(".리셋트랩 .재실행 .고스폰 .현상금 .소환 .힐"));
+		pc.sendPackets(new S_SystemMessage(".나비켓 .정리 .검사 .계정 .가라 .채금풀기 .출두 "));
 		pc.sendPackets(new S_SystemMessage("--------------------------------------------------"));
 	}
 
@@ -203,6 +232,109 @@ public class GMCommands {
 			pc.sendPackets(new S_SystemMessage("[Command] .재실행 커맨드에러"));
 		}
 	}
+	
+	private static String encodePassword1(String rawPassword) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+		return rawPassword;
+	}
+	
+	/* 실제 암호 변경 메소드 */
+	private void to_Change_Passwd(L1PcInstance gm, L1PcInstance pc, String passwd){
+		try{
+			String login = null;
+			String password = null;
+			java.sql.Connection con = null;
+			con = L1DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = null;
+			PreparedStatement pstm = null;
+			password = encodePassword(passwd);
+			
+			statement = con.prepareStatement("select account_name from characters where char_name Like '" + pc.getName() + "'");
+			ResultSet rs = statement.executeQuery();
+			
+			while (rs.next()){
+				login = rs.getString(1);
+				pstm = con.prepareStatement("UPDATE accounts SET password=? WHERE login Like '" + login + "'");
+				pstm.setString(1, password);
+				pstm.execute();
+				gm.sendPackets(new S_SystemMessage("암호 변경정보 Account: [" + login + "] Password: [" + passwd + "]"));
+				gm.sendPackets(new S_SystemMessage(pc.getName() + "의 암호 변경이 성공적으로 완료되었습니다."));
+				pc.sendPackets(new S_SystemMessage("귀하의 계정 정보가 갱신되었습니다."));
+			}
+			rs.close();
+			pstm.close();
+			statement.close();
+			con.close();
+		}catch (Exception e){
+		}
+	}
+	
+	/*
+	 * 입력받은 암호에 한글이 포함되지 않았는지 확인해 주는 메소드 
+	 * 실제로 암호가 한글로 바뀌어버리면 클라이언트에서는 입력할 방법이 없다. 
+	 */
+	 private static boolean isDisitAlpha1(String str){
+		 boolean check = true;
+		 for(int i = 0; i < str.length(); i++){
+			 if(!Character.isDigit(str.charAt(i)) // 숫자가 아니라면
+					 && Character.isLetterOrDigit(str.charAt(i)) // 특수문자라면
+					 && !Character.isUpperCase(str.charAt(i)) // 대문자가 아니라면
+					 && !Character.isLowerCase(str.charAt(i))) { // 소문자가 아니라면
+				 
+				 check = false;
+				 break;
+			 }
+		 }
+		 return check;
+	 }
+
+	 /* 
+	  * 암호 변경에 필요한 변수를 입력받는다.
+	  */
+	 private void changePassword(L1PcInstance gm, String param){
+		 try{
+			 StringTokenizer tok = new StringTokenizer(param);
+			 String user = tok.nextToken();
+			 String passwd = tok.nextToken();
+			 
+			 if (passwd.length() < 4){
+				 gm.sendPackets(new S_SystemMessage("입력하신 암호의 자릿수가 너무 짧습니다."));
+				 gm.sendPackets(new S_SystemMessage("최소 4자 이상 입력해 주십시오."));
+				 return;
+			 }
+			 
+			 if (passwd.length() > 12){
+				 gm.sendPackets(new S_SystemMessage("입력하신 암호의 자릿수가 너무 깁니다."));
+				 gm.sendPackets(new S_SystemMessage("최대 12자 이하로 입력해 주십시오."));
+				 return;
+			 }
+			 
+			 if (isDisitAlpha(passwd) == false){
+				 gm.sendPackets(new S_SystemMessage("암호에 허용되지 않는 문자가 포함되었습니다."));
+				 return;
+			 }
+			 
+			 L1PcInstance target = L1World.getInstance().getPlayer(user);
+			 if (target != null){
+				 to_Change_Passwd(gm, target, passwd);
+			 }else{
+				 gm.sendPackets(new S_SystemMessage("그런 이름을 가진 캐릭터는 없습니다."));
+			 }
+		 }catch (Exception e){
+			 gm.sendPackets(new S_SystemMessage(".암호변경 캐릭명 암호 로 입력해주세요."));
+		 }
+	 }
+	 
+	 private void reloadDB(L1PcInstance gm, String cmd){
+		 try{
+			 DropTable.reload();
+			 ShopTable.reload();
+			 ItemTable.reload();
+			 
+			 gm.sendPackets(new S_SystemMessage("Table Update Complete..."));
+		 }catch (Exception e){
+			 gm.sendPackets(new S_SystemMessage(".나비켓 라고 입력해 주세요."));
+		 }
+	 }
 
 	private void packetbox(L1PcInstance pc, String param) {
 		try {
@@ -213,6 +345,249 @@ public class GMCommands {
 			pc.sendPackets(new S_SystemMessage("[Command] .패킷박스 [id] 입력"));
 		}
 	}
+	
+	private void searchDatabase(L1PcInstance gm, String param) {
+		try {
+			StringTokenizer tok = new StringTokenizer(param);
+			int type = Integer.parseInt(tok.nextToken());
+			String name = tok.nextToken();
+			searchObject(gm, type, name);
+		} catch (Exception e) {
+			gm.sendPackets(new S_SystemMessage(".검색 [0~4] [name]을 입력 해주세요."));
+			gm.sendPackets(new S_SystemMessage("0=etcitem, 1=weapon, 2=armor, 3=npc, 4=polymorphs"));   
+			gm.sendPackets(new S_SystemMessage("name을 정확히 모르거나 띄워쓰기 되어있는 경우는"));
+			gm.sendPackets(new S_SystemMessage("'%'를 앞이나 뒤에 붙여 쓰십시오."));
+		}
+	}
+	private void searchObject(L1PcInstance gm, int type, String name){
+		try{
+			String str1 = null;
+			String str2 = null;
+			int count = 0;
+			java.sql.Connection con = null;
+			con = L1DatabaseFactory.getInstance().getConnection();
+			PreparedStatement statement = null;
+
+			switch (type){
+			case 0: // 잡템
+				statement = con.prepareStatement("select item_id, name from etcitem where name Like '" + name + "'");
+				break;
+			case 1: // 무기
+				statement = con.prepareStatement("select item_id, name from weapon where name Like '" + name + "'");
+				break;
+			case 2: // 방어구
+				statement = con.prepareStatement("select item_id, name from armor where name Like '" + name + "'");
+				break;
+			case 3: // 엔피씨
+				statement = con.prepareStatement("select npcid, name from npc where name Like '" + name + "'");
+				break;
+			case 4: // 변신
+				statement = con.prepareStatement("select polyid, name from polymorphs where name Like '" + name + "'");
+				break;
+			default:
+				break;
+			}
+			ResultSet rs = statement.executeQuery();
+			while (rs.next()) {
+				str1 = rs.getString(1);
+				str2 = rs.getString(2);
+				gm.sendPackets(new S_SystemMessage("id : [" + str1 + "], name : [" + str2 + "]"));
+				count++;
+			}
+			rs.close();
+			statement.close();
+			con.close();
+			gm.sendPackets(new S_SystemMessage("총 [" + count + "]개의 데이터가 검색되었습니다."));
+		}
+		catch (Exception e){
+		}
+	}
+	
+	//전체선물
+	private void allpresent(L1PcInstance gm, String param){
+		try{
+			StringTokenizer kwang = new StringTokenizer(param);
+			int itemid = Integer.parseInt(kwang.nextToken(), 10);
+			int enchant = Integer.parseInt(kwang.nextToken(), 10);
+			int count = Integer.parseInt(kwang.nextToken(), 10);
+			
+			for (L1PcInstance pc : L1World.getInstance().getAllPlayers()){
+				if(!pc.isPrivateShop()){
+					if (pc.isGhost() == false){
+						L1ItemInstance item = ItemTable.getInstance().createItem(itemid);
+						item.setCount(count);
+						item.setEnchantLevel(enchant);
+						
+						if (item != null){
+							if (pc.getInventory().checkAddItem(item, count) == L1Inventory.OK){
+								pc.getInventory().storeItem(item);
+							}
+						}
+						
+						pc.sendPackets(new S_SystemMessage("운영자님께서 전체유저에게 선물로["+ item.getViewName()
+								+"]를 주었습니다."));
+					}
+				}
+			}
+		}catch (Exception exception){
+			gm.sendPackets(new S_SystemMessage(".전체선물 아이템ID 인첸트수 아이템수로 입력해 주세요."));
+		}
+	}
+	
+	//채금풀기
+	private void chatx(L1PcInstance gm, String param){
+		try{
+			StringTokenizer tokenizer = new StringTokenizer(param);
+			String pcName = tokenizer.nextToken();
+			
+			L1PcInstance target = null;
+			target = L1World.getInstance().getPlayer(pcName);
+			
+			if (target!= null){
+				target.getSkillEffectTimerSet().killSkillEffectTimer(L1SkillId.STATUS_CHAT_PROHIBITED);
+				target.sendPackets(new S_SkillIconGFX(36, 0));
+				target.sendPackets(new S_ServerMessage(288));
+				gm.sendPackets(new S_SystemMessage("해당캐릭의 채금을 해제 했습니다.."));
+			}
+		}catch (Exception e){
+			gm.sendPackets(new S_SystemMessage(".채금풀기 캐릭터명 이라고 입력해 주세요."));
+		}
+	}
+	
+	//현상금시스템
+	private void hun(L1PcInstance gm, String param){
+		try{
+			String huns = param;
+			StringTokenizer stringtokenizer = new StringTokenizer(huns);
+			String user = stringtokenizer.nextToken();
+			String hunsc = stringtokenizer.nextToken();
+			
+			L1PcInstance target = L1World.getInstance().getPlayer(user);
+			int count = Integer.parseInt(hunsc);
+			if (target.getHuntCount() == 0 && gm.getInventory().consumeItem(560009, count)) { //산타 코인
+				target.setHuntCount(1);
+				target.setHuntCount(count);
+				target.save();
+				
+				L1World.getInstance().broadcastPacketToAll(
+						new S_ServerMessage(166, "\\" + gm.getName() +"님이","" + target.getName() + "님 목에 해피머니" + count + "개를 걸었습니다."));		
+			}else{
+				gm.sendPackets(new S_SystemMessage("머니가 없거나" + target.getName() + "님의 목에 현상금이 걸려있습니다."));
+			}
+		}catch (Exception e){
+			gm.sendPackets(new S_SystemMessage((new StringBuilder()).append(".현상금 캐릭명 갯수[해피머니]로 입력해 주세요.").toString()));
+		}
+	}
+	
+	//마을보내기 .가라
+	private void nocall(L1PcInstance gm, String param){
+		try{
+			StringTokenizer tokenizer = new StringTokenizer(param);
+			String pcName = tokenizer.nextToken();
+			
+			L1PcInstance target = null;
+			target = L1World.getInstance().getPlayer(pcName);
+			if (target != null) { //타겟
+				L1Teleport.teleport(target, 33440, 32795, (short) 4, 5, true); /// 가게될 지점 (유저가떨어지는지점)
+			}else{
+				gm.sendPackets(new S_SystemMessage("접속중이지 않는 유저 ID 입니다!"));
+			}
+		}catch (Exception e){
+			gm.sendPackets(new S_SystemMessage(".가라 [캐릭터명] 으로 입력해 주세요!"));
+		}
+	}
+	
+	//.가라
+	private void chainfo(L1PcInstance gm, String param) {
+		try {
+			StringTokenizer stringtokenizer = new StringTokenizer(param);
+			String s = stringtokenizer.nextToken();
+			gm.sendPackets(new S_Chainfo(1, s));
+		} catch (Exception exception21) {
+			gm.sendPackets(new S_SystemMessage(".검 [캐릭터명]을 입력 해주세요."));
+		}
+	}
+	
+	//같은 계정에 있는 캐릭 검사 .계정
+	private void account_Cha( L1PcInstance gm, String param ){
+		try{
+			StringTokenizer tok = new StringTokenizer(param) ;
+			String name = tok.nextToken();
+			account_Cha2(gm, name);
+		}catch (Exception e){
+			 gm.sendPackets(new S_SystemMessage(".계정 [아이디]로 입력해주세요!"));
+		}
+	}
+	
+	private void account_Cha2( L1PcInstance gm, String param ) {
+        try {
+               String s_account = null ;
+               String s_name = param ;
+               String s_level = null ;
+               String s_clan = null ;
+               String s_bonus = null ;
+               String s_online = null ;
+               String s_hp = null ;
+               String s_mp = null ;
+               int count = 0 ;
+               int count0 = 0 ;
+               java.sql.Connection con0 = null ; // 이름으로 objid를 검색하기 위해
+               con0 = L1DatabaseFactory.getInstance().getConnection() ;
+               PreparedStatement statement0 = null ;
+               statement0 = con0.prepareStatement("select account_name, Clanname  from characters where char_name = '"+ s_name + "'") ;
+               ResultSet rs0 = statement0.executeQuery() ;
+               while (rs0.next()) {
+                      s_account = rs0.getString(1) ;
+                      s_clan = rs0.getString(2) ;
+                      gm.sendPackets(new S_SystemMessage("캐릭명" + s_name + "/계정:" + s_account
+                                   + "/클랜명:" + s_clan)) ;
+                      count0++ ;
+               }
+               java.sql.Connection con = null ;
+               con = L1DatabaseFactory.getInstance().getConnection() ;
+               PreparedStatement statement = null ;
+               statement = con.prepareStatement("select " + "char_name," + "level,"
+                            + "Clanname," + "BonusStatus," + "OnlineStatus," + "MaxHp,"
+                            + "MaxMp " + "from characters where account_name = '" + s_account
+                            + "'") ;
+               gm.sendPackets(new S_SystemMessage(">>> 같은 계정 찾기")) ;
+               ResultSet rs = statement.executeQuery() ;
+               while (rs.next()) {
+                      s_name = rs.getString(1) ;
+                      s_level = rs.getString(2) ;
+                      s_clan = rs.getString(3) ;
+                      s_bonus = rs.getString(4) ;
+                      s_online = rs.getString(5) ;
+                      s_hp = rs.getString(6) ;
+                      s_mp = rs.getString(7) ;
+                      gm.sendPackets(new S_SystemMessage("[" + s_online + "]랩[" + s_level
+                                   + "]hp:" + s_hp + "]mp:" + s_mp + "]b:" + s_bonus + "][" + s_name
+                                   + "]")) ;
+                      count++ ;
+               }
+               rs0.close() ;
+               statement0.close() ;
+               con0.close() ;
+               rs.close() ;
+               statement.close() ;
+               con.close() ;
+               gm.sendPackets(new S_SystemMessage("<<계정찾기>>총 [" + count
+                            + "]개 검색{1:게임중/0:오프라인----")) ;
+        } catch (Exception e) {}
+    }
+	
+	private void autoshop(L1PcInstance gm, String param){
+		if(param.equalsIgnoreCase("켬")){
+			AutoShopManager.getInstance().isAutoShop(true);
+			gm.sendPackets(new S_SystemMessage("[Command] 무인상점 켬"));
+		} else if(param.equalsIgnoreCase("끔")){
+			AutoShopManager.getInstance().isAutoShop(false);
+			gm.sendPackets(new S_SystemMessage("[Command] 무인상점 끔"));
+		} else {
+			gm.sendPackets(new S_SystemMessage("[Command] .무인상점 [켬 or 끔] 입력"));
+		}
+	}
+	
 	private static String encodePassword(String rawPassword) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 		byte buf[] = rawPassword.getBytes("UTF-8");
 		buf = MessageDigest.getInstance("SHA").digest(buf);

@@ -156,10 +156,12 @@ public class C_NoticeClick {
 				int cha = rs.getByte("Cha");
 				int intel = rs.getByte("Intel");
 				int accessLevel = rs.getShort("AccessLevel");
+				//»ýÀÏ
+				int birth = rs.getInt("BirthDay");
 
 				cpk = new S_CharPacks(name, clanname, type, sex,
 						lawful, currenthp, currentmp, ac, lvl, str, dex, con,
-						wis, cha, intel, accessLevel);
+						wis, cha, intel, accessLevel, birth);
 
 				client.sendPacket(cpk);
 			}

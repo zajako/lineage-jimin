@@ -134,8 +134,33 @@ public class L1PcInstance extends L1Character {
 	private int _classId;
 	private int _type;
 	private int _exp;
+	/** 생일 **/
+	private int birthday;
+	
+	/** 아이템 시간 주머니 **/
+	private Timestamp endtime = null;
+	
+	public void setEndTimes(Timestamp t)
+	{
+		endtime = t;
+	}
+	public Timestamp getEndTimes(){
+		return endtime;
+	}
+	
+	/** 결속된 파푸리온의 가호 **/
+	public boolean Gaho = false;
+	
 	private short _accessLevel;
+	
+	/** 현상금 시스템 **/
+	private int _hun;
+	private int _hunCount;
 
+	/** 드래곤의 진주 **/
+	private boolean _thirdSpeed;
+    public void setThirdSpeed(int i) {_thirdSpeed = (i != 0); }
+    public boolean isThirdSpeed() {return _thirdSpeed;} 
 	private short _baseMaxHp = 0;
 	private short _baseMaxMp = 0;
 	private int _baseAc = 0;
@@ -280,10 +305,7 @@ public class L1PcInstance extends L1Character {
 	private int _tempID;
 	private int _ubscore;
 
-
 	private L1Quest _quest;
-
-
 
 	//private HpRegeneration _hpRegen;
 	//private MpRegeneration _mpRegen;
@@ -303,7 +325,23 @@ public class L1PcInstance extends L1Character {
 	private final ArrayList<L1BookMark> _bookmarks;
 	private ArrayList<L1PrivateShopSellList> _sellList = new ArrayList<L1PrivateShopSellList>();
 	private ArrayList<L1PrivateShopBuyList> _buyList = new ArrayList<L1PrivateShopBuyList>();
-
+	
+	/**********낚시 20명 제한 **********/
+	public ArrayList<String> fishlist = new ArrayList<String>();
+	public ArrayList<String> fishlist2 = new ArrayList<String>();
+	public ArrayList<String> fishlist3 = new ArrayList<String>();
+	/***********************************************************/
+	
+	/***********여관 사람수 제한********/
+	public ArrayList<String> room1 = new ArrayList<String>(); //말섬
+	public ArrayList<String> room2 = new ArrayList<String>(); //글루디
+	public ArrayList<String> room3 = new ArrayList<String>(); //기란
+	public ArrayList<String> room4 = new ArrayList<String>(); //오렌
+	public ArrayList<String> room5 = new ArrayList<String>(); //윈다
+	public ArrayList<String> room6 = new ArrayList<String>(); //은기사
+	public ArrayList<String> room7 = new ArrayList<String>(); //하이네
+	public ArrayList<String> room8 = new ArrayList<String>(); // 아덴
+	
 	private final Map<Integer, L1NpcInstance> _petlist = new HashMap<Integer, L1NpcInstance>();
 	private final Map<Integer, L1DollInstance> _dolllist = new HashMap<Integer, L1DollInstance>();
 	private final Map<Integer, L1FollowerInstance> _followerlist = new HashMap<Integer, L1FollowerInstance>();
@@ -326,7 +364,7 @@ public class L1PcInstance extends L1Character {
 		_quest = new L1Quest(this);
 		_equipSlot = new L1EquipmentSlot(this);
 	}
-
+	
 	public int getadFeature(){
 		return adFeature;
 	}
@@ -1183,21 +1221,79 @@ public class L1PcInstance extends L1Character {
 							}
 							return;
 						}
-					}else{
-						death(attacker);
+					} else {
 						if (attacker instanceof L1PcInstance){
-							L1PcInstance atk = (L1PcInstance) attacker;
-							for (L1PcInstance listner : L1World.getInstance().getAllPlayers()) {
-								listner.sendPackets(new S_ChatPacket(atk,getName(), Opcodes.S_OPCODE_MSG, 99));
-							}
+							if (CharPosUtil.getZoneType(L1PcInstance.this) == 0)	//노멀존일 경우
+								if (getLevel() >= 60) { //60랩 이상이라면..[ 승작업 할것같아서.. ]
+									attacker.setKills(attacker.getKills()+1); //이긴넘 킬수 +1
+									setDeaths(getDeaths()+1); //진넘 데스수 +1
+								}
+							int price = getHuntPrice();
+							if (CharPosUtil.getZoneType(L1PcInstance.this) == 0)	//노멀존일 경우
+								if (getHuntCount() > 0){
+									attacker.getInventory().storeItem(40308, price);
+									setHuntCount(0);
+									setHuntPrice(0);
+									setReasonToHunt(null);
+									L1World.getInstance().broadcastPacketToAll(
+											new S_SystemMessage("\\fU["+ attacker.getName() + "] 제가 " + getName() + "님을 죽여서 현상금탔어요!ㅋ"));
+									try {
+										save();
+									} catch (Exception e) {
+										_log.log(Level.SEVERE, e.getLocalizedMessage(), e);
+									}
+								} else {
+									/*if (damage > 0) {  //배틀존추가
+										if(get_BattleLine() != 0 && attacker.get_BattleLine() != 0){         
+											if(get_BattleLine() == attacker.get_BattleLine()){
+
+												return;
+											}
+										}
+									}*/ //배틀존여기까지
+									if (CharPosUtil.getZoneType(this) == 0 && CharPosUtil.getZoneType(attacker) == 0) {
+										if(getLawful() >= -32767 && getLawful() < -1){ 
+											L1World.getInstance().broadcastPacketToAll(new S_SystemMessage("\\fU["+attacker.getName()+ "] " +this.getName()+ "님 카오 다이하셨어요! ")); 
+										} else {
+											L1World.getInstance().broadcastPacketToAll(new S_SystemMessage("\\fU["+attacker.getName()+ "] 제가 " +this.getName()+ "님을 훅~보내버렸어요!ㅋㅋ"));          
+										} 
+
+										if (getInventory().checkItem(41159, 50)) { //인벤에 깃1000개 있나확인
+
+											L1World.getInstance().broadcastPacketToAll( //월드메세지 송신
+													new S_SystemMessage(attacker.getName() + "\\fW님이 " + getName() 
+															+ "\\fH님을 죽여 신비한 날개깃털 100개 득!"));//PK승리자 메세지표시
+
+
+											attacker.getInventory().storeItem(41159, 50); //승리자 깃1000개 받아오기
+											getInventory().consumeItem(41159, 50); //패배자 깃 1000개 삭제
+											sendPackets(new S_SystemMessage("\\fY전투에서 패배하여 깃털 50개 잃음!"));
+
+
+										}else{//깃부족시 물약뺏어오기
+											if(getInventory(). checkItem(40308, 1000000)){//100만 체크
+												getInventory().consumeItem(40308, 1000000); //100만 사라지기
+												attacker.getInventory().storeItem(41159, 0);
+												L1World.getInstance().broadcastPacketToAll(
+														new S_SystemMessage("깃털도 없냐! 아덴이라도 가져간다! 깃털점 들고다녀라.쳇!"));
+
+												attacker.getInventory().storeItem(40308, 1000000); //패패자 아이템 잃는다 
+												sendPackets(new S_SystemMessage("깃털이 부족하여 100만 아덴을 잃음!"));
+
+												//   death(attacker); 
+											}
+										}
+									}
+								}
 						}
+						death(attacker);
 					}
 				}
 			}
 			if (newHp > 0) {
 				this.setCurrentHp(newHp);
 			}
-		} else if (!isDead()) {
+		} else if (!isDead()) { 
 			System.out.println("[L1PcInstance] 경고：플레이어의 HP감소 처리가 올바르게 행해지지 않은 개소가 있습니다.※혹은 최초부터 HP0");
 			death(attacker);
 		}
@@ -1688,6 +1784,14 @@ public class L1PcInstance extends L1Character {
 
 	public String getAccountName() {	return _accountName;	}
 	public void setAccountName(String s) {	_accountName = s;	}
+	
+	//*********생일 ***********************
+	public int getBirthDay(){
+		return birthday;
+	}
+	public void setBirthDay(int t){
+		birthday = t;
+	}  
 
 	public short getBaseMaxHp() {
 		return _baseMaxHp;
@@ -2610,8 +2714,22 @@ public class L1PcInstance extends L1Character {
 	public void setClanRank(int i) {		_clanRank = i;	}
 	public byte get_sex() {		return _sex;	}
 	public void set_sex(int i) {		_sex = (byte) i;	}
+	//현상금시스템
+	private int huntCount;
+	private int huntPrice;
+	private String _reasontohunt;
+	public String getReasonToHunt() {		return _reasontohunt;	}
+	public void setReasonToHunt(String s) {		_reasontohunt = s;	}
+
+	public int getHuntCount() {		  return huntCount;		 }
+	public void setHuntCount(int i) {		  huntCount = i;		 }
+
+	public int getHuntPrice() {		  return huntPrice;		 }
+	public void setHuntPrice(int i) {		  huntPrice = i;		 }
+	//여기까지
 	public boolean isGm() {		return _gm;	}
 	public void setGm(boolean flag) {		_gm = flag;	}
+	
 	public boolean isMonitor() {		return _monitor;	}
 	public void setMonitor(boolean flag) {		_monitor = flag;	}
 

@@ -203,4 +203,50 @@ public class UserCommands {
 			pc.sendPackets(new S_SystemMessage(".조사 [캐릭터명] 으로 입력해 주시기 바랍니다."));
 		}	
 	}
+	
+	private void Hunt(L1PcInstance pc, String cmd) {
+		try { 
+			StringTokenizer st = new StringTokenizer(cmd);
+			String char_name = st.nextToken();
+			int price = Integer.parseInt(st.nextToken());
+			String story = st.nextToken();
+
+			L1PcInstance target = null;
+			target = L1World.getInstance().getPlayer(char_name);
+			if (target != null) {
+				if (target.isGm()){ return;}
+				if (char_name.equals(pc.getName())) {
+					pc.sendPackets(new S_SystemMessage("자신에게 현상금을 걸수 없습니다."));
+					return;}
+				if (target.getHuntCount() == 1) {
+					pc.sendPackets(new S_SystemMessage("이미 수배 되어있습니다"));
+					return;
+				}
+				if (price < 300000) {
+					pc.sendPackets(new S_SystemMessage("최소 금액은 30만 아데나입니다"));
+					return;
+				}
+				if (!(pc.getInventory().checkItem(40308, price))) {
+					pc.sendPackets(new S_SystemMessage("아데나가 부족합니다"));
+					return;
+				}
+				if (story.length() > 20) {
+					pc.sendPackets(new S_SystemMessage("이유는 짧게 20글자로 입력하세요"));
+					return;
+				}
+				target.setHuntCount(1);
+				target.setHuntPrice(target.getHuntPrice() + price);
+				target.setReasonToHunt(story);
+				target.save();
+				L1World.getInstance().broadcastPacketToAll(new S_SystemMessage("\\fY이유: " + story + " "));
+				L1World.getInstance().broadcastPacketToAll(new S_SystemMessage("\\fY"+pc.getName()+ "님께서 "+target.getName()+ "님에게"));
+				L1World.getInstance().broadcastServerMessage("\\fY현상금 (" + target.getHuntPrice()+")아데나를 겁니다.");
+				pc.getInventory().consumeItem(40308, price);
+			} else {
+				pc.sendPackets(new S_SystemMessage("접속중이지 않습니다."));
+			}
+		} catch (Exception e) {
+			pc.sendPackets(new S_SystemMessage(".수배 [캐릭터명] [금액] [이유]"));
+		}
+	}
 }

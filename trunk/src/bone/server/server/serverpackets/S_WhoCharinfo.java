@@ -33,6 +33,17 @@ public class S_WhoCharinfo extends ServerBasePacket {
 		_log.fine("Who charpack for : " + pc.getName());
 
 		String lawfulness = "";
+		// Kill & Death Ω√Ω∫≈€
+		float win = 0;
+		float lose = 0;
+		float total = 0;
+		float winner = 0;
+		
+		win = pc.getKills();
+		lose = pc.getDeaths();
+		total = win + lose;
+		winner = ((win*100)/(total));
+		//ø©±‚±Ó¡ˆ
 		int lawful = pc.getLawful();
 		if (lawful < 0) {
 			lawfulness = "(Chaotic)";
@@ -56,7 +67,7 @@ public class S_WhoCharinfo extends ServerBasePacket {
 			clan = "[" + pc.getClanname() + "]";
 		}
 
-		writeS(title + pc.getName() + " " + lawfulness + " " + clan);
+		writeS(title + pc.getName() + " " + lawfulness + " " + clan+" "+"\n\r\\fY"+"[ Kill : "+pc.getKills()+" ]  [ Death : "+pc.getDeaths()+" ]  Ω¬∑¸ = " +String.format("%.2f",winner));
 		// writeD(0x80157FE4);
 		writeD(0);
 	}

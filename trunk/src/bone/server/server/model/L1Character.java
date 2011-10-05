@@ -417,6 +417,23 @@ public class L1Character extends L1Object {
 			return 0;
 		}
 	}
+	/** Kill & Death 시스템 **/
+	private int _Kills;
+
+	public int getKills() {
+		return _Kills;
+	}
+	public void setKills(int Kills) {
+		_Kills = Kills;
+	} 
+	private int _Deaths;
+
+	public int getDeaths() {
+		return _Deaths;
+	}
+	public void setDeaths(int Deaths) {
+		_Deaths = Deaths;
+	}
 	/** 캐릭터의 우호도을 돌려준다.	 */
 	public int getKarma() {	return _karma; }
 	/** 캐릭터의 우호도을 설정한다.	 */
