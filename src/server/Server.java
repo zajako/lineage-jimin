@@ -134,8 +134,8 @@ public class Server {
 
 			System.out.println("서버가 "+ Config.GAME_SERVER_PORT +"번 포트를 이용해서 가동 되었습니다.");
 			System.out.println("");
-			System.out.println("EvaTeam - http://playeva.net");
-			System.out.println("OpenSVN - http://eva.pe.kr");
+			System.out.println("네이트온 - wlals1978@nate.com");
+			System.out.println("오픈svn - http://code.google.com/p/lineage-jimin");
 		} catch(Exception e) { /*e.printStackTrace();*/ };
 		// FIXME StrackTrace하면 error  
 	}
