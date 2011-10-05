@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:10:38
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,13 +26,14 @@ CREATE TABLE `ub_managers` (
 -- ----------------------------
 -- Records of ub_managers
 -- ----------------------------
-INSERT INTO `ub_managers` VALUES ('1', '50037');
-INSERT INTO `ub_managers` VALUES ('1', '50038');
-INSERT INTO `ub_managers` VALUES ('2', '50041');
-INSERT INTO `ub_managers` VALUES ('2', '50042');
-INSERT INTO `ub_managers` VALUES ('3', '50028');
-INSERT INTO `ub_managers` VALUES ('3', '50029');
-INSERT INTO `ub_managers` VALUES ('4', '50018');
-INSERT INTO `ub_managers` VALUES ('4', '50019');
-INSERT INTO `ub_managers` VALUES ('5', '50061');
-INSERT INTO `ub_managers` VALUES ('5', '50062');
+INSERT IGNORE INTO `ub_managers` VALUES 
+('1', '50037'),
+('1', '50038'),
+('2', '50041'),
+('2', '50042'),
+('3', '50028'),
+('3', '50029'),
+('4', '50018'),
+('4', '50019'),
+('5', '50061'),
+('5', '50062');

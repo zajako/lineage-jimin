@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:03:27
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,60 +28,61 @@ CREATE TABLE `commands` (
 -- ----------------------------
 -- Records of commands
 -- ----------------------------
-INSERT INTO `commands` VALUES ('ì—ì½”', '9999', 'L1Echo');
-INSERT INTO `commands` VALUES ('ì…‹íŒ…', '9999', 'L1Status');
-INSERT INTO `commands` VALUES ('ì„œë¨¼', '9999', 'L1Summon');
-INSERT INTO `commands` VALUES ('ì²­ì†Œ', '9999', 'L1DeleteGroundItem');
-INSERT INTO `commands` VALUES ('ìŠ¤í‚¬ë§ˆìŠ¤í„°', '9999', 'L1AddSkill');
-INSERT INTO `commands` VALUES ('ë ˆë²¨', '9999', 'L1Level');
-INSERT INTO `commands` VALUES ('ìœ„ì¹˜', '9999', 'L1Loc');
-INSERT INTO `commands` VALUES ('ì •ë³´', '9999', 'L1Describe');
-INSERT INTO `commands` VALUES ('ëˆ„êµ¬', '9999', 'L1Who');
-INSERT INTO `commands` VALUES ('ì˜¬ë²„í”„', '9999', 'L1AllBuff');
-INSERT INTO `commands` VALUES ('ì†ë„', '9999', 'L1Speed');
-INSERT INTO `commands` VALUES ('ì•„ë°ë‚˜', '9999', 'L1Adena');
-INSERT INTO `commands` VALUES ('ë¦¬ì…‹íŠ¸ë©', '9999', 'L1ResetTrap');
-INSERT INTO `commands` VALUES ('ë¦¬ë¡œë“œíŠ¸ë©', '9999', 'L1ReloadTrap');
-INSERT INTO `commands` VALUES ('ì‡¼íŠ¸ë©', '9999', 'L1ShowTrap');
-INSERT INTO `commands` VALUES ('ì´ë¯¸ì§€', '9999', 'L1GfxId');
-INSERT INTO `commands` VALUES ('ì¸ë²¤ì´ë¯¸ì§€', '9999', 'L1InvGfxId');
-INSERT INTO `commands` VALUES ('í”¼ë°”', '9999', 'L1HpBar');
-INSERT INTO `commands` VALUES ('ì§€ì— ', '9999', 'L1GM');
-INSERT INTO `commands` VALUES ('í™ˆíƒ€ìš´', '9999', 'L1HomeTown');
-INSERT INTO `commands` VALUES ('ë ™ì„ ë¬¼', '9999', 'L1LevelPresent');
-INSERT INTO `commands` VALUES ('ì„ ë¬¼', '9999', 'L1Present');
-INSERT INTO `commands` VALUES ('ì¢…ë£Œ', '9999', 'L1Shutdown');
-INSERT INTO `commands` VALUES ('ì•„ì´í…œ', '9999', 'L1CreateItem');
-INSERT INTO `commands` VALUES ('ì„¸íŠ¸ì•„ì´í…œ', '9999', 'L1CreateItemSet');
-INSERT INTO `commands` VALUES ('ë²„í”„', '9999', 'L1Buff');
-INSERT INTO `commands` VALUES ('ìŠ¤í‚¬', '9999', 'L1Burf');
-INSERT INTO `commands` VALUES ('ê°ì‹œ', '9999', 'L1Patrol');
-INSERT INTO `commands` VALUES ('ë°´ì•„ì´í”¼', '9999', 'L1BanIp');
-INSERT INTO `commands` VALUES ('ì±„íŒ…', '9999', 'L1Chat');
-INSERT INTO `commands` VALUES ('ì±„ê¸ˆ', '9999', 'L1ChatNG');
-INSERT INTO `commands` VALUES ('ê°•ë ¥ì¶”ë°©', '9999', 'L1SKick');
-INSERT INTO `commands` VALUES ('ì¶”ë°©', '9999', 'L1Kick');
-INSERT INTO `commands` VALUES ('ì˜êµ¬ì¶”ë°©', '9999', 'L1PowerKick');
-INSERT INTO `commands` VALUES ('ê³„ì •ì••ë¥˜', '9999', 'L1AccountBanKick');
-INSERT INTO `commands` VALUES ('ë³€ì‹ ', '9999', 'L1Poly');
-INSERT INTO `commands` VALUES ('ì†Œìƒ', '9999', 'L1Ress');
-INSERT INTO `commands` VALUES ('í‚¬', '9999', 'L1Kill');
-INSERT INTO `commands` VALUES ('ê·€í™˜', '9999', 'L1GMRoom');
-INSERT INTO `commands` VALUES ('ì¶œë‘', '9999', 'L1ToPC');
-INSERT INTO `commands` VALUES ('ì´ë™', '9999', 'L1Move');
-INSERT INTO `commands` VALUES ('ë‚ ì”¨', '9999', 'L1ChangeWeather');
-INSERT INTO `commands` VALUES ('ê³ ìŠ¤í°', '9999', 'L1ToSpawn');
-INSERT INTO `commands` VALUES ('ì‹¤í–‰', '9999', 'L1Favorite');
-INSERT INTO `commands` VALUES ('ì†Œí™˜', '9999', 'L1Recall');
-INSERT INTO `commands` VALUES ('íŒŒí‹°ì†Œí™˜', '9999', 'L1PartyRecall');
-INSERT INTO `commands` VALUES ('ë¶ˆíˆ¬ëª…', '9999', 'L1Visible');
-INSERT INTO `commands` VALUES ('íˆ¬ëª…', '9999', 'L1Invisible');
-INSERT INTO `commands` VALUES ('ìŠ¤í°', '9999', 'L1SpawnCmd');
-INSERT INTO `commands` VALUES ('ë°°ì¹˜', '9999', 'L1InsertSpawn');
-INSERT INTO `commands` VALUES ('ì„¤ë¬¸', '9999', 'L1GMQuestion');
-INSERT INTO `commands` VALUES ('ì•¡ì…˜', '9999', 'L1Action');
-INSERT INTO `commands` VALUES ('ë¦¬ë¡œë“œ', '9999', 'L1Reload');
-INSERT INTO `commands` VALUES ('íƒ€ì¼', '9999', 'L1Tile');
-INSERT INTO `commands` VALUES ('ë»¥', '9999', 'L1UserCalc');
-INSERT INTO `commands` VALUES ('ê²€ì‚¬', '9999', 'L1CheckCharacter');
-INSERT INTO `commands` VALUES ('ë¬´ì¸ì¶”ë°©', '9999', 'L1AutoKick');
+INSERT IGNORE INTO `commands` VALUES 
+('¿¡ÄÚ', '9999', 'L1Echo'),
+('¼ÂÆÃ', '9999', 'L1Status'),
+('¼­¸Õ', '9999', 'L1Summon'),
+('Ã»¼Ò', '9999', 'L1DeleteGroundItem'),
+('½ºÅ³¸¶½ºÅÍ', '9999', 'L1AddSkill'),
+('·¹º§', '9999', 'L1Level'),
+('À§Ä¡', '9999', 'L1Loc'),
+('Á¤º¸', '9999', 'L1Describe'),
+('´©±¸', '9999', 'L1Who'),
+('¿Ã¹öÇÁ', '9999', 'L1AllBuff'),
+('¼Óµµ', '9999', 'L1Speed'),
+('¾Æµ¥³ª', '9999', 'L1Adena'),
+('¸®¼ÂÆ®·¦', '9999', 'L1ResetTrap'),
+('¸®·ÎµåÆ®·¦', '9999', 'L1ReloadTrap'),
+('¼îÆ®·¦', '9999', 'L1ShowTrap'),
+('ÀÌ¹ÌÁö', '9999', 'L1GfxId'),
+('ÀÎº¥ÀÌ¹ÌÁö', '9999', 'L1InvGfxId'),
+('ÇÇ¹Ù', '9999', 'L1HpBar'),
+('Áö¿¥', '9999', 'L1GM'),
+('È¨Å¸¿î', '9999', 'L1HomeTown'),
+('·¾¼±¹°', '9999', 'L1LevelPresent'),
+('¼±¹°', '9999', 'L1Present'),
+('Á¾·á', '9999', 'L1Shutdown'),
+('¾ÆÀÌÅÛ', '9999', 'L1CreateItem'),
+('¼¼Æ®¾ÆÀÌÅÛ', '9999', 'L1CreateItemSet'),
+('¹öÇÁ', '9999', 'L1Buff'),
+('½ºÅ³', '9999', 'L1Burf'),
+('°¨½Ã', '9999', 'L1Patrol'),
+('¹ê¾ÆÀÌÇÇ', '9999', 'L1BanIp'),
+('Ã¤ÆÃ', '9999', 'L1Chat'),
+('Ã¤±İ', '9999', 'L1ChatNG'),
+('°­·ÂÃß¹æ', '9999', 'L1SKick'),
+('Ãß¹æ', '9999', 'L1Kick'),
+('¿µ±¸Ãß¹æ', '9999', 'L1PowerKick'),
+('°èÁ¤¾Ğ·ù', '9999', 'L1AccountBanKick'),
+('º¯½Å', '9999', 'L1Poly'),
+('¼Ò»ı', '9999', 'L1Ress'),
+('Å³', '9999', 'L1Kill'),
+('±ÍÈ¯', '9999', 'L1GMRoom'),
+('ÃâµÎ', '9999', 'L1ToPC'),
+('ÀÌµ¿', '9999', 'L1Move'),
+('³¯¾¾', '9999', 'L1ChangeWeather'),
+('°í½ºÆù', '9999', 'L1ToSpawn'),
+('½ÇÇà', '9999', 'L1Favorite'),
+('¼ÒÈ¯', '9999', 'L1Recall'),
+('ÆÄÆ¼¼ÒÈ¯', '9999', 'L1PartyRecall'),
+('ºÒÅõ¸í', '9999', 'L1Visible'),
+('Åõ¸í', '9999', 'L1Invisible'),
+('½ºÆù', '9999', 'L1SpawnCmd'),
+('¹èÄ¡', '9999', 'L1InsertSpawn'),
+('¼³¹®', '9999', 'L1GMQuestion'),
+('¾×¼Ç', '9999', 'L1Action'),
+('¸®·Îµå', '9999', 'L1Reload'),
+('Å¸ÀÏ', '9999', 'L1Tile'),
+('»½', '9999', 'L1UserCalc'),
+('°Ë»ç', '9999', 'L1CheckCharacter'),
+('¹«ÀÎÃß¹æ', '9999', 'L1AutoKick');

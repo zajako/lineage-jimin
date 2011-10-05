@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:01:57
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -25,7 +25,7 @@ CREATE TABLE `character_buddys` (
   `buddy_name` varchar(45) NOT NULL,
   PRIMARY KEY (`char_id`,`buddy_id`),
   KEY `key_id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1413 DEFAULT CHARSET=euckr COMMENT='MyISAM free: 10240 kB; MyISAM free: 10240 kB';
+) DEFAULT CHARSET=euckr;
 
 -- ----------------------------
 -- Records of character_buddys

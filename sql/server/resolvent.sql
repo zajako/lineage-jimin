@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:07:30
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -28,539 +28,540 @@ CREATE TABLE `resolvent` (
 -- ----------------------------
 -- Records of resolvent
 -- ----------------------------
-INSERT INTO `resolvent` VALUES ('1', 'ì˜¤í¬ì¡± ë‹¨ê²€', '2');
-INSERT INTO `resolvent` VALUES ('200001', 'ì˜¤í¬ì¡± ë‹¨ê²€', '2');
-INSERT INTO `resolvent` VALUES ('21', 'ì˜¤í¬ì¡± ê²€', '2');
-INSERT INTO `resolvent` VALUES ('2', 'ì•…ìš´ì˜ ë‹¨ê²€', '2');
-INSERT INTO `resolvent` VALUES ('200002', 'ì•…ìš´ì˜ ë‹¨ê²€', '2');
-INSERT INTO `resolvent` VALUES ('23', 'ë„“ì€ ê²€', '3');
-INSERT INTO `resolvent` VALUES ('26', 'ë‚œìŸì´ì¡± ê²€', '25');
-INSERT INTO `resolvent` VALUES ('27', 'ì–¸ì›”ë„', '150');
-INSERT INTO `resolvent` VALUES ('100027', 'ì–¸ì›”ë„', '150');
-INSERT INTO `resolvent` VALUES ('200027', 'ì–¸ì›”ë„', '150');
-INSERT INTO `resolvent` VALUES ('25', 'ì€ê²€', '180');
-INSERT INTO `resolvent` VALUES ('100025', 'ì€ê²€', '180');
-INSERT INTO `resolvent` VALUES ('32', 'ê·¸ë¼ë””ìš°ìŠ¤', '250');
-INSERT INTO `resolvent` VALUES ('200032', 'ê·¸ë¼ë””ìš°ìŠ¤', '250');
-INSERT INTO `resolvent` VALUES ('31', 'ìž¥ê²€', '300');
-INSERT INTO `resolvent` VALUES ('52', 'ì–‘ì†ê²€', '1800');
-INSERT INTO `resolvent` VALUES ('100052', 'ì–‘ì†ê²€', '1800');
-INSERT INTO `resolvent` VALUES ('200052', 'ì–‘ì†ê²€', '1800');
-INSERT INTO `resolvent` VALUES ('93', 'ì‚¼ì§€ì°½', '2');
-INSERT INTO `resolvent` VALUES ('91', 'ì˜¤í¬ì¡± ì°½', '5');
-INSERT INTO `resolvent` VALUES ('95', 'ê¸°ë³‘ì°½', '6');
-INSERT INTO `resolvent` VALUES ('100095', 'ê¸°ë³‘ì°½', '6');
-INSERT INTO `resolvent` VALUES ('96', 'ì°½', '7');
-INSERT INTO `resolvent` VALUES ('94', 'íŒŒë¥´í‹°ìž”', '50');
-INSERT INTO `resolvent` VALUES ('104', 'í¬ì± ë“œ', '800');
-INSERT INTO `resolvent` VALUES ('102', 'ë£¨ì„ í•´ë¨¸', '1000');
-INSERT INTO `resolvent` VALUES ('100102', 'ë£¨ì„ í•´ë¨¸', '1000');
-INSERT INTO `resolvent` VALUES ('107', 'í¬ë¦¼ìŠ¨ ëžœìŠ¤', '20000');
-INSERT INTO `resolvent` VALUES ('100107', 'í¬ë¦¼ìŠ¨ ëžœìŠ¤', '20000');
-INSERT INTO `resolvent` VALUES ('137', 'ì•„íƒ', '1');
-INSERT INTO `resolvent` VALUES ('136', 'ë„ë¼', '2');
-INSERT INTO `resolvent` VALUES ('138', 'ëª½ë‘¥ì´', '3');
-INSERT INTO `resolvent` VALUES ('139', 'ë„ë¦¬ê¹¨', '4');
-INSERT INTO `resolvent` VALUES ('140', 'ì² í‡´', '9');
-INSERT INTO `resolvent` VALUES ('143', 'ì „íˆ¬ ë„ë¼', '70');
-INSERT INTO `resolvent` VALUES ('100143', 'ì „íˆ¬ ë„ë¼', '70');
-INSERT INTO `resolvent` VALUES ('145', 'ê´‘ì „ì‚¬ì˜ ë„ë¼', '100');
-INSERT INTO `resolvent` VALUES ('146', 'ëª¨ë‹ìŠ¤íƒ€', '350');
-INSERT INTO `resolvent` VALUES ('100146', 'ëª¨ë‹ìŠ¤íƒ€', '350');
-INSERT INTO `resolvent` VALUES ('142', 'ì€ë„ë¼', '800');
-INSERT INTO `resolvent` VALUES ('148', 'ëŒ€í˜• ë„ë¼', '1200');
-INSERT INTO `resolvent` VALUES ('149', 'ë¯¸ë…¸íƒ€ìš°ë¥´ìŠ¤ ë„ë¼', '1200');
-INSERT INTO `resolvent` VALUES ('151', 'ë°ëª¬ ì•¡ìŠ¤', '20000');
-INSERT INTO `resolvent` VALUES ('100151', 'ë°ëª¬ ì•¡ìŠ¤', '20000');
-INSERT INTO `resolvent` VALUES ('128', 'ì°¸ë‚˜ë¬´ ì§€íŒ¡ì´', '30');
-INSERT INTO `resolvent` VALUES ('126', 'ë§ˆë‚˜ì˜ ì§€íŒ¡ì´', '900');
-INSERT INTO `resolvent` VALUES ('132', 'ì‹ ê´€ì˜ ì§€íŒ¡ì´', '10000');
-INSERT INTO `resolvent` VALUES ('100132', 'ì‹ ê´€ì˜ ì§€íŒ¡ì´', '10000');
-INSERT INTO `resolvent` VALUES ('171', 'ì˜¤í¬ì¡± í™œ', '3');
-INSERT INTO `resolvent` VALUES ('200171', 'ì˜¤í¬ì¡±í™œ', '3');
-INSERT INTO `resolvent` VALUES ('172', 'í™œ', '5');
-INSERT INTO `resolvent` VALUES ('100172', 'í™œ', '5');
-INSERT INTO `resolvent` VALUES ('169', 'ì‚¬ëƒ¥ê¾¼ í™œ', '500');
-INSERT INTO `resolvent` VALUES ('100169', 'ì‚¬ëƒ¥ê¾¼ í™œ', '500');
-INSERT INTO `resolvent` VALUES ('20182', 'ìž¥ê°‘', '800');
-INSERT INTO `resolvent` VALUES ('120182', 'ìž¥ê°‘', '800');
-INSERT INTO `resolvent` VALUES ('20162', 'ê°€ì£½ ìž¥ê°‘', '800');
-INSERT INTO `resolvent` VALUES ('20188', 'í‘¸ë¥¸ í•´ì  ìž¥ê°‘', '800');
-INSERT INTO `resolvent` VALUES ('20177', 'ì•”ë ¹ì˜ ìž¥ê°‘', '10000');
-INSERT INTO `resolvent` VALUES ('20189', 'í’ë ¹ì˜ ìž¥ê°‘', '10000');
-INSERT INTO `resolvent` VALUES ('20181', 'ì—¼ë ¹ì˜ ìž¥ê°‘', '10000');
-INSERT INTO `resolvent` VALUES ('20172', 'ë¹™ë ¹ì˜ ìž¥ê°‘', '10000');
-INSERT INTO `resolvent` VALUES ('20034', 'ì˜¤í¬ì¡± íˆ¬êµ¬', '15');
-INSERT INTO `resolvent` VALUES ('220034', 'ì˜¤í¬ì¡± íˆ¬êµ¬', '15');
-INSERT INTO `resolvent` VALUES ('20043', 'íˆ¬êµ¬', '20');
-INSERT INTO `resolvent` VALUES ('120043', 'íˆ¬êµ¬', '20');
-INSERT INTO `resolvent` VALUES ('220043', 'íˆ¬êµ¬', '20');
-INSERT INTO `resolvent` VALUES ('20007', 'ë‚œìŸì´ì¡± ì²  íˆ¬êµ¬', '60');
-INSERT INTO `resolvent` VALUES ('20011', 'ë§ˆë²• ë°©ì–´ íˆ¬êµ¬', '250');
-INSERT INTO `resolvent` VALUES ('120011', 'ë§ˆë²• ë°©ì–´ íˆ¬êµ¬', '250');
-INSERT INTO `resolvent` VALUES ('20089', 'ê°€ì£½ ê°‘ì˜·', '15');
-INSERT INTO `resolvent` VALUES ('20135', 'ì˜¤í¬ì¡± ê³ ë¦¬ ê°‘ì˜·', '20');
-INSERT INTO `resolvent` VALUES ('220135', 'ì˜¤í¬ì¡± ê³ ë¦¬ ê°‘ì˜·', '20');
-INSERT INTO `resolvent` VALUES ('20147', 'ì§•ë°•ížŒ ê°€ì£½ ê°‘ì˜·', '30');
-INSERT INTO `resolvent` VALUES ('220147', 'ì§•ë°•ížŒ ê°€ì£½ ê°‘ì˜·', '30');
-INSERT INTO `resolvent` VALUES ('20096', 'ê³ ë¦¬ ê°‘ì˜·', '50');
-INSERT INTO `resolvent` VALUES ('20136', 'ì˜¤í¬ì¡± ì‚¬ìŠ¬ ê°‘ì˜·', '80');
-INSERT INTO `resolvent` VALUES ('220136', 'ì˜¤í¬ì¡± ì‚¬ìŠ¬ ê°‘ì˜·', '80');
-INSERT INTO `resolvent` VALUES ('20114', 'ë¬´ëª… ë¡œë¸Œ', '100');
-INSERT INTO `resolvent` VALUES ('20139', 'ìš”ì •ì¡± í‰ê°‘', '100');
-INSERT INTO `resolvent` VALUES ('20122', 'ë¹„ëŠ˜ ê°‘ì˜·', '200');
-INSERT INTO `resolvent` VALUES ('220122', 'ë¹„ëŠ˜ ê°‘ì˜·', '200');
-INSERT INTO `resolvent` VALUES ('20124', 'ë¼ˆê°‘ì˜·', '200');
-INSERT INTO `resolvent` VALUES ('20149', 'ì²­ë™ íŒê¸ˆ ê°‘ì˜·', '1600');
-INSERT INTO `resolvent` VALUES ('120149', 'ì²­ë™ íŒê¸ˆ ê°‘ì˜·', '1600');
-INSERT INTO `resolvent` VALUES ('20115', 'ë¯¸ëŠ˜ ê°‘ì˜·', '2000');
-INSERT INTO `resolvent` VALUES ('220115', 'ë¯¸ëŠ˜ ê°‘ì˜·', '2000');
-INSERT INTO `resolvent` VALUES ('20101', 'ë  ê°‘ì˜·', '2500');
-INSERT INTO `resolvent` VALUES ('120101', 'ë  ê°‘ì˜·', '2500');
-INSERT INTO `resolvent` VALUES ('220101', 'ë  ê°‘ì˜·', '2500');
-INSERT INTO `resolvent` VALUES ('20143', 'ìžŠí˜€ì§„ íŒê¸ˆ ê°‘ì˜·', '3700');
-INSERT INTO `resolvent` VALUES ('20142', 'ìžŠí˜€ì§„ ë¹„ëŠ˜ ê°‘ì˜·', '3700');
-INSERT INTO `resolvent` VALUES ('20140', 'ìžŠí˜€ì§„ ê°€ì£½ ê°‘ì˜·', '3700');
-INSERT INTO `resolvent` VALUES ('20141', 'ìžŠí˜€ì§„ ë¡œë¸Œ', '3700');
-INSERT INTO `resolvent` VALUES ('20072', 'ì˜¤í¬ì¡± ë§í† ', '5');
-INSERT INTO `resolvent` VALUES ('20052', 'ë‚œìŸì´ì¡± ë§í† ', '10');
-INSERT INTO `resolvent` VALUES ('20056', 'ë§ˆë²• ë§í† ', '20');
-INSERT INTO `resolvent` VALUES ('120056', 'ë§ˆë²• ë§í† ', '20');
-INSERT INTO `resolvent` VALUES ('220056', 'ë§ˆë²• ë§í† ', '20');
-INSERT INTO `resolvent` VALUES ('20205', 'ë¶€ì¸ ', '200');
-INSERT INTO `resolvent` VALUES ('20217', 'í‘¸ë¥¸ í•´ì  ë¶€ì¸ ', '300');
-INSERT INTO `resolvent` VALUES ('20306', 'ë‚¡ì€ ì‹ ì²´ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('120306', 'ë‚¡ì€ ì‹ ì²´ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('20307', 'ë‚¡ì€ ì˜í˜¼ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('120307', 'ë‚¡ì€ ì˜í˜¼ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('20308', 'ë‚¡ì€ ì •ì‹ ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('120308', 'ë‚¡ì€ ì •ì‹ ì˜ ë²¨íŠ¸', '1500');
-INSERT INTO `resolvent` VALUES ('20312', 'ì‹ ì²´ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('120312', 'ì‹ ì²´ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('20316', 'ì˜í˜¼ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('120316', 'ì˜í˜¼ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('20319', 'ì •ì‹ ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('120319', 'ì •ì‹ ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('20321', 'íŠ¸ë¡¤ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('120321', 'íŠ¸ë¡¤ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('20266', 'ì§€ì‹ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('120266', 'ì§€ì‹ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20263', 'ì˜¤í¬ íˆ¬ì‚¬ì˜ ëª©ê±¸ì´', '6500');
-INSERT INTO `resolvent` VALUES ('20284', 'ì†Œí™˜ ì¡°ì¢… ë°˜ì§€', '200000');
-INSERT INTO `resolvent` VALUES ('40010', 'ë¹¨ê°„ ë¬¼ì•½', '3');
-INSERT INTO `resolvent` VALUES ('140010', 'ë¹¨ê°„ ë¬¼ì•½', '3');
-INSERT INTO `resolvent` VALUES ('240010', 'ë¹¨ê°„ ë¬¼ì•½', '3');
-INSERT INTO `resolvent` VALUES ('40011', 'ì£¼í™ ë¬¼ì•½', '25');
-INSERT INTO `resolvent` VALUES ('140011', 'ì£¼í™ ë¬¼ì•½', '25');
-INSERT INTO `resolvent` VALUES ('40012', 'ë§‘ì€ ë¬¼ì•½', '37');
-INSERT INTO `resolvent` VALUES ('140012', 'ë§‘ì€ ë¬¼ì•½', '37');
-INSERT INTO `resolvent` VALUES ('40019', 'ë†ì¶• ì²´ë ¥ íšŒë³µì œ', '4');
-INSERT INTO `resolvent` VALUES ('40020', 'ë†ì¶• ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ', '25');
-INSERT INTO `resolvent` VALUES ('40021', 'ë†ì¶• ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ', '56');
-INSERT INTO `resolvent` VALUES ('40017', 'ë¹„ì·¨ ë¬¼ì•½', '7');
-INSERT INTO `resolvent` VALUES ('40013', 'ì´ˆë¡ ë¬¼ì•½', '20');
-INSERT INTO `resolvent` VALUES ('140013', 'ì´ˆë¡ ë¬¼ì•½', '20');
-INSERT INTO `resolvent` VALUES ('40018', 'ê°•í™” ì´ˆë¡ ë¬¼ì•½', '150');
-INSERT INTO `resolvent` VALUES ('140018', 'ê°•í™” ì´ˆë¡ ë¬¼ì•½', '150');
-INSERT INTO `resolvent` VALUES ('40016', 'ì§€í˜œì˜ ë¬¼ì•½', '60');
-INSERT INTO `resolvent` VALUES ('140016', 'ì§€í˜œì˜ ë¬¼ì•½', '60');
-INSERT INTO `resolvent` VALUES ('40014', 'ìš©ê¸°ì˜ ë¬¼ì•½', '80');
-INSERT INTO `resolvent` VALUES ('140014', 'ìš©ê¸°ì˜ ë¬¼ì•½', '80');
-INSERT INTO `resolvent` VALUES ('40015', 'íŒŒëž€ ë¬¼ì•½', '100');
-INSERT INTO `resolvent` VALUES ('140015', 'íŒŒëž€ ë¬¼ì•½', '100');
-INSERT INTO `resolvent` VALUES ('40068', 'ì—˜ë¸ ì™€í¼', '50');
-INSERT INTO `resolvent` VALUES ('140068', 'ì—˜ë¸ ì™€í¼', '50');
-INSERT INTO `resolvent` VALUES ('40317', 'ìˆ«ëŒ', '15');
-INSERT INTO `resolvent` VALUES ('40126', 'í™•ì¸ ì£¼ë¬¸ì„œ', '6');
-INSERT INTO `resolvent` VALUES ('40100', 'ìˆœê°„ì´ë™ ì£¼ë¬¸ì„œ', '7');
-INSERT INTO `resolvent` VALUES ('140100', 'ìˆœê°„ì´ë™ ì£¼ë¬¸ì„œ', '7');
-INSERT INTO `resolvent` VALUES ('40119', 'ì €ì£¼ í’€ê¸° ì£¼ë¬¸ì„œ', '11');
-INSERT INTO `resolvent` VALUES ('140119', 'ì €ì£¼ í’€ê¸° ì£¼ë¬¸ì„œ', '11');
-INSERT INTO `resolvent` VALUES ('40079', 'ê·€í™˜ ì£¼ë¬¸ì„œ', '9');
-INSERT INTO `resolvent` VALUES ('40089', 'ë¶€í™œ ì£¼ë¬¸ì„œ', '150');
-INSERT INTO `resolvent` VALUES ('140089', 'ë¶€í™œ ì£¼ë¬¸ì„œ', '150');
-INSERT INTO `resolvent` VALUES ('40088', 'ë³€ì‹  ì£¼ë¬¸ì„œ', '130');
-INSERT INTO `resolvent` VALUES ('140088', 'ë³€ì‹  ì£¼ë¬¸ì„œ', '130');
-INSERT INTO `resolvent` VALUES ('40090', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 1)', '10');
-INSERT INTO `resolvent` VALUES ('40091', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 2)', '40');
-INSERT INTO `resolvent` VALUES ('40092', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 3)', '100');
-INSERT INTO `resolvent` VALUES ('40093', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 4)', '180');
-INSERT INTO `resolvent` VALUES ('40094', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 5)', '500');
-INSERT INTO `resolvent` VALUES ('40170', 'ë§ˆë²•ì„œ (íŒŒì´ì–´ë³¼)', '160');
-INSERT INTO `resolvent` VALUES ('40171', 'ë§ˆë²•ì„œ (ì¸ì±ˆíŠ¸ ë±ìŠ¤í„°ë¦¬í‹°)', '160');
-INSERT INTO `resolvent` VALUES ('40172', 'ë§ˆë²•ì„œ (ì›¨í° ë¸Œë ˆì´í¬)', '160');
-INSERT INTO `resolvent` VALUES ('40173', 'ë§ˆë²•ì„œ (ë±€íŒŒì´ì–´ë¦­ í„°ì¹˜)', '160');
-INSERT INTO `resolvent` VALUES ('40174', 'ë§ˆë²•ì„œ (ìŠ¬ë¡œìš°)', '160');
-INSERT INTO `resolvent` VALUES ('40175', 'ë§ˆë²•ì„œ (ì¹´ìš´í„° ë§¤ì§)', '160');
-INSERT INTO `resolvent` VALUES ('40176', 'ë§ˆë²•ì„œ (ë©”ë””í…Œì´ì…˜)', '160');
-INSERT INTO `resolvent` VALUES ('40177', 'ë§ˆë²•ì„œ (ì–´ìŠ¤ ìž¬ì¼)', '160');
-INSERT INTO `resolvent` VALUES ('40178', 'ë§ˆë²•ì„œ (ì»¤ìŠ¤: íŒ¨ëŸ´ë¼ì´ì¦ˆ)', '180');
-INSERT INTO `resolvent` VALUES ('40179', 'ë§ˆë²•ì„œ (ì½œ ë¼ì´íŠ¸ë‹)', '180');
-INSERT INTO `resolvent` VALUES ('40180', 'ë§ˆë²•ì„œ (ê·¸ë ˆì´í„° íž)', '180');
-INSERT INTO `resolvent` VALUES ('40181', 'ë§ˆë²•ì„œ (í…Œì´ë° ëª¬ìŠ¤í„°)', '180');
-INSERT INTO `resolvent` VALUES ('40182', 'ë§ˆë²•ì„œ (ë¦¬ë¬´ë¸Œ ì»¤ìŠ¤)', '180');
-INSERT INTO `resolvent` VALUES ('40183', 'ë§ˆë²•ì„œ (ì½˜ ì˜¤ë¸Œ ì½œë“œ)', '180');
-INSERT INTO `resolvent` VALUES ('40184', 'ë§ˆë²•ì„œ (ë§ˆë‚˜ ë“œë ˆì¸)', '180');
-INSERT INTO `resolvent` VALUES ('40185', 'ë§ˆë²•ì„œ (ë‹¤í¬ë‹ˆìŠ¤)', '180');
-INSERT INTO `resolvent` VALUES ('40186', 'ë§ˆë²•ì„œ (í¬ë¦¬ì—ì´íŠ¸ ì¢€ë¹„)', '200');
-INSERT INTO `resolvent` VALUES ('40187', 'ë§ˆë²•ì„œ (ì¸ì±ˆíŠ¸ ë§ˆì´í‹°)', '200');
-INSERT INTO `resolvent` VALUES ('40188', 'ë§ˆë²•ì„œ (í—¤ì´ìŠ¤íŠ¸)', '200');
-INSERT INTO `resolvent` VALUES ('40189', 'ë§ˆë²•ì„œ (ìº”ìŠ¬ë ˆì´ì…˜)', '200');
-INSERT INTO `resolvent` VALUES ('40190', 'ë§ˆë²•ì„œ (ì´ëŸ½ì…˜)', '200');
-INSERT INTO `resolvent` VALUES ('40191', 'ë§ˆë²•ì„œ (ì„  ë²„ìŠ¤íŠ¸)', '200');
-INSERT INTO `resolvent` VALUES ('40192', 'ë§ˆë²•ì„œ (ìœ„í¬ë‹ˆìŠ¤)', '200');
-INSERT INTO `resolvent` VALUES ('40193', 'ë§ˆë²•ì„œ (ë¸”ë ˆìŠ¤ ì›¨í°)', '200');
-INSERT INTO `resolvent` VALUES ('40210', 'ë§ˆë²•ì„œ (ë¼ì´íŠ¸ë‹ ìŠ¤í†°)', '280');
-INSERT INTO `resolvent` VALUES ('40211', 'ë§ˆë²•ì„œ (í¬ê·¸ ì˜¤ë¸Œ ìŠ¬ë¦¬í•‘)', '280');
-INSERT INTO `resolvent` VALUES ('40212', 'ë§ˆë²•ì„œ (ì…°ì´í”„ ì²´ì¸ì§€)', '280');
-INSERT INTO `resolvent` VALUES ('40213', 'ë§ˆë²•ì„œ (ì´ë®¨ íˆ¬ í•¨)', '280');
-INSERT INTO `resolvent` VALUES ('40214', 'ë§ˆë²•ì„œ (ë§¤ìŠ¤ í…”ë ˆí¬íŠ¸)', '280');
-INSERT INTO `resolvent` VALUES ('40215', 'ë§ˆë²•ì„œ (íŒŒì´ì–´ ìŠ¤í†°)', '280');
-INSERT INTO `resolvent` VALUES ('40216', 'ë§ˆë²•ì„œ (ë””ì¼€ì´ í¬ì…˜)', '280');
-INSERT INTO `resolvent` VALUES ('40217', 'ë§ˆë²•ì„œ (ì¹´ìš´í„° ë””í…ì…˜)', '280');
-INSERT INTO `resolvent` VALUES ('40265', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¸”ë¼ì¸ë“œ í•˜ì´ë”©)', '50');
-INSERT INTO `resolvent` VALUES ('40266', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì¸ì±ˆíŠ¸ ë² ë†ˆ)', '50');
-INSERT INTO `resolvent` VALUES ('40267', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì‰ë„ìš° ì•„ë¨¸)', '50');
-INSERT INTO `resolvent` VALUES ('40268', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¸Œë§ ìŠ¤í†¤)', '50');
-INSERT INTO `resolvent` VALUES ('40269', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ë§ˆì´í‹°)', '50');
-INSERT INTO `resolvent` VALUES ('40270', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¬´ë¹™ ì•…ì…€ë ˆì´ì…˜)', '200');
-INSERT INTO `resolvent` VALUES ('40271', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë²„ë‹ ìŠ¤í”¼ë¦¿ì¸ )', '200');
-INSERT INTO `resolvent` VALUES ('40272', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë‹¤í¬ ë¸”ë¼ì¸ë“œ)', '200');
-INSERT INTO `resolvent` VALUES ('40273', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë² ë†ˆ ë ˆì§€ìŠ¤íŠ¸)', '200');
-INSERT INTO `resolvent` VALUES ('40274', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ë±ìŠ¤í„°ë¦¬í‹°)', '200');
-INSERT INTO `resolvent` VALUES ('40275', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë”ë¸” ë¸Œë ˆì´í¬)', '500');
-INSERT INTO `resolvent` VALUES ('40276', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì–¸ì¼€ë‹ˆ ë‹·ì§€)', '500');
-INSERT INTO `resolvent` VALUES ('40277', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì‰ë„ìš° íŒ½)', '500');
-INSERT INTO `resolvent` VALUES ('40278', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (íŒŒì´ë„ ë²ˆ)', '500');
-INSERT INTO `resolvent` VALUES ('40279', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ì´ë² ì´ì ¼)', '500');
-INSERT INTO `resolvent` VALUES ('40164', 'ê¸°ìˆ ì„œ (ì‡¼í¬ ìŠ¤í„´)', '1000');
-INSERT INTO `resolvent` VALUES ('40007', 'í‘ë‹¨ ë§‰ëŒ€', '2');
-INSERT INTO `resolvent` VALUES ('40006', 'ì†Œë‚˜ë¬´ ë§‰ëŒ€', '2');
-INSERT INTO `resolvent` VALUES ('140006', 'ì†Œë‚˜ë¬´ ë§‰ëŒ€', '2');
-INSERT INTO `resolvent` VALUES ('40008', 'ë‹¨í’ë‚˜ë¬´ ë§‰ëŒ€', '2');
-INSERT INTO `resolvent` VALUES ('140008', 'ë‹¨í’ë‚˜ë¬´ ë§‰ëŒ€', '2');
-INSERT INTO `resolvent` VALUES ('40524', 'ê²€ì€ í˜ˆí”', '2');
-INSERT INTO `resolvent` VALUES ('40515', 'ì •ë ¹ì˜ ëŒ', '10');
-INSERT INTO `resolvent` VALUES ('40044', 'ë‹¤ì´ì•„ëª¬ë“œ', '50');
-INSERT INTO `resolvent` VALUES ('40047', 'ì—ë©”ëž„ë“œ', '50');
-INSERT INTO `resolvent` VALUES ('40045', 'ë£¨ë¹„', '50');
-INSERT INTO `resolvent` VALUES ('40046', 'ì‚¬íŒŒì´ì–´', '50');
-INSERT INTO `resolvent` VALUES ('40048', 'ê³ ê¸‰ ë‹¤ì´ì•„ëª¬ë“œ', '100');
-INSERT INTO `resolvent` VALUES ('40051', 'ê³ ê¸‰ ì—ë©”ëž„ë“œ', '100');
-INSERT INTO `resolvent` VALUES ('40049', 'ê³ ê¸‰ ë£¨ë¹„', '100');
-INSERT INTO `resolvent` VALUES ('40050', 'ê³ ê¸‰ ì‚¬íŒŒì´ì–´', '100');
-INSERT INTO `resolvent` VALUES ('40496', 'ë¯¸ìŠ¤ë¦´ ì›ì„', '6');
-INSERT INTO `resolvent` VALUES ('40408', 'ì² ê´´', '2');
-INSERT INTO `resolvent` VALUES ('40499', 'ë²„ì„¯í¬ìžì˜ ì¦™', '2');
-INSERT INTO `resolvent` VALUES ('40444', 'ë¸”ëž™ ë¯¸ìŠ¤ë¦´ ì›ì„', '80');
-INSERT INTO `resolvent` VALUES ('40443', 'ë¸”ëž™ ë¯¸ìŠ¤ë¦´', '120');
-INSERT INTO `resolvent` VALUES ('40442', 'ë¸Œë¡­ì˜ ìœ„ì•¡', '2');
-INSERT INTO `resolvent` VALUES ('40899', 'ê°•ì²  ì›ì„', '2');
-INSERT INTO `resolvent` VALUES ('40486', 'í™”ì‚°ìž¬', '2');
-INSERT INTO `resolvent` VALUES ('40514', 'ì •ë ¹ì˜ ëˆˆë¬¼', '10');
-INSERT INTO `resolvent` VALUES ('40397', 'í‚¤ë©”ë¼ì˜ ê°€ì£½(ìš©)', '2');
-INSERT INTO `resolvent` VALUES ('40398', 'í‚¤ë©”ë¼ì˜ ê°€ì£½(ì‚°ì–‘)', '2');
-INSERT INTO `resolvent` VALUES ('40399', 'í‚¤ë©”ë¼ì˜ ê°€ì£½(ì‚¬ìž)', '2');
-INSERT INTO `resolvent` VALUES ('40400', 'í‚¤ë©”ë¼ì˜ ê°€ì£½(ë±€)', '2');
-INSERT INTO `resolvent` VALUES ('40437', 'ë”¥í”Œë¼ì›Œ ì¤„ê¸°', '2');
-INSERT INTO `resolvent` VALUES ('40483', 'í”Œë ˆì´íŠ¸ì›œì˜ ê»ì§ˆ', '2');
-INSERT INTO `resolvent` VALUES ('40438', 'ë°•ì¥ ì†¡ê³³ë‹ˆ', '2');
-INSERT INTO `resolvent` VALUES ('40431', 'ë‘ë”ì§€ì˜ ê°€ì£½', '3');
-INSERT INTO `resolvent` VALUES ('40434', 'ë”œë¡œì˜ ê¼¬ë¦¬', '3');
-INSERT INTO `resolvent` VALUES ('40424', 'ëŠ‘ëŒ€ ê°€ì£½', '5');
-INSERT INTO `resolvent` VALUES ('40490', 'í‘ì •ë ¹ì„', '8');
-INSERT INTO `resolvent` VALUES ('40459', 'ìŠ¤ì½œí”¼ì˜¨ ê»ì§ˆ', '10');
-INSERT INTO `resolvent` VALUES ('40472', 'ì¼ˆë² ë¡œìŠ¤ í„¸', '120');
-INSERT INTO `resolvent` VALUES ('40419', 'ê±°ëŒ€ë¬´ë¦¬ì•ˆ ê±°ë¯¸ì¤„', '150');
-INSERT INTO `resolvent` VALUES ('40512', 'ì˜¤ì—¼ëœ ì—”íŠ¸ì˜ ì¤„ê¸°', '2');
-INSERT INTO `resolvent` VALUES ('40510', 'ì˜¤ì—¼ëœ ì—”íŠ¸ì˜ ê»ì§ˆ', '3');
-INSERT INTO `resolvent` VALUES ('40511', 'ì˜¤ì—¼ëœ ì—”íŠ¸ì˜ ì—´ë§¤', '105');
-INSERT INTO `resolvent` VALUES ('40986', 'ì‹œë²„ì¸ì˜ ì•žë‹ˆ', '50');
-INSERT INTO `resolvent` VALUES ('40978', 'ì‹œë²„ì¸ì˜ ê¼¬ë¦¬ : í™', '100');
-INSERT INTO `resolvent` VALUES ('40979', 'ì‹œë²„ì¸ì˜ ê¼¬ë¦¬ : ë¬¼', '100');
-INSERT INTO `resolvent` VALUES ('40980', 'ì‹œë²„ì¸ì˜ ê¼¬ë¦¬ : ë¶ˆ', '100');
-INSERT INTO `resolvent` VALUES ('40981', 'ì‹œë²„ì¸ì˜ ê¼¬ë¦¬ : ê³µê¸°', '100');
-INSERT INTO `resolvent` VALUES ('40982', 'ì‹œë²„ì¸ì˜ ê°€ì£½ : í™', '200');
-INSERT INTO `resolvent` VALUES ('40983', 'ì‹œë²„ì¸ì˜ ê°€ì£½ : ë¬¼', '200');
-INSERT INTO `resolvent` VALUES ('40984', 'ì‹œë²„ì¸ì˜ ê°€ì£½ : ë¶ˆ', '200');
-INSERT INTO `resolvent` VALUES ('40985', 'ì‹œë²„ì¸ì˜ ê°€ì£½ : ê³µê¸°', '200');
-INSERT INTO `resolvent` VALUES ('40407', 'ë¼ˆì¡°ê°', '2');
-INSERT INTO `resolvent` VALUES ('40999', 'ë‹¤í¬ì—˜í”„ ë³‘ì‚¬ì˜ ë°°ì§€', '2');
-INSERT INTO `resolvent` VALUES ('41343', 'íŒŒí‘¸ë¦¬ì˜¨ì˜ í˜ˆí”', '2');
-INSERT INTO `resolvent` VALUES ('40612', 'ì•„íˆ¬ë°” ì˜¤í¬ ë§ˆë²•ì„œ', '2');
-INSERT INTO `resolvent` VALUES ('40610', 'ë„¤ë£¨ê°€ ì˜¤í¬ ë§ˆë²•ì„œ', '2');
-INSERT INTO `resolvent` VALUES ('40611', 'ë‘ë‹¤ ë§ˆë¼ ì˜¤í¬ ë§ˆë²•ì„œ', '2');
-INSERT INTO `resolvent` VALUES ('40609', 'ê°„ë”” ì˜¤í¬ ë§ˆë²•ì„œ', '2');
-INSERT INTO `resolvent` VALUES ('40432', 'ë””ì•„ë“œ ì£¼ë¬¸ì„œ ì¡°ê°', '5');
-INSERT INTO `resolvent` VALUES ('41038', 'í•­í•´ì¼ì§€ 1ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41039', 'í•­í•´ì¼ì§€ 2ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41040', 'í•­í•´ì¼ì§€ 3ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41041', 'í•­í•´ì¼ì§€ 4ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41042', 'í•­í•´ì¼ì§€ 5ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41043', 'í•­í•´ì¼ì§€ 6ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41044', 'í•­í•´ì¼ì§€ 7ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41045', 'í•­í•´ì¼ì§€ 8ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41046', 'í•­í•´ì¼ì§€ 9ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('41047', 'í•­í•´ì¼ì§€ 10ìž¥', '10');
-INSERT INTO `resolvent` VALUES ('40329', 'ì›ì£¼ë¯¼ í† í…œ', '10');
-INSERT INTO `resolvent` VALUES ('140329', 'ì›ì£¼ë¯¼ í† í…œ', '10');
-INSERT INTO `resolvent` VALUES ('40041', 'ì¸ì–´ì˜ ë¹„ëŠ˜', '20');
-INSERT INTO `resolvent` VALUES ('41342', 'ë©”ë‘ì‚¬ì˜ í”¼', '200');
-INSERT INTO `resolvent` VALUES ('41206', 'ë‚ ì´ ë¹ ì§„ ë¬´ê¸°', '600');
-INSERT INTO `resolvent` VALUES ('40678', 'ì˜í˜¼ì„ íŒŒíŽ¸', '1000');
-INSERT INTO `resolvent` VALUES ('40718', 'í˜ˆì„ íŒŒíŽ¸', '1000');
-INSERT INTO `resolvent` VALUES ('20281', 'ë³€ì‹  ì¡°ì¢… ë°˜ì§€', '200000');
-INSERT INTO `resolvent` VALUES ('120281', 'ë³€ì‹  ì¡°ì¢… ë°˜ì§€', '200000');
-INSERT INTO `resolvent` VALUES ('20288', 'ìˆœê°„ì´ë™ ì¡°ì¢… ë°˜ì§€', '400000');
-INSERT INTO `resolvent` VALUES ('120288', 'ìˆœê°„ì´ë™ ì¡°ì¢… ë°˜ì§€', '400000');
-INSERT INTO `resolvent` VALUES ('20016', 'ë§˜ë³´ ëª¨ìž', '10000');
-INSERT INTO `resolvent` VALUES ('120016', 'ë§˜ë³´ ëª¨ìž', '10000');
-INSERT INTO `resolvent` VALUES ('40087', 'ë¬´ê¸° ë§ˆë²• ì£¼ë¬¸ì„œ', '7500');
-INSERT INTO `resolvent` VALUES ('140087', 'ë¬´ê¸° ë§ˆë²• ì£¼ë¬¸ì„œ', '7500');
-INSERT INTO `resolvent` VALUES ('240087', 'ë¬´ê¸° ë§ˆë²• ì£¼ë¬¸ì„œ', '7500');
-INSERT INTO `resolvent` VALUES ('20154', 'íŒê¸ˆ ê°‘ì˜·', '3700');
-INSERT INTO `resolvent` VALUES ('120154', 'íŒê¸ˆ ê°‘ì˜·', '3700');
-INSERT INTO `resolvent` VALUES ('40074', 'ê°‘ì˜· ë§ˆë²• ì£¼ë¬¸ì„œ', '3100');
-INSERT INTO `resolvent` VALUES ('140074', 'ê°‘ì˜· ë§ˆë²• ì£¼ë¬¸ì„œ', '3100');
-INSERT INTO `resolvent` VALUES ('240074', 'ê°‘ì˜· ë§ˆë²• ì£¼ë¬¸ì„œ', '3100');
-INSERT INTO `resolvent` VALUES ('40330', 'ë¬´í•œì˜ í™”ì‚´í†µ', '3000');
-INSERT INTO `resolvent` VALUES ('20023', 'ë°”ëžŒì˜ íˆ¬êµ¬', '2200');
-INSERT INTO `resolvent` VALUES ('20063', 'ë³´í˜¸ ë§í† ', '2000');
-INSERT INTO `resolvent` VALUES ('20132', 'ì–´ë‘ ì˜ ë¡œë¸Œ', '2000');
-INSERT INTO `resolvent` VALUES ('20295', 'ì €ì£¼ë°›ì€ ì‚¬íŒŒì´ì–´ ë°˜ì§€', '2000');
-INSERT INTO `resolvent` VALUES ('20293', 'ì €ì£¼ë°›ì€ ë‹¤ì´ì•„ëª¬ë“œ ë°˜ì§€', '2000');
-INSERT INTO `resolvent` VALUES ('20264', 'ì™„ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('120264', 'ì™„ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20267', 'ì§€í˜œì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('120267', 'ì§€í˜œì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20032', 'ì–´ë‘ ì˜ ë¨¸ë¦¬ë ', '1000');
-INSERT INTO `resolvent` VALUES ('187', 'ë¼ìŠ¤íƒ€ë°”ë“œ í¬ë¡œìŠ¤ ë³´ìš°', '1000');
-INSERT INTO `resolvent` VALUES ('20412', 'ê³ ë‡Œì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('41243', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë³´ê¸‰í’ˆ ìžë£¨', '1000');
-INSERT INTO `resolvent` VALUES ('40221', 'ë§ˆë²•ì„œ (ë§¤ìŠ¤ ìŠ¬ë¡œìš°)', '280');
-INSERT INTO `resolvent` VALUES ('20304', 'í™”ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('120304', 'í™”ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('20285', 'ìˆ˜ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('120285', 'ìˆ˜ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('20300', 'ì§€ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('120300', 'ì§€ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('20302', 'í’ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('120302', 'í’ë ¹ì˜ ë°˜ì§€', '250');
-INSERT INTO `resolvent` VALUES ('41151', 'ì•„ì¿ ì•„ í”„ë¡œí…íŠ¸', '200');
-INSERT INTO `resolvent` VALUES ('40055', 'ìµœê³ ê¸‰ ì—ë©”ëž„ë“œ', '107');
-INSERT INTO `resolvent` VALUES ('40053', 'ìµœê³ ê¸‰ ë£¨ë¹„', '115');
-INSERT INTO `resolvent` VALUES ('40054', 'ìµœê³ ê¸‰ ì‚¬íŒŒì´ì–´', '100');
-INSERT INTO `resolvent` VALUES ('20260', 'ì•„ì´ë¦¬ìŠ¤ì˜ ëª©ê±¸ì´', '3000');
-INSERT INTO `resolvent` VALUES ('40458', 'ë¹›ë‚˜ëŠ” ë¹„ëŠ˜', '2');
-INSERT INTO `resolvent` VALUES ('125', 'ë§ˆë ¥ì˜ ì§€íŒ¡ì´', '900');
-INSERT INTO `resolvent` VALUES ('98', 'ë„“ì€ ì°½', '15');
-INSERT INTO `resolvent` VALUES ('100098', 'ë„“ì€ ì°½', '15');
-INSERT INTO `resolvent` VALUES ('20242', 'í° ë°©íŒ¨', '150');
-INSERT INTO `resolvent` VALUES ('120242', 'í° ë°©íŒ¨', '150');
-INSERT INTO `resolvent` VALUES ('20237', 'ìš°ëŸ­í•˜ì´ ë°©íŒ¨', '9');
-INSERT INTO `resolvent` VALUES ('220237', 'ìš°ëŸ­í•˜ì´ ë°©íŒ¨', '9');
-INSERT INTO `resolvent` VALUES ('20239', 'ìž‘ì€ ë°©íŒ¨', '6');
-INSERT INTO `resolvent` VALUES ('40001', 'ë“±ìž”', '1');
-INSERT INTO `resolvent` VALUES ('40002', 'ëžœí„´', '7');
-INSERT INTO `resolvent` VALUES ('40232', 'ì •ë ¹ì˜ ìˆ˜ì • (ë ˆì§€ìŠ¤íŠ¸ ë§¤ì§)', '100');
-INSERT INTO `resolvent` VALUES ('40233', 'ì •ë ¹ì˜ ìˆ˜ì • (ë°”ë”” íˆ¬ ë§ˆì¸ë“œ)', '100');
-INSERT INTO `resolvent` VALUES ('40234', 'ì •ë ¹ì˜ ìˆ˜ì • (í…”ë ˆí¬íŠ¸ íˆ¬ ë§ˆë”)', '100');
-INSERT INTO `resolvent` VALUES ('40235', 'ì •ë ¹ì˜ ìˆ˜ì • (í´ë¦¬ì–´ ë§ˆì¸ë“œ)', '200');
-INSERT INTO `resolvent` VALUES ('40236', 'ì •ë ¹ì˜ ìˆ˜ì • (ë ˆì§€ìŠ¤íŠ¸ ì—˜ë¦¬ë©˜íŠ¸)', '200');
-INSERT INTO `resolvent` VALUES ('40237', 'ì •ë ¹ì˜ ìˆ˜ì • (ë¦¬í„´ íˆ¬ ë„¤ì´ì³)', '300');
-INSERT INTO `resolvent` VALUES ('40238', 'ì •ë ¹ì˜ ìˆ˜ì • (ë¸”ëŸ¬ë“œ íˆ¬ ì†Œìš¸)', '300');
-INSERT INTO `resolvent` VALUES ('40239', 'ì •ë ¹ì˜ ìˆ˜ì • (í”„ë¡œí…ì…˜ í”„ë¡¬ ì—˜ë¦¬ë©˜íŠ¸)', '300');
-INSERT INTO `resolvent` VALUES ('40240', 'ì •ë ¹ì˜ ìˆ˜ì • (íŠ¸ë¦¬í”Œ ì• ë¡œìš°)', '300');
-INSERT INTO `resolvent` VALUES ('40241', 'ì •ë ¹ì˜ ìˆ˜ì • (ì—˜ë¦¬ë©˜íƒˆ í´ë‹¤ìš´)', '500');
-INSERT INTO `resolvent` VALUES ('40242', 'ì •ë ¹ì˜ ìˆ˜ì • (ì´ë ˆì´ì¦ˆ ë§¤ì§)', '500');
-INSERT INTO `resolvent` VALUES ('40243', 'ì •ë ¹ì˜ ìˆ˜ì • (ì„œë¨¼ ë ˆì„œ ì—˜ë¦¬ë©˜íƒˆ)', '500');
-INSERT INTO `resolvent` VALUES ('40244', 'ì •ë ¹ì˜ ìˆ˜ì • (ì—ì–´ë¦¬ì–´ ì˜¤ë¸Œ ì‚¬ì¼ëŸ°ìŠ¤)', '700');
-INSERT INTO `resolvent` VALUES ('40245', 'ì •ë ¹ì˜ ìˆ˜ì • (ì„œë¨¼ ê·¸ë ˆì´í„° ì—˜ë¦¬ë©˜íƒˆ)', '700');
-INSERT INTO `resolvent` VALUES ('40246', 'ì •ë ¹ì˜ ìˆ˜ì • (ì¹´ìš´í„° ë¯¸ëŸ¬)', '700');
-INSERT INTO `resolvent` VALUES ('40247', 'ì •ë ¹ì˜ ìˆ˜ì • (ì–´ìŠ¤ ìŠ¤í‚¨)', '300');
-INSERT INTO `resolvent` VALUES ('40248', 'ì •ë ¹ì˜ ìˆ˜ì • (ì¸íƒ±ê¸€)', '300');
-INSERT INTO `resolvent` VALUES ('40249', 'ì •ë ¹ì˜ ìˆ˜ì • (ì–´ìŠ¤ ë°”ì¸ë“œ)', '500');
-INSERT INTO `resolvent` VALUES ('40250', 'ì •ë ¹ì˜ ìˆ˜ì • (ë¸”ë ˆìŠ¤ ì˜¤ë¸Œ ì–´ìŠ¤)', '500');
-INSERT INTO `resolvent` VALUES ('40251', 'ì •ë ¹ì˜ ìˆ˜ì • (ì•„ì´ì–¸ ìŠ¤í‚¨)', '700');
-INSERT INTO `resolvent` VALUES ('40252', 'ì •ë ¹ì˜ ìˆ˜ì • (ì—‘ì¡°í‹± ë°”ì´íƒˆë¼ì´ì¦ˆ)', '700');
-INSERT INTO `resolvent` VALUES ('40253', 'ì •ë ¹ì˜ ìˆ˜ì • (ì›Œí„° ë¼ì´í”„)', '300');
-INSERT INTO `resolvent` VALUES ('40254', 'ì •ë ¹ì˜ ìˆ˜ì • (ë„¤ì´ì³ìŠ¤ í„°ì¹˜)', '500');
-INSERT INTO `resolvent` VALUES ('40255', 'ì •ë ¹ì˜ ìˆ˜ì • (ë„¤ì´ì³ìŠ¤ ë¸”ë ˆì‹±)', '700');
-INSERT INTO `resolvent` VALUES ('40256', 'ì •ë ¹ì˜ ìˆ˜ì • (íŒŒì´ì–´ ì›¨í°)', '300');
-INSERT INTO `resolvent` VALUES ('40257', 'ì •ë ¹ì˜ ìˆ˜ì • (ë¸”ë ˆìŠ¤ ì˜¤ë¸Œ íŒŒì´ì–´)', '500');
-INSERT INTO `resolvent` VALUES ('40258', 'ì •ë ¹ì˜ ìˆ˜ì • (ë²„ë‹ ì›¨í°)', '700');
-INSERT INTO `resolvent` VALUES ('40259', 'ì •ë ¹ì˜ ìˆ˜ì • (ì—˜ë¦¬ë©˜íƒˆ íŒŒì´ì–´)', '700');
-INSERT INTO `resolvent` VALUES ('40260', 'ì •ë ¹ì˜ ìˆ˜ì • (ìœˆë“œ ìƒ·)', '300');
-INSERT INTO `resolvent` VALUES ('40261', 'ì •ë ¹ì˜ ìˆ˜ì • (ìœˆë“œ ì›Œí¬)', '300');
-INSERT INTO `resolvent` VALUES ('40262', 'ì •ë ¹ì˜ ìˆ˜ì • (ì•„ì´ ì˜¤ë¸Œ ìŠ¤í†°)', '500');
-INSERT INTO `resolvent` VALUES ('40263', 'ì •ë ¹ì˜ ìˆ˜ì • (ìŠ¤í†° ìƒ·)', '700');
-INSERT INTO `resolvent` VALUES ('40264', 'ì •ë ¹ì˜ ìˆ˜ì • (ìœˆë“œ ì…°í´)', '700');
-INSERT INTO `resolvent` VALUES ('41149', 'ì •ë ¹ì˜ ìˆ˜ì • (ì†Œìš¸ ì˜¤ë¸Œ í”„ë ˆìž„)', '700');
-INSERT INTO `resolvent` VALUES ('41150', 'ì •ë ¹ì˜ ìˆ˜ì • (ì–´ë””ì…”ë„ íŒŒì´ì–´)', '700');
-INSERT INTO `resolvent` VALUES ('41152', 'ì •ë ¹ì˜ ìˆ˜ì • (í´ë£¨íŠ¸ ì›Œí„°)', '700');
-INSERT INTO `resolvent` VALUES ('41153', 'ì •ë ¹ì˜ ìˆ˜ì • (ìŠ¤íŠ¸ë¼ì´ì»¤ ê²Œì¼)', '700');
-INSERT INTO `resolvent` VALUES ('20210', 'ì–´ë‘ ì˜ ë¶€ì¸ ', '10000');
-INSERT INTO `resolvent` VALUES ('20070', 'ì–´ë‘ ì˜ ë§í† ', '20000');
-INSERT INTO `resolvent` VALUES ('210000', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ë“œëž˜ê³¤ ìŠ¤í‚¨)', '20');
-INSERT INTO `resolvent` VALUES ('210001', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ë²„ë‹ ìŠ¬ëž˜ì‰¬)', '20');
-INSERT INTO `resolvent` VALUES ('210002', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ê°€ë“œ ë¸Œë ˆì´í¬)', '20');
-INSERT INTO `resolvent` VALUES ('210003', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ë§ˆê·¸ë§ˆ ë¸Œë ˆìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210004', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ê°ì„±:ì•ˆíƒ€ë¼ìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210005', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ë¸”ëŸ¬ë“œëŸ¬ìŠ¤íŠ¸)', '20');
-INSERT INTO `resolvent` VALUES ('210006', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (í¬ìš° ìŠ¬ë ˆì´ì–´)', '20');
-INSERT INTO `resolvent` VALUES ('210007', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (í”¼ì–´)', '20');
-INSERT INTO `resolvent` VALUES ('210008', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ì‡¼í¬ ìŠ¤í‚¨)', '20');
-INSERT INTO `resolvent` VALUES ('210009', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ê°ì„±:íŒŒí‘¸ë¦¬ì˜¨)', '20');
-INSERT INTO `resolvent` VALUES ('210010', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ëª¨íƒˆ ë°”ë””)', '20');
-INSERT INTO `resolvent` VALUES ('210011', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ì¬ë” ê·¸ëž©)', '20');
-INSERT INTO `resolvent` VALUES ('210012', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (í˜¸ëŸ¬ ì˜¤ë¸Œ ë°ìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210013', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (í”„ë¦¬ì§• ë¸Œë ˆìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210014', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ (ê°ì„±:ë°œë¼ì¹´ìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210015', 'ê¸°ì–µì˜ ìˆ˜ì • (ë¯¸ëŸ¬ ì´ë¯¸ì§€)', '20');
-INSERT INTO `resolvent` VALUES ('210016', 'ê¸°ì–µì˜ ìˆ˜ì • (ì»¨í“¨ì „)', '20');
-INSERT INTO `resolvent` VALUES ('210017', 'ê¸°ì–µì˜ ìˆ˜ì • (ìŠ¤ë§¤ì‰¬)', '20');
-INSERT INTO `resolvent` VALUES ('210018', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¼ë£¨ì…˜:ì˜¤ê±°)', '20');
-INSERT INTO `resolvent` VALUES ('210019', 'ê¸°ì–µì˜ ìˆ˜ì • (íë¸Œ:ì´ê·¸ë‹ˆì…˜)', '20');
-INSERT INTO `resolvent` VALUES ('210020', 'ê¸°ì–µì˜ ìˆ˜ì • (ì»¨ì„¼íŠ¸ë ˆì´ì…˜)', '20');
-INSERT INTO `resolvent` VALUES ('210021', 'ê¸°ì–µì˜ ìˆ˜ì • (ë§ˆì¸ë“œ ë¸Œë ˆì´í¬)', '20');
-INSERT INTO `resolvent` VALUES ('210022', 'ê¸°ì–µì˜ ìˆ˜ì • (ë³¸ ë¸Œë ˆì´í¬)', '20');
-INSERT INTO `resolvent` VALUES ('210023', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¼ë£¨ì…˜:ë¦¬ì¹˜)', '20');
-INSERT INTO `resolvent` VALUES ('210024', 'ê¸°ì–µì˜ ìˆ˜ì • (íë¸Œ:í€˜ì´í¬)', '20');
-INSERT INTO `resolvent` VALUES ('210025', 'ê¸°ì–µì˜ ìˆ˜ì • (íŽ˜ì´ì…˜ìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('210026', 'ê¸°ì–µì˜ ìˆ˜ì • (íŒíƒ€ì¦˜)', '20');
-INSERT INTO `resolvent` VALUES ('210027', 'ê¸°ì–µì˜ ìˆ˜ì • (ì•” ë¸Œë ˆì´ì»¤)', '20');
-INSERT INTO `resolvent` VALUES ('210028', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¼ë£¨ì…˜:ë‹¤ì´ì•„ëª¬ë“œ ê³¨ë ˜)', '20');
-INSERT INTO `resolvent` VALUES ('210029', 'ê¸°ì–µì˜ ìˆ˜ì • (íë¸Œ:ì‡¼í¬)', '20');
-INSERT INTO `resolvent` VALUES ('210030', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¸ì‚¬ì´íŠ¸)', '20');
-INSERT INTO `resolvent` VALUES ('210031', 'ê¸°ì–µì˜ ìˆ˜ì • (íŒ¨ë‹‰)', '20');
-INSERT INTO `resolvent` VALUES ('210032', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¡°ì´ ì˜¤ë¸Œ íŽ˜ì¸)', '20');
-INSERT INTO `resolvent` VALUES ('210033', 'ê¸°ì–µì˜ ìˆ˜ì • (ì¼ë£¨ì…˜:ì•„ë°”íƒ€)', '20');
-INSERT INTO `resolvent` VALUES ('210034', 'ê¸°ì–µì˜ ìˆ˜ì • (íë¸Œ:ë°¸ëŸ°ìŠ¤)', '20');
-INSERT INTO `resolvent` VALUES ('40163', 'ê¸ˆë¹› ì—´ì‡ ', '1');
-INSERT INTO `resolvent` VALUES ('40538', 'êµ¬ìš¸ì˜ ì†í†±', '2');
-INSERT INTO `resolvent` VALUES ('40539', 'êµ¬ìš¸ì˜ ì´ë¹¨', '2');
-INSERT INTO `resolvent` VALUES ('40555', 'ë¹„ë°€ë°© ì—´ì‡ ', '2');
-INSERT INTO `resolvent` VALUES ('40564', 'ìƒëª…ì˜ ë¹„ë°€', '2');
-INSERT INTO `resolvent` VALUES ('40601', 'í„°í‹€ ë“œëž˜ê³¤ì˜ ê»ì§ˆ', '2');
-INSERT INTO `resolvent` VALUES ('40605', 'í•´ê³¨ë°”ê°€ì§€', '2');
-INSERT INTO `resolvent` VALUES ('41207', 'ì„ ì›ì˜ ìœ í•´', '3');
-INSERT INTO `resolvent` VALUES ('40435', 'ë”¥ í”Œë¼ì›Œì˜ ê½ƒ ë´‰ì˜¤ë¦¬', '3');
-INSERT INTO `resolvent` VALUES ('40436', 'ë”¥ í”Œë¼ì›Œì˜ ë¿Œë¦¬', '3');
-INSERT INTO `resolvent` VALUES ('40453', 'ë¹„ìŠ¤íŠ¸ ì„œë¨¸ë„ˆì˜ ì±„ì°', '3');
-INSERT INTO `resolvent` VALUES ('40484', 'í”Œë ˆì´íŠ¸ì›œì˜ ë…ì£¼ë¨¸ë‹ˆ', '3');
-INSERT INTO `resolvent` VALUES ('40485', 'í”Œë ˆì´íŠ¸ì›œì˜ ì†¡ê³³ë‹ˆ', '3');
-INSERT INTO `resolvent` VALUES ('40516', 'í° ë…¹ìƒ‰ ìˆ˜ì •', '10');
-INSERT INTO `resolvent` VALUES ('40517', 'í° ë¶‰ì€ ìˆ˜ì •', '10');
-INSERT INTO `resolvent` VALUES ('40518', 'í° í‘¸ë¥¸ ìˆ˜ì •', '10');
-INSERT INTO `resolvent` VALUES ('40471', 'ì •ë ¹ì˜ íŒŒíŽ¸', '10');
-INSERT INTO `resolvent` VALUES ('40104', 'ì˜¤ë§Œì˜ íƒ‘ 11ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40105', 'ì˜¤ë§Œì˜ íƒ‘ 21ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40106', 'ì˜¤ë§Œì˜ íƒ‘ 31ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40107', 'ì˜¤ë§Œì˜ íƒ‘ 41ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40108', 'ì˜¤ë§Œì˜ íƒ‘ 51ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40109', 'ì˜¤ë§Œì˜ íƒ‘ 61ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40110', 'ì˜¤ë§Œì˜ íƒ‘ 71ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40111', 'ì˜¤ë§Œì˜ íƒ‘ 81ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40112', 'ì˜¤ë§Œì˜ íƒ‘ 91ì¸µ ì´ë™ ì£¼ë¬¸ì„œ', '20');
-INSERT INTO `resolvent` VALUES ('40433', 'ë”œë¡œ ë°œí†±', '20');
-INSERT INTO `resolvent` VALUES ('40614', 'ê´‘ë¬¼ ìˆ˜ê±° ë¬¸ì„œ', '30');
-INSERT INTO `resolvent` VALUES ('41154', 'ì–´ë‘ ì˜ ë¹„ëŠ˜', '50');
-INSERT INTO `resolvent` VALUES ('41221', 'ë‹¤í¬ì—˜í”„ ì£¼ë¨¸ë‹ˆ', '100');
-INSERT INTO `resolvent` VALUES ('40304', 'ë§ˆí”„ë¥´ì˜ ìœ ì‚°', '100');
-INSERT INTO `resolvent` VALUES ('40305', 'íŒŒì•„ê·¸ë¦¬ì˜¤ì˜ ìœ ì‚°', '100');
-INSERT INTO `resolvent` VALUES ('40306', 'ì—ë°”ì˜ ìœ ì‚°', '100');
-INSERT INTO `resolvent` VALUES ('40307', 'ì‚¬ì´í•˜ì˜ ìœ ì‚°', '100');
-INSERT INTO `resolvent` VALUES ('40460', 'ì•„ì‹œíƒ€ì§€ì˜¤ì˜ ìž¬', '150');
-INSERT INTO `resolvent` VALUES ('153', 'ê°•ì²  í¬ë¡œìš°', '200');
-INSERT INTO `resolvent` VALUES ('40470', 'ì •ë ¹ ì¡°ê°', '300');
-INSERT INTO `resolvent` VALUES ('40430', 'ëŒ€ê³µë™ì˜ ìˆ˜ì •', '300');
-INSERT INTO `resolvent` VALUES ('64', 'ëŒ€ê²€', '8000');
-INSERT INTO `resolvent` VALUES ('100064', 'ëŒ€ê²€', '8000');
-INSERT INTO `resolvent` VALUES ('20013', 'ë§ˆë²•ì˜ íˆ¬êµ¬ : ì‹ ì†', '2200');
-INSERT INTO `resolvent` VALUES ('20014', 'ë§ˆë²•ì˜ íˆ¬êµ¬ : ì¹˜ìœ ', '1500');
-INSERT INTO `resolvent` VALUES ('20015', 'ë§ˆë²•ì˜ íˆ¬êµ¬ : íž˜', '1800');
-INSERT INTO `resolvent` VALUES ('41', 'ì¼ë³¸ë„', '2000');
-INSERT INTO `resolvent` VALUES ('100041', 'ì¼ë³¸ë„', '2000');
-INSERT INTO `resolvent` VALUES ('20110', 'ë§ˆë²• ë°©ì–´ ì‚¬ìŠ¬ ê°‘ì˜·', '800');
-INSERT INTO `resolvent` VALUES ('40022', 'ê³ ëŒ€ì˜ ì²´ë ¥ íšŒë³µì œ', '5');
-INSERT INTO `resolvent` VALUES ('40023', 'ê³ ëŒ€ì˜ ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ', '31');
-INSERT INTO `resolvent` VALUES ('40024', 'ê³ ëŒ€ì˜ ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ', '62');
-INSERT INTO `resolvent` VALUES ('210036', 'ìœ ê·¸ë“œë¼ ì—´ë§¤', '50');
-INSERT INTO `resolvent` VALUES ('29', 'ì€ìž¥ê²€', '1300');
-INSERT INTO `resolvent` VALUES ('37', 'ë‹¤ë§ˆìŠ¤ì»¤ìŠ¤ ê²€', '500');
-INSERT INTO `resolvent` VALUES ('100029', 'ì€ìž¥ê²€', '1300');
-INSERT INTO `resolvent` VALUES ('100037', 'ë‹¤ë§ˆìŠ¤ì»¤ìŠ¤ ê²€', '500');
-INSERT INTO `resolvent` VALUES ('103', 'ë¯¸ëŠ˜ì°½', '200');
-INSERT INTO `resolvent` VALUES ('100103', 'ë¯¸ëŠ˜ì°½', '200');
-INSERT INTO `resolvent` VALUES ('129', 'ë§ˆë²•ì‚¬ì˜ ì§€íŒ¡ì´', '375');
-INSERT INTO `resolvent` VALUES ('20125', 'ì‚¬ìŠ¬ ê°‘ì˜·', '600');
-INSERT INTO `resolvent` VALUES ('220125', 'ì‚¬ìŠ¬ ê°‘ì˜·', '600');
-INSERT INTO `resolvent` VALUES ('20231', 'ì‚¬ê° ë°©íŒ¨', '700');
-INSERT INTO `resolvent` VALUES ('20006', 'ê¸°ì‚¬ì˜ ë©´ê°‘', '500');
-INSERT INTO `resolvent` VALUES ('40406', 'ê³ ê¸‰í”¼í˜', '4');
-INSERT INTO `resolvent` VALUES ('20229', 'ë°˜ì‚¬ ë°©íŒ¨', '2000');
-INSERT INTO `resolvent` VALUES ('20289', 'ì‹¬ì—°ì˜ ë°˜ì§€', '10000');
-INSERT INTO `resolvent` VALUES ('120289', 'ì‹¬ì—°ì˜ ë°˜ì§€', '10000');
-INSERT INTO `resolvent` VALUES ('20067', 'ì‹ ê´€ì˜ ë§í† ', '500');
-INSERT INTO `resolvent` VALUES ('20303', 'í•­ë§ˆì˜ ë°˜ì§€', '200');
-INSERT INTO `resolvent` VALUES ('20309', 'ë¹›ë‚˜ëŠ” ì‹ ì²´ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('120309', 'ë¹›ë‚˜ëŠ” ì‹ ì²´ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('20310', 'ë¹›ë‚˜ëŠ” ì˜í˜¼ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('120310', 'ë¹›ë‚˜ëŠ” ì˜í˜¼ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('20311', 'ë¹›ë‚˜ëŠ” ì •ì‹ ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('120311', 'ë¹›ë‚˜ëŠ” ì •ì‹ ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('20256', 'ë¯¼ì²©ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('120256', 'ë¯¼ì²©ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20313', 'ì–´ë‘ ì˜ ë²¨íŠ¸', '1000');
-INSERT INTO `resolvent` VALUES ('20317', 'ì˜¤ìš°ê±°ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('120317', 'ì˜¤ìš°ê±°ì˜ ë²¨íŠ¸', '3000');
-INSERT INTO `resolvent` VALUES ('20030', 'ì‹ ê´€ì˜ íˆ¬êµ¬', '350');
-INSERT INTO `resolvent` VALUES ('20176', 'ì‹ ê´€ì˜ ìž¥ê°‘', '2640');
-INSERT INTO `resolvent` VALUES ('20175', 'ìˆ˜ì • ìž¥ê°‘', '800');
-INSERT INTO `resolvent` VALUES ('20233', 'ì‹ ê´€ì˜ ë§ˆë ¥ì„œ', '5600');
-INSERT INTO `resolvent` VALUES ('20208', 'ì‹ ê´€ì˜ ë¶€ì¸ ', '500');
-INSERT INTO `resolvent` VALUES ('20129', 'ì‹ ê´€ì˜ ë¡œë¸Œ', '1500');
-INSERT INTO `resolvent` VALUES ('20113', 'ë¬´ê´€ì˜ ê°‘ì˜·', '1500');
-INSERT INTO `resolvent` VALUES ('20058', 'ë¬´ê´€ì˜ ë§í† ', '500');
-INSERT INTO `resolvent` VALUES ('20228', 'ë¬´ê´€ì˜ ë°©íŒ¨', '3000');
-INSERT INTO `resolvent` VALUES ('20201', 'ë¬´ê´€ì˜ ë¶€ì¸ ', '500');
-INSERT INTO `resolvent` VALUES ('20168', 'ë¬´ê´€ì˜ ìž¥ê°‘', '2640');
-INSERT INTO `resolvent` VALUES ('20020', 'ë¬´ê´€ì˜ íˆ¬êµ¬', '350');
-INSERT INTO `resolvent` VALUES ('220154', 'íŒê¸ˆ ê°‘ì˜·', '2200');
-INSERT INTO `resolvent` VALUES ('20294', 'ì €ì£¼ë°›ì€ ë£¨ë¹„ ë°˜ì§€', '2000');
-INSERT INTO `resolvent` VALUES ('20296', 'ì €ì£¼ë°›ì€ ì—ë©”ëž„ë“œ ë°˜ì§€', '2000');
-INSERT INTO `resolvent` VALUES ('120254', 'ë§¤ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('120268', 'ì²´ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20254', 'ë§¤ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20268', 'ì²´ë ¥ì˜ ëª©ê±¸ì´', '1000');
-INSERT INTO `resolvent` VALUES ('20244', 'ë‚¡ì€ ë§¤ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20245', 'ë‚¡ì€ ë¯¼ì²©ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20246', 'ë‚¡ì€ ì™„ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20247', 'ë‚¡ì€ ì§€ì‹ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20248', 'ë‚¡ì€ ì§€í˜œì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20249', 'ë‚¡ì€ ì²´ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120244', 'ë‚¡ì€ ë§¤ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120245', 'ë‚¡ì€ ë¯¼ì²©ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120246', 'ë‚¡ì€ ì™„ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120247', 'ë‚¡ì€ ì§€ì‹ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120248', 'ë‚¡ì€ ì§€í˜œì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('120249', 'ë‚¡ì€ ì²´ë ¥ì˜ ëª©ê±¸ì´', '500');
-INSERT INTO `resolvent` VALUES ('20213', 'ì§§ì€ ë¶€ì¸ ', '30');
-INSERT INTO `resolvent` VALUES ('40675', 'ì–´ë‘ ì˜ ê´‘ì„', '75');
-INSERT INTO `resolvent` VALUES ('40676', 'ì–´ë‘ ì˜ ìˆ¨ê²°', '75');
-INSERT INTO `resolvent` VALUES ('69', 'êµ¬ë¦¬ë¹› ì´ë„ë¥˜', '80');
-INSERT INTO `resolvent` VALUES ('20060', 'ë°”ë‹¤ì˜ ë§í† ', '80');
-INSERT INTO `resolvent` VALUES ('40427', 'ë‹¤í¬ì—˜í”„ ì£¼ë¨¸ë‹ˆ', '100');
-INSERT INTO `resolvent` VALUES ('40220', 'ë§ˆë²•ì„œ (ê·¸ë ˆì´íŠ¸ ë¦¬ì ˆë ‰ì…˜)', '280');
-INSERT INTO `resolvent` VALUES ('40222', 'ë§ˆë²•ì„œ (ë””ìŠ¤ì¸í‹°ê·¸ë ˆì´íŠ¸)', '280');
-INSERT INTO `resolvent` VALUES ('40219', 'ë§ˆë²•ì„œ (ë¯¸í‹°ì–´ ìŠ¤íŠ¸ë¼ì´í¬)', '280');
-INSERT INTO `resolvent` VALUES ('40223', 'ë§ˆë²•ì„œ (ì•±ì†”ë£¨íŠ¸ ë°°ë¦¬ì–´)', '280');
-INSERT INTO `resolvent` VALUES ('40224', 'ë§ˆë²•ì„œ (ì–´ë“œë°´ìŠ¤ ìŠ¤í”¼ë¦¿)', '280');
-INSERT INTO `resolvent` VALUES ('40218', 'ë§ˆë²•ì„œ (í¬ë¦¬ì—ì´íŠ¸ ë§¤ì§€ì»¬ ì›¨í°)', '280');
-INSERT INTO `resolvent` VALUES ('40225', 'ë§ˆë²•ì„œ (í”„ë¦¬ì§• ë¸”ë¦¬ìžë“œ)', '280');
-INSERT INTO `resolvent` VALUES ('120115', 'ë¯¸ëŠ˜ ê°‘ì˜·', '2000');
-INSERT INTO `resolvent` VALUES ('20166', 'ë°ìŠ¤ë‚˜ì´íŠ¸ì˜ ìž¥ê°‘', '30000');
-INSERT INTO `resolvent` VALUES ('200041', 'ì¼ë³¸ë„', '2000');
-INSERT INTO `resolvent` VALUES ('40165', 'ë¦¬ë•ì…˜ì•„ë¨¸', '1000');
-INSERT INTO `resolvent` VALUES ('40200', 'ë§ˆë²•ì„œ(ë²„ì„œì»¤ìŠ¤)', '220');
-INSERT INTO `resolvent` VALUES ('20199', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë¶€ì¸ ', '100');
+INSERT IGNORE INTO `resolvent` VALUES 
+('1', '¿ÀÅ©Á· ´Ü°Ë', '2'),
+('200001', '¿ÀÅ©Á· ´Ü°Ë', '2'),
+('21', '¿ÀÅ©Á· °Ë', '2'),
+('2', '¾Ç¿îÀÇ ´Ü°Ë', '2'),
+('200002', '¾Ç¿îÀÇ ´Ü°Ë', '2'),
+('23', '³ÐÀº °Ë', '3'),
+('26', '³­ÀïÀÌÁ· °Ë', '25'),
+('27', '¾ð¿ùµµ', '150'),
+('100027', '¾ð¿ùµµ', '150'),
+('200027', '¾ð¿ùµµ', '150'),
+('25', 'Àº°Ë', '180'),
+('100025', 'Àº°Ë', '180'),
+('32', '±×¶óµð¿ì½º', '250'),
+('200032', '±×¶óµð¿ì½º', '250'),
+('31', 'Àå°Ë', '300'),
+('52', '¾ç¼Õ°Ë', '1800'),
+('100052', '¾ç¼Õ°Ë', '1800'),
+('200052', '¾ç¼Õ°Ë', '1800'),
+('93', '»ïÁöÃ¢', '2'),
+('91', '¿ÀÅ©Á· Ã¢', '5'),
+('95', '±âº´Ã¢', '6'),
+('100095', '±âº´Ã¢', '6'),
+('96', 'Ã¢', '7'),
+('94', 'ÆÄ¸£Æ¼ÀÜ', '50'),
+('104', 'Æ÷Ã­µå', '800'),
+('102', '·ç¼±ÇØ¸Ó', '1000'),
+('100102', '·ç¼±ÇØ¸Ó', '1000'),
+('107', 'Å©¸²½¼ ·£½º', '20000'),
+('100107', 'Å©¸²½¼ ·£½º', '20000'),
+('137', '¾ÆÅ½', '1'),
+('136', 'µµ³¢', '2'),
+('138', '¸ùµÕÀÌ', '3'),
+('139', 'µµ¸®±ú', '4'),
+('140', 'Ã¶Åð', '9'),
+('143', 'ÀüÅõ µµ³¢', '70'),
+('100143', 'ÀüÅõ µµ³¢', '70'),
+('145', '±¤Àü»çÀÇ µµ³¢', '100'),
+('146', '¸ð´×½ºÅ¸', '350'),
+('100146', '¸ð´×½ºÅ¸', '350'),
+('142', 'Àºµµ³¢', '800'),
+('148', '´ëÇü µµ³¢', '1200'),
+('149', '¹Ì³ëÅ¸¿ì¸£½º µµ³¢', '1200'),
+('151', 'µ¥¸ó ¾×½º', '20000'),
+('100151', 'µ¥¸ó ¾×½º', '20000'),
+('128', 'Âü³ª¹« ÁöÆÎÀÌ', '30'),
+('126', '¸¶³ªÀÇ ÁöÆÎÀÌ', '900'),
+('132', '½Å°üÀÇ ÁöÆÎÀÌ', '10000'),
+('100132', '½Å°üÀÇ ÁöÆÎÀÌ', '10000'),
+('171', '¿ÀÅ©Á· È°', '3'),
+('200171', '¿ÀÅ©Á·È°', '3'),
+('172', 'È°', '5'),
+('100172', 'È°', '5'),
+('169', '»ç³É²Û È°', '500'),
+('100169', '»ç³É²Û È°', '500'),
+('20182', 'Àå°©', '800'),
+('120182', 'Àå°©', '800'),
+('20162', '°¡Á× Àå°©', '800'),
+('20188', 'Çª¸¥ ÇØÀû Àå°©', '800'),
+('20177', '¾Ï·ÉÀÇ Àå°©', '10000'),
+('20189', 'Ç³·ÉÀÇ Àå°©', '10000'),
+('20181', '¿°·ÉÀÇ Àå°©', '10000'),
+('20172', 'ºù·ÉÀÇ Àå°©', '10000'),
+('20034', '¿ÀÅ©Á· Åõ±¸', '15'),
+('220034', '¿ÀÅ©Á· Åõ±¸', '15'),
+('20043', 'Åõ±¸', '20'),
+('120043', 'Åõ±¸', '20'),
+('220043', 'Åõ±¸', '20'),
+('20007', '³­ÀïÀÌÁ· Ã¶ Åõ±¸', '60'),
+('20011', '¸¶¹ý ¹æ¾î Åõ±¸', '250'),
+('120011', '¸¶¹ý ¹æ¾î Åõ±¸', '250'),
+('20089', '°¡Á× °©¿Ê', '15'),
+('20135', '¿ÀÅ©Á· °í¸® °©¿Ê', '20'),
+('220135', '¿ÀÅ©Á· °í¸® °©¿Ê', '20'),
+('20147', 'Â¡¹ÚÈù °¡Á× °©¿Ê', '30'),
+('220147', 'Â¡¹ÚÈù °¡Á× °©¿Ê', '30'),
+('20096', '°í¸® °©¿Ê', '50'),
+('20136', '¿ÀÅ©Á· »ç½½ °©¿Ê', '80'),
+('220136', '¿ÀÅ©Á· »ç½½ °©¿Ê', '80'),
+('20114', '¹«¸í ·Îºê', '100'),
+('20139', '¿äÁ¤Á· Èä°©', '100'),
+('20122', 'ºñ´Ã °©¿Ê', '200'),
+('220122', 'ºñ´Ã °©¿Ê', '200'),
+('20124', '»À°©¿Ê', '200'),
+('20149', 'Ã»µ¿ ÆÇ±Ý °©¿Ê', '1600'),
+('120149', 'Ã»µ¿ ÆÇ±Ý °©¿Ê', '1600'),
+('20115', '¹Ì´Ã °©¿Ê', '2000'),
+('220115', '¹Ì´Ã °©¿Ê', '2000'),
+('20101', '¶ì °©¿Ê', '2500'),
+('120101', '¶ì °©¿Ê', '2500'),
+('220101', '¶ì °©¿Ê', '2500'),
+('20143', 'ÀØÇôÁø ÆÇ±Ý °©¿Ê', '3700'),
+('20142', 'ÀØÇôÁø ºñ´Ã °©¿Ê', '3700'),
+('20140', 'ÀØÇôÁø °¡Á× °©¿Ê', '3700'),
+('20141', 'ÀØÇôÁø ·Îºê', '3700'),
+('20072', '¿ÀÅ©Á· ¸ÁÅä', '5'),
+('20052', '³­ÀïÀÌÁ· ¸ÁÅä', '10'),
+('20056', '¸¶¹ý ¸ÁÅä', '20'),
+('120056', '¸¶¹ý ¸ÁÅä', '20'),
+('220056', '¸¶¹ý ¸ÁÅä', '20'),
+('20205', 'ºÎÃ÷', '200'),
+('20217', 'Çª¸¥ ÇØÀû ºÎÃ÷', '300'),
+('20306', '³°Àº ½ÅÃ¼ÀÇ º§Æ®', '1500'),
+('120306', '³°Àº ½ÅÃ¼ÀÇ º§Æ®', '1500'),
+('20307', '³°Àº ¿µÈ¥ÀÇ º§Æ®', '1500'),
+('120307', '³°Àº ¿µÈ¥ÀÇ º§Æ®', '1500'),
+('20308', '³°Àº Á¤½ÅÀÇ º§Æ®', '1500'),
+('120308', '³°Àº Á¤½ÅÀÇ º§Æ®', '1500'),
+('20312', '½ÅÃ¼ÀÇ º§Æ®', '3000'),
+('120312', '½ÅÃ¼ÀÇ º§Æ®', '3000'),
+('20316', '¿µÈ¥ÀÇ º§Æ®', '3000'),
+('120316', '¿µÈ¥ÀÇ º§Æ®', '3000'),
+('20319', 'Á¤½ÅÀÇ º§Æ®', '3000'),
+('120319', 'Á¤½ÅÀÇ º§Æ®', '3000'),
+('20321', 'Æ®·ÑÀÇ º§Æ®', '3000'),
+('120321', 'Æ®·ÑÀÇ º§Æ®', '3000'),
+('20266', 'Áö½ÄÀÇ ¸ñ°ÉÀÌ', '1000'),
+('120266', 'Áö½ÄÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20263', '¿ÀÅ© Åõ»çÀÇ ¸ñ°ÉÀÌ', '6500'),
+('20284', '¼ÒÈ¯ Á¶Á¾ ¹ÝÁö', '200000'),
+('40010', '»¡°£ ¹°¾à', '3'),
+('140010', '»¡°£ ¹°¾à', '3'),
+('240010', '»¡°£ ¹°¾à', '3'),
+('40011', 'ÁÖÈ« ¹°¾à', '25'),
+('140011', 'ÁÖÈ« ¹°¾à', '25'),
+('40012', '¸¼Àº ¹°¾à', '37'),
+('140012', '¸¼Àº ¹°¾à', '37'),
+('40019', '³óÃà Ã¼·Â È¸º¹Á¦', '4'),
+('40020', '³óÃà °í±Þ Ã¼·Â È¸º¹Á¦', '25'),
+('40021', '³óÃà °­·Â Ã¼·Â È¸º¹Á¦', '56'),
+('40017', 'ºñÃë ¹°¾à', '7'),
+('40013', 'ÃÊ·Ï ¹°¾à', '20'),
+('140013', 'ÃÊ·Ï ¹°¾à', '20'),
+('40018', '°­È­ ÃÊ·Ï ¹°¾à', '150'),
+('140018', '°­È­ ÃÊ·Ï ¹°¾à', '150'),
+('40016', 'ÁöÇýÀÇ ¹°¾à', '60'),
+('140016', 'ÁöÇýÀÇ ¹°¾à', '60'),
+('40014', '¿ë±âÀÇ ¹°¾à', '80'),
+('140014', '¿ë±âÀÇ ¹°¾à', '80'),
+('40015', 'ÆÄ¶õ ¹°¾à', '100'),
+('140015', 'ÆÄ¶õ ¹°¾à', '100'),
+('40068', '¿¤ºì ¿ÍÆÛ', '50'),
+('140068', '¿¤ºì ¿ÍÆÛ', '50'),
+('40317', '¼ýµ¹', '15'),
+('40126', 'È®ÀÎ ÁÖ¹®¼­', '6'),
+('40100', '¼ø°£ÀÌµ¿ ÁÖ¹®¼­', '7'),
+('140100', '¼ø°£ÀÌµ¿ ÁÖ¹®¼­', '7'),
+('40119', 'ÀúÁÖ Ç®±â ÁÖ¹®¼­', '11'),
+('140119', 'ÀúÁÖ Ç®±â ÁÖ¹®¼­', '11'),
+('40079', '±ÍÈ¯ ÁÖ¹®¼­', '9'),
+('40089', 'ºÎÈ° ÁÖ¹®¼­', '150'),
+('140089', 'ºÎÈ° ÁÖ¹®¼­', '150'),
+('40088', 'º¯½Å ÁÖ¹®¼­', '130'),
+('140088', 'º¯½Å ÁÖ¹®¼­', '130'),
+('40090', 'ºó ÁÖ¹®¼­ (·¹º§ 1)', '10'),
+('40091', 'ºó ÁÖ¹®¼­ (·¹º§ 2)', '40'),
+('40092', 'ºó ÁÖ¹®¼­ (·¹º§ 3)', '100'),
+('40093', 'ºó ÁÖ¹®¼­ (·¹º§ 4)', '180'),
+('40094', 'ºó ÁÖ¹®¼­ (·¹º§ 5)', '500'),
+('40170', '¸¶¹ý¼­ (ÆÄÀÌ¾îº¼)', '160'),
+('40171', '¸¶¹ý¼­ (ÀÎÃ¦Æ® µ¦½ºÅÍ¸®Æ¼)', '160'),
+('40172', '¸¶¹ý¼­ (¿þÆù ºê·¹ÀÌÅ©)', '160'),
+('40173', '¸¶¹ý¼­ (¹ìÆÄÀÌ¾î¸¯ ÅÍÄ¡)', '160'),
+('40174', '¸¶¹ý¼­ (½½·Î¿ì)', '160'),
+('40175', '¸¶¹ý¼­ (Ä«¿îÅÍ ¸ÅÁ÷)', '160'),
+('40176', '¸¶¹ý¼­ (¸ÞµðÅ×ÀÌ¼Ç)', '160'),
+('40177', '¸¶¹ý¼­ (¾î½º ÀçÀÏ)', '160'),
+('40178', '¸¶¹ý¼­ (Ä¿½º: ÆÐ·²¶óÀÌÁî)', '180'),
+('40179', '¸¶¹ý¼­ (ÄÝ ¶óÀÌÆ®´×)', '180'),
+('40180', '¸¶¹ý¼­ (±×·¹ÀÌÅÍ Èú)', '180'),
+('40181', '¸¶¹ý¼­ (Å×ÀÌ¹Ö ¸ó½ºÅÍ)', '180'),
+('40182', '¸¶¹ý¼­ (¸®¹«ºê Ä¿½º)', '180'),
+('40183', '¸¶¹ý¼­ (ÄÜ ¿Àºê ÄÝµå)', '180'),
+('40184', '¸¶¹ý¼­ (¸¶³ª µå·¹ÀÎ)', '180'),
+('40185', '¸¶¹ý¼­ (´ÙÅ©´Ï½º)', '180'),
+('40186', '¸¶¹ý¼­ (Å©¸®¿¡ÀÌÆ® Á»ºñ)', '200'),
+('40187', '¸¶¹ý¼­ (ÀÎÃ¦Æ® ¸¶ÀÌÆ¼)', '200'),
+('40188', '¸¶¹ý¼­ (ÇìÀÌ½ºÆ®)', '200'),
+('40189', '¸¶¹ý¼­ (Äµ½½·¹ÀÌ¼Ç)', '200'),
+('40190', '¸¶¹ý¼­ (ÀÌ·´¼Ç)', '200'),
+('40191', '¸¶¹ý¼­ (¼± ¹ö½ºÆ®)', '200'),
+('40192', '¸¶¹ý¼­ (À§Å©´Ï½º)', '200'),
+('40193', '¸¶¹ý¼­ (ºí·¹½º ¿þÆù)', '200'),
+('40210', '¸¶¹ý¼­ (¶óÀÌÆ®´× ½ºÅè)', '280'),
+('40211', '¸¶¹ý¼­ (Æ÷±× ¿Àºê ½½¸®ÇÎ)', '280'),
+('40212', '¸¶¹ý¼­ (¼ÎÀÌÇÁ Ã¼ÀÎÁö)', '280'),
+('40213', '¸¶¹ý¼­ (ÀÌ¹Ã Åõ ÇÔ)', '280'),
+('40214', '¸¶¹ý¼­ (¸Å½º ÅÚ·¹Æ÷Æ®)', '280'),
+('40215', '¸¶¹ý¼­ (ÆÄÀÌ¾î ½ºÅè)', '280'),
+('40216', '¸¶¹ý¼­ (µðÄÉÀÌ Æ÷¼Ç)', '280'),
+('40217', '¸¶¹ý¼­ (Ä«¿îÅÍ µðÅØ¼Ç)', '280'),
+('40265', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ºí¶óÀÎµå ÇÏÀÌµù)', '50'),
+('40266', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ÀÎÃ¦Æ® º£³ð)', '50'),
+('40267', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (½¦µµ¿ì ¾Æ¸Ó)', '50'),
+('40268', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ºê¸µ ½ºÅæ)', '50'),
+('40269', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º ¸¶ÀÌÆ¼)', '50'),
+('40270', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¹«ºù ¾Ç¼¿·¹ÀÌ¼Ç)', '200'),
+('40271', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¹ö´× ½ºÇÇ¸´Ã÷)', '200'),
+('40272', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (´ÙÅ© ºí¶óÀÎµå)', '200'),
+('40273', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (º£³ð ·¹Áö½ºÆ®)', '200'),
+('40274', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º µ¦½ºÅÍ¸®Æ¼)', '200'),
+('40275', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (´õºí ºê·¹ÀÌÅ©)', '500'),
+('40276', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¾ðÄÉ´Ï ´åÁö)', '500'),
+('40277', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (½¦µµ¿ì ÆØ)', '500'),
+('40278', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ÆÄÀÌ³Î ¹ø)', '500'),
+('40279', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º ÀÌº£ÀÌÁ¯)', '500'),
+('40164', '±â¼ú¼­ (¼îÅ© ½ºÅÏ)', '1000'),
+('40007', 'Èæ´Ü ¸·´ë', '2'),
+('40006', '¼Ò³ª¹« ¸·´ë', '2'),
+('140006', '¼Ò³ª¹« ¸·´ë', '2'),
+('40008', '´ÜÇ³³ª¹« ¸·´ë', '2'),
+('140008', '´ÜÇ³³ª¹« ¸·´ë', '2'),
+('40524', '°ËÀº Ç÷Èç', '2'),
+('40515', 'Á¤·ÉÀÇ µ¹', '10'),
+('40044', '´ÙÀÌ¾Æ¸óµå', '50'),
+('40047', '¿¡¸Þ¶öµå', '50'),
+('40045', '·çºñ', '50'),
+('40046', '»çÆÄÀÌ¾î', '50'),
+('40048', '°í±Þ ´ÙÀÌ¾Æ¸óµå', '100'),
+('40051', '°í±Þ ¿¡¸Þ¶öµå', '100'),
+('40049', '°í±Þ ·çºñ', '100'),
+('40050', '°í±Þ »çÆÄÀÌ¾î', '100'),
+('40496', '¹Ì½º¸± ¿ø¼®', '6'),
+('40408', 'Ã¶±«', '2'),
+('40499', '¹ö¼¸Æ÷ÀÚÀÇ Áó', '2'),
+('40444', 'ºí·¢ ¹Ì½º¸± ¿ø¼®', '80'),
+('40443', 'ºí·¢ ¹Ì½º¸±', '120'),
+('40442', 'ºê·ÓÀÇ À§¾×', '2'),
+('40899', '°­Ã¶ ¿ø¼®', '2'),
+('40486', 'È­»êÀç', '2'),
+('40514', 'Á¤·ÉÀÇ ´«¹°', '10'),
+('40397', 'Å°¸Þ¶óÀÇ °¡Á×(¿ë)', '2'),
+('40398', 'Å°¸Þ¶óÀÇ °¡Á×(»ê¾ç)', '2'),
+('40399', 'Å°¸Þ¶óÀÇ °¡Á×(»çÀÚ)', '2'),
+('40400', 'Å°¸Þ¶óÀÇ °¡Á×(¹ì)', '2'),
+('40437', 'µöÇÃ¶ó¿ö ÁÙ±â', '2'),
+('40483', 'ÇÃ·¹ÀÌÆ®¿úÀÇ ²®Áú', '2'),
+('40438', '¹ÚÁã ¼Û°÷´Ï', '2'),
+('40431', 'µÎ´õÁöÀÇ °¡Á×', '3'),
+('40434', 'µô·ÎÀÇ ²¿¸®', '3'),
+('40424', '´Á´ë °¡Á×', '5'),
+('40490', 'ÈæÁ¤·É¼®', '8'),
+('40459', '½ºÄÝÇÇ¿Â ²®Áú', '10'),
+('40472', 'ÄÌº£·Î½º ÅÐ', '120'),
+('40419', '°Å´ë¹«¸®¾È °Å¹ÌÁÙ', '150'),
+('40512', '¿À¿°µÈ ¿£Æ®ÀÇ ÁÙ±â', '2'),
+('40510', '¿À¿°µÈ ¿£Æ®ÀÇ ²®Áú', '3'),
+('40511', '¿À¿°µÈ ¿£Æ®ÀÇ ¿­¸Å', '105'),
+('40986', '½Ã¹öÀÎÀÇ ¾Õ´Ï', '50'),
+('40978', '½Ã¹öÀÎÀÇ ²¿¸® : Èë', '100'),
+('40979', '½Ã¹öÀÎÀÇ ²¿¸® : ¹°', '100'),
+('40980', '½Ã¹öÀÎÀÇ ²¿¸® : ºÒ', '100'),
+('40981', '½Ã¹öÀÎÀÇ ²¿¸® : °ø±â', '100'),
+('40982', '½Ã¹öÀÎÀÇ °¡Á× : Èë', '200'),
+('40983', '½Ã¹öÀÎÀÇ °¡Á× : ¹°', '200'),
+('40984', '½Ã¹öÀÎÀÇ °¡Á× : ºÒ', '200'),
+('40985', '½Ã¹öÀÎÀÇ °¡Á× : °ø±â', '200'),
+('40407', '»ÀÁ¶°¢', '2'),
+('40999', '´ÙÅ©¿¤ÇÁ º´»çÀÇ ¹èÁö', '2'),
+('41343', 'ÆÄÇª¸®¿ÂÀÇ Ç÷Èç', '2'),
+('40612', '¾ÆÅõ¹Ù ¿ÀÅ© ¸¶¹ý¼­', '2'),
+('40610', '³×·ç°¡ ¿ÀÅ© ¸¶¹ý¼­', '2'),
+('40611', 'µÎ´Ù ¸¶¶ó ¿ÀÅ© ¸¶¹ý¼­', '2'),
+('40609', '°£µð ¿ÀÅ© ¸¶¹ý¼­', '2'),
+('40432', 'µð¾Æµå ÁÖ¹®¼­ Á¶°¢', '5'),
+('41038', 'Ç×ÇØÀÏÁö 1Àå', '10'),
+('41039', 'Ç×ÇØÀÏÁö 2Àå', '10'),
+('41040', 'Ç×ÇØÀÏÁö 3Àå', '10'),
+('41041', 'Ç×ÇØÀÏÁö 4Àå', '10'),
+('41042', 'Ç×ÇØÀÏÁö 5Àå', '10'),
+('41043', 'Ç×ÇØÀÏÁö 6Àå', '10'),
+('41044', 'Ç×ÇØÀÏÁö 7Àå', '10'),
+('41045', 'Ç×ÇØÀÏÁö 8Àå', '10'),
+('41046', 'Ç×ÇØÀÏÁö 9Àå', '10'),
+('41047', 'Ç×ÇØÀÏÁö 10Àå', '10'),
+('40329', '¿øÁÖ¹Î ÅäÅÛ', '10'),
+('140329', '¿øÁÖ¹Î ÅäÅÛ', '10'),
+('40041', 'ÀÎ¾îÀÇ ºñ´Ã', '20'),
+('41342', '¸ÞµÎ»çÀÇ ÇÇ', '200'),
+('41206', '³¯ÀÌ ºüÁø ¹«±â', '600'),
+('40678', '¿µÈ¥¼® ÆÄÆí', '1000'),
+('40718', 'Ç÷¼® ÆÄÆí', '1000'),
+('20281', 'º¯½Å Á¶Á¾ ¹ÝÁö', '200000'),
+('120281', 'º¯½Å Á¶Á¾ ¹ÝÁö', '200000'),
+('20288', '¼ø°£ÀÌµ¿ Á¶Á¾ ¹ÝÁö', '400000'),
+('120288', '¼ø°£ÀÌµ¿ Á¶Á¾ ¹ÝÁö', '400000'),
+('20016', '¸¾º¸ ¸ðÀÚ', '10000'),
+('120016', '¸¾º¸ ¸ðÀÚ', '10000'),
+('40087', '¹«±â ¸¶¹ý ÁÖ¹®¼­', '7500'),
+('140087', '¹«±â ¸¶¹ý ÁÖ¹®¼­', '7500'),
+('240087', '¹«±â ¸¶¹ý ÁÖ¹®¼­', '7500'),
+('20154', 'ÆÇ±Ý °©¿Ê', '3700'),
+('120154', 'ÆÇ±Ý °©¿Ê', '3700'),
+('40074', '°©¿Ê ¸¶¹ý ÁÖ¹®¼­', '3100'),
+('140074', '°©¿Ê ¸¶¹ý ÁÖ¹®¼­', '3100'),
+('240074', '°©¿Ê ¸¶¹ý ÁÖ¹®¼­', '3100'),
+('40330', '¹«ÇÑÀÇ È­»ìÅë', '3000'),
+('20023', '¹Ù¶÷ÀÇ Åõ±¸', '2200'),
+('20063', 'º¸È£ ¸ÁÅä', '2000'),
+('20132', '¾îµÒÀÇ ·Îºê', '2000'),
+('20295', 'ÀúÁÖ¹ÞÀº »çÆÄÀÌ¾î ¹ÝÁö', '2000'),
+('20293', 'ÀúÁÖ¹ÞÀº ´ÙÀÌ¾Æ¸óµå ¹ÝÁö', '2000'),
+('20264', '¿Ï·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('120264', '¿Ï·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20267', 'ÁöÇýÀÇ ¸ñ°ÉÀÌ', '1000'),
+('120267', 'ÁöÇýÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20032', '¾îµÒÀÇ ¸Ó¸®¶ì', '1000'),
+('187', '¶ó½ºÅ¸¹Ùµå Å©·Î½º º¸¿ì', '1000'),
+('20412', '°í³úÀÇ ¸ñ°ÉÀÌ', '1000'),
+('41243', '¶ó½ºÅ¸¹Ùµå º¸±ÞÇ° ÀÚ·ç', '1000'),
+('40221', '¸¶¹ý¼­ (¸Å½º ½½·Î¿ì)', '280'),
+('20304', 'È­·ÉÀÇ ¹ÝÁö', '250'),
+('120304', 'È­·ÉÀÇ ¹ÝÁö', '250'),
+('20285', '¼ö·ÉÀÇ ¹ÝÁö', '250'),
+('120285', '¼ö·ÉÀÇ ¹ÝÁö', '250'),
+('20300', 'Áö·ÉÀÇ ¹ÝÁö', '250'),
+('120300', 'Áö·ÉÀÇ ¹ÝÁö', '250'),
+('20302', 'Ç³·ÉÀÇ ¹ÝÁö', '250'),
+('120302', 'Ç³·ÉÀÇ ¹ÝÁö', '250'),
+('41151', '¾ÆÄí¾Æ ÇÁ·ÎÅØÆ®', '200'),
+('40055', 'ÃÖ°í±Þ ¿¡¸Þ¶öµå', '107'),
+('40053', 'ÃÖ°í±Þ ·çºñ', '115'),
+('40054', 'ÃÖ°í±Þ »çÆÄÀÌ¾î', '100'),
+('20260', '¾ÆÀÌ¸®½ºÀÇ ¸ñ°ÉÀÌ', '3000'),
+('40458', 'ºû³ª´Â ºñ´Ã', '2'),
+('125', '¸¶·ÂÀÇ ÁöÆÎÀÌ', '900'),
+('98', '³ÐÀº Ã¢', '15'),
+('100098', '³ÐÀº Ã¢', '15'),
+('20242', 'Å« ¹æÆÐ', '150'),
+('120242', 'Å« ¹æÆÐ', '150'),
+('20237', '¿ì·°ÇÏÀÌ ¹æÆÐ', '9'),
+('220237', '¿ì·°ÇÏÀÌ ¹æÆÐ', '9'),
+('20239', 'ÀÛÀº ¹æÆÐ', '6'),
+('40001', 'µîÀÜ', '1'),
+('40002', '·£ÅÏ', '7'),
+('40232', 'Á¤·ÉÀÇ ¼öÁ¤ (·¹Áö½ºÆ® ¸ÅÁ÷)', '100'),
+('40233', 'Á¤·ÉÀÇ ¼öÁ¤ (¹Ùµð Åõ ¸¶ÀÎµå)', '100'),
+('40234', 'Á¤·ÉÀÇ ¼öÁ¤ (ÅÚ·¹Æ÷Æ® Åõ ¸¶´õ)', '100'),
+('40235', 'Á¤·ÉÀÇ ¼öÁ¤ (Å¬¸®¾î ¸¶ÀÎµå)', '200'),
+('40236', 'Á¤·ÉÀÇ ¼öÁ¤ (·¹Áö½ºÆ® ¿¤¸®¸àÆ®)', '200'),
+('40237', 'Á¤·ÉÀÇ ¼öÁ¤ (¸®ÅÏ Åõ ³×ÀÌÃÄ)', '300'),
+('40238', 'Á¤·ÉÀÇ ¼öÁ¤ (ºí·¯µå Åõ ¼Ò¿ï)', '300'),
+('40239', 'Á¤·ÉÀÇ ¼öÁ¤ (ÇÁ·ÎÅØ¼Ç ÇÁ·Ò ¿¤¸®¸àÆ®)', '300'),
+('40240', 'Á¤·ÉÀÇ ¼öÁ¤ (Æ®¸®ÇÃ ¾Ö·Î¿ì)', '300'),
+('40241', 'Á¤·ÉÀÇ ¼öÁ¤ (¿¤¸®¸àÅ» Æú´Ù¿î)', '500'),
+('40242', 'Á¤·ÉÀÇ ¼öÁ¤ (ÀÌ·¹ÀÌÁî ¸ÅÁ÷)', '500'),
+('40243', 'Á¤·ÉÀÇ ¼öÁ¤ (¼­¸Õ ·¹¼­ ¿¤¸®¸àÅ»)', '500'),
+('40244', 'Á¤·ÉÀÇ ¼öÁ¤ (¿¡¾î¸®¾î ¿Àºê »çÀÏ·±½º)', '700'),
+('40245', 'Á¤·ÉÀÇ ¼öÁ¤ (¼­¸Õ ±×·¹ÀÌÅÍ ¿¤¸®¸àÅ»)', '700'),
+('40246', 'Á¤·ÉÀÇ ¼öÁ¤ (Ä«¿îÅÍ ¹Ì·¯)', '700'),
+('40247', 'Á¤·ÉÀÇ ¼öÁ¤ (¾î½º ½ºÅ²)', '300'),
+('40248', 'Á¤·ÉÀÇ ¼öÁ¤ (ÀÎÅÊ±Û)', '300'),
+('40249', 'Á¤·ÉÀÇ ¼öÁ¤ (¾î½º ¹ÙÀÎµå)', '500'),
+('40250', 'Á¤·ÉÀÇ ¼öÁ¤ (ºí·¹½º ¿Àºê ¾î½º)', '500'),
+('40251', 'Á¤·ÉÀÇ ¼öÁ¤ (¾ÆÀÌ¾ð ½ºÅ²)', '700'),
+('40252', 'Á¤·ÉÀÇ ¼öÁ¤ (¿¢Á¶Æ½ ¹ÙÀÌÅ»¶óÀÌÁî)', '700'),
+('40253', 'Á¤·ÉÀÇ ¼öÁ¤ (¿öÅÍ ¶óÀÌÇÁ)', '300'),
+('40254', 'Á¤·ÉÀÇ ¼öÁ¤ (³×ÀÌÃÄ½º ÅÍÄ¡)', '500'),
+('40255', 'Á¤·ÉÀÇ ¼öÁ¤ (³×ÀÌÃÄ½º ºí·¹½Ì)', '700'),
+('40256', 'Á¤·ÉÀÇ ¼öÁ¤ (ÆÄÀÌ¾î ¿þÆù)', '300'),
+('40257', 'Á¤·ÉÀÇ ¼öÁ¤ (ºí·¹½º ¿Àºê ÆÄÀÌ¾î)', '500'),
+('40258', 'Á¤·ÉÀÇ ¼öÁ¤ (¹ö´× ¿þÆù)', '700'),
+('40259', 'Á¤·ÉÀÇ ¼öÁ¤ (¿¤¸®¸àÅ» ÆÄÀÌ¾î)', '700'),
+('40260', 'Á¤·ÉÀÇ ¼öÁ¤ (À©µå ¼¦)', '300'),
+('40261', 'Á¤·ÉÀÇ ¼öÁ¤ (À©µå ¿öÅ©)', '300'),
+('40262', 'Á¤·ÉÀÇ ¼öÁ¤ (¾ÆÀÌ ¿Àºê ½ºÅè)', '500'),
+('40263', 'Á¤·ÉÀÇ ¼öÁ¤ (½ºÅè ¼¦)', '700'),
+('40264', 'Á¤·ÉÀÇ ¼öÁ¤ (À©µå ¼ÎÅ¬)', '700'),
+('41149', 'Á¤·ÉÀÇ ¼öÁ¤ (¼Ò¿ï ¿Àºê ÇÁ·¹ÀÓ)', '700'),
+('41150', 'Á¤·ÉÀÇ ¼öÁ¤ (¾îµð¼Å³Î ÆÄÀÌ¾î)', '700'),
+('41152', 'Á¤·ÉÀÇ ¼öÁ¤ (Æú·çÆ® ¿öÅÍ)', '700'),
+('41153', 'Á¤·ÉÀÇ ¼öÁ¤ (½ºÆ®¶óÀÌÄ¿ °ÔÀÏ)', '700'),
+('20210', '¾îµÒÀÇ ºÎÃ÷', '10000'),
+('20070', '¾îµÒÀÇ ¸ÁÅä', '20000'),
+('210000', '¿ë±â»çÀÇ ¼­ÆÇ (µå·¡°ï ½ºÅ²)', '20'),
+('210001', '¿ë±â»çÀÇ ¼­ÆÇ (¹ö´× ½½·¡½¬)', '20'),
+('210002', '¿ë±â»çÀÇ ¼­ÆÇ (°¡µå ºê·¹ÀÌÅ©)', '20'),
+('210003', '¿ë±â»çÀÇ ¼­ÆÇ (¸¶±×¸¶ ºê·¹½º)', '20'),
+('210004', '¿ë±â»çÀÇ ¼­ÆÇ (°¢¼º:¾ÈÅ¸¶ó½º)', '20'),
+('210005', '¿ë±â»çÀÇ ¼­ÆÇ (ºí·¯µå·¯½ºÆ®)', '20'),
+('210006', '¿ë±â»çÀÇ ¼­ÆÇ (Æ÷¿ì ½½·¹ÀÌ¾î)', '20'),
+('210007', '¿ë±â»çÀÇ ¼­ÆÇ (ÇÇ¾î)', '20'),
+('210008', '¿ë±â»çÀÇ ¼­ÆÇ (¼îÅ© ½ºÅ²)', '20'),
+('210009', '¿ë±â»çÀÇ ¼­ÆÇ (°¢¼º:ÆÄÇª¸®¿Â)', '20'),
+('210010', '¿ë±â»çÀÇ ¼­ÆÇ (¸ðÅ» ¹Ùµð)', '20'),
+('210011', '¿ë±â»çÀÇ ¼­ÆÇ (½ã´õ ±×·¦)', '20'),
+('210012', '¿ë±â»çÀÇ ¼­ÆÇ (È£·¯ ¿Àºê µ¥½º)', '20'),
+('210013', '¿ë±â»çÀÇ ¼­ÆÇ (ÇÁ¸®Â¡ ºê·¹½º)', '20'),
+('210014', '¿ë±â»çÀÇ ¼­ÆÇ (°¢¼º:¹ß¶óÄ«½º)', '20'),
+('210015', '±â¾ïÀÇ ¼öÁ¤ (¹Ì·¯ ÀÌ¹ÌÁö)', '20'),
+('210016', '±â¾ïÀÇ ¼öÁ¤ (ÄÁÇ»Àü)', '20'),
+('210017', '±â¾ïÀÇ ¼öÁ¤ (½º¸Å½¬)', '20'),
+('210018', '±â¾ïÀÇ ¼öÁ¤ (ÀÏ·ç¼Ç:¿À°Å)', '20'),
+('210019', '±â¾ïÀÇ ¼öÁ¤ (Å¥ºê:ÀÌ±×´Ï¼Ç)', '20'),
+('210020', '±â¾ïÀÇ ¼öÁ¤ (ÄÁ¼¾Æ®·¹ÀÌ¼Ç)', '20'),
+('210021', '±â¾ïÀÇ ¼öÁ¤ (¸¶ÀÎµå ºê·¹ÀÌÅ©)', '20'),
+('210022', '±â¾ïÀÇ ¼öÁ¤ (º» ºê·¹ÀÌÅ©)', '20'),
+('210023', '±â¾ïÀÇ ¼öÁ¤ (ÀÏ·ç¼Ç:¸®Ä¡)', '20'),
+('210024', '±â¾ïÀÇ ¼öÁ¤ (Å¥ºê:ÄùÀÌÅ©)', '20'),
+('210025', '±â¾ïÀÇ ¼öÁ¤ (ÆäÀÌ¼Ç½º)', '20'),
+('210026', '±â¾ïÀÇ ¼öÁ¤ (ÆÇÅ¸Áò)', '20'),
+('210027', '±â¾ïÀÇ ¼öÁ¤ (¾Ï ºê·¹ÀÌÄ¿)', '20'),
+('210028', '±â¾ïÀÇ ¼öÁ¤ (ÀÏ·ç¼Ç:´ÙÀÌ¾Æ¸óµå °ñ·½)', '20'),
+('210029', '±â¾ïÀÇ ¼öÁ¤ (Å¥ºê:¼îÅ©)', '20'),
+('210030', '±â¾ïÀÇ ¼öÁ¤ (ÀÎ»çÀÌÆ®)', '20'),
+('210031', '±â¾ïÀÇ ¼öÁ¤ (ÆÐ´Ð)', '20'),
+('210032', '±â¾ïÀÇ ¼öÁ¤ (Á¶ÀÌ ¿Àºê ÆäÀÎ)', '20'),
+('210033', '±â¾ïÀÇ ¼öÁ¤ (ÀÏ·ç¼Ç:¾Æ¹ÙÅ¸)', '20'),
+('210034', '±â¾ïÀÇ ¼öÁ¤ (Å¥ºê:¹ë·±½º)', '20'),
+('40163', '±Ýºû ¿­¼è', '1'),
+('40538', '±¸¿ïÀÇ ¼ÕÅé', '2'),
+('40539', '±¸¿ïÀÇ ÀÌ»¡', '2'),
+('40555', 'ºñ¹Ð¹æ ¿­¼è', '2'),
+('40564', '»ý¸íÀÇ ºñ¹Ð', '2'),
+('40601', 'ÅÍÆ² µå·¡°ïÀÇ ²®Áú', '2'),
+('40605', 'ÇØ°ñ¹Ù°¡Áö', '2'),
+('41207', '¼±¿øÀÇ À¯ÇØ', '3'),
+('40435', 'µö ÇÃ¶ó¿öÀÇ ²É ºÀ¿À¸®', '3'),
+('40436', 'µö ÇÃ¶ó¿öÀÇ »Ñ¸®', '3'),
+('40453', 'ºñ½ºÆ® ¼­¸Ó³ÊÀÇ Ã¤Âï', '3'),
+('40484', 'ÇÃ·¹ÀÌÆ®¿úÀÇ µ¶ÁÖ¸Ó´Ï', '3'),
+('40485', 'ÇÃ·¹ÀÌÆ®¿úÀÇ ¼Û°÷´Ï', '3'),
+('40516', 'Å« ³ì»ö ¼öÁ¤', '10'),
+('40517', 'Å« ºÓÀº ¼öÁ¤', '10'),
+('40518', 'Å« Çª¸¥ ¼öÁ¤', '10'),
+('40471', 'Á¤·ÉÀÇ ÆÄÆí', '10'),
+('40104', '¿À¸¸ÀÇ Å¾ 11Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40105', '¿À¸¸ÀÇ Å¾ 21Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40106', '¿À¸¸ÀÇ Å¾ 31Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40107', '¿À¸¸ÀÇ Å¾ 41Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40108', '¿À¸¸ÀÇ Å¾ 51Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40109', '¿À¸¸ÀÇ Å¾ 61Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40110', '¿À¸¸ÀÇ Å¾ 71Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40111', '¿À¸¸ÀÇ Å¾ 81Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40112', '¿À¸¸ÀÇ Å¾ 91Ãþ ÀÌµ¿ ÁÖ¹®¼­', '20'),
+('40433', 'µô·Î ¹ßÅé', '20'),
+('40614', '±¤¹° ¼ö°Å ¹®¼­', '30'),
+('41154', '¾îµÒÀÇ ºñ´Ã', '50'),
+('41221', '´ÙÅ©¿¤ÇÁ ÁÖ¸Ó´Ï', '100'),
+('40304', '¸¶ÇÁ¸£ÀÇ À¯»ê', '100'),
+('40305', 'ÆÄ¾Æ±×¸®¿ÀÀÇ À¯»ê', '100'),
+('40306', '¿¡¹ÙÀÇ À¯»ê', '100'),
+('40307', '»çÀÌÇÏÀÇ À¯»ê', '100'),
+('40460', '¾Æ½ÃÅ¸Áö¿ÀÀÇ Àç', '150'),
+('153', '°­Ã¶ Å©·Î¿ì', '200'),
+('40470', 'Á¤·É Á¶°¢', '300'),
+('40430', '´ë°øµ¿ÀÇ ¼öÁ¤', '300'),
+('64', '´ë°Ë', '8000'),
+('100064', '´ë°Ë', '8000'),
+('20013', '¸¶¹ýÀÇ Åõ±¸ : ½Å¼Ó', '2200'),
+('20014', '¸¶¹ýÀÇ Åõ±¸ : Ä¡À¯', '1500'),
+('20015', '¸¶¹ýÀÇ Åõ±¸ : Èû', '1800'),
+('41', 'ÀÏº»µµ', '2000'),
+('100041', 'ÀÏº»µµ', '2000'),
+('20110', '¸¶¹ý ¹æ¾î »ç½½ °©¿Ê', '800'),
+('40022', '°í´ëÀÇ Ã¼·Â È¸º¹Á¦', '5'),
+('40023', '°í´ëÀÇ °í±Þ Ã¼·Â È¸º¹Á¦', '31'),
+('40024', '°í´ëÀÇ °­·Â Ã¼·Â È¸º¹Á¦', '62'),
+('210036', 'À¯±×µå¶ó ¿­¸Å', '50'),
+('29', 'ÀºÀå°Ë', '1300'),
+('37', '´Ù¸¶½ºÄ¿½º °Ë', '500'),
+('100029', 'ÀºÀå°Ë', '1300'),
+('100037', '´Ù¸¶½ºÄ¿½º °Ë', '500'),
+('103', '¹Ì´ÃÃ¢', '200'),
+('100103', '¹Ì´ÃÃ¢', '200'),
+('129', '¸¶¹ý»çÀÇ ÁöÆÎÀÌ', '375'),
+('20125', '»ç½½ °©¿Ê', '600'),
+('220125', '»ç½½ °©¿Ê', '600'),
+('20231', '»ç°¢ ¹æÆÐ', '700'),
+('20006', '±â»çÀÇ ¸é°©', '500'),
+('40406', '°í±ÞÇÇÇõ', '4'),
+('20229', '¹Ý»ç ¹æÆÐ', '2000'),
+('20289', '½É¿¬ÀÇ ¹ÝÁö', '10000'),
+('120289', '½É¿¬ÀÇ ¹ÝÁö', '10000'),
+('20067', '½Å°üÀÇ ¸ÁÅä', '500'),
+('20303', 'Ç×¸¶ÀÇ ¹ÝÁö', '200'),
+('20309', 'ºû³ª´Â ½ÅÃ¼ÀÇ º§Æ®', '1000'),
+('120309', 'ºû³ª´Â ½ÅÃ¼ÀÇ º§Æ®', '1000'),
+('20310', 'ºû³ª´Â ¿µÈ¥ÀÇ º§Æ®', '1000'),
+('120310', 'ºû³ª´Â ¿µÈ¥ÀÇ º§Æ®', '1000'),
+('20311', 'ºû³ª´Â Á¤½ÅÀÇ º§Æ®', '1000'),
+('120311', 'ºû³ª´Â Á¤½ÅÀÇ º§Æ®', '1000'),
+('20256', '¹ÎÃ¸ÀÇ ¸ñ°ÉÀÌ', '1000'),
+('120256', '¹ÎÃ¸ÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20313', '¾îµÒÀÇ º§Æ®', '1000'),
+('20317', '¿À¿ì°ÅÀÇ º§Æ®', '3000'),
+('120317', '¿À¿ì°ÅÀÇ º§Æ®', '3000'),
+('20030', '½Å°üÀÇ Åõ±¸', '350'),
+('20176', '½Å°üÀÇ Àå°©', '2640'),
+('20175', '¼öÁ¤ Àå°©', '800'),
+('20233', '½Å°üÀÇ ¸¶·Â¼­', '5600'),
+('20208', '½Å°üÀÇ ºÎÃ÷', '500'),
+('20129', '½Å°üÀÇ ·Îºê', '1500'),
+('20113', '¹«°üÀÇ °©¿Ê', '1500'),
+('20058', '¹«°üÀÇ ¸ÁÅä', '500'),
+('20228', '¹«°üÀÇ ¹æÆÐ', '3000'),
+('20201', '¹«°üÀÇ ºÎÃ÷', '500'),
+('20168', '¹«°üÀÇ Àå°©', '2640'),
+('20020', '¹«°üÀÇ Åõ±¸', '350'),
+('220154', 'ÆÇ±Ý °©¿Ê', '2200'),
+('20294', 'ÀúÁÖ¹ÞÀº ·çºñ ¹ÝÁö', '2000'),
+('20296', 'ÀúÁÖ¹ÞÀº ¿¡¸Þ¶öµå ¹ÝÁö', '2000'),
+('120254', '¸Å·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('120268', 'Ã¼·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20254', '¸Å·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20268', 'Ã¼·ÂÀÇ ¸ñ°ÉÀÌ', '1000'),
+('20244', '³°Àº ¸Å·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('20245', '³°Àº ¹ÎÃ¸ÀÇ ¸ñ°ÉÀÌ', '500'),
+('20246', '³°Àº ¿Ï·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('20247', '³°Àº Áö½ÄÀÇ ¸ñ°ÉÀÌ', '500'),
+('20248', '³°Àº ÁöÇýÀÇ ¸ñ°ÉÀÌ', '500'),
+('20249', '³°Àº Ã¼·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('120244', '³°Àº ¸Å·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('120245', '³°Àº ¹ÎÃ¸ÀÇ ¸ñ°ÉÀÌ', '500'),
+('120246', '³°Àº ¿Ï·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('120247', '³°Àº Áö½ÄÀÇ ¸ñ°ÉÀÌ', '500'),
+('120248', '³°Àº ÁöÇýÀÇ ¸ñ°ÉÀÌ', '500'),
+('120249', '³°Àº Ã¼·ÂÀÇ ¸ñ°ÉÀÌ', '500'),
+('20213', 'ÂªÀº ºÎÃ÷', '30'),
+('40675', '¾îµÒÀÇ ±¤¼®', '75'),
+('40676', '¾îµÒÀÇ ¼û°á', '75'),
+('69', '±¸¸®ºû ÀÌµµ·ù', '80'),
+('20060', '¹Ù´ÙÀÇ ¸ÁÅä', '80'),
+('40427', '´ÙÅ©¿¤ÇÁ ÁÖ¸Ó´Ï', '100'),
+('40220', '¸¶¹ý¼­ (±×·¹ÀÌÆ® ¸®Àý·º¼Ç)', '280'),
+('40222', '¸¶¹ý¼­ (µð½ºÀÎÆ¼±×·¹ÀÌÆ®)', '280'),
+('40219', '¸¶¹ý¼­ (¹ÌÆ¼¾î ½ºÆ®¶óÀÌÅ©)', '280'),
+('40223', '¸¶¹ý¼­ (¾Û¼Ö·çÆ® ¹è¸®¾î)', '280'),
+('40224', '¸¶¹ý¼­ (¾îµå¹ê½º ½ºÇÇ¸´)', '280'),
+('40218', '¸¶¹ý¼­ (Å©¸®¿¡ÀÌÆ® ¸ÅÁöÄÃ ¿þÆù)', '280'),
+('40225', '¸¶¹ý¼­ (ÇÁ¸®Â¡ ºí¸®ÀÚµå)', '280'),
+('120115', '¹Ì´Ã °©¿Ê', '2000'),
+('20166', 'µ¥½º³ªÀÌÆ®ÀÇ Àå°©', '30000'),
+('200041', 'ÀÏº»µµ', '2000'),
+('40165', '¸®´ö¼Ç¾Æ¸Ó', '1000'),
+('40200', '¸¶¹ý¼­(¹ö¼­Ä¿½º)', '220'),
+('20199', '¶ó½ºÅ¸¹Ùµå ºÎÃ÷', '100');

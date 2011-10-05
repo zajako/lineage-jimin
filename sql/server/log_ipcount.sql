@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:05:17
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,8 +27,9 @@ CREATE TABLE `log_ipcount` (
 -- ----------------------------
 -- Records of log_ipcount
 -- ----------------------------
-INSERT INTO `log_ipcount` VALUES ('1', '1');
-INSERT INTO `log_ipcount` VALUES ('121.139.198.97', '1');
-INSERT INTO `log_ipcount` VALUES ('121.150.126.97', '8');
-INSERT INTO `log_ipcount` VALUES ('127.0.0.1', '1');
-INSERT INTO `log_ipcount` VALUES ('222.239.151.102', '2');
+INSERT IGNORE INTO `log_ipcount` VALUES 
+('1', '1'),
+('121.139.198.97', '1'),
+('121.150.126.97', '8'),
+('127.0.0.1', '1'),
+('222.239.151.102', '2');

@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:07:46
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,2670 +31,2671 @@ CREATE TABLE `shop` (
 -- ----------------------------
 -- Records of shop
 -- ----------------------------
-INSERT INTO `shop` VALUES ('4200500', '413000', '0', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413001', '1', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413002', '2', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413003', '3', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413004', '4', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413005', '5', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413006', '6', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '413007', '7', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423000', '10', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423001', '9', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423002', '11', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423003', '12', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423004', '13', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423005', '14', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423006', '16', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423007', '15', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200500', '423008', '8', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '51', '0', '2500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '21028', '17', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20011', '1', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '21029', '18', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20051', '5', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '21030', '19', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '21031', '20', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '40219', '137', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '40222', '138', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20085', '2', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '21032', '21', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4213002', '40074', '0', '34255', '0', '-1');
-INSERT INTO `shop` VALUES ('4213002', '40087', '1', '82875', '0', '-1');
-INSERT INTO `shop` VALUES ('4213002', '430010', '2', '200000', '0', '100000');
-INSERT INTO `shop` VALUES ('4213002', '430011', '3', '200000', '0', '100000');
-INSERT INTO `shop` VALUES ('4213002', '430012', '4', '200000', '0', '100000');
-INSERT INTO `shop` VALUES ('4219000', '439007', '7', '4000', '0', '2000');
-INSERT INTO `shop` VALUES ('4219000', '439005', '6', '4000', '0', '2000');
-INSERT INTO `shop` VALUES ('4219000', '439002', '4', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('4219000', '439003', '5', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('4219000', '439008', '8', '4000', '0', '2000');
-INSERT INTO `shop` VALUES ('4219000', '430006', '1', '500', '0', '250');
-INSERT INTO `shop` VALUES ('4219000', '439010', '9', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('4219000', '439000', '2', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('4219000', '430008', '0', '250', '0', '125');
-INSERT INTO `shop` VALUES ('4219000', '439001', '3', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('4219000', '439012', '10', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('4218000', '439102', '3', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('4218000', '430007', '1', '500', '0', '250');
-INSERT INTO `shop` VALUES ('4218000', '430006', '0', '500', '0', '250');
-INSERT INTO `shop` VALUES ('4218000', '439101', '2', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('4218000', '439107', '5', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('4218000', '439106', '4', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('4220003', '41143', '0', '72', '3', '-1');
-INSERT INTO `shop` VALUES ('4220003', '41144', '1', '72', '3', '-1');
-INSERT INTO `shop` VALUES ('4220003', '41145', '2', '72', '3', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421009', '3', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421010', '4', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421011', '5', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421018', '6', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421019', '7', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421020', '8', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421015', '9', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421016', '10', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421017', '11', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421012', '12', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421013', '13', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421014', '14', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421000', '15', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421001', '16', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421002', '17', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421003', '18', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421004', '19', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421005', '20', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421006', '21', '180', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421007', '22', '240', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421008', '23', '450', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422012', '0', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422013', '1', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422014', '2', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422015', '3', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422016', '4', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422017', '5', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422009', '6', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422010', '7', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422011', '8', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422003', '9', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422004', '10', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422005', '11', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422006', '12', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422007', '13', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422008', '14', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422000', '15', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422001', '16', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422002', '17', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422018', '18', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422019', '19', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220002', '422020', '20', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411027', '0', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411028', '1', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411029', '2', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411003', '3', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411004', '4', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411005', '5', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411009', '6', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411010', '7', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411011', '8', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411021', '9', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411022', '10', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411023', '11', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411006', '12', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411007', '13', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411008', '14', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411000', '15', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411001', '16', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411002', '17', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411012', '18', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411013', '19', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411014', '20', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411015', '21', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411016', '22', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411017', '23', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411018', '24', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411019', '25', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411020', '26', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411024', '27', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411025', '28', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411026', '29', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '41424', '0', '7', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '41423', '1', '7', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '41142', '3', '16', '5', '-1');
-INSERT INTO `shop` VALUES ('4220000', '437020', '5', '24', '5', '-1');
-INSERT INTO `shop` VALUES ('4220000', '437021', '6', '16', '5', '-1');
-INSERT INTO `shop` VALUES ('4220000', '422023', '7', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '422021', '8', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('81118', '49013', '0', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45000', '0', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45001', '1', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45002', '2', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45003', '3', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45004', '4', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45005', '5', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45006', '6', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45007', '7', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45008', '8', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45009', '9', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45010', '10', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45011', '11', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45012', '12', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45013', '13', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45014', '14', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45015', '15', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45016', '16', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45017', '17', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45018', '18', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45019', '19', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45020', '20', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45021', '21', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81110', '45022', '22', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '20459', '0', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21000', '1', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21001', '2', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21002', '3', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21005', '4', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21018', '5', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21019', '6', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21027', '7', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('81002', '21049', '8', '0', '0', '-1');
-INSERT INTO `shop` VALUES ('80104', '20383', '0', '1000000', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41357', '0', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41358', '1', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41359', '2', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41360', '3', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41361', '4', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41362', '5', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41363', '6', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41364', '7', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41365', '8', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41366', '9', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41367', '10', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41368', '11', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41369', '12', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41370', '13', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41371', '14', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41372', '15', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41373', '16', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41374', '17', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41375', '18', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41376', '19', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41377', '20', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41378', '21', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41379', '22', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41380', '23', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41381', '24', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80100', '41382', '25', '70', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41321', '0', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41319', '1', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41320', '2', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41322', '3', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41323', '4', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80096', '41324', '5', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41401', '0', '110000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41395', '1', '300000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41396', '2', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41392', '3', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41397', '4', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41398', '5', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41393', '6', '110000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41394', '7', '110000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41391', '8', '110000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41399', '9', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41400', '10', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41389', '11', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('80092', '41390', '12', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('80090', '40069', '1', '5', '0', '2');
-INSERT INTO `shop` VALUES ('80090', '40072', '6', '20', '0', '10');
-INSERT INTO `shop` VALUES ('80090', '40062', '5', '5', '0', '2');
-INSERT INTO `shop` VALUES ('80090', '40061', '3', '5', '0', '2');
-INSERT INTO `shop` VALUES ('80090', '40064', '2', '5', '0', '2');
-INSERT INTO `shop` VALUES ('80090', '40060', '4', '8', '0', '4');
-INSERT INTO `shop` VALUES ('80090', '41266', '7', '8', '0', '4');
-INSERT INTO `shop` VALUES ('80090', '41271', '13', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41272', '14', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41268', '11', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41269', '12', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41273', '15', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41261', '16', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41262', '17', '24', '0', '12');
-INSERT INTO `shop` VALUES ('80090', '41260', '18', '300', '0', '150');
-INSERT INTO `shop` VALUES ('80090', '40059', '0', '3', '0', '1');
-INSERT INTO `shop` VALUES ('80090', '41264', '9', '20', '0', '10');
-INSERT INTO `shop` VALUES ('80090', '41265', '10', '20', '0', '10');
-INSERT INTO `shop` VALUES ('80090', '41267', '8', '20', '0', '10');
-INSERT INTO `shop` VALUES ('80080', '41295', '0', '57', '1', '-1');
-INSERT INTO `shop` VALUES ('80080', '41295', '1', '517', '10', '-1');
-INSERT INTO `shop` VALUES ('80080', '41295', '2', '4600', '1000', '-1');
-INSERT INTO `shop` VALUES ('80075', '40018', '15', '3795', '0', '750');
-INSERT INTO `shop` VALUES ('80075', '40317', '0', '379', '0', '70');
-INSERT INTO `shop` VALUES ('80075', '40017', '16', '184', '0', '30');
-INSERT INTO `shop` VALUES ('80075', '40124', '24', '276', '0', '100');
-INSERT INTO `shop` VALUES ('80075', '40013', '14', '506', '0', '100');
-INSERT INTO `shop` VALUES ('80075', '40024', '13', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('80075', '40032', '7', '379', '0', '-1');
-INSERT INTO `shop` VALUES ('80075', '40019', '8', '125', '0', '27');
-INSERT INTO `shop` VALUES ('80075', '40020', '9', '690', '0', '150');
-INSERT INTO `shop` VALUES ('80075', '40021', '10', '2070', '0', '400');
-INSERT INTO `shop` VALUES ('80075', '40022', '11', '720', '0', '-1');
-INSERT INTO `shop` VALUES ('80075', '40023', '12', '4310', '0', '-1');
-INSERT INTO `shop` VALUES ('80075', '40744', '3', '2', '5', '-1');
-INSERT INTO `shop` VALUES ('80075', '40739', '4', '2', '2', '-1');
-INSERT INTO `shop` VALUES ('80075', '40089', '22', '2300', '0', '500');
-INSERT INTO `shop` VALUES ('80075', '40126', '19', '115', '0', '25');
-INSERT INTO `shop` VALUES ('80075', '40100', '20', '161', '0', '35');
-INSERT INTO `shop` VALUES ('80075', '40016', '18', '1380', '0', '300');
-INSERT INTO `shop` VALUES ('80075', '40014', '17', '1840', '0', '400');
-INSERT INTO `shop` VALUES ('80075', '40119', '21', '230', '0', '50');
-INSERT INTO `shop` VALUES ('80075', '40738', '5', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('80075', '40743', '2', '2', '10', '-1');
-INSERT INTO `shop` VALUES ('80075', '40740', '6', '4', '0', '-1');
-INSERT INTO `shop` VALUES ('80075', '40079', '23', '276', '0', '60');
-INSERT INTO `shop` VALUES ('80075', '41036', '1', '345', '0', '-1');
-INSERT INTO `shop` VALUES ('71196', '187', '13', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('71196', '193', '14', '11000', '0', '5500');
-INSERT INTO `shop` VALUES ('71196', '82', '10', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('71196', '176', '12', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('71196', '122', '11', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('71196', '20102', '16', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('71196', '161', '6', '44000', '0', '22000');
-INSERT INTO `shop` VALUES ('71196', '20104', '17', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('71196', '20199', '18', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('71196', '20224', '19', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('71196', '20105', '15', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('71196', '40739', '2', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('71196', '40740', '4', '2', '0', '1');
-INSERT INTO `shop` VALUES ('71196', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('71196', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('71196', '101', '7', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('71196', '40738', '3', '1', '0', '0');
-INSERT INTO `shop` VALUES ('71196', '80', '5', '33000', '0', '16500');
-INSERT INTO `shop` VALUES ('71196', '6', '8', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('71196', '38', '9', '11000', '0', '5500');
-INSERT INTO `shop` VALUES ('71127', '40013', '14', '358', '0', '100');
-INSERT INTO `shop` VALUES ('71127', '40018', '15', '2587', '0', '750');
-INSERT INTO `shop` VALUES ('71127', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('71127', '40010', '11', '56', '0', '18');
-INSERT INTO `shop` VALUES ('71127', '40011', '12', '289', '0', '100');
-INSERT INTO `shop` VALUES ('71127', '40089', '6', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('71127', '40079', '4', '172', '0', '60');
-INSERT INTO `shop` VALUES ('71127', '40126', '2', '101', '0', '25');
-INSERT INTO `shop` VALUES ('71127', '40119', '5', '143', '0', '50');
-INSERT INTO `shop` VALUES ('71127', '40100', '3', '101', '0', '35');
-INSERT INTO `shop` VALUES ('71127', '40017', '13', '120', '0', '30');
-INSERT INTO `shop` VALUES ('71127', '40001', '7', '23', '0', '5');
-INSERT INTO `shop` VALUES ('71127', '40002', '8', '172', '0', '60');
-INSERT INTO `shop` VALUES ('71127', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('71127', '40003', '9', '27', '0', '-1');
-INSERT INTO `shop` VALUES ('71127', '40317', '10', '216', '0', '70');
-INSERT INTO `shop` VALUES ('71079', '41103', '0', '-1', '0', '250');
-INSERT INTO `shop` VALUES ('71079', '41104', '1', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('71079', '41105', '2', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('71079', '41106', '3', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('71079', '41107', '4', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('71079', '41108', '5', '-1', '0', '100000');
-INSERT INTO `shop` VALUES ('71079', '41109', '6', '-1', '0', '100000');
-INSERT INTO `shop` VALUES ('71054', '40303', '0', '690', '0', '-1');
-INSERT INTO `shop` VALUES ('71001', '40017', '0', '70', '0', '30');
-INSERT INTO `shop` VALUES ('71001', '40010', '1', '37', '0', '18');
-INSERT INTO `shop` VALUES ('71001', '40011', '2', '200', '0', '100');
-INSERT INTO `shop` VALUES ('71001', '40013', '3', '200', '0', '100');
-INSERT INTO `shop` VALUES ('71001', '40018', '4', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70569', '41399', '12', '25000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41400', '13', '37500', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41400', '14', '37500', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41391', '10', '125000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41397', '6', '37500', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41398', '7', '37500', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41394', '9', '125000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41393', '8', '125000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41399', '11', '25000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41392', '5', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41396', '4', '87500', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41389', '2', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41390', '3', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41395', '1', '375000', '0', '-1');
-INSERT INTO `shop` VALUES ('70569', '41401', '0', '75000', '0', '-1');
-INSERT INTO `shop` VALUES ('70098', '40010', '0', '56', '0', '18');
-INSERT INTO `shop` VALUES ('70098', '40011', '1', '289', '0', '100');
-INSERT INTO `shop` VALUES ('70098', '40012', '2', '652', '0', '300');
-INSERT INTO `shop` VALUES ('70098', '40017', '3', '120', '0', '30');
-INSERT INTO `shop` VALUES ('70098', '40018', '4', '2587', '0', '750');
-INSERT INTO `shop` VALUES ('70097', '40390', '7', '74', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '40018', '15', '2380', '0', '750');
-INSERT INTO `shop` VALUES ('70097', '40126', '16', '101', '0', '25');
-INSERT INTO `shop` VALUES ('70097', '41160', '6', '3220', '10', '-1');
-INSERT INTO `shop` VALUES ('70097', '40317', '3', '216', '0', '70');
-INSERT INTO `shop` VALUES ('70097', '40065', '1', '9', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '41260', '2', '345', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '41245', '4', '62', '10', '-1');
-INSERT INTO `shop` VALUES ('70097', '40010', '8', '46', '0', '18');
-INSERT INTO `shop` VALUES ('70097', '40022', '10', '410', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '40011', '9', '241', '0', '100');
-INSERT INTO `shop` VALUES ('70097', '40023', '11', '2270', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '40056', '0', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '40315', '5', '793', '0', '-1');
-INSERT INTO `shop` VALUES ('70097', '40079', '18', '172', '0', '60');
-INSERT INTO `shop` VALUES ('70097', '40100', '17', '101', '0', '35');
-INSERT INTO `shop` VALUES ('70097', '40119', '20', '143', '0', '50');
-INSERT INTO `shop` VALUES ('70097', '40124', '19', '172', '0', '100');
-INSERT INTO `shop` VALUES ('70097', '40024', '12', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70097', '40017', '13', '143', '0', '30');
-INSERT INTO `shop` VALUES ('70097', '40013', '14', '358', '0', '100');
-INSERT INTO `shop` VALUES ('70097', '41246', '100', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70095', '141', '7', '1104', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '143', '6', '1104', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '172', '5', '78', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70095', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70095', '20122', '16', '3162', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '20089', '13', '158', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '20147', '14', '473', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '23', '8', '46', '0', '20');
-INSERT INTO `shop` VALUES ('70095', '24', '9', '158', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '20043', '12', '316', '0', '100');
-INSERT INTO `shop` VALUES ('70095', '20239', '10', '95', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '20242', '11', '1897', '0', '-1');
-INSERT INTO `shop` VALUES ('70095', '20096', '15', '791', '0', '-1');
-INSERT INTO `shop` VALUES ('70094', '40302', '0', '690', '0', '-1');
-INSERT INTO `shop` VALUES ('70093', '40126', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70093', '40100', '12', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70093', '40013', '7', '255', '0', '127');
-INSERT INTO `shop` VALUES ('70093', '40743', '23', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70093', '40317', '20', '154', '0', '77');
-INSERT INTO `shop` VALUES ('70093', '40089', '16', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70093', '40014', '9', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70093', '40079', '13', '118', '0', '59');
-INSERT INTO `shop` VALUES ('70093', '40017', '6', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70093', '40018', '8', '1636', '0', '818');
-INSERT INTO `shop` VALUES ('70093', '40024', '5', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70058', '20239', '0', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70093', '40744', '24', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70093', '40087', '19', '73636', '0', '36818');
-INSERT INTO `shop` VALUES ('70058', '20089', '11', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70093', '40124', '14', '118', '0', '59');
-INSERT INTO `shop` VALUES ('70093', '40056', '21', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70093', '40074', '18', '30909', '0', '15454');
-INSERT INTO `shop` VALUES ('70058', '20006', '10', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70093', '40738', '26', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70093', '40739', '25', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70093', '41260', '22', '273', '0', '136');
-INSERT INTO `shop` VALUES ('70093', '40012', '1', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70093', '40020', '2', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70093', '41246', '27', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70093', '40011', '0', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70093', '40016', '10', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70093', '40021', '3', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70093', '40023', '4', '1560', '0', '780');
-INSERT INTO `shop` VALUES ('70092', '40074', '20', '30909', '0', '15454');
-INSERT INTO `shop` VALUES ('70092', '41245', '0', '68', '10', '-1');
-INSERT INTO `shop` VALUES ('70092', '40023', '5', '1560', '0', '780');
-INSERT INTO `shop` VALUES ('70092', '40012', '2', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70092', '40024', '6', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70092', '40020', '3', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70092', '40018', '9', '1636', '0', '818');
-INSERT INTO `shop` VALUES ('70092', '40011', '1', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70092', '40014', '10', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70092', '40017', '7', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70092', '40013', '8', '255', '0', '127');
-INSERT INTO `shop` VALUES ('70092', '40124', '15', '118', '0', '59');
-INSERT INTO `shop` VALUES ('70092', '40119', '16', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70092', '40079', '14', '118', '0', '59');
-INSERT INTO `shop` VALUES ('70092', '40315', '22', '591', '0', '295');
-INSERT INTO `shop` VALUES ('70092', '40089', '17', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70092', '50020', '18', '45', '0', '22');
-INSERT INTO `shop` VALUES ('70092', '40088', '19', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70092', '40126', '12', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70092', '40021', '4', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70092', '40087', '21', '73636', '0', '36818');
-INSERT INTO `shop` VALUES ('70091', '40740', '6', '4', '0', '-1');
-INSERT INTO `shop` VALUES ('70091', '40012', '9', '724', '0', '300');
-INSERT INTO `shop` VALUES ('70091', '40013', '10', '506', '0', '100');
-INSERT INTO `shop` VALUES ('70091', '40017', '12', '172', '0', '30');
-INSERT INTO `shop` VALUES ('70091', '40743', '3', '2', '10', '-1');
-INSERT INTO `shop` VALUES ('70091', '40056', '0', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70091', '41260', '1', '345', '0', '-1');
-INSERT INTO `shop` VALUES ('70091', '40010', '7', '71', '0', '18');
-INSERT INTO `shop` VALUES ('70091', '40317', '2', '287', '0', '70');
-INSERT INTO `shop` VALUES ('70091', '40011', '8', '386', '0', '100');
-INSERT INTO `shop` VALUES ('70091', '40739', '4', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70091', '40018', '11', '3795', '0', '750');
-INSERT INTO `shop` VALUES ('70091', '40738', '5', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70090', '40740', '6', '4', '0', '-1');
-INSERT INTO `shop` VALUES ('70090', '40317', '2', '322', '0', '70');
-INSERT INTO `shop` VALUES ('70090', '41260', '1', '345', '0', '-1');
-INSERT INTO `shop` VALUES ('70090', '40056', '0', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70090', '40010', '7', '80', '0', '18');
-INSERT INTO `shop` VALUES ('70090', '40011', '8', '425', '0', '100');
-INSERT INTO `shop` VALUES ('70090', '40012', '9', '869', '0', '300');
-INSERT INTO `shop` VALUES ('70090', '40013', '11', '552', '0', '100');
-INSERT INTO `shop` VALUES ('70090', '40017', '10', '195', '0', '30');
-INSERT INTO `shop` VALUES ('70090', '40018', '12', '4140', '0', '750');
-INSERT INTO `shop` VALUES ('70090', '40739', '4', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70090', '40743', '3', '2', '10', '-1');
-INSERT INTO `shop` VALUES ('70090', '40738', '5', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70089', '40301', '0', '777', '0', '-1');
-INSERT INTO `shop` VALUES ('70088', '40010', '1', '36', '0', '18');
-INSERT INTO `shop` VALUES ('70088', '40011', '2', '192', '0', '96');
-INSERT INTO `shop` VALUES ('70088', '40743', '13', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70088', '40013', '4', '250', '0', '125');
-INSERT INTO `shop` VALUES ('70088', '40017', '3', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70088', '40100', '6', '80', '0', '40');
-INSERT INTO `shop` VALUES ('70088', '40126', '5', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70088', '40079', '7', '131', '0', '65');
-INSERT INTO `shop` VALUES ('70088', '40744', '14', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70088', '20043', '15', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70088', '41260', '12', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70088', '40317', '10', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70088', '40119', '8', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70088', '40056', '11', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70088', '40089', '9', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70088', '41245', '0', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70086', '40300', '0', '11500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70085', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('4208001', '40100', '9', '70', '0', '35');
-INSERT INTO `shop` VALUES ('4208001', '40079', '10', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70083', '40738', '15', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70083', '40739', '14', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70083', '40740', '16', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70083', '23', '5', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70083', '141', '4', '1100', '0', '550');
-INSERT INTO `shop` VALUES ('70083', '143', '3', '770', '0', '385');
-INSERT INTO `shop` VALUES ('70083', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70083', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70083', '172', '2', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70083', '20147', '11', '330', '0', '165');
-INSERT INTO `shop` VALUES ('70083', '20096', '12', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70083', '24', '6', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70083', '20239', '7', '65', '0', '32');
-INSERT INTO `shop` VALUES ('70083', '20089', '10', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70083', '20242', '8', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70083', '20043', '9', '220', '0', '110');
-INSERT INTO `shop` VALUES ('70083', '20122', '13', '2200', '0', '1100');
-INSERT INTO `shop` VALUES ('4208001', '40074', '13', '30000', '0', '15000');
-INSERT INTO `shop` VALUES ('70082', '40126', '14', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70082', '40100', '15', '70', '0', '35');
-INSERT INTO `shop` VALUES ('4208001', '40124', '11', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70082', '40009', '27', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70082', '41260', '30', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70082', '40317', '26', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70082', '40065', '29', '5', '0', '0');
-INSERT INTO `shop` VALUES ('70082', '40385', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70082', '40056', '28', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70082', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70082', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70082', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70082', '40021', '7', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70082', '40022', '8', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70082', '40023', '9', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70082', '40024', '10', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70082', '40017', '11', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70082', '40013', '12', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70082', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70082', '40119', '16', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70082', '40018', '13', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70082', '40020', '6', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70082', '40019', '5', '48', '0', '24');
-INSERT INTO `shop` VALUES ('4208001', '40119', '12', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70082', '41160', '25', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70082', '40087', '22', '75000', '0', '37500');
-INSERT INTO `shop` VALUES ('70082', '50020', '23', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70082', '40074', '21', '31000', '0', '15500');
-INSERT INTO `shop` VALUES ('70082', '40079', '18', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70082', '40315', '24', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70082', '40088', '20', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70082', '41246', '31', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70081', '40740', '5', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70081', '40738', '4', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('70081', '40017', '12', '92', '0', '30');
-INSERT INTO `shop` VALUES ('70081', '40743', '1', '2', '10', '-1');
-INSERT INTO `shop` VALUES ('70081', '40744', '2', '2', '5', '-1');
-INSERT INTO `shop` VALUES ('70081', '40032', '6', '379', '0', '-1');
-INSERT INTO `shop` VALUES ('70081', '40011', '8', '217', '0', '100');
-INSERT INTO `shop` VALUES ('70081', '40010', '7', '40', '0', '18');
-INSERT INTO `shop` VALUES ('70081', '40012', '9', '478', '0', '250');
-INSERT INTO `shop` VALUES ('70081', '40089', '16', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70081', '40119', '15', '126', '0', '50');
-INSERT INTO `shop` VALUES ('70081', '40317', '0', '189', '0', '70');
-INSERT INTO `shop` VALUES ('70081', '40126', '13', '63', '0', '25');
-INSERT INTO `shop` VALUES ('70081', '40018', '11', '1897', '0', '750');
-INSERT INTO `shop` VALUES ('70081', '40013', '10', '253', '0', '100');
-INSERT INTO `shop` VALUES ('70081', '40100', '14', '88', '0', '35');
-INSERT INTO `shop` VALUES ('70081', '40124', '18', '149', '0', '100');
-INSERT INTO `shop` VALUES ('70081', '40079', '17', '149', '0', '60');
-INSERT INTO `shop` VALUES ('70081', '40739', '3', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70092', '41260', '26', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70079', '40018', '8', '1650', '0', '825');
-INSERT INTO `shop` VALUES ('70079', '40126', '9', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70092', '40317', '24', '154', '0', '77');
-INSERT INTO `shop` VALUES ('70079', '40009', '13', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70079', '40738', '19', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70092', '41160', '23', '2364', '10', '-1');
-INSERT INTO `shop` VALUES ('70079', '40056', '14', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70079', '40377', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70079', '40023', '4', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70079', '40024', '5', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70079', '40017', '6', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70079', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70079', '40100', '10', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70079', '40013', '7', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70079', '40022', '3', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70079', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70079', '40317', '12', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70079', '50020', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70092', '40056', '25', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70079', '40739', '18', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70079', '41260', '16', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70079', '40065', '15', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70079', '40743', '17', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70079', '40740', '20', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70078', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70078', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70076', '41206', '0', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70074', '40380', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70074', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70074', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70074', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70074', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70074', '40022', '5', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70074', '40023', '6', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70074', '40024', '7', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70074', '40017', '8', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70074', '40013', '9', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70074', '40018', '10', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70074', '40126', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70074', '40100', '12', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70074', '40119', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70074', '40089', '14', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70074', '40079', '15', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70074', '40124', '16', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70074', '50020', '17', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70074', '40315', '18', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70074', '41160', '19', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70074', '40317', '20', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70074', '40009', '21', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70074', '40056', '22', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70074', '40065', '23', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70074', '41260', '24', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70074', '41246', '25', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70073', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70073', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70073', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70073', '143', '3', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70073', '141', '4', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70073', '23', '5', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70073', '24', '6', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70073', '20239', '7', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70073', '20242', '8', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70073', '20043', '9', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70073', '20089', '10', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70073', '20147', '11', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70073', '20096', '12', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70073', '20122', '13', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70073', '40739', '14', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70073', '40738', '15', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70073', '40740', '16', '2', '0', '1');
-INSERT INTO `shop` VALUES ('4220700', '21033', '22', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('70072', '40126', '10', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70072', '40100', '11', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70072', '40009', '20', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70072', '41260', '23', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70072', '40317', '19', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70072', '40065', '22', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70072', '40379', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70072', '40056', '21', '2', '0', '0');
-INSERT INTO `shop` VALUES ('70072', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70072', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70072', '40024', '6', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70072', '40017', '7', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70072', '40013', '8', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70072', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70072', '40079', '12', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70072', '40018', '9', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70072', '40023', '5', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70072', '40022', '4', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70072', '41160', '18', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70072', '40089', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70072', '40124', '13', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70072', '40315', '17', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70072', '50020', '16', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70072', '40119', '14', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70072', '41246', '24', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70071', '40011', '1', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70071', '40124', '11', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70071', '40009', '14', '600', '0', '1');
-INSERT INTO `shop` VALUES ('70071', '40740', '21', '2', '0', '0');
-INSERT INTO `shop` VALUES ('70071', '40738', '20', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70071', '40743', '18', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70071', '40013', '6', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70071', '40018', '7', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70071', '40024', '4', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70071', '40126', '8', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70071', '40023', '3', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70071', '40079', '10', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70071', '40065', '16', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70071', '40317', '13', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70071', '40100', '9', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70071', '40010', '0', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70071', '40022', '2', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70071', '41260', '17', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70071', '40739', '19', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70071', '40017', '5', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70071', '40056', '15', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70071', '40119', '12', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70069', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70069', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '148', '1', '101200', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '125', '5', '96600', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '129', '4', '88550', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '41', '0', '109250', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '29', '3', '101200', '0', '6500');
-INSERT INTO `shop` VALUES ('70068', '142', '2', '95450', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20015', '11', '87400', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20125', '6', '72450', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20014', '10', '83950', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20011', '7', '66700', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20036', '8', '79350', '0', '-1');
-INSERT INTO `shop` VALUES ('70068', '20013', '9', '93150', '0', '-1');
-INSERT INTO `shop` VALUES ('70067', '40119', '17', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70067', '20114', '31', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70067', '40087', '18', '75000', '0', '37500');
-INSERT INTO `shop` VALUES ('70067', '40009', '30', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70067', '40006', '27', '20000', '0', '-1');
-INSERT INTO `shop` VALUES ('70067', '40008', '28', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('70067', '128', '24', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70067', '125', '26', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('70067', '129', '25', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70067', '40012', '2', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70067', '40010', '0', '33', '0', '17');
-INSERT INTO `shop` VALUES ('70067', '40020', '4', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70067', '40019', '3', '48', '0', '24');
-INSERT INTO `shop` VALUES ('70067', '40013', '6', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70067', '40021', '5', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70067', '40007', '29', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('70067', '40088', '23', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70067', '40011', '1', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70067', '40089', '20', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70067', '40017', '7', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70067', '40124', '22', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70067', '40025', '9', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70067', '41260', '10', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70067', '40016', '8', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70067', '40100', '16', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70067', '40091', '13', '400', '0', '200');
-INSERT INTO `shop` VALUES ('70067', '40057', '11', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70067', '40090', '12', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70067', '40126', '15', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70067', '40092', '14', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70066', '40171', '0', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70066', '40176', '1', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70066', '40180', '2', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70066', '40182', '3', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70066', '40187', '4', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70066', '40188', '5', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70066', '40194', '6', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70064', '41206', '0', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70063', '40387', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70063', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70063', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70063', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70063', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70063', '40022', '5', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70063', '40023', '6', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70063', '40024', '7', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70063', '40017', '8', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70063', '40013', '9', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70063', '40018', '10', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70063', '40126', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70063', '40100', '12', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70063', '40119', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70063', '40087', '14', '75000', '0', '37500');
-INSERT INTO `shop` VALUES ('70063', '40074', '15', '31000', '0', '15500');
-INSERT INTO `shop` VALUES ('70063', '40089', '16', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70063', '40079', '17', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70063', '40124', '18', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70063', '40088', '19', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70063', '50020', '20', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70063', '40317', '21', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70063', '40315', '22', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70063', '41160', '23', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70063', '40057', '24', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70063', '40056', '25', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70063', '40065', '26', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70063', '41260', '27', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70063', '40009', '28', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70063', '41246', '29', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70062', '40170', '0', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70062', '40173', '1', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70062', '40177', '2', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70062', '40179', '3', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70062', '40183', '4', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70061', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70061', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70061', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70061', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70061', '143', '4', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70061', '142', '5', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70061', '148', '6', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70061', '138', '7', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70061', '139', '8', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70061', '141', '9', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70061', '146', '10', '3500', '0', '1750');
-INSERT INTO `shop` VALUES ('70061', '102', '11', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70061', '23', '12', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70061', '24', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70061', '25', '14', '1800', '0', '900');
-INSERT INTO `shop` VALUES ('70061', '27', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70061', '32', '16', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70061', '31', '17', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70061', '29', '18', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70061', '37', '19', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70061', '52', '20', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70061', '41', '21', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70061', '90', '22', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70061', '92', '23', '180', '0', '90');
-INSERT INTO `shop` VALUES ('70061', '93', '24', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70061', '94', '25', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70061', '97', '26', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70061', '95', '27', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70061', '98', '28', '350', '0', '175');
-INSERT INTO `shop` VALUES ('70061', '103', '29', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70061', '104', '30', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70061', '106', '31', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70061', '128', '32', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70061', '125', '33', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('70061', '129', '34', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70061', '40739', '35', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70061', '40738', '36', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70061', '40740', '37', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70060', '40232', '0', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70060', '40233', '1', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70060', '40234', '2', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70060', '40235', '3', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70060', '40236', '4', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70060', '40239', '5', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70060', '40247', '8', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70060', '40256', '6', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70060', '40260', '7', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70059', '41260', '22', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70059', '40009', '23', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70059', '40013', '8', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70059', '40017', '7', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70059', '40018', '9', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70059', '40126', '10', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70059', '40100', '11', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70059', '40089', '13', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70059', '40088', '16', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70059', '40079', '14', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70059', '40315', '17', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70059', '40124', '15', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70059', '41160', '18', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70059', '40024', '6', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70059', '40387', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70059', '40010', '1', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70059', '40012', '3', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70059', '40022', '4', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70059', '40011', '2', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70059', '40023', '5', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70059', '40119', '12', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70059', '40317', '19', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70059', '40056', '20', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70059', '40065', '21', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70058', '20125', '16', '6000', '0', '3000');
-INSERT INTO `shop` VALUES ('70058', '20043', '4', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70058', '20096', '14', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70058', '20101', '18', '23000', '0', '11500');
-INSERT INTO `shop` VALUES ('70058', '20242', '2', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70058', '20154', '21', '37000', '0', '18500');
-INSERT INTO `shop` VALUES ('70058', '20115', '20', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70058', '20036', '8', '12000', '0', '6000');
-INSERT INTO `shop` VALUES ('70058', '20229', '1', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70058', '20231', '3', '7000', '0', '3500');
-INSERT INTO `shop` VALUES ('70058', '20110', '17', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70058', '20011', '9', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70058', '20015', '7', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70058', '20149', '19', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70058', '20013', '5', '22000', '0', '11000');
-INSERT INTO `shop` VALUES ('4213002', '430013', '5', '200000', '0', '100000');
-INSERT INTO `shop` VALUES ('70058', '20122', '15', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70058', '20114', '13', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70058', '20014', '6', '15000', '0', '7500');
-INSERT INTO `shop` VALUES ('70057', '41245', '0', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70057', '40010', '1', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70057', '40011', '2', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70057', '40012', '3', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70057', '40024', '9', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70057', '40017', '10', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70057', '40013', '11', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70057', '40018', '12', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70057', '40014', '13', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70057', '40016', '14', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70057', '40019', '4', '48', '0', '24');
-INSERT INTO `shop` VALUES ('70057', '40100', '16', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70057', '40126', '15', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70057', '40023', '8', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70057', '40022', '7', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70057', '40020', '5', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70057', '40021', '6', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70057', '41246', '25', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70057', '50020', '22', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70057', '40009', '23', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70057', '40088', '21', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70057', '40089', '18', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70057', '41260', '24', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70057', '40124', '20', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70056', '37', '0', '92000', '0', '3000');
-INSERT INTO `shop` VALUES ('70056', '148', '1', '101200', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '41', '2', '109250', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '102', '3', '97750', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '142', '4', '95450', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '25', '5', '88550', '0', '900');
-INSERT INTO `shop` VALUES ('70056', '20101', '6', '96600', '0', '12500');
-INSERT INTO `shop` VALUES ('70056', '20154', '7', '112700', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '20229', '8', '89700', '0', '-1');
-INSERT INTO `shop` VALUES ('70056', '20036', '9', '79350', '0', '-1');
-INSERT INTO `shop` VALUES ('70055', '427004', '3', '50000', '0', '25000');
-INSERT INTO `shop` VALUES ('70055', '427102', '1', '50000', '0', '25000');
-INSERT INTO `shop` VALUES ('70055', '427002', '2', '15000', '0', '7500');
-INSERT INTO `shop` VALUES ('70055', '427108', '0', '90000', '0', '45000');
-INSERT INTO `shop` VALUES ('70053', '40069', '1', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70053', '40061', '3', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70053', '40072', '6', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70053', '41266', '7', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70053', '40059', '0', '4', '0', '2');
-INSERT INTO `shop` VALUES ('70053', '40060', '4', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70053', '40062', '5', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70053', '40064', '2', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70053', '41264', '9', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70053', '41267', '8', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70053', '41260', '18', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70053', '41262', '17', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41269', '12', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41273', '15', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41272', '14', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41265', '10', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70053', '41271', '13', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41268', '11', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70053', '41261', '16', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70052', '40013', '10', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70052', '40018', '11', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70052', '50020', '12', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70052', '40317', '15', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70052', '41260', '19', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70052', '41160', '14', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70052', '40065', '18', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70052', '40056', '17', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70052', '40057', '16', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70052', '40388', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70052', '40373', '1', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70052', '41245', '2', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70052', '40022', '6', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70052', '40023', '7', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70052', '40024', '8', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70052', '40010', '3', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70052', '40315', '13', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70052', '40017', '9', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70052', '40012', '5', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70052', '40011', '4', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70052', '41246', '20', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70051', '40119', '4', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70051', '40315', '5', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70051', '40100', '3', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70051', '40017', '1', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70051', '40013', '2', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70051', '41160', '6', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70051', '40317', '7', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70051', '40065', '10', '4', '0', '2');
-INSERT INTO `shop` VALUES ('70051', '40010', '0', '32', '0', '16');
-INSERT INTO `shop` VALUES ('70051', '40056', '9', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70051', '41260', '11', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70051', '40009', '8', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70050', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70049', '40010', '0', '48', '0', '0');
-INSERT INTO `shop` VALUES ('70049', '40011', '1', '251', '0', '0');
-INSERT INTO `shop` VALUES ('70049', '40012', '2', '567', '0', '0');
-INSERT INTO `shop` VALUES ('70049', '40017', '3', '104', '0', '-1');
-INSERT INTO `shop` VALUES ('70049', '40018', '4', '2250', '0', '-1');
-INSERT INTO `shop` VALUES ('70048', '40388', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70048', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70048', '40010', '2', '33', '0', '17');
-INSERT INTO `shop` VALUES ('70048', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70048', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70048', '40022', '5', '275', '0', '140');
-INSERT INTO `shop` VALUES ('70048', '40023', '6', '1575', '0', '790');
-INSERT INTO `shop` VALUES ('70048', '40024', '7', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70048', '40017', '8', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70048', '40013', '9', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70048', '40018', '10', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70048', '40126', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70048', '40100', '12', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70048', '40119', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70048', '40089', '14', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70048', '40079', '15', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70048', '40124', '16', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70048', '40088', '17', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70048', '50020', '18', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70048', '40315', '19', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70048', '41160', '20', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70048', '40317', '21', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70048', '40009', '22', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70048', '40057', '23', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70048', '40056', '24', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70048', '40065', '25', '5', '0', '3');
-INSERT INTO `shop` VALUES ('70048', '41260', '26', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70048', '40903', '27', '100000', '0', '50000');
-INSERT INTO `shop` VALUES ('70048', '40906', '28', '1000000', '0', '500000');
-INSERT INTO `shop` VALUES ('70048', '40904', '29', '200000', '0', '100000');
-INSERT INTO `shop` VALUES ('70048', '40905', '30', '500000', '0', '250000');
-INSERT INTO `shop` VALUES ('70048', '40902', '31', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70048', '40901', '32', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70048', '41246', '33', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('4200002', '438000', '0', '10', '0', '0');
-INSERT INTO `shop` VALUES ('70047', '40740', '37', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70047', '40739', '35', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70047', '129', '34', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70047', '40738', '36', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70047', '125', '33', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('70047', '94', '25', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70047', '104', '30', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70047', '103', '29', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70047', '128', '32', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70047', '97', '26', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70047', '95', '27', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70047', '98', '28', '350', '0', '175');
-INSERT INTO `shop` VALUES ('70047', '106', '31', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70047', '31', '17', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70047', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70047', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70047', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70047', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70047', '148', '6', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70047', '142', '5', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70047', '143', '4', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70047', '138', '7', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70047', '141', '9', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70047', '139', '8', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70047', '146', '10', '3500', '0', '1750');
-INSERT INTO `shop` VALUES ('70047', '102', '11', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70047', '23', '12', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70047', '24', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70047', '27', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70047', '25', '14', '1800', '0', '900');
-INSERT INTO `shop` VALUES ('70047', '32', '16', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70047', '29', '18', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70047', '37', '19', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70047', '52', '20', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70047', '92', '23', '180', '0', '90');
-INSERT INTO `shop` VALUES ('70047', '41', '21', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70047', '93', '24', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70047', '90', '22', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70046', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70046', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70045', '40126', '16', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70045', '40100', '17', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70045', '40009', '27', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70045', '41260', '30', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70045', '40317', '26', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70045', '40065', '29', '6', '0', '3');
-INSERT INTO `shop` VALUES ('70045', '40386', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70045', '40056', '28', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70045', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70045', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70045', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70045', '40023', '9', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70045', '40024', '10', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70045', '40017', '11', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70045', '40013', '12', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70045', '40018', '13', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70045', '40014', '14', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70045', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70045', '40079', '18', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70045', '40016', '15', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70045', '40022', '8', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70045', '40021', '7', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70045', '40019', '5', '48', '0', '24');
-INSERT INTO `shop` VALUES ('70045', '40020', '6', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70045', '41160', '25', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70045', '40088', '22', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70045', '40124', '19', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70045', '40315', '24', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70045', '50020', '23', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70045', '40089', '21', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70045', '40119', '20', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70045', '41246', '31', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70044', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70044', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70044', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70044', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70044', '137', '4', '15', '0', '7');
-INSERT INTO `shop` VALUES ('70044', '90', '5', '39', '0', '19');
-INSERT INTO `shop` VALUES ('70044', '96', '6', '88', '0', '44');
-INSERT INTO `shop` VALUES ('70044', '140', '7', '99', '0', '49');
-INSERT INTO `shop` VALUES ('70044', '27', '8', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70044', '143', '9', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70044', '141', '10', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70044', '146', '11', '3500', '0', '1750');
-INSERT INTO `shop` VALUES ('70044', '102', '12', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70044', '148', '13', '12000', '0', '6000');
-INSERT INTO `shop` VALUES ('70044', '23', '14', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70044', '24', '15', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70044', '31', '16', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70044', '32', '17', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70044', '37', '18', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70044', '41', '19', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70044', '128', '20', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70044', '129', '21', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70044', '20239', '22', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70044', '20242', '23', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70044', '20231', '24', '7000', '0', '3500');
-INSERT INTO `shop` VALUES ('70044', '20043', '25', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70044', '20006', '26', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70044', '20089', '27', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70044', '20147', '28', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70044', '20114', '29', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70044', '20096', '30', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70044', '20122', '31', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70044', '20125', '32', '6000', '0', '3000');
-INSERT INTO `shop` VALUES ('70044', '20149', '33', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70044', '20154', '34', '37000', '0', '18500');
-INSERT INTO `shop` VALUES ('70044', '20115', '35', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70044', '40739', '36', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70044', '40738', '37', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('70044', '40740', '38', '3', '0', '-1');
-INSERT INTO `shop` VALUES ('70043', '40405', '0', '4', '0', '2');
-INSERT INTO `shop` VALUES ('70039', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70039', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70039', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70039', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70039', '143', '4', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70039', '142', '5', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70039', '148', '6', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70039', '138', '7', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70039', '139', '8', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70039', '141', '9', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70039', '146', '10', '3500', '0', '1750');
-INSERT INTO `shop` VALUES ('70039', '102', '11', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70039', '23', '12', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70039', '24', '13', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70039', '25', '14', '1800', '0', '900');
-INSERT INTO `shop` VALUES ('70039', '27', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70039', '32', '16', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70039', '31', '17', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70039', '29', '18', '13000', '0', '6500');
-INSERT INTO `shop` VALUES ('70039', '37', '19', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70039', '52', '20', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70039', '41', '21', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70039', '90', '22', '40', '0', '20');
-INSERT INTO `shop` VALUES ('70039', '92', '23', '180', '0', '90');
-INSERT INTO `shop` VALUES ('70039', '93', '24', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70039', '94', '25', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70039', '97', '26', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70039', '95', '27', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70039', '98', '28', '350', '0', '175');
-INSERT INTO `shop` VALUES ('70039', '103', '29', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70039', '104', '30', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70039', '106', '31', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70039', '128', '32', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70039', '125', '33', '9000', '0', '4500');
-INSERT INTO `shop` VALUES ('70039', '129', '34', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70039', '40739', '35', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70039', '40738', '36', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70039', '40740', '37', '2', '0', '1');
-INSERT INTO `shop` VALUES ('4208001', '40010', '0', '32', '0', '16');
-INSERT INTO `shop` VALUES ('70038', '40456', '0', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70038', '40455', '1', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70038', '40457', '2', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70037', '41206', '0', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70036', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70036', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70033', '41245', '0', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70033', '40010', '1', '33', '0', '17');
-INSERT INTO `shop` VALUES ('70033', '40011', '2', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70033', '40012', '3', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70033', '40019', '4', '48', '0', '24');
-INSERT INTO `shop` VALUES ('70033', '40020', '5', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70033', '40021', '6', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70033', '40022', '7', '275', '0', '140');
-INSERT INTO `shop` VALUES ('70033', '40023', '8', '1575', '0', '790');
-INSERT INTO `shop` VALUES ('70033', '40024', '9', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70033', '40017', '10', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70033', '40013', '11', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70033', '40018', '12', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70033', '40014', '13', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70033', '40016', '14', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70033', '40126', '15', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70033', '40100', '16', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70033', '40119', '17', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70033', '40089', '18', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70033', '40124', '20', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70033', '40088', '21', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70033', '40074', '22', '31000', '0', '15500');
-INSERT INTO `shop` VALUES ('70033', '40087', '23', '75000', '0', '37500');
-INSERT INTO `shop` VALUES ('70033', '50020', '24', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70033', '40009', '25', '600', '0', '1');
-INSERT INTO `shop` VALUES ('70033', '41260', '26', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70033', '41246', '27', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70032', '20239', '0', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70032', '20229', '1', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70032', '20242', '2', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70032', '20231', '3', '7000', '0', '3500');
-INSERT INTO `shop` VALUES ('70032', '20043', '4', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70032', '20013', '5', '22000', '0', '11000');
-INSERT INTO `shop` VALUES ('70032', '20014', '6', '15000', '0', '7500');
-INSERT INTO `shop` VALUES ('70032', '20015', '7', '18000', '0', '9000');
-INSERT INTO `shop` VALUES ('70032', '20036', '8', '12000', '0', '6000');
-INSERT INTO `shop` VALUES ('70032', '20011', '9', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70032', '20006', '10', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70032', '20089', '11', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70032', '20147', '12', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70032', '20114', '13', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70032', '20096', '14', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70032', '20122', '15', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70032', '20125', '16', '6000', '0', '3000');
-INSERT INTO `shop` VALUES ('70032', '20110', '17', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70032', '20101', '18', '23000', '0', '11500');
-INSERT INTO `shop` VALUES ('70032', '20149', '19', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70032', '20115', '20', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70032', '20154', '21', '37000', '0', '18500');
-INSERT INTO `shop` VALUES ('4208001', '40011', '1', '168', '0', '84');
-INSERT INTO `shop` VALUES ('4208001', '40024', '4', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70030', '40018', '11', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70030', '40126', '12', '50', '0', '25');
-INSERT INTO `shop` VALUES ('4208001', '40022', '2', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70030', '40317', '22', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70030', '41260', '26', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70030', '41160', '21', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70030', '40065', '25', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70030', '40382', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70030', '40056', '24', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70030', '40009', '23', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70030', '40381', '1', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70030', '41245', '2', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70030', '40010', '3', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70030', '40023', '7', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70030', '40024', '8', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70030', '40017', '9', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70030', '40011', '4', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70030', '40100', '13', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70030', '40013', '10', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70030', '40022', '6', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70030', '40012', '5', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70030', '40315', '20', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70030', '40124', '17', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70030', '40088', '18', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70030', '40079', '16', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70030', '40119', '14', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70030', '50020', '19', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70030', '40089', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('4208001', '40023', '3', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70030', '41246', '27', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70029', '41262', '17', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41260', '18', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70029', '41269', '12', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41273', '15', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41272', '14', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41265', '10', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70029', '41271', '13', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41268', '11', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41261', '16', '25', '0', '12');
-INSERT INTO `shop` VALUES ('70029', '41267', '8', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70029', '41264', '9', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70029', '41266', '7', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70029', '40059', '0', '4', '0', '2');
-INSERT INTO `shop` VALUES ('70029', '40062', '5', '6', '0', '3');
-INSERT INTO `shop` VALUES ('70029', '40060', '4', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70029', '40064', '2', '6', '0', '3');
-INSERT INTO `shop` VALUES ('70029', '40069', '1', '6', '0', '3');
-INSERT INTO `shop` VALUES ('70029', '40061', '3', '6', '0', '3');
-INSERT INTO `shop` VALUES ('70029', '40072', '6', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70028', '40010', '0', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70028', '40011', '1', '162', '0', '81');
-INSERT INTO `shop` VALUES ('70028', '40012', '2', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70028', '40017', '3', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70028', '40013', '4', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70028', '40018', '5', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70028', '40019', '6', '48', '0', '24');
-INSERT INTO `shop` VALUES ('70028', '40020', '7', '252', '0', '126');
-INSERT INTO `shop` VALUES ('70028', '40021', '8', '624', '0', '312');
-INSERT INTO `shop` VALUES ('70027', '40044', '0', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('70027', '40045', '1', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('70027', '40046', '2', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('70027', '40047', '3', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('70027', '40048', '4', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('70027', '40049', '5', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('70027', '40050', '6', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('70027', '40051', '7', '-1', '0', '1000');
-INSERT INTO `shop` VALUES ('70027', '40052', '8', '-1', '0', '5000');
-INSERT INTO `shop` VALUES ('70027', '40053', '9', '-1', '0', '5000');
-INSERT INTO `shop` VALUES ('70027', '40054', '10', '-1', '0', '5000');
-INSERT INTO `shop` VALUES ('70027', '40055', '11', '-1', '0', '5000');
-INSERT INTO `shop` VALUES ('70026', '40743', '0', '1', '11', '-1');
-INSERT INTO `shop` VALUES ('70026', '40744', '1', '1', '6', '-1');
-INSERT INTO `shop` VALUES ('70026', '172', '2', '50', '0', '-1');
-INSERT INTO `shop` VALUES ('70026', '169', '3', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70024', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70024', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70024', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70024', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70024', '143', '4', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70024', '92', '5', '180', '0', '90');
-INSERT INTO `shop` VALUES ('70024', '141', '6', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70024', '23', '7', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70024', '24', '8', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70024', '31', '9', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70024', '102', '10', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70024', '41', '11', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70024', '20239', '12', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70024', '20242', '13', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70024', '20043', '14', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70024', '20089', '15', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70024', '20147', '16', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70024', '20096', '17', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70024', '20122', '18', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70024', '20125', '19', '6000', '0', '3000');
-INSERT INTO `shop` VALUES ('70024', '20115', '20', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70024', '20101', '21', '25000', '0', '12500');
-INSERT INTO `shop` VALUES ('70024', '40739', '22', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70024', '40738', '23', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70024', '40740', '24', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70092', '41246', '27', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('4208001', '40017', '5', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70023', '425000', '0', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70022', '40298', '0', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('4208001', '40126', '8', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70021', '40126', '11', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70021', '40100', '12', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70021', '40009', '21', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('4208001', '40013', '6', '250', '0', '125');
-INSERT INTO `shop` VALUES ('70021', '41260', '24', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70021', '40317', '20', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70021', '40065', '23', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70021', '40375', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70021', '40056', '22', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70021', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70021', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70021', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70021', '40024', '7', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70021', '40017', '8', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70021', '40013', '9', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70021', '40012', '4', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70021', '40023', '6', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70021', '40079', '13', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70021', '40018', '10', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70021', '40022', '5', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70021', '41160', '19', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70021', '40089', '16', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70021', '40124', '14', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70021', '40315', '18', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70021', '50020', '17', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70021', '40119', '15', '100', '0', '50');
-INSERT INTO `shop` VALUES ('4208001', '40018', '7', '1650', '0', '825');
-INSERT INTO `shop` VALUES ('70021', '41246', '25', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70020', '72', '5', '95450', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '159', '2', '113850', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '154', '4', '97750', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '80', '1', '138000', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '77', '3', '109250', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '161', '0', '143750', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '193', '6', '92000', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '20115', '9', '89700', '0', '11000');
-INSERT INTO `shop` VALUES ('70020', '20110', '10', '73600', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '20154', '8', '112700', '0', '-1');
-INSERT INTO `shop` VALUES ('70020', '20149', '7', '85100', '0', '7000');
-INSERT INTO `shop` VALUES ('70018', '40376', '0', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70018', '40381', '1', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70018', '41245', '2', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70018', '40010', '3', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70018', '40011', '4', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70018', '40012', '5', '378', '0', '189');
-INSERT INTO `shop` VALUES ('70018', '40022', '6', '270', '0', '135');
-INSERT INTO `shop` VALUES ('70018', '40023', '7', '1570', '0', '785');
-INSERT INTO `shop` VALUES ('70018', '40024', '8', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70018', '40017', '9', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70018', '40013', '10', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70018', '40018', '11', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70018', '40126', '12', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70018', '40100', '13', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70018', '40119', '14', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70018', '40089', '15', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70018', '40079', '16', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70018', '40124', '17', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70018', '41260', '18', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70018', '50020', '19', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70018', '40315', '20', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70018', '41160', '21', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70018', '40317', '22', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70018', '40009', '23', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70018', '40056', '24', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70018', '40065', '25', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70018', '41246', '26', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('4220700', '41310', '8', '4000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20137', '3', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '423009', '14', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('70017', '40012', '0', '377', '0', '189');
-INSERT INTO `shop` VALUES ('70017', '40013', '2', '250', '0', '125');
-INSERT INTO `shop` VALUES ('70017', '40017', '1', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70017', '40018', '3', '1875', '0', '938');
-INSERT INTO `shop` VALUES ('70017', '40074', '8', '30000', '0', '15000');
-INSERT INTO `shop` VALUES ('70017', '40119', '6', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70017', '40089', '7', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70017', '40100', '5', '80', '0', '40');
-INSERT INTO `shop` VALUES ('70017', '40126', '4', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70017', '40567', '9', '100000', '0', '50000');
-INSERT INTO `shop` VALUES ('70017', '40603', '10', '100000', '0', '50000');
-INSERT INTO `shop` VALUES ('70016', '40743', '0', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70016', '40744', '1', '1', '5', '-1');
-INSERT INTO `shop` VALUES ('70016', '172', '2', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70016', '136', '3', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70016', '143', '4', '700', '0', '350');
-INSERT INTO `shop` VALUES ('70016', '141', '5', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70016', '146', '6', '3500', '0', '1750');
-INSERT INTO `shop` VALUES ('70016', '102', '7', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70016', '148', '8', '12000', '0', '6000');
-INSERT INTO `shop` VALUES ('70016', '23', '9', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70016', '24', '10', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70016', '31', '11', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70016', '32', '12', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70016', '41', '13', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70016', '128', '14', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70016', '129', '15', '2500', '0', '1250');
-INSERT INTO `shop` VALUES ('70016', '20239', '16', '60', '0', '30');
-INSERT INTO `shop` VALUES ('70016', '20242', '17', '1200', '0', '600');
-INSERT INTO `shop` VALUES ('70016', '20231', '18', '7000', '0', '3500');
-INSERT INTO `shop` VALUES ('70016', '20043', '19', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70016', '20006', '20', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70016', '20089', '21', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70016', '20147', '22', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70016', '20114', '23', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70016', '20096', '24', '500', '0', '250');
-INSERT INTO `shop` VALUES ('70016', '20122', '25', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70016', '20125', '26', '6000', '0', '3000');
-INSERT INTO `shop` VALUES ('70016', '20149', '27', '16000', '0', '8000');
-INSERT INTO `shop` VALUES ('70016', '20115', '28', '20000', '0', '10000');
-INSERT INTO `shop` VALUES ('70016', '40739', '29', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70016', '40738', '30', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70016', '40740', '31', '2', '0', '1');
-INSERT INTO `shop` VALUES ('4500173', '51', '0', '2500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '423010', '15', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70015', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70014', '31', '36', '3300', '0', '1650');
-INSERT INTO `shop` VALUES ('70014', '40739', '37', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70014', '40743', '25', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70014', '40002', '22', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70014', '40003', '23', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70014', '40009', '24', '600', '0', '-1');
-INSERT INTO `shop` VALUES ('70014', '20089', '45', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70014', '41246', '52', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('70014', '20322', '44', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70014', '41260', '51', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70014', '4', '26', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70014', '20147', '46', '330', '0', '165');
-INSERT INTO `shop` VALUES ('70014', '20125', '50', '6600', '0', '3300');
-INSERT INTO `shop` VALUES ('70014', '20114', '48', '1100', '0', '550');
-INSERT INTO `shop` VALUES ('70014', '20096', '47', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70014', '20122', '49', '2200', '0', '1100');
-INSERT INTO `shop` VALUES ('70014', '136', '27', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70014', '172', '28', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70014', '96', '32', '88', '0', '44');
-INSERT INTO `shop` VALUES ('70014', '140', '33', '99', '0', '49');
-INSERT INTO `shop` VALUES ('70014', '24', '34', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70014', '90', '30', '39', '0', '19');
-INSERT INTO `shop` VALUES ('70014', '137', '29', '17', '0', '8');
-INSERT INTO `shop` VALUES ('70014', '40738', '38', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70014', '27', '35', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70014', '23', '31', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70014', '20242', '43', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70014', '20213', '40', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70014', '40740', '39', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70014', '20239', '42', '65', '0', '32');
-INSERT INTO `shop` VALUES ('70014', '20205', '41', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70014', '40374', '0', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70014', '40013', '8', '250', '0', '125');
-INSERT INTO `shop` VALUES ('70014', '40018', '9', '1650', '0', '825');
-INSERT INTO `shop` VALUES ('70014', '40023', '5', '1575', '0', '785');
-INSERT INTO `shop` VALUES ('70014', '41245', '1', '50', '10', '-1');
-INSERT INTO `shop` VALUES ('70014', '40024', '6', '6240', '0', '3120');
-INSERT INTO `shop` VALUES ('70014', '40010', '2', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70014', '40011', '3', '168', '0', '84');
-INSERT INTO `shop` VALUES ('70014', '40022', '4', '275', '0', '135');
-INSERT INTO `shop` VALUES ('70014', '40017', '7', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70014', '40317', '17', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70014', '41160', '16', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('70014', '40056', '18', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70014', '40065', '19', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70014', '40005', '20', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70014', '40126', '10', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70014', '40315', '15', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70014', '40100', '11', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70014', '40079', '12', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70014', '40124', '13', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70014', '40119', '14', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70014', '40001', '21', '11', '0', '5');
-INSERT INTO `shop` VALUES ('70013', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40149', '6', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40157', '7', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40142', '8', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40161', '9', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40153', '10', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40146', '11', '330', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40139', '12', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40143', '13', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40156', '14', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40148', '15', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40155', '16', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40147', '17', '660', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40136', '18', '1320', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40138', '19', '1980', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40137', '20', '4125', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40158', '21', '82', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40140', '22', '82', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40144', '23', '82', '0', '-1');
-INSERT INTO `shop` VALUES ('70013', '40150', '24', '82', '0', '-1');
-INSERT INTO `shop` VALUES ('70011', '40299', '0', '300', '0', '-1');
-INSERT INTO `shop` VALUES ('70010', '40018', '2', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70010', '41260', '5', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70010', '40013', '1', '250', '0', '125');
-INSERT INTO `shop` VALUES ('70010', '40010', '0', '33', '0', '16');
-INSERT INTO `shop` VALUES ('70010', '20136', '19', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70010', '91', '14', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70010', '21', '15', '10', '0', '5');
-INSERT INTO `shop` VALUES ('70010', '40740', '11', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70010', '20072', '20', '50', '0', '25');
-INSERT INTO `shop` VALUES ('70010', '1', '13', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70010', '171', '12', '30', '0', '15');
-INSERT INTO `shop` VALUES ('70010', '40056', '3', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70010', '20135', '18', '200', '0', '100');
-INSERT INTO `shop` VALUES ('70010', '20237', '17', '90', '0', '45');
-INSERT INTO `shop` VALUES ('70010', '40001', '4', '10', '0', '5');
-INSERT INTO `shop` VALUES ('70010', '20034', '16', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70010', '40743', '6', '1', '8', '-1');
-INSERT INTO `shop` VALUES ('70010', '40738', '10', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70010', '140', '8', '90', '0', '45');
-INSERT INTO `shop` VALUES ('70010', '40739', '9', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70010', '136', '7', '20', '0', '10');
-INSERT INTO `shop` VALUES ('70008', '20122', '33', '2200', '0', '1100');
-INSERT INTO `shop` VALUES ('70008', '136', '14', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70008', '31', '23', '3300', '0', '1650');
-INSERT INTO `shop` VALUES ('70008', '172', '15', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70008', '40011', '2', '184', '0', '92');
-INSERT INTO `shop` VALUES ('70008', '40017', '0', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70008', '40743', '12', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70008', '40056', '8', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70008', '4', '13', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70008', '40010', '1', '35', '0', '17');
-INSERT INTO `shop` VALUES ('70008', '40065', '9', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70008', '40001', '10', '10', '0', '5');
-INSERT INTO `shop` VALUES ('70008', '41260', '11', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70008', '27', '22', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70008', '140', '20', '98', '0', '49');
-INSERT INTO `shop` VALUES ('70008', '40013', '3', '220', '0', '110');
-INSERT INTO `shop` VALUES ('70008', '96', '19', '88', '0', '44');
-INSERT INTO `shop` VALUES ('70008', '40018', '4', '1650', '0', '825');
-INSERT INTO `shop` VALUES ('70008', '137', '16', '17', '0', '8');
-INSERT INTO `shop` VALUES ('70008', '90', '17', '38', '0', '19');
-INSERT INTO `shop` VALUES ('70008', '24', '21', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70008', '23', '18', '32', '0', '16');
-INSERT INTO `shop` VALUES ('70008', '20239', '28', '65', '0', '32');
-INSERT INTO `shop` VALUES ('70008', '20089', '29', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70008', '40126', '7', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70008', '40739', '24', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70008', '40738', '25', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70008', '40740', '26', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70008', '20322', '27', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70008', '20147', '30', '330', '0', '165');
-INSERT INTO `shop` VALUES ('70008', '40014', '5', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70008', '40016', '6', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70008', '20096', '31', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70008', '20114', '32', '1100', '0', '550');
-INSERT INTO `shop` VALUES ('70008', '20242', '34', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70008', '20125', '35', '6600', '0', '3300');
-INSERT INTO `shop` VALUES ('70007', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70007', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70006', '40010', '0', '46', '0', '18');
-INSERT INTO `shop` VALUES ('70006', '40011', '1', '258', '0', '100');
-INSERT INTO `shop` VALUES ('70006', '40012', '2', '759', '0', '250');
-INSERT INTO `shop` VALUES ('70006', '40017', '3', '92', '0', '30');
-INSERT INTO `shop` VALUES ('70005', '20125', '42', '7590', '0', '4000');
-INSERT INTO `shop` VALUES ('70005', '40374', '12', '63', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '4', '23', '9', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '40100', '19', '88', '0', '35');
-INSERT INTO `shop` VALUES ('70005', '40119', '22', '126', '0', '50');
-INSERT INTO `shop` VALUES ('70005', '40079', '20', '151', '0', '60');
-INSERT INTO `shop` VALUES ('70005', '40018', '17', '1897', '0', '750');
-INSERT INTO `shop` VALUES ('70005', '40010', '13', '40', '0', '18');
-INSERT INTO `shop` VALUES ('70005', '40126', '18', '63', '0', '25');
-INSERT INTO `shop` VALUES ('70005', '40124', '21', '151', '0', '100');
-INSERT INTO `shop` VALUES ('70005', '40011', '14', '212', '0', '100');
-INSERT INTO `shop` VALUES ('70005', '40017', '15', '88', '0', '30');
-INSERT INTO `shop` VALUES ('70005', '40013', '16', '253', '0', '100');
-INSERT INTO `shop` VALUES ('70005', '40743', '5', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70005', '40001', '2', '12', '0', '5');
-INSERT INTO `shop` VALUES ('70005', '40315', '9', '632', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '40065', '1', '6', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '41160', '10', '2530', '10', '-1');
-INSERT INTO `shop` VALUES ('70005', '40317', '4', '172', '0', '70');
-INSERT INTO `shop` VALUES ('70005', '40009', '11', '690', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '41260', '3', '345', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '40056', '0', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '140', '30', '113', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '24', '31', '126', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20322', '34', '25', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20239', '35', '75', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20096', '38', '632', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20147', '37', '379', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '172', '25', '63', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '137', '26', '19', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '23', '28', '37', '0', '20');
-INSERT INTO `shop` VALUES ('70005', '90', '27', '44', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '96', '29', '101', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20089', '36', '126', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '40740', '8', '2', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '31', '33', '3795', '0', '1500');
-INSERT INTO `shop` VALUES ('70005', '27', '32', '1518', '0', '660');
-INSERT INTO `shop` VALUES ('70005', '40738', '7', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '40739', '6', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70005', '136', '24', '25', '0', '-1');
-INSERT INTO `shop` VALUES ('70005', '20122', '40', '2530', '0', '1000');
-INSERT INTO `shop` VALUES ('70005', '20114', '39', '1265', '0', '400');
-INSERT INTO `shop` VALUES ('70005', '20242', '41', '1518', '0', '600');
-INSERT INTO `shop` VALUES ('70004', '20096', '29', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70004', '20147', '28', '330', '0', '165');
-INSERT INTO `shop` VALUES ('70004', '20125', '33', '6600', '0', '3300');
-INSERT INTO `shop` VALUES ('70004', '20242', '32', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70004', '20122', '31', '2200', '0', '1100');
-INSERT INTO `shop` VALUES ('70004', '20114', '30', '1100', '0', '550');
-INSERT INTO `shop` VALUES ('70004', '172', '13', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70004', '23', '16', '32', '0', '16');
-INSERT INTO `shop` VALUES ('70004', '31', '21', '3300', '0', '1650');
-INSERT INTO `shop` VALUES ('70004', '96', '17', '88', '0', '44');
-INSERT INTO `shop` VALUES ('70004', '40018', '4', '1650', '0', '825');
-INSERT INTO `shop` VALUES ('70004', '41260', '9', '300', '0', '150');
-INSERT INTO `shop` VALUES ('70004', '40126', '5', '55', '0', '27');
-INSERT INTO `shop` VALUES ('70004', '140', '18', '98', '0', '49');
-INSERT INTO `shop` VALUES ('70004', '40743', '10', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('70004', '136', '12', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70004', '4', '11', '8', '0', '4');
-INSERT INTO `shop` VALUES ('70004', '40017', '0', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70004', '40010', '1', '35', '0', '17');
-INSERT INTO `shop` VALUES ('70004', '40011', '2', '184', '0', '92');
-INSERT INTO `shop` VALUES ('70004', '40013', '3', '220', '0', '110');
-INSERT INTO `shop` VALUES ('70004', '24', '19', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70004', '27', '20', '1320', '0', '660');
-INSERT INTO `shop` VALUES ('70004', '137', '14', '17', '0', '8');
-INSERT INTO `shop` VALUES ('70004', '90', '15', '38', '0', '19');
-INSERT INTO `shop` VALUES ('70004', '20089', '27', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70004', '20322', '25', '22', '0', '11');
-INSERT INTO `shop` VALUES ('70004', '20239', '26', '65', '0', '32');
-INSERT INTO `shop` VALUES ('70004', '40739', '22', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70004', '40001', '8', '10', '0', '5');
-INSERT INTO `shop` VALUES ('70004', '40738', '23', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70004', '40740', '24', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70004', '40056', '6', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70004', '40065', '7', '5', '0', '2');
-INSERT INTO `shop` VALUES ('70002', '40010', '0', '40', '0', '18');
-INSERT INTO `shop` VALUES ('70002', '40011', '1', '217', '0', '100');
-INSERT INTO `shop` VALUES ('70002', '40012', '2', '478', '0', '250');
-INSERT INTO `shop` VALUES ('70002', '40017', '3', '92', '0', '30');
-INSERT INTO `shop` VALUES ('70001', '40159', '5', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40161', '9', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40144', '23', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40155', '16', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40148', '15', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40140', '22', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40143', '13', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40137', '20', '3125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40149', '6', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40150', '24', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40147', '17', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40153', '10', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40152', '3', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40157', '7', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40138', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40139', '12', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40136', '18', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40146', '11', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40141', '0', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40160', '2', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40145', '1', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40158', '21', '62', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40151', '4', '125', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40142', '8', '250', '0', '-1');
-INSERT INTO `shop` VALUES ('70001', '40156', '14', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('50118', '40331', '0', '-1', '0', '2500');
-INSERT INTO `shop` VALUES ('50118', '40332', '1', '-1', '0', '1500');
-INSERT INTO `shop` VALUES ('50118', '40333', '2', '-1', '0', '4000');
-INSERT INTO `shop` VALUES ('50118', '40334', '3', '-1', '0', '10000');
-INSERT INTO `shop` VALUES ('50118', '40335', '4', '-1', '0', '500');
-INSERT INTO `shop` VALUES ('50118', '40336', '5', '-1', '0', '4000');
-INSERT INTO `shop` VALUES ('50118', '40337', '6', '-1', '0', '50000');
-INSERT INTO `shop` VALUES ('50118', '40338', '7', '-1', '0', '5000');
-INSERT INTO `shop` VALUES ('50118', '40339', '8', '-1', '0', '15000');
-INSERT INTO `shop` VALUES ('50118', '40340', '9', '-1', '0', '25000');
-INSERT INTO `shop` VALUES ('70033', '40079', '19', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70057', '40079', '19', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70067', '40079', '21', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70082', '40124', '19', '120', '0', '60');
-INSERT INTO `shop` VALUES ('70092', '40100', '13', '70', '0', '35');
-INSERT INTO `shop` VALUES ('70093', '40088', '17', '1300', '0', '650');
-INSERT INTO `shop` VALUES ('70057', '40119', '17', '100', '0', '50');
-INSERT INTO `shop` VALUES ('70067', '40074', '19', '31000', '0', '15500');
-INSERT INTO `shop` VALUES ('70082', '40089', '17', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70092', '40016', '11', '600', '0', '300');
-INSERT INTO `shop` VALUES ('70093', '40119', '15', '100', '0', '50');
-INSERT INTO `shop` VALUES ('4220700', '423011', '16', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('70088', '20011', '16', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70088', '20089', '17', '110', '0', '55');
-INSERT INTO `shop` VALUES ('70088', '20096', '18', '550', '0', '275');
-INSERT INTO `shop` VALUES ('70088', '20213', '19', '330', '0', '165');
-INSERT INTO `shop` VALUES ('70088', '20205', '20', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70088', '69', '21', '800', '0', '400');
-INSERT INTO `shop` VALUES ('70088', '71', '22', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('70088', '72', '23', '3000', '0', '1500');
-INSERT INTO `shop` VALUES ('70088', '77', '24', '8000', '0', '4000');
-INSERT INTO `shop` VALUES ('70088', '80', '25', '30000', '0', '15000');
-INSERT INTO `shop` VALUES ('70088', '152', '26', '1000', '0', '500');
-INSERT INTO `shop` VALUES ('70088', '153', '27', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('70088', '154', '28', '5000', '0', '2500');
-INSERT INTO `shop` VALUES ('70088', '159', '29', '12000', '0', '6000');
-INSERT INTO `shop` VALUES ('70088', '161', '30', '40000', '0', '20000');
-INSERT INTO `shop` VALUES ('70088', '40739', '31', '1', '2', '-1');
-INSERT INTO `shop` VALUES ('70088', '40738', '32', '1', '0', '0');
-INSERT INTO `shop` VALUES ('70088', '40740', '33', '2', '0', '1');
-INSERT INTO `shop` VALUES ('70088', '193', '34', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('70088', '41246', '35', '-1', '0', '5');
-INSERT INTO `shop` VALUES ('4208001', '40087', '14', '89000', '0', '44500');
-INSERT INTO `shop` VALUES ('4208001', '40315', '15', '550', '0', '275');
-INSERT INTO `shop` VALUES ('4208001', '41160', '16', '2000', '10', '-1');
-INSERT INTO `shop` VALUES ('4208001', '40317', '17', '150', '0', '75');
-INSERT INTO `shop` VALUES ('70058', '20147', '12', '300', '0', '150');
-INSERT INTO `shop` VALUES ('4213002', '430014', '6', '100000', '0', '50000');
-INSERT INTO `shop` VALUES ('4200100', '68', '1', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '8', '2', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '9', '3', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '11', '4', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '22', '5', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '33', '6', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '37', '7', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '39', '8', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '42', '9', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '43', '10', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '44', '11', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '49', '12', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '55', '13', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '57', '14', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '62', '15', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '81', '16', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '74', '17', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '84', '18', '-1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '118', '19', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '131', '20', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '126', '21', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '119', '22', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '162', '23', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '179', '24', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '180', '25', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '181', '26', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '189', '27', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '190', '28', '-1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '205', '29', '-1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '182', '30', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412000', '31', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412001', '32', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412002', '33', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412003', '34', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412004', '35', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '412005', '36', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425103', '68', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425104', '69', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425105', '70', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21022', '71', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439005', '88', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439001', '89', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439019', '90', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439014', '91', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439004', '92', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439011', '94', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439009', '93', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40237', '101', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40233', '102', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40258', '103', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40238', '104', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439016', '95', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439010', '96', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40255', '97', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40254', '98', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40232', '99', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40236', '100', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40250', '105', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40257', '106', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20011', '1', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20006', '2', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20018', '3', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20016', '4', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20020', '5', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20029', '7', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20025', '6', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20032', '8', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20040', '10', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20033', '9', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20056', '11', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20055', '12', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20030', '13', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20058', '14', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20067', '15', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20074', '16', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20092', '18', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20093', '19', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20085', '17', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20094', '20', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20095', '21', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20112', '24', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20109', '22', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20110', '23', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20121', '25', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20129', '26', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20113', '27', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20136', '28', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20143', '29', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20168', '30', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20167', '31', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20176', '32', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20178', '33', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20187', '34', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20191', '35', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20194', '36', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20195', '37', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20200', '38', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20228', '39', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20236', '40', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20233', '41', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20256', '42', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20264', '43', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20266', '44', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20254', '45', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20269', '46', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20280', '47', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20289', '48', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20281', '49', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20288', '50', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20310', '52', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20311', '53', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20317', '54', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20309', '51', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21032', '59', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21033', '60', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '423012', '61', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '423009', '62', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '423010', '63', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '423011', '64', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425100', '65', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425101', '66', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '425102', '67', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21028', '55', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21029', '56', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21030', '57', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '21031', '58', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40074', '2', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40068', '3', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40318', '4', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40319', '5', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40321', '6', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430005', '7', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40087', '1', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439007', '79', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439002', '80', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430500', '19', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40170', '20', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40171', '21', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40172', '22', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40175', '25', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40174', '24', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40173', '23', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40178', '28', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40177', '27', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40176', '26', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40179', '29', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40180', '30', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40181', '31', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40182', '32', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40183', '33', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40184', '34', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40185', '35', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40186', '36', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430006', '9', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430008', '10', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41248', '11', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41249', '12', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41250', '13', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430000', '14', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430001', '15', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430002', '16', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430003', '17', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430004', '18', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40187', '37', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40188', '38', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40189', '39', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40194', '44', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40195', '45', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40196', '46', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40197', '47', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40190', '40', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40191', '41', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40192', '42', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40193', '43', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40198', '48', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40201', '51', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40199', '49', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40200', '50', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40202', '52', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40203', '53', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40205', '55', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40204', '54', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40206', '56', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40207', '57', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40208', '58', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40211', '61', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40212', '62', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40214', '64', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40215', '65', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40216', '66', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40217', '67', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40220', '68', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40221', '69', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40224', '70', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40225', '71', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40227', '72', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40228', '73', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40229', '74', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40230', '75', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439017', '87', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40231', '76', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439006', '77', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439000', '78', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439012', '81', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439015', '82', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439013', '83', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439008', '84', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439018', '85', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '430007', '8', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40210', '60', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40213', '63', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40209', '59', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439003', '86', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40263', '107', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40262', '108', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40251', '109', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41151', '110', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41150', '111', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40249', '112', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40247', '113', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40244', '114', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40252', '115', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40259', '116', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40241', '117', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40253', '118', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40260', '119', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40264', '120', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40261', '121', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415013', '37', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '410001', '38', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40242', '122', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40248', '123', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '423012', '12', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '55', '1', '1500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '423013', '13', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425100', '28', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40246', '124', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40235', '125', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40234', '126', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40240', '127', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40256', '128', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41152', '129', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40239', '130', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40272', '131', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40275', '132', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40274', '133', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40269', '134', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40279', '135', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40270', '136', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40271', '137', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40273', '138', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40268', '139', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40265', '140', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40267', '141', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40277', '142', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40276', '143', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40266', '144', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40278', '145', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40165', '146', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40166', '147', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41147', '148', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40164', '149', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439102', '150', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439114', '151', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439104', '152', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439109', '153', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439100', '154', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439103', '155', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439110', '156', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439101', '157', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439105', '158', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439108', '159', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439111', '160', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439106', '161', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439113', '162', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439107', '163', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '439112', '164', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40070', '165', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41310', '166', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '50021', '167', '1', '10', '-1');
-INSERT INTO `shop` VALUES ('4200100', '12', '39', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '47', '40', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '54', '41', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '58', '42', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '59', '43', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '61', '44', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '62', '45', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '76', '46', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '84', '47', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '86', '48', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '119', '49', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '121', '50', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '123', '51', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '124', '52', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '164', '53', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '189', '54', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '190', '55', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '205', '56', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '212', '57', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '256', '58', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '410001', '59', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '410003', '60', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415010', '61', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415011', '62', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415012', '63', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415013', '64', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200100', '415016', '65', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20107', '72', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20218', '73', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20422', '74', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20049', '75', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20117', '76', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '20255', '77', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420007', '78', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420008', '79', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420009', '80', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420013', '81', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420014', '82', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420011', '83', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200101', '420012', '84', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40859', '168', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40860', '169', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40861', '170', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40862', '171', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40863', '172', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40864', '173', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40865', '174', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40866', '175', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40867', '176', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40868', '177', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40869', '178', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40870', '179', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40871', '180', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40872', '181', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40873', '182', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40874', '183', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40875', '184', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40876', '185', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40877', '186', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40878', '187', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40879', '188', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40880', '189', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40881', '190', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40883', '191', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40884', '192', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40885', '193', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40886', '194', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40887', '195', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40888', '196', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40889', '197', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40890', '198', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40891', '199', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40892', '200', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40893', '201', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40894', '202', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40895', '203', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40896', '204', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40897', '205', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40898', '206', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41148', '207', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41149', '208', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '41153', '209', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40222', '210', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200102', '40748', '211', '1', '1000', '-1');
-INSERT INTO `shop` VALUES ('70062', '40193', '5', '10000', '0', '5000');
-INSERT INTO `shop` VALUES ('4212007', '430118', '0', '-1', '0', '10000');
-INSERT INTO `shop` VALUES ('4212007', '430119', '1', '-1', '0', '10000');
-INSERT INTO `shop` VALUES ('4212007', '430120', '2', '-1', '0', '20000');
-INSERT INTO `shop` VALUES ('4212007', '430121', '3', '-1', '0', '2000');
-INSERT INTO `shop` VALUES ('4212007', '430122', '4', '-1', '0', '50000');
-INSERT INTO `shop` VALUES ('4212007', '430123', '5', '-1', '0', '50000');
-INSERT INTO `shop` VALUES ('4212007', '430124', '6', '-1', '0', '50000');
-INSERT INTO `shop` VALUES ('4212007', '430125', '7', '-1', '0', '50000');
-INSERT INTO `shop` VALUES ('4200103', '140100', '0', '500', '0', '150');
-INSERT INTO `shop` VALUES ('4200103', '438006', '1', '2000', '0', '1000');
-INSERT INTO `shop` VALUES ('4200103', '438007', '2', '1500', '0', '750');
-INSERT INTO `shop` VALUES ('4200103', '40014', '3', '800', '0', '50');
-INSERT INTO `shop` VALUES ('4200103', '40016', '4', '600', '0', '50');
-INSERT INTO `shop` VALUES ('4200103', '40015', '5', '1000', '0', '50');
-INSERT INTO `shop` VALUES ('4200103', '40068', '6', '1000', '0', '75');
-INSERT INTO `shop` VALUES ('4200103', '40031', '7', '1000', '0', '75');
-INSERT INTO `shop` VALUES ('4200103', '40319', '8', '1000', '0', '75');
-INSERT INTO `shop` VALUES ('4200103', '40318', '9', '1000', '0', '75');
-INSERT INTO `shop` VALUES ('4200103', '40321', '10', '1000', '0', '75');
-INSERT INTO `shop` VALUES ('4200103', '2', '11', '500', '0', '250');
-INSERT INTO `shop` VALUES ('4200104', '20450', '69', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '162', '21', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '41248', '8', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '40223', '136', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '41250', '7', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420104', '121', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20057', '91', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '256', '37', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20133', '116', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21028', '56', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430500', '14', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '123', '95', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420012', '33', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '119', '94', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20016', '113', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20218', '111', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412005', '105', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '423011', '75', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '423010', '74', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '181', '18', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20343', '6', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420114', '131', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '41148', '133', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '41249', '9', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '180', '19', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415012', '42', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21060', '38', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430012', '2', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '118', '97', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '423013', '77', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430011', '4', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420111', '128', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20011', '22', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '423009', '73', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '61', '98', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '55', '35', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '67', '47', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415010', '41', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '41149', '134', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420102', '119', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415015', '32', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '190', '44', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '121', '96', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430013', '1', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21029', '57', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430004', '13', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430505', '15', '7000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420100', '117', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420105', '122', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420013', '86', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420009', '85', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420014', '87', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20200', '88', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20056', '23', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20459', '36', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '126', '39', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412000', '100', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412001', '101', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20421', '71', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21032', '60', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420007', '83', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425104', '54', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430000', '10', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420103', '120', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415011', '40', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '58', '45', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425100', '50', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '114', '30', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20255', '92', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425102', '52', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425101', '51', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20187', '24', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21031', '59', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21030', '58', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420107', '124', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420106', '123', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '182', '49', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430001', '12', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425105', '55', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420101', '118', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20077', '82', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '425103', '53', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430010', '3', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '81', '20', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '57', '17', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '212', '29', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20112', '114', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20167', '112', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420003', '107', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '189', '81', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412004', '104', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20434', '72', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '84', '79', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '205', '99', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '164', '80', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20175', '25', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '68', '48', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430014', '5', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '21033', '61', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '59', '78', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '423012', '76', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420112', '129', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420110', '127', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420113', '130', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420115', '132', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '40249', '135', '20000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420008', '84', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412002', '102', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '412003', '103', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20107', '115', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20284', '110', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20253', '93', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20320', '108', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420000', '106', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20314', '109', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415016', '31', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '415013', '43', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20234', '28', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20447', '68', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430506', '16', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420108', '125', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420109', '126', '70000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20084', '62', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '9', '63', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '207', '64', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '204', '65', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20449', '66', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20448', '67', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '420011', '34', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '40748', '0', '10', '5', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20085', '26', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20109', '90', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20178', '89', '15000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '430002', '11', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20236', '27', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '54', '46', '8000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200104', '20411', '70', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425101', '29', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425102', '26', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425103', '27', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425104', '30', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200002', '240100', '2', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425105', '31', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '7', '1', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '35', '2', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '48', '3', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '73', '4', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '105', '5', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '120', '6', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '147', '7', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '156', '8', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '174', '9', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '175', '10', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '224', '11', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20028', '12', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20082', '13', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20126', '14', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20173', '15', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20206', '16', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '20232', '17', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425106', '23', '2500', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425107', '24', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '425108', '25', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '430005', '0', '700', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437001', '1', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437002', '2', '100', '5', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437003', '3', '100', '5', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437004', '4', '100', '3', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437010', '5', '700', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437012', '7', '200', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437013', '6', '400', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437014', '9', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437015', '10', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '437016', '11', '6000', '0', '-1');
-INSERT INTO `shop` VALUES ('70035', '40309', '0', '500', '0', '500');
-INSERT INTO `shop` VALUES ('70035', '40309', '1', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70035', '40309', '2', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70035', '40309', '3', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70035', '40309', '4', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70041', '40309', '0', '500', '0', '500');
-INSERT INTO `shop` VALUES ('70041', '40309', '1', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70041', '40309', '2', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70041', '40309', '3', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70041', '40309', '4', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70042', '40309', '0', '500', '0', '500');
-INSERT INTO `shop` VALUES ('70042', '40309', '1', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70042', '40309', '2', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70042', '40309', '3', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('70042', '40309', '4', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20163', '6', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4200105', '437018', '18', '1', '0', '-1');
-INSERT INTO `shop` VALUES ('70023', '425001', '1', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '425002', '2', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '41206', '3', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70023', '450000', '4', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450001', '5', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450002', '6', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450003', '7', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450004', '8', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450005', '9', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450006', '10', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70023', '450007', '11', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '425000', '0', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '425001', '1', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '425002', '2', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '41206', '3', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70076', '450000', '4', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450001', '5', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450002', '6', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450003', '7', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450004', '8', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450005', '9', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450006', '10', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70076', '450007', '11', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '425000', '0', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '425001', '1', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '425002', '2', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '41206', '3', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70064', '450000', '4', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450001', '5', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450002', '6', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450003', '7', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450004', '8', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450005', '9', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450006', '10', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70064', '450007', '11', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '425000', '0', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '425001', '1', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '425002', '2', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '41206', '3', '-1', '0', '30000');
-INSERT INTO `shop` VALUES ('70037', '450000', '4', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450001', '5', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450002', '6', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450003', '7', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450004', '8', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450005', '9', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450006', '10', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70037', '450007', '11', '-1', '0', '3000');
-INSERT INTO `shop` VALUES ('70086', '42007', '1', '550000', '0', '-1');
-INSERT INTO `shop` VALUES ('70094', '40856', '1', '450000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20194', '7', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '20234', '8', '1500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '120056', '4', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500162', '430511', '9', '1000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '57', '0', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '55', '1', '1500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20011', '2', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20085', '3', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20137', '4', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '120056', '5', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20163', '6', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20194', '7', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500163', '20236', '8', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '81', '0', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '162', '1', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20011', '2', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20085', '3', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20137', '4', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20132', '5', '150000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '120056', '6', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20070', '7', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20163', '8', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '20194', '9', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500164', '430512', '10', '400000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '42', '0', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '180', '1', '650000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '181', '2', '700000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '177', '3', '3500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20011', '4', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20033', '5', '650000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20084', '6', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20137', '7', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '120056', '8', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20073', '9', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20163', '10', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20194', '11', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '20236', '12', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500165', '430508', '13', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '118', '0', '5000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20255', '1', '-1', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '126', '2', '4500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '131', '3', '1000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20011', '4', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20085', '5', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20103', '6', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '120056', '7', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20055', '8', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20163', '9', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20194', '10', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '20225', '11', '800000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500166', '430507', '12', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '410000', '0', '2500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '410001', '1', '3000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '410002', '2', '1500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20011', '3', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20085', '4', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20137', '5', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '120056', '6', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20163', '7', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20194', '8', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '20236', '9', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500167', '430510', '10', '400000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '410003', '0', '3500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '410004', '1', '2000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20011', '2', '5000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20085', '3', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20103', '4', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '120056', '5', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20055', '6', '150000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20163', '7', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20194', '8', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '20236', '9', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500168', '430509', '10', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40815', '14', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40081', '1', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40114', '2', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '240100', '3', '5000', '20', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40373', '4', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40317', '5', '200', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40744', '6', '5000', '1000', '-1');
-INSERT INTO `shop` VALUES ('4500169', '41245', '7', '1500', '100', '-1');
-INSERT INTO `shop` VALUES ('4500169', '41246', '8', '6000', '100', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40507', '9', '1500', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40018', '10', '1500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40015', '11', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40014', '12', '1200', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40068', '13', '3000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40031', '14', '5500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430006', '15', '2000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430007', '16', '20000', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430008', '17', '20000', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40318', '18', '20000', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40319', '19', '20000', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40321', '20', '35000', '10', '-1');
-INSERT INTO `shop` VALUES ('4500169', '41211', '21', '-1', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40074', '22', '40000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '40087', '23', '87000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430013', '24', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430012', '25', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430010', '26', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430011', '27', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430014', '28', '300000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '42017', '8', '300000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40818', '0', '36000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40820', '1', '40000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40826', '2', '40000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40837', '3', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40105', '11', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40855', '4', '450000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40857', '5', '450000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '42042', '9', '400000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40104', '10', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500171', '40104', '0', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500171', '40105', '1', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500171', '40106', '2', '150000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500171', '40107', '3', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '62', '2', '3500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '57', '3', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '180', '4', '700000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '181', '5', '750000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '184', '6', '2000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '177', '7', '3500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '131', '8', '1000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '126', '9', '4500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '118', '10', '5000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '81', '11', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '162', '12', '4000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '410002', '13', '1500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '410000', '14', '2500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '410004', '15', '2000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500173', '410003', '16', '3500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '120011', '0', '10000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20032', '1', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20033', '2', '700000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20085', '3', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20084', '4', '250000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20132', '5', '150000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20137', '6', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '120056', '7', '30000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20073', '8', '50000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20070', '9', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20055', '10', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20163', '11', '60000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20194', '12', '120000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20236', '13', '80000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500174', '20225', '14', '800000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40106', '12', '150000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500170', '40107', '13', '200000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430507', '29', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430508', '30', '350000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430509', '31', '500000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430510', '32', '400000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430511', '33', '1000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '438000', '0', '100', '0', '-1');
-INSERT INTO `shop` VALUES ('4200700', '438002', '32', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220700', '438002', '32', '1000', '0', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421021', '24', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421022', '25', '480', '1', '-1');
-INSERT INTO `shop` VALUES ('4220003', '421023', '26', '900', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411030', '30', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411031', '31', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411032', '32', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411033', '33', '360', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411034', '34', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220001', '411035', '35', '1170', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '422024', '9', '720', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '437006', '10', '40', '1', '-1');
-INSERT INTO `shop` VALUES ('4220000', '437007', '11', '60', '1', '-1');
-INSERT INTO `shop` VALUES ('4220700', '430009', '33', '500', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '41159', '35', '3000', '0', '700');
-INSERT INTO `shop` VALUES ('4500169', '40328', '35', '100000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '440001', '36', '3000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '440002', '37', '5000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '440003', '38', '8000000', '0', '-1');
-INSERT INTO `shop` VALUES ('4500169', '430512', '34', '400000', '0', '-1');
+INSERT IGNORE INTO `shop` VALUES 
+('4200500', '413000', '0', '5000', '0', '-1'),
+('4200500', '413001', '1', '5000', '0', '-1'),
+('4200500', '413002', '2', '5000', '0', '-1'),
+('4200500', '413003', '3', '5000', '0', '-1'),
+('4200500', '413004', '4', '5000', '0', '-1'),
+('4200500', '413005', '5', '5000', '0', '-1'),
+('4200500', '413006', '6', '5000', '0', '-1'),
+('4200500', '413007', '7', '5000', '0', '-1'),
+('4200500', '423000', '10', '2500', '0', '-1'),
+('4200500', '423001', '9', '2500', '0', '-1'),
+('4200500', '423002', '11', '2500', '0', '-1'),
+('4200500', '423003', '12', '2500', '0', '-1'),
+('4200500', '423004', '13', '2500', '0', '-1'),
+('4200500', '423005', '14', '2500', '0', '-1'),
+('4200500', '423006', '16', '2500', '0', '-1'),
+('4200500', '423007', '15', '2500', '0', '-1'),
+('4200500', '423008', '8', '2500', '0', '-1'),
+('4500162', '51', '0', '2500000', '0', '-1'),
+('4220700', '21028', '17', '2000', '0', '-1'),
+('4500162', '20011', '1', '5000', '0', '-1'),
+('4220700', '21029', '18', '2000', '0', '-1'),
+('4500162', '20051', '5', '200000', '0', '-1'),
+('4220700', '21030', '19', '2000', '0', '-1'),
+('4220700', '21031', '20', '2000', '0', '-1'),
+('4200104', '40219', '137', '50000', '0', '-1'),
+('4200104', '40222', '138', '250000', '0', '-1'),
+('4500162', '20085', '2', '30000', '0', '-1'),
+('4220700', '21032', '21', '2000', '0', '-1'),
+('4213002', '40074', '0', '34255', '0', '-1'),
+('4213002', '40087', '1', '82875', '0', '-1'),
+('4213002', '430010', '2', '200000', '0', '100000'),
+('4213002', '430011', '3', '200000', '0', '100000'),
+('4213002', '430012', '4', '200000', '0', '100000'),
+('4219000', '439007', '7', '4000', '0', '2000'),
+('4219000', '439005', '6', '4000', '0', '2000'),
+('4219000', '439002', '4', '1500', '0', '750'),
+('4219000', '439003', '5', '1500', '0', '750'),
+('4219000', '439008', '8', '4000', '0', '2000'),
+('4219000', '430006', '1', '500', '0', '250'),
+('4219000', '439010', '9', '9000', '0', '4500'),
+('4219000', '439000', '2', '1500', '0', '750'),
+('4219000', '430008', '0', '250', '0', '125'),
+('4219000', '439001', '3', '1500', '0', '750'),
+('4219000', '439012', '10', '9000', '0', '4500'),
+('4218000', '439102', '3', '2000', '0', '1000'),
+('4218000', '430007', '1', '500', '0', '250'),
+('4218000', '430006', '0', '500', '0', '250'),
+('4218000', '439101', '2', '2000', '0', '1000'),
+('4218000', '439107', '5', '9000', '0', '4500'),
+('4218000', '439106', '4', '9000', '0', '4500'),
+('4220003', '41143', '0', '72', '3', '-1'),
+('4220003', '41144', '1', '72', '3', '-1'),
+('4220003', '41145', '2', '72', '3', '-1'),
+('4220003', '421009', '3', '180', '1', '-1'),
+('4220003', '421010', '4', '240', '1', '-1'),
+('4220003', '421011', '5', '450', '1', '-1'),
+('4220003', '421018', '6', '180', '1', '-1'),
+('4220003', '421019', '7', '240', '1', '-1'),
+('4220003', '421020', '8', '450', '1', '-1'),
+('4220003', '421015', '9', '180', '1', '-1'),
+('4220003', '421016', '10', '240', '1', '-1'),
+('4220003', '421017', '11', '450', '1', '-1'),
+('4220003', '421012', '12', '180', '1', '-1'),
+('4220003', '421013', '13', '240', '1', '-1'),
+('4220003', '421014', '14', '450', '1', '-1'),
+('4220003', '421000', '15', '180', '1', '-1'),
+('4220003', '421001', '16', '240', '1', '-1'),
+('4220003', '421002', '17', '450', '1', '-1'),
+('4220003', '421003', '18', '180', '1', '-1'),
+('4220003', '421004', '19', '240', '1', '-1'),
+('4220003', '421005', '20', '450', '1', '-1'),
+('4220003', '421006', '21', '180', '1', '-1'),
+('4220003', '421007', '22', '240', '1', '-1'),
+('4220003', '421008', '23', '450', '1', '-1'),
+('4220002', '422012', '0', '360', '1', '-1'),
+('4220002', '422013', '1', '720', '1', '-1'),
+('4220002', '422014', '2', '1170', '1', '-1'),
+('4220002', '422015', '3', '360', '1', '-1'),
+('4220002', '422016', '4', '720', '1', '-1'),
+('4220002', '422017', '5', '1170', '1', '-1'),
+('4220002', '422009', '6', '360', '1', '-1'),
+('4220002', '422010', '7', '720', '1', '-1'),
+('4220002', '422011', '8', '1170', '1', '-1'),
+('4220002', '422003', '9', '360', '1', '-1'),
+('4220002', '422004', '10', '720', '1', '-1'),
+('4220002', '422005', '11', '1170', '1', '-1'),
+('4220002', '422006', '12', '360', '1', '-1'),
+('4220002', '422007', '13', '720', '1', '-1'),
+('4220002', '422008', '14', '1170', '1', '-1'),
+('4220002', '422000', '15', '360', '1', '-1'),
+('4220002', '422001', '16', '720', '1', '-1'),
+('4220002', '422002', '17', '1170', '1', '-1'),
+('4220002', '422018', '18', '360', '1', '-1'),
+('4220002', '422019', '19', '720', '1', '-1'),
+('4220002', '422020', '20', '1170', '1', '-1'),
+('4220001', '411027', '0', '360', '1', '-1'),
+('4220001', '411028', '1', '720', '1', '-1'),
+('4220001', '411029', '2', '1170', '1', '-1'),
+('4220001', '411003', '3', '360', '1', '-1'),
+('4220001', '411004', '4', '720', '1', '-1'),
+('4220001', '411005', '5', '1170', '1', '-1'),
+('4220001', '411009', '6', '360', '1', '-1'),
+('4220001', '411010', '7', '720', '1', '-1'),
+('4220001', '411011', '8', '1170', '1', '-1'),
+('4220001', '411021', '9', '360', '1', '-1'),
+('4220001', '411022', '10', '720', '1', '-1'),
+('4220001', '411023', '11', '1170', '1', '-1'),
+('4220001', '411006', '12', '360', '1', '-1'),
+('4220001', '411007', '13', '720', '1', '-1'),
+('4220001', '411008', '14', '1170', '1', '-1'),
+('4220001', '411000', '15', '360', '1', '-1'),
+('4220001', '411001', '16', '720', '1', '-1'),
+('4220001', '411002', '17', '1170', '1', '-1'),
+('4220001', '411012', '18', '360', '1', '-1'),
+('4220001', '411013', '19', '720', '1', '-1'),
+('4220001', '411014', '20', '1170', '1', '-1'),
+('4220001', '411015', '21', '360', '1', '-1'),
+('4220001', '411016', '22', '720', '1', '-1'),
+('4220001', '411017', '23', '1170', '1', '-1'),
+('4220001', '411018', '24', '360', '1', '-1'),
+('4220001', '411019', '25', '720', '1', '-1'),
+('4220001', '411020', '26', '1170', '1', '-1'),
+('4220001', '411024', '27', '360', '1', '-1'),
+('4220001', '411025', '28', '720', '1', '-1'),
+('4220001', '411026', '29', '1170', '1', '-1'),
+('4220000', '41424', '0', '7', '1', '-1'),
+('4220000', '41423', '1', '7', '1', '-1'),
+('4220000', '41142', '3', '16', '5', '-1'),
+('4220000', '437020', '5', '24', '5', '-1'),
+('4220000', '437021', '6', '16', '5', '-1'),
+('4220000', '422023', '7', '720', '1', '-1'),
+('4220000', '422021', '8', '720', '1', '-1'),
+('81118', '49013', '0', '100000', '0', '-1'),
+('81110', '45000', '0', '100', '0', '-1'),
+('81110', '45001', '1', '100', '0', '-1'),
+('81110', '45002', '2', '100', '0', '-1'),
+('81110', '45003', '3', '100', '0', '-1'),
+('81110', '45004', '4', '100', '0', '-1'),
+('81110', '45005', '5', '100', '0', '-1'),
+('81110', '45006', '6', '100', '0', '-1'),
+('81110', '45007', '7', '100', '0', '-1'),
+('81110', '45008', '8', '100', '0', '-1'),
+('81110', '45009', '9', '100', '0', '-1'),
+('81110', '45010', '10', '100', '0', '-1'),
+('81110', '45011', '11', '100', '0', '-1'),
+('81110', '45012', '12', '100', '0', '-1'),
+('81110', '45013', '13', '100', '0', '-1'),
+('81110', '45014', '14', '100', '0', '-1'),
+('81110', '45015', '15', '100', '0', '-1'),
+('81110', '45016', '16', '100', '0', '-1'),
+('81110', '45017', '17', '100', '0', '-1'),
+('81110', '45018', '18', '100', '0', '-1'),
+('81110', '45019', '19', '100', '0', '-1'),
+('81110', '45020', '20', '100', '0', '-1'),
+('81110', '45021', '21', '100', '0', '-1'),
+('81110', '45022', '22', '100', '0', '-1'),
+('81002', '20459', '0', '0', '0', '-1'),
+('81002', '21000', '1', '0', '0', '-1'),
+('81002', '21001', '2', '0', '0', '-1'),
+('81002', '21002', '3', '0', '0', '-1'),
+('81002', '21005', '4', '0', '0', '-1'),
+('81002', '21018', '5', '0', '0', '-1'),
+('81002', '21019', '6', '0', '0', '-1'),
+('81002', '21027', '7', '0', '0', '-1'),
+('81002', '21049', '8', '0', '0', '-1'),
+('80104', '20383', '0', '1000000', '0', '-1'),
+('80100', '41357', '0', '70', '0', '-1'),
+('80100', '41358', '1', '70', '0', '-1'),
+('80100', '41359', '2', '70', '0', '-1'),
+('80100', '41360', '3', '70', '0', '-1'),
+('80100', '41361', '4', '70', '0', '-1'),
+('80100', '41362', '5', '70', '0', '-1'),
+('80100', '41363', '6', '70', '0', '-1'),
+('80100', '41364', '7', '70', '0', '-1'),
+('80100', '41365', '8', '70', '0', '-1'),
+('80100', '41366', '9', '70', '0', '-1'),
+('80100', '41367', '10', '70', '0', '-1'),
+('80100', '41368', '11', '70', '0', '-1'),
+('80100', '41369', '12', '70', '0', '-1'),
+('80100', '41370', '13', '70', '0', '-1'),
+('80100', '41371', '14', '70', '0', '-1'),
+('80100', '41372', '15', '70', '0', '-1'),
+('80100', '41373', '16', '70', '0', '-1'),
+('80100', '41374', '17', '70', '0', '-1'),
+('80100', '41375', '18', '70', '0', '-1'),
+('80100', '41376', '19', '70', '0', '-1'),
+('80100', '41377', '20', '70', '0', '-1'),
+('80100', '41378', '21', '70', '0', '-1'),
+('80100', '41379', '22', '70', '0', '-1'),
+('80100', '41380', '23', '70', '0', '-1'),
+('80100', '41381', '24', '70', '0', '-1'),
+('80100', '41382', '25', '70', '0', '-1'),
+('80096', '41321', '0', '300', '0', '-1'),
+('80096', '41319', '1', '300', '0', '-1'),
+('80096', '41320', '2', '300', '0', '-1'),
+('80096', '41322', '3', '300', '0', '-1'),
+('80096', '41323', '4', '300', '0', '-1'),
+('80096', '41324', '5', '300', '0', '-1'),
+('80092', '41401', '0', '110000', '0', '-1'),
+('80092', '41395', '1', '300000', '0', '-1'),
+('80092', '41396', '2', '80000', '0', '-1'),
+('80092', '41392', '3', '200000', '0', '-1'),
+('80092', '41397', '4', '30000', '0', '-1'),
+('80092', '41398', '5', '30000', '0', '-1'),
+('80092', '41393', '6', '110000', '0', '-1'),
+('80092', '41394', '7', '110000', '0', '-1'),
+('80092', '41391', '8', '110000', '0', '-1'),
+('80092', '41399', '9', '30000', '0', '-1'),
+('80092', '41400', '10', '30000', '0', '-1'),
+('80092', '41389', '11', '200000', '0', '-1'),
+('80092', '41390', '12', '200000', '0', '-1'),
+('80090', '40069', '1', '5', '0', '2'),
+('80090', '40072', '6', '20', '0', '10'),
+('80090', '40062', '5', '5', '0', '2'),
+('80090', '40061', '3', '5', '0', '2'),
+('80090', '40064', '2', '5', '0', '2'),
+('80090', '40060', '4', '8', '0', '4'),
+('80090', '41266', '7', '8', '0', '4'),
+('80090', '41271', '13', '24', '0', '12'),
+('80090', '41272', '14', '24', '0', '12'),
+('80090', '41268', '11', '24', '0', '12'),
+('80090', '41269', '12', '24', '0', '12'),
+('80090', '41273', '15', '24', '0', '12'),
+('80090', '41261', '16', '24', '0', '12'),
+('80090', '41262', '17', '24', '0', '12'),
+('80090', '41260', '18', '300', '0', '150'),
+('80090', '40059', '0', '3', '0', '1'),
+('80090', '41264', '9', '20', '0', '10'),
+('80090', '41265', '10', '20', '0', '10'),
+('80090', '41267', '8', '20', '0', '10'),
+('80080', '41295', '0', '57', '1', '-1'),
+('80080', '41295', '1', '517', '10', '-1'),
+('80080', '41295', '2', '4600', '1000', '-1'),
+('80075', '40018', '15', '3795', '0', '750'),
+('80075', '40317', '0', '379', '0', '70'),
+('80075', '40017', '16', '184', '0', '30'),
+('80075', '40124', '24', '276', '0', '100'),
+('80075', '40013', '14', '506', '0', '100'),
+('80075', '40024', '13', '6240', '0', '3120'),
+('80075', '40032', '7', '379', '0', '-1'),
+('80075', '40019', '8', '125', '0', '27'),
+('80075', '40020', '9', '690', '0', '150'),
+('80075', '40021', '10', '2070', '0', '400'),
+('80075', '40022', '11', '720', '0', '-1'),
+('80075', '40023', '12', '4310', '0', '-1'),
+('80075', '40744', '3', '2', '5', '-1'),
+('80075', '40739', '4', '2', '2', '-1'),
+('80075', '40089', '22', '2300', '0', '500'),
+('80075', '40126', '19', '115', '0', '25'),
+('80075', '40100', '20', '161', '0', '35'),
+('80075', '40016', '18', '1380', '0', '300'),
+('80075', '40014', '17', '1840', '0', '400'),
+('80075', '40119', '21', '230', '0', '50'),
+('80075', '40738', '5', '2', '0', '-1'),
+('80075', '40743', '2', '2', '10', '-1'),
+('80075', '40740', '6', '4', '0', '-1'),
+('80075', '40079', '23', '276', '0', '60'),
+('80075', '41036', '1', '345', '0', '-1'),
+('71196', '187', '13', '10000', '0', '5000'),
+('71196', '193', '14', '11000', '0', '5500'),
+('71196', '82', '10', '10000', '0', '5000'),
+('71196', '176', '12', '5000', '0', '2500'),
+('71196', '122', '11', '10000', '0', '5000'),
+('71196', '20102', '16', '1500', '0', '750'),
+('71196', '161', '6', '44000', '0', '22000'),
+('71196', '20104', '17', '2000', '0', '1000'),
+('71196', '20199', '18', '1500', '0', '750'),
+('71196', '20224', '19', '1000', '0', '500'),
+('71196', '20105', '15', '5000', '0', '2500'),
+('71196', '40739', '2', '1', '2', '-1'),
+('71196', '40740', '4', '2', '0', '1'),
+('71196', '40743', '0', '1', '10', '-1'),
+('71196', '40744', '1', '1', '5', '-1'),
+('71196', '101', '7', '1000', '0', '500'),
+('71196', '40738', '3', '1', '0', '0'),
+('71196', '80', '5', '33000', '0', '16500'),
+('71196', '6', '8', '1000', '0', '500'),
+('71196', '38', '9', '11000', '0', '5500'),
+('71127', '40013', '14', '358', '0', '100'),
+('71127', '40018', '15', '2587', '0', '750'),
+('71127', '40744', '1', '1', '5', '-1'),
+('71127', '40010', '11', '56', '0', '18'),
+('71127', '40011', '12', '289', '0', '100'),
+('71127', '40089', '6', '1000', '0', '500'),
+('71127', '40079', '4', '172', '0', '60'),
+('71127', '40126', '2', '101', '0', '25'),
+('71127', '40119', '5', '143', '0', '50'),
+('71127', '40100', '3', '101', '0', '35'),
+('71127', '40017', '13', '120', '0', '30'),
+('71127', '40001', '7', '23', '0', '5'),
+('71127', '40002', '8', '172', '0', '60'),
+('71127', '40743', '0', '1', '10', '-1'),
+('71127', '40003', '9', '27', '0', '-1'),
+('71127', '40317', '10', '216', '0', '70'),
+('71079', '41103', '0', '-1', '0', '250'),
+('71079', '41104', '1', '-1', '0', '500'),
+('71079', '41105', '2', '-1', '0', '500'),
+('71079', '41106', '3', '-1', '0', '1000'),
+('71079', '41107', '4', '-1', '0', '1000'),
+('71079', '41108', '5', '-1', '0', '100000'),
+('71079', '41109', '6', '-1', '0', '100000'),
+('71054', '40303', '0', '690', '0', '-1'),
+('71001', '40017', '0', '70', '0', '30'),
+('71001', '40010', '1', '37', '0', '18'),
+('71001', '40011', '2', '200', '0', '100'),
+('71001', '40013', '3', '200', '0', '100'),
+('71001', '40018', '4', '1500', '0', '750'),
+('70569', '41399', '12', '25000', '0', '-1'),
+('70569', '41400', '13', '37500', '0', '-1'),
+('70569', '41400', '14', '37500', '0', '-1'),
+('70569', '41391', '10', '125000', '0', '-1'),
+('70569', '41397', '6', '37500', '0', '-1'),
+('70569', '41398', '7', '37500', '0', '-1'),
+('70569', '41394', '9', '125000', '0', '-1'),
+('70569', '41393', '8', '125000', '0', '-1'),
+('70569', '41399', '11', '25000', '0', '-1'),
+('70569', '41392', '5', '250000', '0', '-1'),
+('70569', '41396', '4', '87500', '0', '-1'),
+('70569', '41389', '2', '250000', '0', '-1'),
+('70569', '41390', '3', '250000', '0', '-1'),
+('70569', '41395', '1', '375000', '0', '-1'),
+('70569', '41401', '0', '75000', '0', '-1'),
+('70098', '40010', '0', '56', '0', '18'),
+('70098', '40011', '1', '289', '0', '100'),
+('70098', '40012', '2', '652', '0', '300'),
+('70098', '40017', '3', '120', '0', '30'),
+('70098', '40018', '4', '2587', '0', '750'),
+('70097', '40390', '7', '74', '0', '-1'),
+('70097', '40018', '15', '2380', '0', '750'),
+('70097', '40126', '16', '101', '0', '25'),
+('70097', '41160', '6', '3220', '10', '-1'),
+('70097', '40317', '3', '216', '0', '70'),
+('70097', '40065', '1', '9', '0', '-1'),
+('70097', '41260', '2', '345', '0', '-1'),
+('70097', '41245', '4', '62', '10', '-1'),
+('70097', '40010', '8', '46', '0', '18'),
+('70097', '40022', '10', '410', '0', '-1'),
+('70097', '40011', '9', '241', '0', '100'),
+('70097', '40023', '11', '2270', '0', '-1'),
+('70097', '40056', '0', '2', '0', '-1'),
+('70097', '40315', '5', '793', '0', '-1'),
+('70097', '40079', '18', '172', '0', '60'),
+('70097', '40100', '17', '101', '0', '35'),
+('70097', '40119', '20', '143', '0', '50'),
+('70097', '40124', '19', '172', '0', '100'),
+('70097', '40024', '12', '6240', '0', '3120'),
+('70097', '40017', '13', '143', '0', '30'),
+('70097', '40013', '14', '358', '0', '100'),
+('70097', '41246', '100', '-1', '0', '5'),
+('70095', '141', '7', '1104', '0', '-1'),
+('70095', '143', '6', '1104', '0', '-1'),
+('70095', '172', '5', '78', '0', '-1'),
+('70095', '40743', '0', '1', '10', '-1'),
+('70095', '40744', '1', '1', '5', '-1'),
+('70095', '20122', '16', '3162', '0', '-1'),
+('70095', '20089', '13', '158', '0', '-1'),
+('70095', '20147', '14', '473', '0', '-1'),
+('70095', '23', '8', '46', '0', '20'),
+('70095', '24', '9', '158', '0', '-1'),
+('70095', '20043', '12', '316', '0', '100'),
+('70095', '20239', '10', '95', '0', '-1'),
+('70095', '20242', '11', '1897', '0', '-1'),
+('70095', '20096', '15', '791', '0', '-1'),
+('70094', '40302', '0', '690', '0', '-1'),
+('70093', '40126', '11', '50', '0', '25'),
+('70093', '40100', '12', '70', '0', '35'),
+('70093', '40013', '7', '255', '0', '127'),
+('70093', '40743', '23', '1', '10', '-1'),
+('70093', '40317', '20', '154', '0', '77'),
+('70093', '40089', '16', '1000', '0', '500'),
+('70093', '40014', '9', '800', '0', '400'),
+('70093', '40079', '13', '118', '0', '59'),
+('70093', '40017', '6', '100', '0', '50'),
+('70093', '40018', '8', '1636', '0', '818'),
+('70093', '40024', '5', '6240', '0', '3120'),
+('70058', '20239', '0', '60', '0', '30'),
+('70093', '40744', '24', '1', '5', '-1'),
+('70093', '40087', '19', '73636', '0', '36818'),
+('70058', '20089', '11', '100', '0', '50'),
+('70093', '40124', '14', '118', '0', '59'),
+('70093', '40056', '21', '2', '0', '1'),
+('70093', '40074', '18', '30909', '0', '15454'),
+('70058', '20006', '10', '5000', '0', '2500'),
+('70093', '40738', '26', '1', '0', '0'),
+('70093', '40739', '25', '1', '2', '-1'),
+('70093', '41260', '22', '273', '0', '136'),
+('70093', '40012', '1', '378', '0', '189'),
+('70093', '40020', '2', '252', '0', '126'),
+('70093', '41246', '27', '-1', '0', '5'),
+('70093', '40011', '0', '168', '0', '84'),
+('70093', '40016', '10', '600', '0', '300'),
+('70093', '40021', '3', '624', '0', '312'),
+('70093', '40023', '4', '1560', '0', '780'),
+('70092', '40074', '20', '30909', '0', '15454'),
+('70092', '41245', '0', '68', '10', '-1'),
+('70092', '40023', '5', '1560', '0', '780'),
+('70092', '40012', '2', '378', '0', '189'),
+('70092', '40024', '6', '6240', '0', '3120'),
+('70092', '40020', '3', '252', '0', '126'),
+('70092', '40018', '9', '1636', '0', '818'),
+('70092', '40011', '1', '168', '0', '84'),
+('70092', '40014', '10', '800', '0', '400'),
+('70092', '40017', '7', '100', '0', '50'),
+('70092', '40013', '8', '255', '0', '127'),
+('70092', '40124', '15', '118', '0', '59'),
+('70092', '40119', '16', '100', '0', '50'),
+('70092', '40079', '14', '118', '0', '59'),
+('70092', '40315', '22', '591', '0', '295'),
+('70092', '40089', '17', '1000', '0', '500'),
+('70092', '50020', '18', '45', '0', '22'),
+('70092', '40088', '19', '1300', '0', '650'),
+('70092', '40126', '12', '50', '0', '25'),
+('70092', '40021', '4', '624', '0', '312'),
+('70092', '40087', '21', '73636', '0', '36818'),
+('70091', '40740', '6', '4', '0', '-1'),
+('70091', '40012', '9', '724', '0', '300'),
+('70091', '40013', '10', '506', '0', '100'),
+('70091', '40017', '12', '172', '0', '30'),
+('70091', '40743', '3', '2', '10', '-1'),
+('70091', '40056', '0', '2', '0', '-1'),
+('70091', '41260', '1', '345', '0', '-1'),
+('70091', '40010', '7', '71', '0', '18'),
+('70091', '40317', '2', '287', '0', '70'),
+('70091', '40011', '8', '386', '0', '100'),
+('70091', '40739', '4', '1', '2', '-1'),
+('70091', '40018', '11', '3795', '0', '750'),
+('70091', '40738', '5', '2', '0', '-1'),
+('70090', '40740', '6', '4', '0', '-1'),
+('70090', '40317', '2', '322', '0', '70'),
+('70090', '41260', '1', '345', '0', '-1'),
+('70090', '40056', '0', '2', '0', '-1'),
+('70090', '40010', '7', '80', '0', '18'),
+('70090', '40011', '8', '425', '0', '100'),
+('70090', '40012', '9', '869', '0', '300'),
+('70090', '40013', '11', '552', '0', '100'),
+('70090', '40017', '10', '195', '0', '30'),
+('70090', '40018', '12', '4140', '0', '750'),
+('70090', '40739', '4', '1', '2', '-1'),
+('70090', '40743', '3', '2', '10', '-1'),
+('70090', '40738', '5', '2', '0', '-1'),
+('70089', '40301', '0', '777', '0', '-1'),
+('70088', '40010', '1', '36', '0', '18'),
+('70088', '40011', '2', '192', '0', '96'),
+('70088', '40743', '13', '1', '10', '-1'),
+('70088', '40013', '4', '250', '0', '125'),
+('70088', '40017', '3', '100', '0', '50'),
+('70088', '40100', '6', '80', '0', '40'),
+('70088', '40126', '5', '55', '0', '27'),
+('70088', '40079', '7', '131', '0', '65'),
+('70088', '40744', '14', '1', '5', '-1'),
+('70088', '20043', '15', '200', '0', '100'),
+('70088', '41260', '12', '300', '0', '150'),
+('70088', '40317', '10', '150', '0', '75'),
+('70088', '40119', '8', '200', '0', '100'),
+('70088', '40056', '11', '1', '0', '0'),
+('70088', '40089', '9', '2000', '0', '1000'),
+('70088', '41245', '0', '50', '10', '-1'),
+('70086', '40300', '0', '11500', '0', '-1'),
+('70085', '40159', '5', '125', '0', '-1'),
+('70085', '40161', '9', '250', '0', '-1'),
+('70085', '40144', '23', '62', '0', '-1'),
+('70085', '40155', '16', '500', '0', '-1'),
+('70085', '40148', '15', '500', '0', '-1'),
+('70085', '40140', '22', '62', '0', '-1'),
+('70085', '40143', '13', '500', '0', '-1'),
+('70085', '40137', '20', '3125', '0', '-1'),
+('70085', '40149', '6', '250', '0', '-1'),
+('70085', '40150', '24', '62', '0', '-1'),
+('70085', '40147', '17', '500', '0', '-1'),
+('70085', '40153', '10', '250', '0', '-1'),
+('70085', '40152', '3', '125', '0', '-1'),
+('70085', '40157', '7', '250', '0', '-1'),
+('70085', '40138', '19', '1500', '0', '-1'),
+('70085', '40139', '12', '500', '0', '-1'),
+('70085', '40136', '18', '1000', '0', '-1'),
+('70085', '40146', '11', '250', '0', '-1'),
+('70085', '40141', '0', '125', '0', '-1'),
+('70085', '40160', '2', '125', '0', '-1'),
+('70085', '40145', '1', '125', '0', '-1'),
+('70085', '40158', '21', '62', '0', '-1'),
+('70085', '40151', '4', '125', '0', '-1'),
+('70085', '40142', '8', '250', '0', '-1'),
+('70085', '40156', '14', '500', '0', '-1'),
+('4208001', '40100', '9', '70', '0', '35'),
+('4208001', '40079', '10', '120', '0', '60'),
+('70083', '40738', '15', '1', '0', '0'),
+('70083', '40739', '14', '1', '2', '-1'),
+('70083', '40740', '16', '2', '0', '1'),
+('70083', '23', '5', '33', '0', '16'),
+('70083', '141', '4', '1100', '0', '550'),
+('70083', '143', '3', '770', '0', '385'),
+('70083', '40743', '0', '1', '10', '-1'),
+('70083', '40744', '1', '1', '5', '-1'),
+('70083', '172', '2', '55', '0', '27'),
+('70083', '20147', '11', '330', '0', '165'),
+('70083', '20096', '12', '550', '0', '275'),
+('70083', '24', '6', '110', '0', '55'),
+('70083', '20239', '7', '65', '0', '32'),
+('70083', '20089', '10', '110', '0', '55'),
+('70083', '20242', '8', '1320', '0', '660'),
+('70083', '20043', '9', '220', '0', '110'),
+('70083', '20122', '13', '2200', '0', '1100'),
+('4208001', '40074', '13', '30000', '0', '15000'),
+('70082', '40126', '14', '50', '0', '25'),
+('70082', '40100', '15', '70', '0', '35'),
+('4208001', '40124', '11', '120', '0', '60'),
+('70082', '40009', '27', '600', '0', '-1'),
+('70082', '41260', '30', '300', '0', '150'),
+('70082', '40317', '26', '150', '0', '75'),
+('70082', '40065', '29', '5', '0', '0'),
+('70082', '40385', '0', '50', '0', '25'),
+('70082', '40056', '28', '1', '0', '0'),
+('70082', '41245', '1', '50', '10', '-1'),
+('70082', '40010', '2', '33', '0', '16'),
+('70082', '40011', '3', '168', '0', '84'),
+('70082', '40021', '7', '624', '0', '312'),
+('70082', '40022', '8', '275', '0', '135'),
+('70082', '40023', '9', '1575', '0', '785'),
+('70082', '40024', '10', '6240', '0', '3120'),
+('70082', '40017', '11', '70', '0', '35'),
+('70082', '40013', '12', '200', '0', '100'),
+('70082', '40012', '4', '378', '0', '189'),
+('70082', '40119', '16', '100', '0', '50'),
+('70082', '40018', '13', '1500', '0', '750'),
+('70082', '40020', '6', '252', '0', '126'),
+('70082', '40019', '5', '48', '0', '24'),
+('4208001', '40119', '12', '100', '0', '50'),
+('70082', '41160', '25', '2000', '10', '-1'),
+('70082', '40087', '22', '75000', '0', '37500'),
+('70082', '50020', '23', '50', '0', '25'),
+('70082', '40074', '21', '31000', '0', '15500'),
+('70082', '40079', '18', '120', '0', '60'),
+('70082', '40315', '24', '500', '0', '250'),
+('70082', '40088', '20', '1300', '0', '650'),
+('70082', '41246', '31', '-1', '0', '5'),
+('70081', '40740', '5', '2', '0', '-1'),
+('70081', '40738', '4', '1', '0', '-1'),
+('70081', '40017', '12', '92', '0', '30'),
+('70081', '40743', '1', '2', '10', '-1'),
+('70081', '40744', '2', '2', '5', '-1'),
+('70081', '40032', '6', '379', '0', '-1'),
+('70081', '40011', '8', '217', '0', '100'),
+('70081', '40010', '7', '40', '0', '18'),
+('70081', '40012', '9', '478', '0', '250'),
+('70081', '40089', '16', '1000', '0', '500'),
+('70081', '40119', '15', '126', '0', '50'),
+('70081', '40317', '0', '189', '0', '70'),
+('70081', '40126', '13', '63', '0', '25'),
+('70081', '40018', '11', '1897', '0', '750'),
+('70081', '40013', '10', '253', '0', '100'),
+('70081', '40100', '14', '88', '0', '35'),
+('70081', '40124', '18', '149', '0', '100'),
+('70081', '40079', '17', '149', '0', '60'),
+('70081', '40739', '3', '1', '2', '-1'),
+('70092', '41260', '26', '300', '0', '150'),
+('70079', '40018', '8', '1650', '0', '825'),
+('70079', '40126', '9', '50', '0', '25'),
+('70092', '40317', '24', '154', '0', '77'),
+('70079', '40009', '13', '600', '0', '-1'),
+('70079', '40738', '19', '1', '0', '0'),
+('70092', '41160', '23', '2364', '10', '-1'),
+('70079', '40056', '14', '1', '0', '0'),
+('70079', '40377', '0', '50', '0', '25'),
+('70079', '40023', '4', '1575', '0', '785'),
+('70079', '40024', '5', '6240', '0', '3120'),
+('70079', '40017', '6', '70', '0', '35'),
+('70079', '41245', '1', '50', '10', '-1'),
+('70079', '40100', '10', '100', '0', '50'),
+('70079', '40013', '7', '200', '0', '100'),
+('70079', '40022', '3', '275', '0', '135'),
+('70079', '40010', '2', '33', '0', '16'),
+('70079', '40317', '12', '150', '0', '75'),
+('70079', '50020', '11', '50', '0', '25'),
+('70092', '40056', '25', '2', '0', '1'),
+('70079', '40739', '18', '1', '2', '-1'),
+('70079', '41260', '16', '300', '0', '150'),
+('70079', '40065', '15', '5', '0', '2'),
+('70079', '40743', '17', '1', '10', '-1'),
+('70079', '40740', '20', '2', '0', '1'),
+('70078', '40159', '5', '125', '0', '-1'),
+('70078', '40161', '9', '250', '0', '-1'),
+('70078', '40144', '23', '62', '0', '-1'),
+('70078', '40155', '16', '500', '0', '-1'),
+('70078', '40148', '15', '500', '0', '-1'),
+('70078', '40140', '22', '62', '0', '-1'),
+('70078', '40143', '13', '500', '0', '-1'),
+('70078', '40137', '20', '3125', '0', '-1'),
+('70078', '40149', '6', '250', '0', '-1'),
+('70078', '40150', '24', '62', '0', '-1'),
+('70078', '40147', '17', '500', '0', '-1'),
+('70078', '40153', '10', '250', '0', '-1'),
+('70078', '40152', '3', '125', '0', '-1'),
+('70078', '40157', '7', '250', '0', '-1'),
+('70078', '40138', '19', '1500', '0', '-1'),
+('70078', '40139', '12', '500', '0', '-1'),
+('70078', '40136', '18', '1000', '0', '-1'),
+('70078', '40146', '11', '250', '0', '-1'),
+('70078', '40141', '0', '125', '0', '-1'),
+('70078', '40160', '2', '125', '0', '-1'),
+('70078', '40145', '1', '125', '0', '-1'),
+('70078', '40158', '21', '62', '0', '-1'),
+('70078', '40151', '4', '125', '0', '-1'),
+('70078', '40142', '8', '250', '0', '-1'),
+('70078', '40156', '14', '500', '0', '-1'),
+('70076', '41206', '0', '-1', '0', '30000'),
+('70074', '40380', '0', '50', '0', '25'),
+('70074', '41245', '1', '50', '10', '-1'),
+('70074', '40010', '2', '33', '0', '16'),
+('70074', '40011', '3', '168', '0', '84'),
+('70074', '40012', '4', '378', '0', '189'),
+('70074', '40022', '5', '275', '0', '135'),
+('70074', '40023', '6', '1575', '0', '785'),
+('70074', '40024', '7', '6240', '0', '3120'),
+('70074', '40017', '8', '70', '0', '35'),
+('70074', '40013', '9', '200', '0', '100'),
+('70074', '40018', '10', '1500', '0', '750'),
+('70074', '40126', '11', '50', '0', '25'),
+('70074', '40100', '12', '70', '0', '35'),
+('70074', '40119', '13', '100', '0', '50'),
+('70074', '40089', '14', '1000', '0', '500'),
+('70074', '40079', '15', '120', '0', '60'),
+('70074', '40124', '16', '120', '0', '60'),
+('70074', '50020', '17', '50', '0', '25'),
+('70074', '40315', '18', '550', '0', '275'),
+('70074', '41160', '19', '2000', '10', '-1'),
+('70074', '40317', '20', '150', '0', '75'),
+('70074', '40009', '21', '600', '0', '-1'),
+('70074', '40056', '22', '1', '0', '0'),
+('70074', '40065', '23', '5', '0', '2'),
+('70074', '41260', '24', '300', '0', '150'),
+('70074', '41246', '25', '-1', '0', '5'),
+('70073', '40743', '0', '1', '10', '-1'),
+('70073', '40744', '1', '1', '5', '-1'),
+('70073', '172', '2', '50', '0', '25'),
+('70073', '143', '3', '700', '0', '350'),
+('70073', '141', '4', '1000', '0', '500'),
+('70073', '23', '5', '30', '0', '15'),
+('70073', '24', '6', '100', '0', '50'),
+('70073', '20239', '7', '60', '0', '30'),
+('70073', '20242', '8', '1200', '0', '600'),
+('70073', '20043', '9', '200', '0', '100'),
+('70073', '20089', '10', '100', '0', '50'),
+('70073', '20147', '11', '300', '0', '150'),
+('70073', '20096', '12', '500', '0', '250'),
+('70073', '20122', '13', '2000', '0', '1000'),
+('70073', '40739', '14', '1', '2', '-1'),
+('70073', '40738', '15', '1', '0', '0'),
+('70073', '40740', '16', '2', '0', '1'),
+('4220700', '21033', '22', '2000', '0', '-1'),
+('70072', '40126', '10', '50', '0', '25'),
+('70072', '40100', '11', '70', '0', '35'),
+('70072', '40009', '20', '600', '0', '-1'),
+('70072', '41260', '23', '300', '0', '150'),
+('70072', '40317', '19', '150', '0', '75'),
+('70072', '40065', '22', '5', '0', '2'),
+('70072', '40379', '0', '50', '0', '25'),
+('70072', '40056', '21', '2', '0', '0'),
+('70072', '41245', '1', '50', '10', '-1'),
+('70072', '40010', '2', '33', '0', '16'),
+('70072', '40024', '6', '6240', '0', '3120'),
+('70072', '40017', '7', '70', '0', '35'),
+('70072', '40013', '8', '200', '0', '100'),
+('70072', '40011', '3', '168', '0', '84'),
+('70072', '40079', '12', '120', '0', '60'),
+('70072', '40018', '9', '1500', '0', '750'),
+('70072', '40023', '5', '1575', '0', '785'),
+('70072', '40022', '4', '275', '0', '135'),
+('70072', '41160', '18', '2000', '10', '-1'),
+('70072', '40089', '15', '1000', '0', '500'),
+('70072', '40124', '13', '120', '0', '60'),
+('70072', '40315', '17', '500', '0', '250'),
+('70072', '50020', '16', '50', '0', '25'),
+('70072', '40119', '14', '100', '0', '50'),
+('70072', '41246', '24', '-1', '0', '5'),
+('70071', '40011', '1', '168', '0', '84'),
+('70071', '40124', '11', '120', '0', '60'),
+('70071', '40009', '14', '600', '0', '1'),
+('70071', '40740', '21', '2', '0', '0'),
+('70071', '40738', '20', '1', '0', '0'),
+('70071', '40743', '18', '1', '10', '-1'),
+('70071', '40013', '6', '200', '0', '100'),
+('70071', '40018', '7', '1500', '0', '750'),
+('70071', '40024', '4', '6240', '0', '3120'),
+('70071', '40126', '8', '50', '0', '25'),
+('70071', '40023', '3', '1575', '0', '785'),
+('70071', '40079', '10', '120', '0', '60'),
+('70071', '40065', '16', '5', '0', '2'),
+('70071', '40317', '13', '150', '0', '75'),
+('70071', '40100', '9', '70', '0', '35'),
+('70071', '40010', '0', '33', '0', '16'),
+('70071', '40022', '2', '275', '0', '135'),
+('70071', '41260', '17', '300', '0', '150'),
+('70071', '40739', '19', '1', '2', '-1'),
+('70071', '40017', '5', '70', '0', '35'),
+('70071', '40056', '15', '1', '0', '0'),
+('70071', '40119', '12', '100', '0', '50'),
+('70069', '40159', '5', '125', '0', '-1'),
+('70069', '40161', '9', '250', '0', '-1'),
+('70069', '40144', '23', '62', '0', '-1'),
+('70069', '40155', '16', '500', '0', '-1'),
+('70069', '40148', '15', '500', '0', '-1'),
+('70069', '40140', '22', '62', '0', '-1'),
+('70069', '40143', '13', '500', '0', '-1'),
+('70069', '40137', '20', '3125', '0', '-1'),
+('70069', '40149', '6', '250', '0', '-1'),
+('70069', '40150', '24', '62', '0', '-1'),
+('70069', '40147', '17', '500', '0', '-1'),
+('70069', '40153', '10', '250', '0', '-1'),
+('70069', '40152', '3', '125', '0', '-1'),
+('70069', '40157', '7', '250', '0', '-1'),
+('70069', '40138', '19', '1500', '0', '-1'),
+('70069', '40139', '12', '500', '0', '-1'),
+('70069', '40136', '18', '1000', '0', '-1'),
+('70069', '40146', '11', '250', '0', '-1'),
+('70069', '40141', '0', '125', '0', '-1'),
+('70069', '40160', '2', '125', '0', '-1'),
+('70069', '40145', '1', '125', '0', '-1'),
+('70069', '40158', '21', '62', '0', '-1'),
+('70069', '40151', '4', '125', '0', '-1'),
+('70069', '40142', '8', '250', '0', '-1'),
+('70069', '40156', '14', '500', '0', '-1'),
+('70068', '148', '1', '101200', '0', '-1'),
+('70068', '125', '5', '96600', '0', '-1'),
+('70068', '129', '4', '88550', '0', '-1'),
+('70068', '41', '0', '109250', '0', '-1'),
+('70068', '29', '3', '101200', '0', '6500'),
+('70068', '142', '2', '95450', '0', '-1'),
+('70068', '20015', '11', '87400', '0', '-1'),
+('70068', '20125', '6', '72450', '0', '-1'),
+('70068', '20014', '10', '83950', '0', '-1'),
+('70068', '20011', '7', '66700', '0', '-1'),
+('70068', '20036', '8', '79350', '0', '-1'),
+('70068', '20013', '9', '93150', '0', '-1'),
+('70067', '40119', '17', '100', '0', '50'),
+('70067', '20114', '31', '1000', '0', '500'),
+('70067', '40087', '18', '75000', '0', '37500'),
+('70067', '40009', '30', '600', '0', '-1'),
+('70067', '40006', '27', '20000', '0', '-1'),
+('70067', '40008', '28', '100000', '0', '-1'),
+('70067', '128', '24', '300', '0', '150'),
+('70067', '125', '26', '9000', '0', '4500'),
+('70067', '129', '25', '2500', '0', '1250'),
+('70067', '40012', '2', '378', '0', '189'),
+('70067', '40010', '0', '33', '0', '17'),
+('70067', '40020', '4', '252', '0', '126'),
+('70067', '40019', '3', '48', '0', '24'),
+('70067', '40013', '6', '200', '0', '100'),
+('70067', '40021', '5', '624', '0', '312'),
+('70067', '40007', '29', '3000', '0', '-1'),
+('70067', '40088', '23', '1300', '0', '650'),
+('70067', '40011', '1', '168', '0', '84'),
+('70067', '40089', '20', '1000', '0', '500'),
+('70067', '40017', '7', '70', '0', '35'),
+('70067', '40124', '22', '120', '0', '60'),
+('70067', '40025', '9', '2', '0', '1'),
+('70067', '41260', '10', '300', '0', '150'),
+('70067', '40016', '8', '600', '0', '300'),
+('70067', '40100', '16', '70', '0', '35'),
+('70067', '40091', '13', '400', '0', '200'),
+('70067', '40057', '11', '200', '0', '100'),
+('70067', '40090', '12', '100', '0', '50'),
+('70067', '40126', '15', '50', '0', '25'),
+('70067', '40092', '14', '1000', '0', '500'),
+('70066', '40171', '0', '2000', '0', '1000'),
+('70066', '40176', '1', '2000', '0', '1000'),
+('70066', '40180', '2', '5000', '0', '2500'),
+('70066', '40182', '3', '5000', '0', '2500'),
+('70066', '40187', '4', '10000', '0', '5000'),
+('70066', '40188', '5', '10000', '0', '5000'),
+('70066', '40194', '6', '18000', '0', '9000'),
+('70064', '41206', '0', '-1', '0', '30000'),
+('70063', '40387', '0', '50', '0', '25'),
+('70063', '41245', '1', '50', '10', '-1'),
+('70063', '40010', '2', '33', '0', '16'),
+('70063', '40011', '3', '168', '0', '84'),
+('70063', '40012', '4', '378', '0', '189'),
+('70063', '40022', '5', '275', '0', '135'),
+('70063', '40023', '6', '1575', '0', '785'),
+('70063', '40024', '7', '6240', '0', '3120'),
+('70063', '40017', '8', '70', '0', '35'),
+('70063', '40013', '9', '200', '0', '100'),
+('70063', '40018', '10', '1500', '0', '750'),
+('70063', '40126', '11', '50', '0', '25'),
+('70063', '40100', '12', '70', '0', '35'),
+('70063', '40119', '13', '100', '0', '50'),
+('70063', '40087', '14', '75000', '0', '37500'),
+('70063', '40074', '15', '31000', '0', '15500'),
+('70063', '40089', '16', '1000', '0', '500'),
+('70063', '40079', '17', '120', '0', '60'),
+('70063', '40124', '18', '120', '0', '60'),
+('70063', '40088', '19', '1300', '0', '650'),
+('70063', '50020', '20', '50', '0', '25'),
+('70063', '40317', '21', '150', '0', '75'),
+('70063', '40315', '22', '500', '0', '250'),
+('70063', '41160', '23', '2000', '10', '-1'),
+('70063', '40057', '24', '200', '0', '100'),
+('70063', '40056', '25', '1', '0', '0'),
+('70063', '40065', '26', '5', '0', '2'),
+('70063', '41260', '27', '300', '0', '150'),
+('70063', '40009', '28', '600', '0', '-1'),
+('70063', '41246', '29', '-1', '0', '5'),
+('70062', '40170', '0', '2000', '0', '1000'),
+('70062', '40173', '1', '2000', '0', '1000'),
+('70062', '40177', '2', '2000', '0', '1000'),
+('70062', '40179', '3', '5000', '0', '2500'),
+('70062', '40183', '4', '5000', '0', '2500'),
+('70061', '40743', '0', '1', '10', '-1'),
+('70061', '40744', '1', '1', '5', '-1'),
+('70061', '172', '2', '50', '0', '25'),
+('70061', '136', '3', '20', '0', '10'),
+('70061', '143', '4', '700', '0', '350'),
+('70061', '142', '5', '8000', '0', '4000'),
+('70061', '148', '6', '13000', '0', '6500'),
+('70061', '138', '7', '30', '0', '15'),
+('70061', '139', '8', '40', '0', '20'),
+('70061', '141', '9', '1000', '0', '500'),
+('70061', '146', '10', '3500', '0', '1750'),
+('70061', '102', '11', '10000', '0', '5000'),
+('70061', '23', '12', '30', '0', '15'),
+('70061', '24', '13', '100', '0', '50'),
+('70061', '25', '14', '1800', '0', '900'),
+('70061', '27', '15', '1000', '0', '500'),
+('70061', '32', '16', '2500', '0', '1250'),
+('70061', '31', '17', '3000', '0', '1500'),
+('70061', '29', '18', '13000', '0', '6500'),
+('70061', '37', '19', '5000', '0', '2500'),
+('70061', '52', '20', '18000', '0', '9000'),
+('70061', '41', '21', '20000', '0', '10000'),
+('70061', '90', '22', '40', '0', '20'),
+('70061', '92', '23', '180', '0', '90'),
+('70061', '93', '24', '25', '0', '12'),
+('70061', '94', '25', '500', '0', '250'),
+('70061', '97', '26', '200', '0', '100'),
+('70061', '95', '27', '60', '0', '30'),
+('70061', '98', '28', '350', '0', '175'),
+('70061', '103', '29', '2000', '0', '1000'),
+('70061', '104', '30', '8000', '0', '4000'),
+('70061', '106', '31', '16000', '0', '8000'),
+('70061', '128', '32', '300', '0', '150'),
+('70061', '125', '33', '9000', '0', '4500'),
+('70061', '129', '34', '2500', '0', '1250'),
+('70061', '40739', '35', '1', '2', '-1'),
+('70061', '40738', '36', '1', '0', '0'),
+('70061', '40740', '37', '2', '0', '1'),
+('70060', '40232', '0', '2000', '0', '1000'),
+('70060', '40233', '1', '2000', '0', '1000'),
+('70060', '40234', '2', '2000', '0', '1000'),
+('70060', '40235', '3', '5000', '0', '2500'),
+('70060', '40236', '4', '5000', '0', '2500'),
+('70060', '40239', '5', '10000', '0', '5000'),
+('70060', '40247', '8', '10000', '0', '5000'),
+('70060', '40256', '6', '10000', '0', '5000'),
+('70060', '40260', '7', '10000', '0', '5000'),
+('70059', '41260', '22', '300', '0', '150'),
+('70059', '40009', '23', '600', '0', '-1'),
+('70059', '40013', '8', '200', '0', '100'),
+('70059', '40017', '7', '70', '0', '35'),
+('70059', '40018', '9', '1500', '0', '750'),
+('70059', '40126', '10', '50', '0', '25'),
+('70059', '40100', '11', '70', '0', '35'),
+('70059', '40089', '13', '1000', '0', '500'),
+('70059', '40088', '16', '1300', '0', '650'),
+('70059', '40079', '14', '120', '0', '60'),
+('70059', '40315', '17', '500', '0', '250'),
+('70059', '40124', '15', '120', '0', '60'),
+('70059', '41160', '18', '2000', '10', '-1'),
+('70059', '40024', '6', '6240', '0', '3120'),
+('70059', '40387', '0', '50', '0', '25'),
+('70059', '40010', '1', '33', '0', '16'),
+('70059', '40012', '3', '378', '0', '189'),
+('70059', '40022', '4', '275', '0', '135'),
+('70059', '40011', '2', '168', '0', '84'),
+('70059', '40023', '5', '1575', '0', '785'),
+('70059', '40119', '12', '100', '0', '50'),
+('70059', '40317', '19', '150', '0', '75'),
+('70059', '40056', '20', '1', '0', '0'),
+('70059', '40065', '21', '5', '0', '2'),
+('70058', '20125', '16', '6000', '0', '3000'),
+('70058', '20043', '4', '200', '0', '100'),
+('70058', '20096', '14', '500', '0', '250'),
+('70058', '20101', '18', '23000', '0', '11500'),
+('70058', '20242', '2', '1200', '0', '600'),
+('70058', '20154', '21', '37000', '0', '18500'),
+('70058', '20115', '20', '20000', '0', '10000'),
+('70058', '20036', '8', '12000', '0', '6000'),
+('70058', '20229', '1', '20000', '0', '10000'),
+('70058', '20231', '3', '7000', '0', '3500'),
+('70058', '20110', '17', '8000', '0', '4000'),
+('70058', '20011', '9', '3000', '0', '1500'),
+('70058', '20015', '7', '18000', '0', '9000'),
+('70058', '20149', '19', '16000', '0', '8000'),
+('70058', '20013', '5', '22000', '0', '11000'),
+('4213002', '430013', '5', '200000', '0', '100000'),
+('70058', '20122', '15', '2000', '0', '1000'),
+('70058', '20114', '13', '1000', '0', '500'),
+('70058', '20014', '6', '15000', '0', '7500'),
+('70057', '41245', '0', '50', '10', '-1'),
+('70057', '40010', '1', '33', '0', '16'),
+('70057', '40011', '2', '168', '0', '84'),
+('70057', '40012', '3', '378', '0', '189'),
+('70057', '40024', '9', '6240', '0', '3120'),
+('70057', '40017', '10', '70', '0', '35'),
+('70057', '40013', '11', '200', '0', '100'),
+('70057', '40018', '12', '1500', '0', '750'),
+('70057', '40014', '13', '800', '0', '400'),
+('70057', '40016', '14', '600', '0', '300'),
+('70057', '40019', '4', '48', '0', '24'),
+('70057', '40100', '16', '70', '0', '35'),
+('70057', '40126', '15', '50', '0', '25'),
+('70057', '40023', '8', '1575', '0', '785'),
+('70057', '40022', '7', '275', '0', '135'),
+('70057', '40020', '5', '252', '0', '126'),
+('70057', '40021', '6', '624', '0', '312'),
+('70057', '41246', '25', '-1', '0', '5'),
+('70057', '50020', '22', '50', '0', '25'),
+('70057', '40009', '23', '600', '0', '-1'),
+('70057', '40088', '21', '1300', '0', '650'),
+('70057', '40089', '18', '1000', '0', '500'),
+('70057', '41260', '24', '300', '0', '150'),
+('70057', '40124', '20', '120', '0', '60'),
+('70056', '37', '0', '92000', '0', '3000'),
+('70056', '148', '1', '101200', '0', '-1'),
+('70056', '41', '2', '109250', '0', '-1'),
+('70056', '102', '3', '97750', '0', '-1'),
+('70056', '142', '4', '95450', '0', '-1'),
+('70056', '25', '5', '88550', '0', '900'),
+('70056', '20101', '6', '96600', '0', '12500'),
+('70056', '20154', '7', '112700', '0', '-1'),
+('70056', '20229', '8', '89700', '0', '-1'),
+('70056', '20036', '9', '79350', '0', '-1'),
+('70055', '427004', '3', '50000', '0', '25000'),
+('70055', '427102', '1', '50000', '0', '25000'),
+('70055', '427002', '2', '15000', '0', '7500'),
+('70055', '427108', '0', '90000', '0', '45000'),
+('70053', '40069', '1', '5', '0', '2'),
+('70053', '40061', '3', '5', '0', '2'),
+('70053', '40072', '6', '20', '0', '10'),
+('70053', '41266', '7', '8', '0', '4'),
+('70053', '40059', '0', '4', '0', '2'),
+('70053', '40060', '4', '8', '0', '4'),
+('70053', '40062', '5', '5', '0', '2'),
+('70053', '40064', '2', '5', '0', '2'),
+('70053', '41264', '9', '20', '0', '10'),
+('70053', '41267', '8', '20', '0', '10'),
+('70053', '41260', '18', '300', '0', '150'),
+('70053', '41262', '17', '25', '0', '12'),
+('70053', '41269', '12', '25', '0', '12'),
+('70053', '41273', '15', '25', '0', '12'),
+('70053', '41272', '14', '25', '0', '12'),
+('70053', '41265', '10', '20', '0', '10'),
+('70053', '41271', '13', '25', '0', '12'),
+('70053', '41268', '11', '25', '0', '12'),
+('70053', '41261', '16', '25', '0', '12'),
+('70052', '40013', '10', '200', '0', '100'),
+('70052', '40018', '11', '1500', '0', '750'),
+('70052', '50020', '12', '50', '0', '25'),
+('70052', '40317', '15', '150', '0', '75'),
+('70052', '41260', '19', '300', '0', '150'),
+('70052', '41160', '14', '2000', '10', '-1'),
+('70052', '40065', '18', '5', '0', '2'),
+('70052', '40056', '17', '1', '0', '0'),
+('70052', '40057', '16', '200', '0', '100'),
+('70052', '40388', '0', '50', '0', '25'),
+('70052', '40373', '1', '1000', '0', '500'),
+('70052', '41245', '2', '50', '10', '-1'),
+('70052', '40022', '6', '275', '0', '135'),
+('70052', '40023', '7', '1575', '0', '785'),
+('70052', '40024', '8', '6240', '0', '3120'),
+('70052', '40010', '3', '33', '0', '16'),
+('70052', '40315', '13', '500', '0', '250'),
+('70052', '40017', '9', '70', '0', '35'),
+('70052', '40012', '5', '378', '0', '189'),
+('70052', '40011', '4', '168', '0', '84'),
+('70052', '41246', '20', '-1', '0', '5'),
+('70051', '40119', '4', '100', '0', '50'),
+('70051', '40315', '5', '500', '0', '250'),
+('70051', '40100', '3', '70', '0', '35'),
+('70051', '40017', '1', '70', '0', '35'),
+('70051', '40013', '2', '200', '0', '100'),
+('70051', '41160', '6', '2000', '10', '-1'),
+('70051', '40317', '7', '150', '0', '75'),
+('70051', '40065', '10', '4', '0', '2'),
+('70051', '40010', '0', '32', '0', '16'),
+('70051', '40056', '9', '1', '0', '0'),
+('70051', '41260', '11', '300', '0', '150'),
+('70051', '40009', '8', '600', '0', '-1'),
+('70050', '40159', '5', '125', '0', '-1'),
+('70050', '40161', '9', '250', '0', '-1'),
+('70050', '40144', '23', '62', '0', '-1'),
+('70050', '40155', '16', '500', '0', '-1'),
+('70050', '40148', '15', '500', '0', '-1'),
+('70050', '40140', '22', '62', '0', '-1'),
+('70050', '40143', '13', '500', '0', '-1'),
+('70050', '40137', '20', '3125', '0', '-1'),
+('70050', '40149', '6', '250', '0', '-1'),
+('70050', '40150', '24', '62', '0', '-1'),
+('70050', '40147', '17', '500', '0', '-1'),
+('70050', '40153', '10', '250', '0', '-1'),
+('70050', '40152', '3', '125', '0', '-1'),
+('70050', '40157', '7', '250', '0', '-1'),
+('70050', '40138', '19', '1500', '0', '-1'),
+('70050', '40139', '12', '500', '0', '-1'),
+('70050', '40136', '18', '1000', '0', '-1'),
+('70050', '40146', '11', '250', '0', '-1'),
+('70050', '40141', '0', '125', '0', '-1'),
+('70050', '40160', '2', '125', '0', '-1'),
+('70050', '40145', '1', '125', '0', '-1'),
+('70050', '40158', '21', '62', '0', '-1'),
+('70050', '40151', '4', '125', '0', '-1'),
+('70050', '40142', '8', '250', '0', '-1'),
+('70050', '40156', '14', '500', '0', '-1'),
+('70049', '40010', '0', '48', '0', '0'),
+('70049', '40011', '1', '251', '0', '0'),
+('70049', '40012', '2', '567', '0', '0'),
+('70049', '40017', '3', '104', '0', '-1'),
+('70049', '40018', '4', '2250', '0', '-1'),
+('70048', '40388', '0', '50', '0', '25'),
+('70048', '41245', '1', '50', '10', '-1'),
+('70048', '40010', '2', '33', '0', '17'),
+('70048', '40011', '3', '168', '0', '84'),
+('70048', '40012', '4', '378', '0', '189'),
+('70048', '40022', '5', '275', '0', '140'),
+('70048', '40023', '6', '1575', '0', '790'),
+('70048', '40024', '7', '6240', '0', '3120'),
+('70048', '40017', '8', '70', '0', '35'),
+('70048', '40013', '9', '200', '0', '100'),
+('70048', '40018', '10', '1500', '0', '750'),
+('70048', '40126', '11', '50', '0', '25'),
+('70048', '40100', '12', '70', '0', '35'),
+('70048', '40119', '13', '100', '0', '50'),
+('70048', '40089', '14', '1000', '0', '500'),
+('70048', '40079', '15', '120', '0', '60'),
+('70048', '40124', '16', '120', '0', '60'),
+('70048', '40088', '17', '1300', '0', '650'),
+('70048', '50020', '18', '50', '0', '25'),
+('70048', '40315', '19', '500', '0', '250'),
+('70048', '41160', '20', '2000', '10', '-1'),
+('70048', '40317', '21', '150', '0', '75'),
+('70048', '40009', '22', '600', '0', '-1'),
+('70048', '40057', '23', '200', '0', '100'),
+('70048', '40056', '24', '1', '0', '0'),
+('70048', '40065', '25', '5', '0', '3'),
+('70048', '41260', '26', '300', '0', '150'),
+('70048', '40903', '27', '100000', '0', '50000'),
+('70048', '40906', '28', '1000000', '0', '500000'),
+('70048', '40904', '29', '200000', '0', '100000'),
+('70048', '40905', '30', '500000', '0', '250000'),
+('70048', '40902', '31', '10000', '0', '5000'),
+('70048', '40901', '32', '5000', '0', '2500'),
+('70048', '41246', '33', '-1', '0', '5'),
+('4200002', '438000', '0', '10', '0', '0'),
+('70047', '40740', '37', '2', '0', '1'),
+('70047', '40739', '35', '1', '2', '-1'),
+('70047', '129', '34', '2500', '0', '1250'),
+('70047', '40738', '36', '1', '0', '0'),
+('70047', '125', '33', '9000', '0', '4500'),
+('70047', '94', '25', '500', '0', '250'),
+('70047', '104', '30', '8000', '0', '4000'),
+('70047', '103', '29', '2000', '0', '1000'),
+('70047', '128', '32', '300', '0', '150'),
+('70047', '97', '26', '200', '0', '100'),
+('70047', '95', '27', '60', '0', '30'),
+('70047', '98', '28', '350', '0', '175'),
+('70047', '106', '31', '16000', '0', '8000'),
+('70047', '31', '17', '3000', '0', '1500'),
+('70047', '40743', '0', '1', '10', '-1'),
+('70047', '40744', '1', '1', '5', '-1'),
+('70047', '172', '2', '50', '0', '25'),
+('70047', '136', '3', '20', '0', '10'),
+('70047', '148', '6', '13000', '0', '6500'),
+('70047', '142', '5', '8000', '0', '4000'),
+('70047', '143', '4', '700', '0', '350'),
+('70047', '138', '7', '30', '0', '15'),
+('70047', '141', '9', '1000', '0', '500'),
+('70047', '139', '8', '40', '0', '20'),
+('70047', '146', '10', '3500', '0', '1750'),
+('70047', '102', '11', '10000', '0', '5000'),
+('70047', '23', '12', '30', '0', '15'),
+('70047', '24', '13', '100', '0', '50'),
+('70047', '27', '15', '1000', '0', '500'),
+('70047', '25', '14', '1800', '0', '900'),
+('70047', '32', '16', '2500', '0', '1250'),
+('70047', '29', '18', '13000', '0', '6500'),
+('70047', '37', '19', '5000', '0', '2500'),
+('70047', '52', '20', '18000', '0', '9000'),
+('70047', '92', '23', '180', '0', '90'),
+('70047', '41', '21', '20000', '0', '10000'),
+('70047', '93', '24', '25', '0', '12'),
+('70047', '90', '22', '40', '0', '20'),
+('70046', '40159', '5', '125', '0', '-1'),
+('70046', '40161', '9', '250', '0', '-1'),
+('70046', '40144', '23', '62', '0', '-1'),
+('70046', '40155', '16', '500', '0', '-1'),
+('70046', '40148', '15', '500', '0', '-1'),
+('70046', '40140', '22', '62', '0', '-1'),
+('70046', '40143', '13', '500', '0', '-1'),
+('70046', '40137', '20', '3125', '0', '-1'),
+('70046', '40149', '6', '250', '0', '-1'),
+('70046', '40150', '24', '62', '0', '-1'),
+('70046', '40147', '17', '500', '0', '-1'),
+('70046', '40153', '10', '250', '0', '-1'),
+('70046', '40152', '3', '125', '0', '-1'),
+('70046', '40157', '7', '250', '0', '-1'),
+('70046', '40138', '19', '1500', '0', '-1'),
+('70046', '40139', '12', '500', '0', '-1'),
+('70046', '40136', '18', '1000', '0', '-1'),
+('70046', '40146', '11', '250', '0', '-1'),
+('70046', '40141', '0', '125', '0', '-1'),
+('70046', '40160', '2', '125', '0', '-1'),
+('70046', '40145', '1', '125', '0', '-1'),
+('70046', '40158', '21', '62', '0', '-1'),
+('70046', '40151', '4', '125', '0', '-1'),
+('70046', '40142', '8', '250', '0', '-1'),
+('70046', '40156', '14', '500', '0', '-1'),
+('70045', '40126', '16', '50', '0', '25'),
+('70045', '40100', '17', '70', '0', '35'),
+('70045', '40009', '27', '500', '0', '-1'),
+('70045', '41260', '30', '300', '0', '150'),
+('70045', '40317', '26', '120', '0', '60'),
+('70045', '40065', '29', '6', '0', '3'),
+('70045', '40386', '0', '50', '0', '25'),
+('70045', '40056', '28', '1', '0', '0'),
+('70045', '41245', '1', '50', '10', '-1'),
+('70045', '40010', '2', '33', '0', '16'),
+('70045', '40011', '3', '168', '0', '84'),
+('70045', '40023', '9', '1575', '0', '785'),
+('70045', '40024', '10', '6240', '0', '3120'),
+('70045', '40017', '11', '70', '0', '35'),
+('70045', '40013', '12', '200', '0', '100'),
+('70045', '40018', '13', '1500', '0', '750'),
+('70045', '40014', '14', '800', '0', '400'),
+('70045', '40012', '4', '378', '0', '189'),
+('70045', '40079', '18', '120', '0', '60'),
+('70045', '40016', '15', '600', '0', '300'),
+('70045', '40022', '8', '275', '0', '135'),
+('70045', '40021', '7', '624', '0', '312'),
+('70045', '40019', '5', '48', '0', '24'),
+('70045', '40020', '6', '252', '0', '126'),
+('70045', '41160', '25', '2000', '10', '-1'),
+('70045', '40088', '22', '1300', '0', '650'),
+('70045', '40124', '19', '120', '0', '60'),
+('70045', '40315', '24', '500', '0', '250'),
+('70045', '50020', '23', '50', '0', '25'),
+('70045', '40089', '21', '1000', '0', '500'),
+('70045', '40119', '20', '100', '0', '50'),
+('70045', '41246', '31', '-1', '0', '5'),
+('70044', '40743', '0', '1', '10', '-1'),
+('70044', '40744', '1', '1', '5', '-1'),
+('70044', '172', '2', '50', '0', '25'),
+('70044', '136', '3', '20', '0', '10'),
+('70044', '137', '4', '15', '0', '7'),
+('70044', '90', '5', '39', '0', '19'),
+('70044', '96', '6', '88', '0', '44'),
+('70044', '140', '7', '99', '0', '49'),
+('70044', '27', '8', '1320', '0', '660'),
+('70044', '143', '9', '700', '0', '350'),
+('70044', '141', '10', '1000', '0', '500'),
+('70044', '146', '11', '3500', '0', '1750'),
+('70044', '102', '12', '10000', '0', '5000'),
+('70044', '148', '13', '12000', '0', '6000'),
+('70044', '23', '14', '30', '0', '15'),
+('70044', '24', '15', '100', '0', '50'),
+('70044', '31', '16', '3000', '0', '1500'),
+('70044', '32', '17', '2500', '0', '1250'),
+('70044', '37', '18', '5000', '0', '2500'),
+('70044', '41', '19', '20000', '0', '10000'),
+('70044', '128', '20', '300', '0', '150'),
+('70044', '129', '21', '2500', '0', '1250'),
+('70044', '20239', '22', '60', '0', '30'),
+('70044', '20242', '23', '1200', '0', '600'),
+('70044', '20231', '24', '7000', '0', '3500'),
+('70044', '20043', '25', '200', '0', '100'),
+('70044', '20006', '26', '5000', '0', '2500'),
+('70044', '20089', '27', '100', '0', '50'),
+('70044', '20147', '28', '300', '0', '150'),
+('70044', '20114', '29', '1000', '0', '500'),
+('70044', '20096', '30', '500', '0', '250'),
+('70044', '20122', '31', '2000', '0', '1000'),
+('70044', '20125', '32', '6000', '0', '3000'),
+('70044', '20149', '33', '16000', '0', '8000'),
+('70044', '20154', '34', '37000', '0', '18500'),
+('70044', '20115', '35', '20000', '0', '10000'),
+('70044', '40739', '36', '1', '2', '-1'),
+('70044', '40738', '37', '1', '0', '-1'),
+('70044', '40740', '38', '3', '0', '-1'),
+('70043', '40405', '0', '4', '0', '2'),
+('70039', '40743', '0', '1', '10', '-1'),
+('70039', '40744', '1', '1', '5', '-1'),
+('70039', '172', '2', '50', '0', '25'),
+('70039', '136', '3', '20', '0', '10'),
+('70039', '143', '4', '700', '0', '350'),
+('70039', '142', '5', '8000', '0', '4000'),
+('70039', '148', '6', '13000', '0', '6500'),
+('70039', '138', '7', '30', '0', '15'),
+('70039', '139', '8', '40', '0', '20'),
+('70039', '141', '9', '1000', '0', '500'),
+('70039', '146', '10', '3500', '0', '1750'),
+('70039', '102', '11', '10000', '0', '5000'),
+('70039', '23', '12', '30', '0', '15'),
+('70039', '24', '13', '100', '0', '50'),
+('70039', '25', '14', '1800', '0', '900'),
+('70039', '27', '15', '1000', '0', '500'),
+('70039', '32', '16', '2500', '0', '1250'),
+('70039', '31', '17', '3000', '0', '1500'),
+('70039', '29', '18', '13000', '0', '6500'),
+('70039', '37', '19', '5000', '0', '2500'),
+('70039', '52', '20', '18000', '0', '9000'),
+('70039', '41', '21', '20000', '0', '10000'),
+('70039', '90', '22', '40', '0', '20'),
+('70039', '92', '23', '180', '0', '90'),
+('70039', '93', '24', '25', '0', '12'),
+('70039', '94', '25', '500', '0', '250'),
+('70039', '97', '26', '200', '0', '100'),
+('70039', '95', '27', '60', '0', '30'),
+('70039', '98', '28', '350', '0', '175'),
+('70039', '103', '29', '2000', '0', '1000'),
+('70039', '104', '30', '8000', '0', '4000'),
+('70039', '106', '31', '16000', '0', '8000'),
+('70039', '128', '32', '300', '0', '150'),
+('70039', '125', '33', '9000', '0', '4500'),
+('70039', '129', '34', '2500', '0', '1250'),
+('70039', '40739', '35', '1', '2', '-1'),
+('70039', '40738', '36', '1', '0', '0'),
+('70039', '40740', '37', '2', '0', '1'),
+('4208001', '40010', '0', '32', '0', '16'),
+('70038', '40456', '0', '200', '0', '100'),
+('70038', '40455', '1', '200', '0', '100'),
+('70038', '40457', '2', '200', '0', '100'),
+('70037', '41206', '0', '-1', '0', '30000'),
+('70036', '40159', '5', '125', '0', '-1'),
+('70036', '40161', '9', '250', '0', '-1'),
+('70036', '40144', '23', '62', '0', '-1'),
+('70036', '40155', '16', '500', '0', '-1'),
+('70036', '40148', '15', '500', '0', '-1'),
+('70036', '40140', '22', '62', '0', '-1'),
+('70036', '40143', '13', '500', '0', '-1'),
+('70036', '40137', '20', '3125', '0', '-1'),
+('70036', '40149', '6', '250', '0', '-1'),
+('70036', '40150', '24', '62', '0', '-1'),
+('70036', '40147', '17', '500', '0', '-1'),
+('70036', '40153', '10', '250', '0', '-1'),
+('70036', '40152', '3', '125', '0', '-1'),
+('70036', '40157', '7', '250', '0', '-1'),
+('70036', '40138', '19', '1500', '0', '-1'),
+('70036', '40139', '12', '500', '0', '-1'),
+('70036', '40136', '18', '1000', '0', '-1'),
+('70036', '40146', '11', '250', '0', '-1'),
+('70036', '40141', '0', '125', '0', '-1'),
+('70036', '40160', '2', '125', '0', '-1'),
+('70036', '40145', '1', '125', '0', '-1'),
+('70036', '40158', '21', '62', '0', '-1'),
+('70036', '40151', '4', '125', '0', '-1'),
+('70036', '40142', '8', '250', '0', '-1'),
+('70036', '40156', '14', '500', '0', '-1'),
+('70033', '41245', '0', '50', '10', '-1'),
+('70033', '40010', '1', '33', '0', '17'),
+('70033', '40011', '2', '168', '0', '84'),
+('70033', '40012', '3', '378', '0', '189'),
+('70033', '40019', '4', '48', '0', '24'),
+('70033', '40020', '5', '252', '0', '126'),
+('70033', '40021', '6', '624', '0', '312'),
+('70033', '40022', '7', '275', '0', '140'),
+('70033', '40023', '8', '1575', '0', '790'),
+('70033', '40024', '9', '6240', '0', '3120'),
+('70033', '40017', '10', '70', '0', '35'),
+('70033', '40013', '11', '200', '0', '100'),
+('70033', '40018', '12', '1500', '0', '750'),
+('70033', '40014', '13', '800', '0', '400'),
+('70033', '40016', '14', '600', '0', '300'),
+('70033', '40126', '15', '50', '0', '25'),
+('70033', '40100', '16', '70', '0', '35'),
+('70033', '40119', '17', '100', '0', '50'),
+('70033', '40089', '18', '1000', '0', '500'),
+('70033', '40124', '20', '120', '0', '60'),
+('70033', '40088', '21', '1300', '0', '650'),
+('70033', '40074', '22', '31000', '0', '15500'),
+('70033', '40087', '23', '75000', '0', '37500'),
+('70033', '50020', '24', '50', '0', '25'),
+('70033', '40009', '25', '600', '0', '1'),
+('70033', '41260', '26', '300', '0', '150'),
+('70033', '41246', '27', '-1', '0', '5'),
+('70032', '20239', '0', '60', '0', '30'),
+('70032', '20229', '1', '20000', '0', '10000'),
+('70032', '20242', '2', '1200', '0', '600'),
+('70032', '20231', '3', '7000', '0', '3500'),
+('70032', '20043', '4', '200', '0', '100'),
+('70032', '20013', '5', '22000', '0', '11000'),
+('70032', '20014', '6', '15000', '0', '7500'),
+('70032', '20015', '7', '18000', '0', '9000'),
+('70032', '20036', '8', '12000', '0', '6000'),
+('70032', '20011', '9', '3000', '0', '1500'),
+('70032', '20006', '10', '5000', '0', '2500'),
+('70032', '20089', '11', '100', '0', '50'),
+('70032', '20147', '12', '300', '0', '150'),
+('70032', '20114', '13', '1000', '0', '500'),
+('70032', '20096', '14', '500', '0', '250'),
+('70032', '20122', '15', '2000', '0', '1000'),
+('70032', '20125', '16', '6000', '0', '3000'),
+('70032', '20110', '17', '8000', '0', '4000'),
+('70032', '20101', '18', '23000', '0', '11500'),
+('70032', '20149', '19', '16000', '0', '8000'),
+('70032', '20115', '20', '20000', '0', '10000'),
+('70032', '20154', '21', '37000', '0', '18500'),
+('4208001', '40011', '1', '168', '0', '84'),
+('4208001', '40024', '4', '6240', '0', '3120'),
+('70030', '40018', '11', '1500', '0', '750'),
+('70030', '40126', '12', '50', '0', '25'),
+('4208001', '40022', '2', '275', '0', '135'),
+('70030', '40317', '22', '150', '0', '75'),
+('70030', '41260', '26', '300', '0', '150'),
+('70030', '41160', '21', '2000', '10', '-1'),
+('70030', '40065', '25', '5', '0', '2'),
+('70030', '40382', '0', '50', '0', '25'),
+('70030', '40056', '24', '1', '0', '0'),
+('70030', '40009', '23', '600', '0', '-1'),
+('70030', '40381', '1', '50', '0', '25'),
+('70030', '41245', '2', '50', '10', '-1'),
+('70030', '40010', '3', '33', '0', '16'),
+('70030', '40023', '7', '1575', '0', '785'),
+('70030', '40024', '8', '6240', '0', '3120'),
+('70030', '40017', '9', '70', '0', '35'),
+('70030', '40011', '4', '168', '0', '84'),
+('70030', '40100', '13', '70', '0', '35'),
+('70030', '40013', '10', '200', '0', '100'),
+('70030', '40022', '6', '275', '0', '135'),
+('70030', '40012', '5', '378', '0', '189'),
+('70030', '40315', '20', '500', '0', '250'),
+('70030', '40124', '17', '120', '0', '60'),
+('70030', '40088', '18', '1300', '0', '650'),
+('70030', '40079', '16', '120', '0', '60'),
+('70030', '40119', '14', '100', '0', '50'),
+('70030', '50020', '19', '50', '0', '25'),
+('70030', '40089', '15', '1000', '0', '500'),
+('4208001', '40023', '3', '1575', '0', '785'),
+('70030', '41246', '27', '-1', '0', '5'),
+('70029', '41262', '17', '25', '0', '12'),
+('70029', '41260', '18', '300', '0', '150'),
+('70029', '41269', '12', '25', '0', '12'),
+('70029', '41273', '15', '25', '0', '12'),
+('70029', '41272', '14', '25', '0', '12'),
+('70029', '41265', '10', '20', '0', '10'),
+('70029', '41271', '13', '25', '0', '12'),
+('70029', '41268', '11', '25', '0', '12'),
+('70029', '41261', '16', '25', '0', '12'),
+('70029', '41267', '8', '20', '0', '10'),
+('70029', '41264', '9', '20', '0', '10'),
+('70029', '41266', '7', '8', '0', '4'),
+('70029', '40059', '0', '4', '0', '2'),
+('70029', '40062', '5', '6', '0', '3'),
+('70029', '40060', '4', '8', '0', '4'),
+('70029', '40064', '2', '6', '0', '3'),
+('70029', '40069', '1', '6', '0', '3'),
+('70029', '40061', '3', '6', '0', '3'),
+('70029', '40072', '6', '20', '0', '10'),
+('70028', '40010', '0', '33', '0', '16'),
+('70028', '40011', '1', '162', '0', '81'),
+('70028', '40012', '2', '378', '0', '189'),
+('70028', '40017', '3', '70', '0', '35'),
+('70028', '40013', '4', '200', '0', '100'),
+('70028', '40018', '5', '1500', '0', '750'),
+('70028', '40019', '6', '48', '0', '24'),
+('70028', '40020', '7', '252', '0', '126'),
+('70028', '40021', '8', '624', '0', '312'),
+('70027', '40044', '0', '-1', '0', '500'),
+('70027', '40045', '1', '-1', '0', '500'),
+('70027', '40046', '2', '-1', '0', '500'),
+('70027', '40047', '3', '-1', '0', '500'),
+('70027', '40048', '4', '-1', '0', '1000'),
+('70027', '40049', '5', '-1', '0', '1000'),
+('70027', '40050', '6', '-1', '0', '1000'),
+('70027', '40051', '7', '-1', '0', '1000'),
+('70027', '40052', '8', '-1', '0', '5000'),
+('70027', '40053', '9', '-1', '0', '5000'),
+('70027', '40054', '10', '-1', '0', '5000'),
+('70027', '40055', '11', '-1', '0', '5000'),
+('70026', '40743', '0', '1', '11', '-1'),
+('70026', '40744', '1', '1', '6', '-1'),
+('70026', '172', '2', '50', '0', '-1'),
+('70026', '169', '3', '5000', '0', '2500'),
+('70024', '40743', '0', '1', '10', '-1'),
+('70024', '40744', '1', '1', '5', '-1'),
+('70024', '172', '2', '50', '0', '25'),
+('70024', '136', '3', '20', '0', '10'),
+('70024', '143', '4', '700', '0', '350'),
+('70024', '92', '5', '180', '0', '90'),
+('70024', '141', '6', '1000', '0', '500'),
+('70024', '23', '7', '30', '0', '15'),
+('70024', '24', '8', '100', '0', '50'),
+('70024', '31', '9', '3000', '0', '1500'),
+('70024', '102', '10', '10000', '0', '5000'),
+('70024', '41', '11', '20000', '0', '10000'),
+('70024', '20239', '12', '60', '0', '30'),
+('70024', '20242', '13', '1200', '0', '600'),
+('70024', '20043', '14', '200', '0', '100'),
+('70024', '20089', '15', '100', '0', '50'),
+('70024', '20147', '16', '300', '0', '150'),
+('70024', '20096', '17', '500', '0', '250'),
+('70024', '20122', '18', '2000', '0', '1000'),
+('70024', '20125', '19', '6000', '0', '3000'),
+('70024', '20115', '20', '20000', '0', '10000'),
+('70024', '20101', '21', '25000', '0', '12500'),
+('70024', '40739', '22', '1', '2', '-1'),
+('70024', '40738', '23', '1', '0', '0'),
+('70024', '40740', '24', '2', '0', '1'),
+('70092', '41246', '27', '-1', '0', '5'),
+('4208001', '40017', '5', '100', '0', '50'),
+('70023', '425000', '0', '-1', '0', '3000'),
+('70022', '40298', '0', '300', '0', '-1'),
+('4208001', '40126', '8', '50', '0', '25'),
+('70021', '40126', '11', '50', '0', '25'),
+('70021', '40100', '12', '70', '0', '35'),
+('70021', '40009', '21', '600', '0', '-1'),
+('4208001', '40013', '6', '250', '0', '125'),
+('70021', '41260', '24', '300', '0', '150'),
+('70021', '40317', '20', '150', '0', '75'),
+('70021', '40065', '23', '5', '0', '2'),
+('70021', '40375', '0', '50', '0', '25'),
+('70021', '40056', '22', '1', '0', '0'),
+('70021', '41245', '1', '50', '10', '-1'),
+('70021', '40010', '2', '33', '0', '16'),
+('70021', '40011', '3', '168', '0', '84'),
+('70021', '40024', '7', '6240', '0', '3120'),
+('70021', '40017', '8', '70', '0', '35'),
+('70021', '40013', '9', '200', '0', '100'),
+('70021', '40012', '4', '378', '0', '189'),
+('70021', '40023', '6', '1575', '0', '785'),
+('70021', '40079', '13', '120', '0', '60'),
+('70021', '40018', '10', '1500', '0', '750'),
+('70021', '40022', '5', '275', '0', '135'),
+('70021', '41160', '19', '2000', '10', '-1'),
+('70021', '40089', '16', '1000', '0', '500'),
+('70021', '40124', '14', '120', '0', '60'),
+('70021', '40315', '18', '500', '0', '250'),
+('70021', '50020', '17', '50', '0', '25'),
+('70021', '40119', '15', '100', '0', '50'),
+('4208001', '40018', '7', '1650', '0', '825'),
+('70021', '41246', '25', '-1', '0', '5'),
+('70020', '72', '5', '95450', '0', '-1'),
+('70020', '159', '2', '113850', '0', '-1'),
+('70020', '154', '4', '97750', '0', '-1'),
+('70020', '80', '1', '138000', '0', '-1'),
+('70020', '77', '3', '109250', '0', '-1'),
+('70020', '161', '0', '143750', '0', '-1'),
+('70020', '193', '6', '92000', '0', '-1'),
+('70020', '20115', '9', '89700', '0', '11000'),
+('70020', '20110', '10', '73600', '0', '-1'),
+('70020', '20154', '8', '112700', '0', '-1'),
+('70020', '20149', '7', '85100', '0', '7000'),
+('70018', '40376', '0', '50', '0', '25'),
+('70018', '40381', '1', '50', '0', '25'),
+('70018', '41245', '2', '50', '10', '-1'),
+('70018', '40010', '3', '33', '0', '16'),
+('70018', '40011', '4', '168', '0', '84'),
+('70018', '40012', '5', '378', '0', '189'),
+('70018', '40022', '6', '270', '0', '135'),
+('70018', '40023', '7', '1570', '0', '785'),
+('70018', '40024', '8', '6240', '0', '3120'),
+('70018', '40017', '9', '70', '0', '35'),
+('70018', '40013', '10', '200', '0', '100'),
+('70018', '40018', '11', '1500', '0', '750'),
+('70018', '40126', '12', '50', '0', '25'),
+('70018', '40100', '13', '70', '0', '35'),
+('70018', '40119', '14', '100', '0', '50'),
+('70018', '40089', '15', '1000', '0', '500'),
+('70018', '40079', '16', '120', '0', '60'),
+('70018', '40124', '17', '120', '0', '60'),
+('70018', '41260', '18', '300', '0', '150'),
+('70018', '50020', '19', '50', '0', '25'),
+('70018', '40315', '20', '500', '0', '250'),
+('70018', '41160', '21', '2000', '10', '-1'),
+('70018', '40317', '22', '150', '0', '75'),
+('70018', '40009', '23', '600', '0', '-1'),
+('70018', '40056', '24', '1', '0', '0'),
+('70018', '40065', '25', '5', '0', '2'),
+('70018', '41246', '26', '-1', '0', '5'),
+('4220700', '41310', '8', '4000', '0', '-1'),
+('4500162', '20137', '3', '80000', '0', '-1'),
+('4220700', '423009', '14', '2500', '0', '-1'),
+('70017', '40012', '0', '377', '0', '189'),
+('70017', '40013', '2', '250', '0', '125'),
+('70017', '40017', '1', '70', '0', '35'),
+('70017', '40018', '3', '1875', '0', '938'),
+('70017', '40074', '8', '30000', '0', '15000'),
+('70017', '40119', '6', '100', '0', '50'),
+('70017', '40089', '7', '1000', '0', '500'),
+('70017', '40100', '5', '80', '0', '40'),
+('70017', '40126', '4', '50', '0', '25'),
+('70017', '40567', '9', '100000', '0', '50000'),
+('70017', '40603', '10', '100000', '0', '50000'),
+('70016', '40743', '0', '1', '10', '-1'),
+('70016', '40744', '1', '1', '5', '-1'),
+('70016', '172', '2', '50', '0', '25'),
+('70016', '136', '3', '20', '0', '10'),
+('70016', '143', '4', '700', '0', '350'),
+('70016', '141', '5', '1000', '0', '500'),
+('70016', '146', '6', '3500', '0', '1750'),
+('70016', '102', '7', '10000', '0', '5000'),
+('70016', '148', '8', '12000', '0', '6000'),
+('70016', '23', '9', '30', '0', '15'),
+('70016', '24', '10', '100', '0', '50'),
+('70016', '31', '11', '3000', '0', '1500'),
+('70016', '32', '12', '2500', '0', '1250'),
+('70016', '41', '13', '20000', '0', '10000'),
+('70016', '128', '14', '300', '0', '150'),
+('70016', '129', '15', '2500', '0', '1250'),
+('70016', '20239', '16', '60', '0', '30'),
+('70016', '20242', '17', '1200', '0', '600'),
+('70016', '20231', '18', '7000', '0', '3500'),
+('70016', '20043', '19', '200', '0', '100'),
+('70016', '20006', '20', '5000', '0', '2500'),
+('70016', '20089', '21', '100', '0', '50'),
+('70016', '20147', '22', '300', '0', '150'),
+('70016', '20114', '23', '1000', '0', '500'),
+('70016', '20096', '24', '500', '0', '250'),
+('70016', '20122', '25', '2000', '0', '1000'),
+('70016', '20125', '26', '6000', '0', '3000'),
+('70016', '20149', '27', '16000', '0', '8000'),
+('70016', '20115', '28', '20000', '0', '10000'),
+('70016', '40739', '29', '1', '2', '-1'),
+('70016', '40738', '30', '1', '0', '0'),
+('70016', '40740', '31', '2', '0', '1'),
+('4500173', '51', '0', '2500000', '0', '-1'),
+('4220700', '423010', '15', '2000', '0', '-1'),
+('70015', '40159', '5', '125', '0', '-1'),
+('70015', '40161', '9', '250', '0', '-1'),
+('70015', '40144', '23', '62', '0', '-1'),
+('70015', '40155', '16', '500', '0', '-1'),
+('70015', '40148', '15', '500', '0', '-1'),
+('70015', '40140', '22', '62', '0', '-1'),
+('70015', '40143', '13', '500', '0', '-1'),
+('70015', '40137', '20', '3125', '0', '-1'),
+('70015', '40149', '6', '250', '0', '-1'),
+('70015', '40150', '24', '62', '0', '-1'),
+('70015', '40147', '17', '500', '0', '-1'),
+('70015', '40153', '10', '250', '0', '-1'),
+('70015', '40152', '3', '125', '0', '-1'),
+('70015', '40157', '7', '250', '0', '-1'),
+('70015', '40138', '19', '1500', '0', '-1'),
+('70015', '40139', '12', '500', '0', '-1'),
+('70015', '40136', '18', '1000', '0', '-1'),
+('70015', '40146', '11', '250', '0', '-1'),
+('70015', '40141', '0', '125', '0', '-1'),
+('70015', '40160', '2', '125', '0', '-1'),
+('70015', '40145', '1', '125', '0', '-1'),
+('70015', '40158', '21', '62', '0', '-1'),
+('70015', '40151', '4', '125', '0', '-1'),
+('70015', '40142', '8', '250', '0', '-1'),
+('70015', '40156', '14', '500', '0', '-1'),
+('70014', '31', '36', '3300', '0', '1650'),
+('70014', '40739', '37', '1', '2', '-1'),
+('70014', '40743', '25', '1', '10', '-1'),
+('70014', '40002', '22', '100', '0', '50'),
+('70014', '40003', '23', '30', '0', '15'),
+('70014', '40009', '24', '600', '0', '-1'),
+('70014', '20089', '45', '110', '0', '55'),
+('70014', '41246', '52', '-1', '0', '5'),
+('70014', '20322', '44', '22', '0', '11'),
+('70014', '41260', '51', '300', '0', '150'),
+('70014', '4', '26', '8', '0', '4'),
+('70014', '20147', '46', '330', '0', '165'),
+('70014', '20125', '50', '6600', '0', '3300'),
+('70014', '20114', '48', '1100', '0', '550'),
+('70014', '20096', '47', '550', '0', '275'),
+('70014', '20122', '49', '2200', '0', '1100'),
+('70014', '136', '27', '22', '0', '11'),
+('70014', '172', '28', '55', '0', '27'),
+('70014', '96', '32', '88', '0', '44'),
+('70014', '140', '33', '99', '0', '49'),
+('70014', '24', '34', '110', '0', '55'),
+('70014', '90', '30', '39', '0', '19'),
+('70014', '137', '29', '17', '0', '8'),
+('70014', '40738', '38', '1', '0', '0'),
+('70014', '27', '35', '1320', '0', '660'),
+('70014', '23', '31', '33', '0', '16'),
+('70014', '20242', '43', '1320', '0', '660'),
+('70014', '20213', '40', '300', '0', '150'),
+('70014', '40740', '39', '2', '0', '1'),
+('70014', '20239', '42', '65', '0', '32'),
+('70014', '20205', '41', '2000', '0', '1000'),
+('70014', '40374', '0', '55', '0', '27'),
+('70014', '40013', '8', '250', '0', '125'),
+('70014', '40018', '9', '1650', '0', '825'),
+('70014', '40023', '5', '1575', '0', '785'),
+('70014', '41245', '1', '50', '10', '-1'),
+('70014', '40024', '6', '6240', '0', '3120'),
+('70014', '40010', '2', '33', '0', '16'),
+('70014', '40011', '3', '168', '0', '84'),
+('70014', '40022', '4', '275', '0', '135'),
+('70014', '40017', '7', '100', '0', '50'),
+('70014', '40317', '17', '150', '0', '75'),
+('70014', '41160', '16', '2000', '10', '-1'),
+('70014', '40056', '18', '1', '0', '0'),
+('70014', '40065', '19', '5', '0', '2'),
+('70014', '40005', '20', '5', '0', '2'),
+('70014', '40126', '10', '50', '0', '25'),
+('70014', '40315', '15', '550', '0', '275'),
+('70014', '40100', '11', '70', '0', '35'),
+('70014', '40079', '12', '120', '0', '60'),
+('70014', '40124', '13', '120', '0', '60'),
+('70014', '40119', '14', '100', '0', '50'),
+('70014', '40001', '21', '11', '0', '5'),
+('70013', '40141', '0', '125', '0', '-1'),
+('70013', '40145', '1', '125', '0', '-1'),
+('70013', '40160', '2', '125', '0', '-1'),
+('70013', '40152', '3', '125', '0', '-1'),
+('70013', '40151', '4', '125', '0', '-1'),
+('70013', '40159', '5', '125', '0', '-1'),
+('70013', '40149', '6', '330', '0', '-1'),
+('70013', '40157', '7', '330', '0', '-1'),
+('70013', '40142', '8', '330', '0', '-1'),
+('70013', '40161', '9', '330', '0', '-1'),
+('70013', '40153', '10', '330', '0', '-1'),
+('70013', '40146', '11', '330', '0', '-1'),
+('70013', '40139', '12', '660', '0', '-1'),
+('70013', '40143', '13', '660', '0', '-1'),
+('70013', '40156', '14', '660', '0', '-1'),
+('70013', '40148', '15', '660', '0', '-1'),
+('70013', '40155', '16', '660', '0', '-1'),
+('70013', '40147', '17', '660', '0', '-1'),
+('70013', '40136', '18', '1320', '0', '-1'),
+('70013', '40138', '19', '1980', '0', '-1'),
+('70013', '40137', '20', '4125', '0', '-1'),
+('70013', '40158', '21', '82', '0', '-1'),
+('70013', '40140', '22', '82', '0', '-1'),
+('70013', '40144', '23', '82', '0', '-1'),
+('70013', '40150', '24', '82', '0', '-1'),
+('70011', '40299', '0', '300', '0', '-1'),
+('70010', '40018', '2', '1500', '0', '750'),
+('70010', '41260', '5', '300', '0', '150'),
+('70010', '40013', '1', '250', '0', '125'),
+('70010', '40010', '0', '33', '0', '16'),
+('70010', '20136', '19', '800', '0', '400'),
+('70010', '91', '14', '50', '0', '25'),
+('70010', '21', '15', '10', '0', '5'),
+('70010', '40740', '11', '2', '0', '1'),
+('70010', '20072', '20', '50', '0', '25'),
+('70010', '1', '13', '5', '0', '2'),
+('70010', '171', '12', '30', '0', '15'),
+('70010', '40056', '3', '1', '0', '0'),
+('70010', '20135', '18', '200', '0', '100'),
+('70010', '20237', '17', '90', '0', '45'),
+('70010', '40001', '4', '10', '0', '5'),
+('70010', '20034', '16', '150', '0', '75'),
+('70010', '40743', '6', '1', '8', '-1'),
+('70010', '40738', '10', '1', '0', '0'),
+('70010', '140', '8', '90', '0', '45'),
+('70010', '40739', '9', '1', '2', '-1'),
+('70010', '136', '7', '20', '0', '10'),
+('70008', '20122', '33', '2200', '0', '1100'),
+('70008', '136', '14', '22', '0', '11'),
+('70008', '31', '23', '3300', '0', '1650'),
+('70008', '172', '15', '55', '0', '27'),
+('70008', '40011', '2', '184', '0', '92'),
+('70008', '40017', '0', '70', '0', '35'),
+('70008', '40743', '12', '1', '10', '-1'),
+('70008', '40056', '8', '1', '0', '0'),
+('70008', '4', '13', '8', '0', '4'),
+('70008', '40010', '1', '35', '0', '17'),
+('70008', '40065', '9', '5', '0', '2'),
+('70008', '40001', '10', '10', '0', '5'),
+('70008', '41260', '11', '300', '0', '150'),
+('70008', '27', '22', '1320', '0', '660'),
+('70008', '140', '20', '98', '0', '49'),
+('70008', '40013', '3', '220', '0', '110'),
+('70008', '96', '19', '88', '0', '44'),
+('70008', '40018', '4', '1650', '0', '825'),
+('70008', '137', '16', '17', '0', '8'),
+('70008', '90', '17', '38', '0', '19'),
+('70008', '24', '21', '110', '0', '55'),
+('70008', '23', '18', '32', '0', '16'),
+('70008', '20239', '28', '65', '0', '32'),
+('70008', '20089', '29', '110', '0', '55'),
+('70008', '40126', '7', '55', '0', '27'),
+('70008', '40739', '24', '1', '2', '-1'),
+('70008', '40738', '25', '1', '0', '0'),
+('70008', '40740', '26', '2', '0', '1'),
+('70008', '20322', '27', '22', '0', '11'),
+('70008', '20147', '30', '330', '0', '165'),
+('70008', '40014', '5', '800', '0', '400'),
+('70008', '40016', '6', '600', '0', '300'),
+('70008', '20096', '31', '550', '0', '275'),
+('70008', '20114', '32', '1100', '0', '550'),
+('70008', '20242', '34', '1320', '0', '660'),
+('70008', '20125', '35', '6600', '0', '3300'),
+('70007', '40159', '5', '125', '0', '-1'),
+('70007', '40161', '9', '250', '0', '-1'),
+('70007', '40144', '23', '62', '0', '-1'),
+('70007', '40155', '16', '500', '0', '-1'),
+('70007', '40148', '15', '500', '0', '-1'),
+('70007', '40140', '22', '62', '0', '-1'),
+('70007', '40143', '13', '500', '0', '-1'),
+('70007', '40137', '20', '3125', '0', '-1'),
+('70007', '40149', '6', '250', '0', '-1'),
+('70007', '40150', '24', '62', '0', '-1'),
+('70007', '40147', '17', '500', '0', '-1'),
+('70007', '40153', '10', '250', '0', '-1'),
+('70007', '40152', '3', '125', '0', '-1'),
+('70007', '40157', '7', '250', '0', '-1'),
+('70007', '40138', '19', '1500', '0', '-1'),
+('70007', '40139', '12', '500', '0', '-1'),
+('70007', '40136', '18', '1000', '0', '-1'),
+('70007', '40146', '11', '250', '0', '-1'),
+('70007', '40141', '0', '125', '0', '-1'),
+('70007', '40160', '2', '125', '0', '-1'),
+('70007', '40145', '1', '125', '0', '-1'),
+('70007', '40158', '21', '62', '0', '-1'),
+('70007', '40151', '4', '125', '0', '-1'),
+('70007', '40142', '8', '250', '0', '-1'),
+('70007', '40156', '14', '500', '0', '-1'),
+('70006', '40010', '0', '46', '0', '18'),
+('70006', '40011', '1', '258', '0', '100'),
+('70006', '40012', '2', '759', '0', '250'),
+('70006', '40017', '3', '92', '0', '30'),
+('70005', '20125', '42', '7590', '0', '4000'),
+('70005', '40374', '12', '63', '0', '-1'),
+('70005', '4', '23', '9', '0', '-1'),
+('70005', '40100', '19', '88', '0', '35'),
+('70005', '40119', '22', '126', '0', '50'),
+('70005', '40079', '20', '151', '0', '60'),
+('70005', '40018', '17', '1897', '0', '750'),
+('70005', '40010', '13', '40', '0', '18'),
+('70005', '40126', '18', '63', '0', '25'),
+('70005', '40124', '21', '151', '0', '100'),
+('70005', '40011', '14', '212', '0', '100'),
+('70005', '40017', '15', '88', '0', '30'),
+('70005', '40013', '16', '253', '0', '100'),
+('70005', '40743', '5', '1', '10', '-1'),
+('70005', '40001', '2', '12', '0', '5'),
+('70005', '40315', '9', '632', '0', '-1'),
+('70005', '40065', '1', '6', '0', '-1'),
+('70005', '41160', '10', '2530', '10', '-1'),
+('70005', '40317', '4', '172', '0', '70'),
+('70005', '40009', '11', '690', '0', '-1'),
+('70005', '41260', '3', '345', '0', '-1'),
+('70005', '40056', '0', '1', '0', '-1'),
+('70005', '140', '30', '113', '0', '-1'),
+('70005', '24', '31', '126', '0', '-1'),
+('70005', '20322', '34', '25', '0', '-1'),
+('70005', '20239', '35', '75', '0', '-1'),
+('70005', '20096', '38', '632', '0', '-1'),
+('70005', '20147', '37', '379', '0', '-1'),
+('70005', '172', '25', '63', '0', '-1'),
+('70005', '137', '26', '19', '0', '-1'),
+('70005', '23', '28', '37', '0', '20'),
+('70005', '90', '27', '44', '0', '-1'),
+('70005', '96', '29', '101', '0', '-1'),
+('70005', '20089', '36', '126', '0', '-1'),
+('70005', '40740', '8', '2', '0', '-1'),
+('70005', '31', '33', '3795', '0', '1500'),
+('70005', '27', '32', '1518', '0', '660'),
+('70005', '40738', '7', '1', '0', '-1'),
+('70005', '40739', '6', '1', '2', '-1'),
+('70005', '136', '24', '25', '0', '-1'),
+('70005', '20122', '40', '2530', '0', '1000'),
+('70005', '20114', '39', '1265', '0', '400'),
+('70005', '20242', '41', '1518', '0', '600'),
+('70004', '20096', '29', '550', '0', '275'),
+('70004', '20147', '28', '330', '0', '165'),
+('70004', '20125', '33', '6600', '0', '3300'),
+('70004', '20242', '32', '1320', '0', '660'),
+('70004', '20122', '31', '2200', '0', '1100'),
+('70004', '20114', '30', '1100', '0', '550'),
+('70004', '172', '13', '55', '0', '27'),
+('70004', '23', '16', '32', '0', '16'),
+('70004', '31', '21', '3300', '0', '1650'),
+('70004', '96', '17', '88', '0', '44'),
+('70004', '40018', '4', '1650', '0', '825'),
+('70004', '41260', '9', '300', '0', '150'),
+('70004', '40126', '5', '55', '0', '27'),
+('70004', '140', '18', '98', '0', '49'),
+('70004', '40743', '10', '1', '10', '-1'),
+('70004', '136', '12', '22', '0', '11'),
+('70004', '4', '11', '8', '0', '4'),
+('70004', '40017', '0', '70', '0', '35'),
+('70004', '40010', '1', '35', '0', '17'),
+('70004', '40011', '2', '184', '0', '92'),
+('70004', '40013', '3', '220', '0', '110'),
+('70004', '24', '19', '110', '0', '55'),
+('70004', '27', '20', '1320', '0', '660'),
+('70004', '137', '14', '17', '0', '8'),
+('70004', '90', '15', '38', '0', '19'),
+('70004', '20089', '27', '110', '0', '55'),
+('70004', '20322', '25', '22', '0', '11'),
+('70004', '20239', '26', '65', '0', '32'),
+('70004', '40739', '22', '1', '2', '-1'),
+('70004', '40001', '8', '10', '0', '5'),
+('70004', '40738', '23', '1', '0', '0'),
+('70004', '40740', '24', '2', '0', '1'),
+('70004', '40056', '6', '1', '0', '0'),
+('70004', '40065', '7', '5', '0', '2'),
+('70002', '40010', '0', '40', '0', '18'),
+('70002', '40011', '1', '217', '0', '100'),
+('70002', '40012', '2', '478', '0', '250'),
+('70002', '40017', '3', '92', '0', '30'),
+('70001', '40159', '5', '125', '0', '-1'),
+('70001', '40161', '9', '250', '0', '-1'),
+('70001', '40144', '23', '62', '0', '-1'),
+('70001', '40155', '16', '500', '0', '-1'),
+('70001', '40148', '15', '500', '0', '-1'),
+('70001', '40140', '22', '62', '0', '-1'),
+('70001', '40143', '13', '500', '0', '-1'),
+('70001', '40137', '20', '3125', '0', '-1'),
+('70001', '40149', '6', '250', '0', '-1'),
+('70001', '40150', '24', '62', '0', '-1'),
+('70001', '40147', '17', '500', '0', '-1'),
+('70001', '40153', '10', '250', '0', '-1'),
+('70001', '40152', '3', '125', '0', '-1'),
+('70001', '40157', '7', '250', '0', '-1'),
+('70001', '40138', '19', '1500', '0', '-1'),
+('70001', '40139', '12', '500', '0', '-1'),
+('70001', '40136', '18', '1000', '0', '-1'),
+('70001', '40146', '11', '250', '0', '-1'),
+('70001', '40141', '0', '125', '0', '-1'),
+('70001', '40160', '2', '125', '0', '-1'),
+('70001', '40145', '1', '125', '0', '-1'),
+('70001', '40158', '21', '62', '0', '-1'),
+('70001', '40151', '4', '125', '0', '-1'),
+('70001', '40142', '8', '250', '0', '-1'),
+('70001', '40156', '14', '500', '0', '-1'),
+('50118', '40331', '0', '-1', '0', '2500'),
+('50118', '40332', '1', '-1', '0', '1500'),
+('50118', '40333', '2', '-1', '0', '4000'),
+('50118', '40334', '3', '-1', '0', '10000'),
+('50118', '40335', '4', '-1', '0', '500'),
+('50118', '40336', '5', '-1', '0', '4000'),
+('50118', '40337', '6', '-1', '0', '50000'),
+('50118', '40338', '7', '-1', '0', '5000'),
+('50118', '40339', '8', '-1', '0', '15000'),
+('50118', '40340', '9', '-1', '0', '25000'),
+('70033', '40079', '19', '120', '0', '60'),
+('70057', '40079', '19', '120', '0', '60'),
+('70067', '40079', '21', '120', '0', '60'),
+('70082', '40124', '19', '120', '0', '60'),
+('70092', '40100', '13', '70', '0', '35'),
+('70093', '40088', '17', '1300', '0', '650'),
+('70057', '40119', '17', '100', '0', '50'),
+('70067', '40074', '19', '31000', '0', '15500'),
+('70082', '40089', '17', '1000', '0', '500'),
+('70092', '40016', '11', '600', '0', '300'),
+('70093', '40119', '15', '100', '0', '50'),
+('4220700', '423011', '16', '2000', '0', '-1'),
+('70088', '20011', '16', '3000', '0', '1500'),
+('70088', '20089', '17', '110', '0', '55'),
+('70088', '20096', '18', '550', '0', '275'),
+('70088', '20213', '19', '330', '0', '165'),
+('70088', '20205', '20', '2000', '0', '1000'),
+('70088', '69', '21', '800', '0', '400'),
+('70088', '71', '22', '1500', '0', '750'),
+('70088', '72', '23', '3000', '0', '1500'),
+('70088', '77', '24', '8000', '0', '4000'),
+('70088', '80', '25', '30000', '0', '15000'),
+('70088', '152', '26', '1000', '0', '500'),
+('70088', '153', '27', '2000', '0', '1000'),
+('70088', '154', '28', '5000', '0', '2500'),
+('70088', '159', '29', '12000', '0', '6000'),
+('70088', '161', '30', '40000', '0', '20000'),
+('70088', '40739', '31', '1', '2', '-1'),
+('70088', '40738', '32', '1', '0', '0'),
+('70088', '40740', '33', '2', '0', '1'),
+('70088', '193', '34', '10000', '0', '5000'),
+('70088', '41246', '35', '-1', '0', '5'),
+('4208001', '40087', '14', '89000', '0', '44500'),
+('4208001', '40315', '15', '550', '0', '275'),
+('4208001', '41160', '16', '2000', '10', '-1'),
+('4208001', '40317', '17', '150', '0', '75'),
+('70058', '20147', '12', '300', '0', '150'),
+('4213002', '430014', '6', '100000', '0', '50000'),
+('4200100', '68', '1', '1', '0', '-1'),
+('4200100', '8', '2', '1', '0', '-1'),
+('4200100', '9', '3', '1', '0', '-1'),
+('4200100', '11', '4', '1', '0', '-1'),
+('4200100', '22', '5', '1', '0', '-1'),
+('4200100', '33', '6', '1', '0', '-1'),
+('4200100', '37', '7', '1', '0', '-1'),
+('4200100', '39', '8', '1', '0', '-1'),
+('4200100', '42', '9', '1', '0', '-1'),
+('4200100', '43', '10', '1', '0', '-1'),
+('4200100', '44', '11', '1', '0', '-1'),
+('4200100', '49', '12', '1', '0', '-1'),
+('4200100', '55', '13', '1', '0', '-1'),
+('4200100', '57', '14', '1', '0', '-1'),
+('4200100', '62', '15', '1', '0', '-1'),
+('4200100', '81', '16', '1', '0', '-1'),
+('4200100', '74', '17', '1', '0', '-1'),
+('4200100', '84', '18', '-1', '0', '-1'),
+('4200100', '118', '19', '1', '0', '-1'),
+('4200100', '131', '20', '1', '0', '-1'),
+('4200100', '126', '21', '1', '0', '-1'),
+('4200100', '119', '22', '1', '0', '-1'),
+('4200100', '162', '23', '1', '0', '-1'),
+('4200100', '179', '24', '1', '0', '-1'),
+('4200100', '180', '25', '1', '0', '-1'),
+('4200100', '181', '26', '1', '0', '-1'),
+('4200100', '189', '27', '1', '0', '-1'),
+('4200100', '190', '28', '-1', '0', '-1'),
+('4200100', '205', '29', '-1', '0', '-1'),
+('4200100', '182', '30', '1', '0', '-1'),
+('4200100', '412000', '31', '1', '0', '-1'),
+('4200100', '412001', '32', '1', '0', '-1'),
+('4200100', '412002', '33', '1', '0', '-1'),
+('4200100', '412003', '34', '1', '0', '-1'),
+('4200100', '412004', '35', '1', '0', '-1'),
+('4200100', '412005', '36', '1', '0', '-1'),
+('4200101', '425103', '68', '1', '0', '-1'),
+('4200101', '425104', '69', '1', '0', '-1'),
+('4200101', '425105', '70', '1', '0', '-1'),
+('4200101', '21022', '71', '1', '0', '-1'),
+('4200102', '439005', '88', '1', '0', '-1'),
+('4200102', '439001', '89', '1', '0', '-1'),
+('4200102', '439019', '90', '1', '0', '-1'),
+('4200102', '439014', '91', '1', '0', '-1'),
+('4200102', '439004', '92', '1', '0', '-1'),
+('4200102', '439011', '94', '1', '0', '-1'),
+('4200102', '439009', '93', '1', '0', '-1'),
+('4200102', '40237', '101', '1', '0', '-1'),
+('4200102', '40233', '102', '1', '0', '-1'),
+('4200102', '40258', '103', '1', '0', '-1'),
+('4200102', '40238', '104', '1', '0', '-1'),
+('4200102', '439016', '95', '1', '0', '-1'),
+('4200102', '439010', '96', '1', '0', '-1'),
+('4200102', '40255', '97', '1', '0', '-1'),
+('4200102', '40254', '98', '1', '0', '-1'),
+('4200102', '40232', '99', '1', '0', '-1'),
+('4200102', '40236', '100', '1', '0', '-1'),
+('4200102', '40250', '105', '1', '0', '-1'),
+('4200102', '40257', '106', '1', '0', '-1'),
+('4200101', '20011', '1', '1', '0', '-1'),
+('4200101', '20006', '2', '1', '0', '-1'),
+('4200101', '20018', '3', '1', '0', '-1'),
+('4200101', '20016', '4', '1', '0', '-1'),
+('4200101', '20020', '5', '1', '0', '-1'),
+('4200101', '20029', '7', '1', '0', '-1'),
+('4200101', '20025', '6', '1', '0', '-1'),
+('4200101', '20032', '8', '1', '0', '-1'),
+('4200101', '20040', '10', '1', '0', '-1'),
+('4200101', '20033', '9', '1', '0', '-1'),
+('4200101', '20056', '11', '1', '0', '-1'),
+('4200101', '20055', '12', '1', '0', '-1'),
+('4200101', '20030', '13', '1', '0', '-1'),
+('4200101', '20058', '14', '1', '0', '-1'),
+('4200101', '20067', '15', '1', '0', '-1'),
+('4200101', '20074', '16', '1', '0', '-1'),
+('4200101', '20092', '18', '1', '0', '-1'),
+('4200101', '20093', '19', '1', '0', '-1'),
+('4200101', '20085', '17', '1', '0', '-1'),
+('4200101', '20094', '20', '1', '0', '-1'),
+('4200101', '20095', '21', '1', '0', '-1'),
+('4200101', '20112', '24', '1', '0', '-1'),
+('4200101', '20109', '22', '1', '0', '-1'),
+('4200101', '20110', '23', '1', '0', '-1'),
+('4200101', '20121', '25', '1', '0', '-1'),
+('4200101', '20129', '26', '1', '0', '-1'),
+('4200101', '20113', '27', '1', '0', '-1'),
+('4200101', '20136', '28', '1', '0', '-1'),
+('4200101', '20143', '29', '1', '0', '-1'),
+('4200101', '20168', '30', '1', '0', '-1'),
+('4200101', '20167', '31', '1', '0', '-1'),
+('4200101', '20176', '32', '1', '0', '-1'),
+('4200101', '20178', '33', '1', '0', '-1'),
+('4200101', '20187', '34', '1', '0', '-1'),
+('4200101', '20191', '35', '1', '0', '-1'),
+('4200101', '20194', '36', '1', '0', '-1'),
+('4200101', '20195', '37', '1', '0', '-1'),
+('4200101', '20200', '38', '1', '0', '-1'),
+('4200101', '20228', '39', '1', '0', '-1'),
+('4200101', '20236', '40', '1', '0', '-1'),
+('4200101', '20233', '41', '1', '0', '-1'),
+('4200101', '20256', '42', '1', '0', '-1'),
+('4200101', '20264', '43', '1', '0', '-1'),
+('4200101', '20266', '44', '1', '0', '-1'),
+('4200101', '20254', '45', '1', '0', '-1'),
+('4200101', '20269', '46', '1', '0', '-1'),
+('4200101', '20280', '47', '1', '0', '-1'),
+('4200101', '20289', '48', '1', '0', '-1'),
+('4200101', '20281', '49', '1', '0', '-1'),
+('4200101', '20288', '50', '1', '0', '-1'),
+('4200101', '20310', '52', '1', '0', '-1'),
+('4200101', '20311', '53', '1', '0', '-1'),
+('4200101', '20317', '54', '1', '0', '-1'),
+('4200101', '20309', '51', '1', '0', '-1'),
+('4200101', '21032', '59', '1', '0', '-1'),
+('4200101', '21033', '60', '1', '0', '-1'),
+('4200101', '423012', '61', '1', '0', '-1'),
+('4200101', '423009', '62', '1', '0', '-1'),
+('4200101', '423010', '63', '1', '0', '-1'),
+('4200101', '423011', '64', '1', '0', '-1'),
+('4200101', '425100', '65', '1', '0', '-1'),
+('4200101', '425101', '66', '1', '0', '-1'),
+('4200101', '425102', '67', '1', '0', '-1'),
+('4200101', '21028', '55', '1', '0', '-1'),
+('4200101', '21029', '56', '1', '0', '-1'),
+('4200101', '21030', '57', '1', '0', '-1'),
+('4200101', '21031', '58', '1', '0', '-1'),
+('4200102', '40074', '2', '1', '0', '-1'),
+('4200102', '40068', '3', '1', '0', '-1'),
+('4200102', '40318', '4', '1', '0', '-1'),
+('4200102', '40319', '5', '1', '0', '-1'),
+('4200102', '40321', '6', '1', '0', '-1'),
+('4200102', '430005', '7', '1', '0', '-1'),
+('4200102', '40087', '1', '1', '0', '-1'),
+('4200102', '439007', '79', '1', '0', '-1'),
+('4200102', '439002', '80', '1', '0', '-1'),
+('4200102', '430500', '19', '1', '0', '-1'),
+('4200102', '40170', '20', '1', '0', '-1'),
+('4200102', '40171', '21', '1', '0', '-1'),
+('4200102', '40172', '22', '1', '0', '-1'),
+('4200102', '40175', '25', '1', '0', '-1'),
+('4200102', '40174', '24', '1', '0', '-1'),
+('4200102', '40173', '23', '1', '0', '-1'),
+('4200102', '40178', '28', '1', '0', '-1'),
+('4200102', '40177', '27', '1', '0', '-1'),
+('4200102', '40176', '26', '1', '0', '-1'),
+('4200102', '40179', '29', '1', '0', '-1'),
+('4200102', '40180', '30', '1', '0', '-1'),
+('4200102', '40181', '31', '1', '0', '-1'),
+('4200102', '40182', '32', '1', '0', '-1'),
+('4200102', '40183', '33', '1', '0', '-1'),
+('4200102', '40184', '34', '1', '0', '-1'),
+('4200102', '40185', '35', '1', '0', '-1'),
+('4200102', '40186', '36', '1', '0', '-1'),
+('4200102', '430006', '9', '1', '0', '-1'),
+('4200102', '430008', '10', '1', '0', '-1'),
+('4200102', '41248', '11', '1', '0', '-1'),
+('4200102', '41249', '12', '1', '0', '-1'),
+('4200102', '41250', '13', '1', '0', '-1'),
+('4200102', '430000', '14', '1', '0', '-1'),
+('4200102', '430001', '15', '1', '0', '-1'),
+('4200102', '430002', '16', '1', '0', '-1'),
+('4200102', '430003', '17', '1', '0', '-1'),
+('4200102', '430004', '18', '1', '0', '-1'),
+('4200102', '40187', '37', '1', '0', '-1'),
+('4200102', '40188', '38', '1', '0', '-1'),
+('4200102', '40189', '39', '1', '0', '-1'),
+('4200102', '40194', '44', '1', '0', '-1'),
+('4200102', '40195', '45', '1', '0', '-1'),
+('4200102', '40196', '46', '1', '0', '-1'),
+('4200102', '40197', '47', '1', '0', '-1'),
+('4200102', '40190', '40', '1', '0', '-1'),
+('4200102', '40191', '41', '1', '0', '-1'),
+('4200102', '40192', '42', '1', '0', '-1'),
+('4200102', '40193', '43', '1', '0', '-1'),
+('4200102', '40198', '48', '1', '0', '-1'),
+('4200102', '40201', '51', '1', '0', '-1'),
+('4200102', '40199', '49', '1', '0', '-1'),
+('4200102', '40200', '50', '1', '0', '-1'),
+('4200102', '40202', '52', '1', '0', '-1'),
+('4200102', '40203', '53', '1', '0', '-1'),
+('4200102', '40205', '55', '1', '0', '-1'),
+('4200102', '40204', '54', '1', '0', '-1'),
+('4200102', '40206', '56', '1', '0', '-1'),
+('4200102', '40207', '57', '1', '0', '-1'),
+('4200102', '40208', '58', '1', '0', '-1'),
+('4200102', '40211', '61', '1', '0', '-1'),
+('4200102', '40212', '62', '1', '0', '-1'),
+('4200102', '40214', '64', '1', '0', '-1'),
+('4200102', '40215', '65', '1', '0', '-1'),
+('4200102', '40216', '66', '1', '0', '-1'),
+('4200102', '40217', '67', '1', '0', '-1'),
+('4200102', '40220', '68', '1', '0', '-1'),
+('4200102', '40221', '69', '1', '0', '-1'),
+('4200102', '40224', '70', '1', '0', '-1'),
+('4200102', '40225', '71', '1', '0', '-1'),
+('4200102', '40227', '72', '1', '0', '-1'),
+('4200102', '40228', '73', '1', '0', '-1'),
+('4200102', '40229', '74', '1', '0', '-1'),
+('4200102', '40230', '75', '1', '0', '-1'),
+('4200102', '439017', '87', '1', '0', '-1'),
+('4200102', '40231', '76', '1', '0', '-1'),
+('4200102', '439006', '77', '1', '0', '-1'),
+('4200102', '439000', '78', '1', '0', '-1'),
+('4200102', '439012', '81', '1', '0', '-1'),
+('4200102', '439015', '82', '1', '0', '-1'),
+('4200102', '439013', '83', '1', '0', '-1'),
+('4200102', '439008', '84', '1', '0', '-1'),
+('4200102', '439018', '85', '1', '0', '-1'),
+('4200102', '430007', '8', '1', '0', '-1'),
+('4200102', '40210', '60', '1', '0', '-1'),
+('4200102', '40213', '63', '1', '0', '-1'),
+('4200102', '40209', '59', '1', '0', '-1'),
+('4200102', '439003', '86', '1', '0', '-1'),
+('4200102', '40263', '107', '1', '0', '-1'),
+('4200102', '40262', '108', '1', '0', '-1'),
+('4200102', '40251', '109', '1', '0', '-1'),
+('4200102', '41151', '110', '1', '0', '-1'),
+('4200102', '41150', '111', '1', '0', '-1'),
+('4200102', '40249', '112', '1', '0', '-1'),
+('4200102', '40247', '113', '1', '0', '-1'),
+('4200102', '40244', '114', '1', '0', '-1'),
+('4200102', '40252', '115', '1', '0', '-1'),
+('4200102', '40259', '116', '1', '0', '-1'),
+('4200102', '40241', '117', '1', '0', '-1'),
+('4200102', '40253', '118', '1', '0', '-1'),
+('4200102', '40260', '119', '1', '0', '-1'),
+('4200102', '40264', '120', '1', '0', '-1'),
+('4200102', '40261', '121', '1', '0', '-1'),
+('4200100', '415013', '37', '1', '0', '-1'),
+('4200100', '410001', '38', '1', '0', '-1'),
+('4200102', '40242', '122', '1', '0', '-1'),
+('4200102', '40248', '123', '1', '0', '-1'),
+('4220700', '423012', '12', '2500', '0', '-1'),
+('4500173', '55', '1', '1500000', '0', '-1'),
+('4220700', '423013', '13', '2000', '0', '-1'),
+('4220700', '425100', '28', '2500', '0', '-1'),
+('4200102', '40246', '124', '1', '0', '-1'),
+('4200102', '40235', '125', '1', '0', '-1'),
+('4200102', '40234', '126', '1', '0', '-1'),
+('4200102', '40240', '127', '1', '0', '-1'),
+('4200102', '40256', '128', '1', '0', '-1'),
+('4200102', '41152', '129', '1', '0', '-1'),
+('4200102', '40239', '130', '1', '0', '-1'),
+('4200102', '40272', '131', '1', '0', '-1'),
+('4200102', '40275', '132', '1', '0', '-1'),
+('4200102', '40274', '133', '1', '0', '-1'),
+('4200102', '40269', '134', '1', '0', '-1'),
+('4200102', '40279', '135', '1', '0', '-1'),
+('4200102', '40270', '136', '1', '0', '-1'),
+('4200102', '40271', '137', '1', '0', '-1'),
+('4200102', '40273', '138', '1', '0', '-1'),
+('4200102', '40268', '139', '1', '0', '-1'),
+('4200102', '40265', '140', '1', '0', '-1'),
+('4200102', '40267', '141', '1', '0', '-1'),
+('4200102', '40277', '142', '1', '0', '-1'),
+('4200102', '40276', '143', '1', '0', '-1'),
+('4200102', '40266', '144', '1', '0', '-1'),
+('4200102', '40278', '145', '1', '0', '-1'),
+('4200102', '40165', '146', '1', '0', '-1'),
+('4200102', '40166', '147', '1', '0', '-1'),
+('4200102', '41147', '148', '1', '0', '-1'),
+('4200102', '40164', '149', '1', '0', '-1'),
+('4200102', '439102', '150', '1', '0', '-1'),
+('4200102', '439114', '151', '1', '0', '-1'),
+('4200102', '439104', '152', '1', '0', '-1'),
+('4200102', '439109', '153', '1', '0', '-1'),
+('4200102', '439100', '154', '1', '0', '-1'),
+('4200102', '439103', '155', '1', '0', '-1'),
+('4200102', '439110', '156', '1', '0', '-1'),
+('4200102', '439101', '157', '1', '0', '-1'),
+('4200102', '439105', '158', '1', '0', '-1'),
+('4200102', '439108', '159', '1', '0', '-1'),
+('4200102', '439111', '160', '1', '0', '-1'),
+('4200102', '439106', '161', '1', '0', '-1'),
+('4200102', '439113', '162', '1', '0', '-1'),
+('4200102', '439107', '163', '1', '0', '-1'),
+('4200102', '439112', '164', '1', '0', '-1'),
+('4200102', '40070', '165', '1', '0', '-1'),
+('4200102', '41310', '166', '1', '0', '-1'),
+('4200102', '50021', '167', '1', '10', '-1'),
+('4200100', '12', '39', '1', '0', '-1'),
+('4200100', '47', '40', '1', '0', '-1'),
+('4200100', '54', '41', '1', '0', '-1'),
+('4200100', '58', '42', '1', '0', '-1'),
+('4200100', '59', '43', '1', '0', '-1'),
+('4200100', '61', '44', '1', '0', '-1'),
+('4200100', '62', '45', '1', '0', '-1'),
+('4200100', '76', '46', '1', '0', '-1'),
+('4200100', '84', '47', '1', '0', '-1'),
+('4200100', '86', '48', '1', '0', '-1'),
+('4200100', '119', '49', '1', '0', '-1'),
+('4200100', '121', '50', '1', '0', '-1'),
+('4200100', '123', '51', '1', '0', '-1'),
+('4200100', '124', '52', '1', '0', '-1'),
+('4200100', '164', '53', '1', '0', '-1'),
+('4200100', '189', '54', '1', '0', '-1'),
+('4200100', '190', '55', '1', '0', '-1'),
+('4200100', '205', '56', '1', '0', '-1'),
+('4200100', '212', '57', '1', '0', '-1'),
+('4200100', '256', '58', '1', '0', '-1'),
+('4200100', '410001', '59', '1', '0', '-1'),
+('4200100', '410003', '60', '1', '0', '-1'),
+('4200100', '415010', '61', '1', '0', '-1'),
+('4200100', '415011', '62', '1', '0', '-1'),
+('4200100', '415012', '63', '1', '0', '-1'),
+('4200100', '415013', '64', '1', '0', '-1'),
+('4200100', '415016', '65', '1', '0', '-1'),
+('4200101', '20107', '72', '1', '0', '-1'),
+('4200101', '20218', '73', '1', '0', '-1'),
+('4200101', '20422', '74', '1', '0', '-1'),
+('4200101', '20049', '75', '1', '0', '-1'),
+('4200101', '20117', '76', '1', '0', '-1'),
+('4200101', '20255', '77', '1', '0', '-1'),
+('4200101', '420007', '78', '1', '0', '-1'),
+('4200101', '420008', '79', '1', '0', '-1'),
+('4200101', '420009', '80', '1', '0', '-1'),
+('4200101', '420013', '81', '1', '0', '-1'),
+('4200101', '420014', '82', '1', '0', '-1'),
+('4200101', '420011', '83', '1', '0', '-1'),
+('4200101', '420012', '84', '1', '0', '-1'),
+('4200102', '40859', '168', '1', '0', '-1'),
+('4200102', '40860', '169', '1', '0', '-1'),
+('4200102', '40861', '170', '1', '0', '-1'),
+('4200102', '40862', '171', '1', '0', '-1'),
+('4200102', '40863', '172', '1', '0', '-1'),
+('4200102', '40864', '173', '1', '0', '-1'),
+('4200102', '40865', '174', '1', '0', '-1'),
+('4200102', '40866', '175', '1', '0', '-1'),
+('4200102', '40867', '176', '1', '0', '-1'),
+('4200102', '40868', '177', '1', '0', '-1'),
+('4200102', '40869', '178', '1', '0', '-1'),
+('4200102', '40870', '179', '1', '0', '-1'),
+('4200102', '40871', '180', '1', '0', '-1'),
+('4200102', '40872', '181', '1', '0', '-1'),
+('4200102', '40873', '182', '1', '0', '-1'),
+('4200102', '40874', '183', '1', '0', '-1'),
+('4200102', '40875', '184', '1', '0', '-1'),
+('4200102', '40876', '185', '1', '0', '-1'),
+('4200102', '40877', '186', '1', '0', '-1'),
+('4200102', '40878', '187', '1', '0', '-1'),
+('4200102', '40879', '188', '1', '0', '-1'),
+('4200102', '40880', '189', '1', '0', '-1'),
+('4200102', '40881', '190', '1', '0', '-1'),
+('4200102', '40883', '191', '1', '0', '-1'),
+('4200102', '40884', '192', '1', '0', '-1'),
+('4200102', '40885', '193', '1', '0', '-1'),
+('4200102', '40886', '194', '1', '0', '-1'),
+('4200102', '40887', '195', '1', '0', '-1'),
+('4200102', '40888', '196', '1', '0', '-1'),
+('4200102', '40889', '197', '1', '0', '-1'),
+('4200102', '40890', '198', '1', '0', '-1'),
+('4200102', '40891', '199', '1', '0', '-1'),
+('4200102', '40892', '200', '1', '0', '-1'),
+('4200102', '40893', '201', '1', '0', '-1'),
+('4200102', '40894', '202', '1', '0', '-1'),
+('4200102', '40895', '203', '1', '0', '-1'),
+('4200102', '40896', '204', '1', '0', '-1'),
+('4200102', '40897', '205', '1', '0', '-1'),
+('4200102', '40898', '206', '1', '0', '-1'),
+('4200102', '41148', '207', '1', '0', '-1'),
+('4200102', '41149', '208', '1', '0', '-1'),
+('4200102', '41153', '209', '1', '0', '-1'),
+('4200102', '40222', '210', '1', '0', '-1'),
+('4200102', '40748', '211', '1', '1000', '-1'),
+('70062', '40193', '5', '10000', '0', '5000'),
+('4212007', '430118', '0', '-1', '0', '10000'),
+('4212007', '430119', '1', '-1', '0', '10000'),
+('4212007', '430120', '2', '-1', '0', '20000'),
+('4212007', '430121', '3', '-1', '0', '2000'),
+('4212007', '430122', '4', '-1', '0', '50000'),
+('4212007', '430123', '5', '-1', '0', '50000'),
+('4212007', '430124', '6', '-1', '0', '50000'),
+('4212007', '430125', '7', '-1', '0', '50000'),
+('4200103', '140100', '0', '500', '0', '150'),
+('4200103', '438006', '1', '2000', '0', '1000'),
+('4200103', '438007', '2', '1500', '0', '750'),
+('4200103', '40014', '3', '800', '0', '50'),
+('4200103', '40016', '4', '600', '0', '50'),
+('4200103', '40015', '5', '1000', '0', '50'),
+('4200103', '40068', '6', '1000', '0', '75'),
+('4200103', '40031', '7', '1000', '0', '75'),
+('4200103', '40319', '8', '1000', '0', '75'),
+('4200103', '40318', '9', '1000', '0', '75'),
+('4200103', '40321', '10', '1000', '0', '75'),
+('4200103', '2', '11', '500', '0', '250'),
+('4200104', '20450', '69', '10000', '0', '-1'),
+('4200104', '162', '21', '1500', '0', '-1'),
+('4200104', '41248', '8', '3000', '0', '-1'),
+('4200104', '40223', '136', '70000', '0', '-1'),
+('4200104', '41250', '7', '3000', '0', '-1'),
+('4200104', '420104', '121', '70000', '0', '-1'),
+('4200104', '20057', '91', '15000', '0', '-1'),
+('4200104', '256', '37', '3000', '0', '-1'),
+('4200104', '20133', '116', '70000', '0', '-1'),
+('4200104', '21028', '56', '8000', '0', '-1'),
+('4200104', '430500', '14', '8000', '0', '-1'),
+('4200104', '123', '95', '10000', '0', '-1'),
+('4200104', '420012', '33', '3000', '0', '-1'),
+('4200104', '119', '94', '10000', '0', '-1'),
+('4200104', '20016', '113', '15000', '0', '-1'),
+('4200104', '20218', '111', '50000', '0', '-1'),
+('4200104', '412005', '105', '50000', '0', '-1'),
+('4200104', '423011', '75', '15000', '0', '-1'),
+('4200104', '423010', '74', '15000', '0', '-1'),
+('4200104', '181', '18', '1500', '0', '-1'),
+('4200104', '20343', '6', '500', '0', '-1'),
+('4200104', '420114', '131', '70000', '0', '-1'),
+('4200104', '41148', '133', '250000', '0', '-1'),
+('4200104', '41249', '9', '8000', '0', '-1'),
+('4200104', '180', '19', '1500', '0', '-1'),
+('4200104', '415012', '42', '6000', '0', '-1'),
+('4200104', '21060', '38', '3000', '0', '-1'),
+('4200104', '430012', '2', '1000', '0', '-1'),
+('4200104', '118', '97', '10000', '0', '-1'),
+('4200104', '423013', '77', '15000', '0', '-1'),
+('4200104', '430011', '4', '1000', '0', '-1'),
+('4200104', '420111', '128', '70000', '0', '-1'),
+('4200104', '20011', '22', '1500', '0', '-1'),
+('4200104', '423009', '73', '15000', '0', '-1'),
+('4200104', '61', '98', '250000', '0', '-1'),
+('4200104', '55', '35', '3000', '0', '-1'),
+('4200104', '67', '47', '8000', '0', '-1'),
+('4200104', '415010', '41', '6000', '0', '-1'),
+('4200104', '41149', '134', '50000', '0', '-1'),
+('4200104', '420102', '119', '70000', '0', '-1'),
+('4200104', '415015', '32', '3000', '0', '-1'),
+('4200104', '190', '44', '8000', '0', '-1'),
+('4200104', '121', '96', '10000', '0', '-1'),
+('4200104', '430013', '1', '1000', '0', '-1'),
+('4200104', '21029', '57', '8000', '0', '-1'),
+('4200104', '430004', '13', '3000', '0', '-1'),
+('4200104', '430505', '15', '7000', '0', '-1'),
+('4200104', '420100', '117', '70000', '0', '-1'),
+('4200104', '420105', '122', '70000', '0', '-1'),
+('4200104', '420013', '86', '50000', '0', '-1'),
+('4200104', '420009', '85', '50000', '0', '-1'),
+('4200104', '420014', '87', '50000', '0', '-1'),
+('4200104', '20200', '88', '15000', '0', '-1'),
+('4200104', '20056', '23', '1500', '0', '-1'),
+('4200104', '20459', '36', '3000', '0', '-1'),
+('4200104', '126', '39', '10000', '0', '-1'),
+('4200104', '412000', '100', '50000', '0', '-1'),
+('4200104', '412001', '101', '50000', '0', '-1'),
+('4200104', '20421', '71', '10000', '0', '-1'),
+('4200104', '21032', '60', '8000', '0', '-1'),
+('4200104', '420007', '83', '50000', '0', '-1'),
+('4200104', '425104', '54', '8000', '0', '-1'),
+('4200104', '430000', '10', '3000', '0', '-1'),
+('4200104', '420103', '120', '70000', '0', '-1'),
+('4200104', '415011', '40', '6000', '0', '-1'),
+('4200104', '58', '45', '8000', '0', '-1'),
+('4200104', '425100', '50', '8000', '0', '-1'),
+('4200104', '114', '30', '3000', '0', '-1'),
+('4200104', '20255', '92', '15000', '0', '-1'),
+('4200104', '425102', '52', '8000', '0', '-1'),
+('4200104', '425101', '51', '8000', '0', '-1'),
+('4200104', '20187', '24', '1500', '0', '-1'),
+('4200104', '21031', '59', '8000', '0', '-1'),
+('4200104', '21030', '58', '8000', '0', '-1'),
+('4200104', '420107', '124', '70000', '0', '-1'),
+('4200104', '420106', '123', '70000', '0', '-1'),
+('4200104', '182', '49', '8000', '0', '-1'),
+('4200104', '430001', '12', '8000', '0', '-1'),
+('4200104', '425105', '55', '8000', '0', '-1'),
+('4200104', '420101', '118', '70000', '0', '-1'),
+('4200104', '20077', '82', '50000', '0', '-1'),
+('4200104', '425103', '53', '8000', '0', '-1'),
+('4200104', '430010', '3', '1000', '0', '-1'),
+('4200104', '81', '20', '1500', '0', '-1'),
+('4200104', '57', '17', '1500', '0', '-1'),
+('4200104', '212', '29', '3000', '0', '-1'),
+('4200104', '20112', '114', '15000', '0', '-1'),
+('4200104', '20167', '112', '10000', '0', '-1'),
+('4200104', '420003', '107', '50000', '0', '-1'),
+('4200104', '189', '81', '15000', '0', '-1'),
+('4200104', '412004', '104', '50000', '0', '-1'),
+('4200104', '20434', '72', '10000', '0', '-1'),
+('4200104', '84', '79', '15000', '0', '-1'),
+('4200104', '205', '99', '70000', '0', '-1'),
+('4200104', '164', '80', '15000', '0', '-1'),
+('4200104', '20175', '25', '1500', '0', '-1'),
+('4200104', '68', '48', '8000', '0', '-1'),
+('4200104', '430014', '5', '1000', '0', '-1'),
+('4200104', '21033', '61', '8000', '0', '-1'),
+('4200104', '59', '78', '10000', '0', '-1'),
+('4200104', '423012', '76', '15000', '0', '-1'),
+('4200104', '420112', '129', '70000', '0', '-1'),
+('4200104', '420110', '127', '70000', '0', '-1'),
+('4200104', '420113', '130', '70000', '0', '-1'),
+('4200104', '420115', '132', '70000', '0', '-1'),
+('4200104', '40249', '135', '20000', '0', '-1'),
+('4200104', '420008', '84', '50000', '0', '-1'),
+('4200104', '412002', '102', '50000', '0', '-1'),
+('4200104', '412003', '103', '50000', '0', '-1'),
+('4200104', '20107', '115', '70000', '0', '-1'),
+('4200104', '20284', '110', '10000', '0', '-1'),
+('4200104', '20253', '93', '15000', '0', '-1'),
+('4200104', '20320', '108', '70000', '0', '-1'),
+('4200104', '420000', '106', '50000', '0', '-1'),
+('4200104', '20314', '109', '50000', '0', '-1'),
+('4200104', '415016', '31', '3000', '0', '-1'),
+('4200104', '415013', '43', '6000', '0', '-1'),
+('4200104', '20234', '28', '1500', '0', '-1'),
+('4200104', '20447', '68', '10000', '0', '-1'),
+('4200104', '430506', '16', '8000', '0', '-1'),
+('4200104', '420108', '125', '70000', '0', '-1'),
+('4200104', '420109', '126', '70000', '0', '-1'),
+('4200104', '20084', '62', '8000', '0', '-1'),
+('4200104', '9', '63', '8000', '0', '-1'),
+('4200104', '207', '64', '10000', '0', '-1'),
+('4200104', '204', '65', '10000', '0', '-1'),
+('4200104', '20449', '66', '10000', '0', '-1'),
+('4200104', '20448', '67', '10000', '0', '-1'),
+('4200104', '420011', '34', '3000', '0', '-1'),
+('4200104', '40748', '0', '10', '5', '-1'),
+('4200104', '20085', '26', '1500', '0', '-1'),
+('4200104', '20109', '90', '15000', '0', '-1'),
+('4200104', '20178', '89', '15000', '0', '-1'),
+('4200104', '430002', '11', '3000', '0', '-1'),
+('4200104', '20236', '27', '1500', '0', '-1'),
+('4200104', '54', '46', '8000', '0', '-1'),
+('4200104', '20411', '70', '10000', '0', '-1'),
+('4220700', '425101', '29', '2000', '0', '-1'),
+('4220700', '425102', '26', '2500', '0', '-1'),
+('4220700', '425103', '27', '2500', '0', '-1'),
+('4220700', '425104', '30', '2000', '0', '-1'),
+('4200002', '240100', '2', '100', '0', '-1'),
+('4220700', '425105', '31', '2000', '0', '-1'),
+('4200105', '7', '1', '1', '0', '-1'),
+('4200105', '35', '2', '1', '0', '-1'),
+('4200105', '48', '3', '1', '0', '-1'),
+('4200105', '73', '4', '1', '0', '-1'),
+('4200105', '105', '5', '1', '0', '-1'),
+('4200105', '120', '6', '1', '0', '-1'),
+('4200105', '147', '7', '1', '0', '-1'),
+('4200105', '156', '8', '1', '0', '-1'),
+('4200105', '174', '9', '1', '0', '-1'),
+('4200105', '175', '10', '1', '0', '-1'),
+('4200105', '224', '11', '1', '0', '-1'),
+('4200105', '20028', '12', '1', '0', '-1'),
+('4200105', '20082', '13', '1', '0', '-1'),
+('4200105', '20126', '14', '1', '0', '-1'),
+('4200105', '20173', '15', '1', '0', '-1'),
+('4200105', '20206', '16', '1', '0', '-1'),
+('4200105', '20232', '17', '1', '0', '-1'),
+('4220700', '425106', '23', '2500', '0', '-1'),
+('4220700', '425107', '24', '2000', '0', '-1'),
+('4220700', '425108', '25', '3000', '0', '-1'),
+('4220700', '430005', '0', '700', '0', '-1'),
+('4220700', '437001', '1', '500', '0', '-1'),
+('4220700', '437002', '2', '100', '5', '-1'),
+('4220700', '437003', '3', '100', '5', '-1'),
+('4220700', '437004', '4', '100', '3', '-1'),
+('4220700', '437010', '5', '700', '0', '-1'),
+('4220700', '437012', '7', '200', '0', '-1'),
+('4220700', '437013', '6', '400', '0', '-1'),
+('4220700', '437014', '9', '6000', '0', '-1'),
+('4220700', '437015', '10', '6000', '0', '-1'),
+('4220700', '437016', '11', '6000', '0', '-1'),
+('70035', '40309', '0', '500', '0', '500'),
+('70035', '40309', '1', '500', '0', '-1'),
+('70035', '40309', '2', '500', '0', '-1'),
+('70035', '40309', '3', '500', '0', '-1'),
+('70035', '40309', '4', '500', '0', '-1'),
+('70041', '40309', '0', '500', '0', '500'),
+('70041', '40309', '1', '500', '0', '-1'),
+('70041', '40309', '2', '500', '0', '-1'),
+('70041', '40309', '3', '500', '0', '-1'),
+('70041', '40309', '4', '500', '0', '-1'),
+('70042', '40309', '0', '500', '0', '500'),
+('70042', '40309', '1', '500', '0', '-1'),
+('70042', '40309', '2', '500', '0', '-1'),
+('70042', '40309', '3', '500', '0', '-1'),
+('70042', '40309', '4', '500', '0', '-1'),
+('4500162', '20163', '6', '60000', '0', '-1'),
+('4200105', '437018', '18', '1', '0', '-1'),
+('70023', '425001', '1', '-1', '0', '3000'),
+('70023', '425002', '2', '-1', '0', '3000'),
+('70023', '41206', '3', '-1', '0', '30000'),
+('70023', '450000', '4', '-1', '0', '3000'),
+('70023', '450001', '5', '-1', '0', '3000'),
+('70023', '450002', '6', '-1', '0', '3000'),
+('70023', '450003', '7', '-1', '0', '3000'),
+('70023', '450004', '8', '-1', '0', '3000'),
+('70023', '450005', '9', '-1', '0', '3000'),
+('70023', '450006', '10', '-1', '0', '3000'),
+('70023', '450007', '11', '-1', '0', '3000'),
+('70076', '425000', '0', '-1', '0', '3000'),
+('70076', '425001', '1', '-1', '0', '3000'),
+('70076', '425002', '2', '-1', '0', '3000'),
+('70076', '41206', '3', '-1', '0', '30000'),
+('70076', '450000', '4', '-1', '0', '3000'),
+('70076', '450001', '5', '-1', '0', '3000'),
+('70076', '450002', '6', '-1', '0', '3000'),
+('70076', '450003', '7', '-1', '0', '3000'),
+('70076', '450004', '8', '-1', '0', '3000'),
+('70076', '450005', '9', '-1', '0', '3000'),
+('70076', '450006', '10', '-1', '0', '3000'),
+('70076', '450007', '11', '-1', '0', '3000'),
+('70064', '425000', '0', '-1', '0', '3000'),
+('70064', '425001', '1', '-1', '0', '3000'),
+('70064', '425002', '2', '-1', '0', '3000'),
+('70064', '41206', '3', '-1', '0', '30000'),
+('70064', '450000', '4', '-1', '0', '3000'),
+('70064', '450001', '5', '-1', '0', '3000'),
+('70064', '450002', '6', '-1', '0', '3000'),
+('70064', '450003', '7', '-1', '0', '3000'),
+('70064', '450004', '8', '-1', '0', '3000'),
+('70064', '450005', '9', '-1', '0', '3000'),
+('70064', '450006', '10', '-1', '0', '3000'),
+('70064', '450007', '11', '-1', '0', '3000'),
+('70037', '425000', '0', '-1', '0', '3000'),
+('70037', '425001', '1', '-1', '0', '3000'),
+('70037', '425002', '2', '-1', '0', '3000'),
+('70037', '41206', '3', '-1', '0', '30000'),
+('70037', '450000', '4', '-1', '0', '3000'),
+('70037', '450001', '5', '-1', '0', '3000'),
+('70037', '450002', '6', '-1', '0', '3000'),
+('70037', '450003', '7', '-1', '0', '3000'),
+('70037', '450004', '8', '-1', '0', '3000'),
+('70037', '450005', '9', '-1', '0', '3000'),
+('70037', '450006', '10', '-1', '0', '3000'),
+('70037', '450007', '11', '-1', '0', '3000'),
+('70086', '42007', '1', '550000', '0', '-1'),
+('70094', '40856', '1', '450000', '0', '-1'),
+('4500162', '20194', '7', '120000', '0', '-1'),
+('4500162', '20234', '8', '1500000', '0', '-1'),
+('4500162', '120056', '4', '30000', '0', '-1'),
+('4500162', '430511', '9', '1000000', '0', '-1'),
+('4500163', '57', '0', '4000000', '0', '-1'),
+('4500163', '55', '1', '1500000', '0', '-1'),
+('4500163', '20011', '2', '5000', '0', '-1'),
+('4500163', '20085', '3', '30000', '0', '-1'),
+('4500163', '20137', '4', '80000', '0', '-1'),
+('4500163', '120056', '5', '30000', '0', '-1'),
+('4500163', '20163', '6', '60000', '0', '-1'),
+('4500163', '20194', '7', '120000', '0', '-1'),
+('4500163', '20236', '8', '80000', '0', '-1'),
+('4500164', '81', '0', '4000000', '0', '-1'),
+('4500164', '162', '1', '4000000', '0', '-1'),
+('4500164', '20011', '2', '5000', '0', '-1'),
+('4500164', '20085', '3', '30000', '0', '-1'),
+('4500164', '20137', '4', '80000', '0', '-1'),
+('4500164', '20132', '5', '150000', '0', '-1'),
+('4500164', '120056', '6', '30000', '0', '-1'),
+('4500164', '20070', '7', '200000', '0', '-1'),
+('4500164', '20163', '8', '60000', '0', '-1'),
+('4500164', '20194', '9', '120000', '0', '-1'),
+('4500164', '430512', '10', '400000', '0', '-1'),
+('4500165', '42', '0', '500000', '0', '-1'),
+('4500165', '180', '1', '650000', '0', '-1'),
+('4500165', '181', '2', '700000', '0', '-1'),
+('4500165', '177', '3', '3500000', '0', '-1'),
+('4500165', '20011', '4', '5000', '0', '-1'),
+('4500165', '20033', '5', '650000', '0', '-1'),
+('4500165', '20084', '6', '250000', '0', '-1'),
+('4500165', '20137', '7', '80000', '0', '-1'),
+('4500165', '120056', '8', '30000', '0', '-1'),
+('4500165', '20073', '9', '50000', '0', '-1'),
+('4500165', '20163', '10', '60000', '0', '-1'),
+('4500165', '20194', '11', '120000', '0', '-1'),
+('4500165', '20236', '12', '80000', '0', '-1'),
+('4500165', '430508', '13', '350000', '0', '-1'),
+('4500166', '118', '0', '5000000', '0', '-1'),
+('4500166', '20255', '1', '-1', '0', '-1'),
+('4500166', '126', '2', '4500000', '0', '-1'),
+('4500166', '131', '3', '1000000', '0', '-1'),
+('4500166', '20011', '4', '5000', '0', '-1'),
+('4500166', '20085', '5', '30000', '0', '-1'),
+('4500166', '20103', '6', '80000', '0', '-1'),
+('4500166', '120056', '7', '30000', '0', '-1'),
+('4500166', '20055', '8', '500000', '0', '-1'),
+('4500166', '20163', '9', '60000', '0', '-1'),
+('4500166', '20194', '10', '120000', '0', '-1'),
+('4500166', '20225', '11', '800000', '0', '-1'),
+('4500166', '430507', '12', '500000', '0', '-1'),
+('4500167', '410000', '0', '2500000', '0', '-1'),
+('4500167', '410001', '1', '3000000', '0', '-1'),
+('4500167', '410002', '2', '1500000', '0', '-1'),
+('4500167', '20011', '3', '5000', '0', '-1'),
+('4500167', '20085', '4', '30000', '0', '-1'),
+('4500167', '20137', '5', '80000', '0', '-1'),
+('4500167', '120056', '6', '30000', '0', '-1'),
+('4500167', '20163', '7', '60000', '0', '-1'),
+('4500167', '20194', '8', '120000', '0', '-1'),
+('4500167', '20236', '9', '80000', '0', '-1'),
+('4500167', '430510', '10', '400000', '0', '-1'),
+('4500168', '410003', '0', '3500000', '0', '-1'),
+('4500168', '410004', '1', '2000000', '0', '-1'),
+('4500168', '20011', '2', '5000', '0', '-1'),
+('4500168', '20085', '3', '30000', '0', '-1'),
+('4500168', '20103', '4', '80000', '0', '-1'),
+('4500168', '120056', '5', '30000', '0', '-1'),
+('4500168', '20055', '6', '150000', '0', '-1'),
+('4500168', '20163', '7', '60000', '0', '-1'),
+('4500168', '20194', '8', '120000', '0', '-1'),
+('4500168', '20236', '9', '80000', '0', '-1'),
+('4500168', '430509', '10', '500000', '0', '-1'),
+('4500170', '40815', '14', '100000', '0', '-1'),
+('4500169', '40081', '1', '1500', '0', '-1'),
+('4500169', '40114', '2', '2000', '0', '-1'),
+('4500169', '240100', '3', '5000', '20', '-1'),
+('4500169', '40373', '4', '3000', '0', '-1'),
+('4500169', '40317', '5', '200', '0', '-1'),
+('4500169', '40744', '6', '5000', '1000', '-1'),
+('4500169', '41245', '7', '1500', '100', '-1'),
+('4500169', '41246', '8', '6000', '100', '-1'),
+('4500169', '40507', '9', '1500', '10', '-1'),
+('4500169', '40018', '10', '1500', '0', '-1'),
+('4500169', '40015', '11', '3000', '0', '-1'),
+('4500169', '40014', '12', '1200', '0', '-1'),
+('4500169', '40068', '13', '3000', '0', '-1'),
+('4500169', '40031', '14', '5500', '0', '-1'),
+('4500169', '430006', '15', '2000', '0', '-1'),
+('4500169', '430007', '16', '20000', '10', '-1'),
+('4500169', '430008', '17', '20000', '10', '-1'),
+('4500169', '40318', '18', '20000', '10', '-1'),
+('4500169', '40319', '19', '20000', '10', '-1'),
+('4500169', '40321', '20', '35000', '10', '-1'),
+('4500169', '41211', '21', '-1', '0', '-1'),
+('4500169', '40074', '22', '40000', '0', '-1'),
+('4500169', '40087', '23', '87000', '0', '-1'),
+('4500169', '430013', '24', '350000', '0', '-1'),
+('4500169', '430012', '25', '350000', '0', '-1'),
+('4500169', '430010', '26', '350000', '0', '-1'),
+('4500169', '430011', '27', '350000', '0', '-1'),
+('4500169', '430014', '28', '300000', '0', '-1'),
+('4500170', '42017', '8', '300000', '0', '-1'),
+('4500170', '40818', '0', '36000', '0', '-1'),
+('4500170', '40820', '1', '40000', '0', '-1'),
+('4500170', '40826', '2', '40000', '0', '-1'),
+('4500170', '40837', '3', '50000', '0', '-1'),
+('4500170', '40105', '11', '100000', '0', '-1'),
+('4500170', '40855', '4', '450000', '0', '-1'),
+('4500170', '40857', '5', '450000', '0', '-1'),
+('4500170', '42042', '9', '400000', '0', '-1'),
+('4500170', '40104', '10', '50000', '0', '-1'),
+('4500171', '40104', '0', '50000', '0', '-1'),
+('4500171', '40105', '1', '100000', '0', '-1'),
+('4500171', '40106', '2', '150000', '0', '-1'),
+('4500171', '40107', '3', '200000', '0', '-1'),
+('4500173', '62', '2', '3500000', '0', '-1'),
+('4500173', '57', '3', '4000000', '0', '-1'),
+('4500173', '180', '4', '700000', '0', '-1'),
+('4500173', '181', '5', '750000', '0', '-1'),
+('4500173', '184', '6', '2000000', '0', '-1'),
+('4500173', '177', '7', '3500000', '0', '-1'),
+('4500173', '131', '8', '1000000', '0', '-1'),
+('4500173', '126', '9', '4500000', '0', '-1'),
+('4500173', '118', '10', '5000000', '0', '-1'),
+('4500173', '81', '11', '4000000', '0', '-1'),
+('4500173', '162', '12', '4000000', '0', '-1'),
+('4500173', '410002', '13', '1500000', '0', '-1'),
+('4500173', '410000', '14', '2500000', '0', '-1'),
+('4500173', '410004', '15', '2000000', '0', '-1'),
+('4500173', '410003', '16', '3500000', '0', '-1'),
+('4500174', '120011', '0', '10000', '0', '-1'),
+('4500174', '20032', '1', '30000', '0', '-1'),
+('4500174', '20033', '2', '700000', '0', '-1'),
+('4500174', '20085', '3', '30000', '0', '-1'),
+('4500174', '20084', '4', '250000', '0', '-1'),
+('4500174', '20132', '5', '150000', '0', '-1'),
+('4500174', '20137', '6', '80000', '0', '-1'),
+('4500174', '120056', '7', '30000', '0', '-1'),
+('4500174', '20073', '8', '50000', '0', '-1'),
+('4500174', '20070', '9', '200000', '0', '-1'),
+('4500174', '20055', '10', '500000', '0', '-1'),
+('4500174', '20163', '11', '60000', '0', '-1'),
+('4500174', '20194', '12', '120000', '0', '-1'),
+('4500174', '20236', '13', '80000', '0', '-1'),
+('4500174', '20225', '14', '800000', '0', '-1'),
+('4500170', '40106', '12', '150000', '0', '-1'),
+('4500170', '40107', '13', '200000', '0', '-1'),
+('4500169', '430507', '29', '500000', '0', '-1'),
+('4500169', '430508', '30', '350000', '0', '-1'),
+('4500169', '430509', '31', '500000', '0', '-1'),
+('4500169', '430510', '32', '400000', '0', '-1'),
+('4500169', '430511', '33', '1000000', '0', '-1'),
+('4500169', '438000', '0', '100', '0', '-1'),
+('4200700', '438002', '32', '1000', '0', '-1'),
+('4220700', '438002', '32', '1000', '0', '-1'),
+('4220003', '421021', '24', '360', '1', '-1'),
+('4220003', '421022', '25', '480', '1', '-1'),
+('4220003', '421023', '26', '900', '1', '-1'),
+('4220001', '411030', '30', '360', '1', '-1'),
+('4220001', '411031', '31', '720', '1', '-1'),
+('4220001', '411032', '32', '1170', '1', '-1'),
+('4220001', '411033', '33', '360', '1', '-1'),
+('4220001', '411034', '34', '720', '1', '-1'),
+('4220001', '411035', '35', '1170', '1', '-1'),
+('4220000', '422024', '9', '720', '1', '-1'),
+('4220000', '437006', '10', '40', '1', '-1'),
+('4220000', '437007', '11', '60', '1', '-1'),
+('4220700', '430009', '33', '500', '0', '-1'),
+('4500169', '41159', '35', '3000', '0', '700'),
+('4500169', '40328', '35', '100000', '0', '-1'),
+('4500169', '440001', '36', '3000000', '0', '-1'),
+('4500169', '440002', '37', '5000000', '0', '-1'),
+('4500169', '440003', '38', '8000000', '0', '-1'),
+('4500169', '430512', '34', '400000', '0', '-1');
