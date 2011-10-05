@@ -7,6 +7,7 @@ import bone.server.server.model.Instance.L1PcInstance;
 public class AutoShopManager {
 	private static AutoShopManager uniqueInstance;
 	private Vector<AutoShop> autoshopList;
+	private static boolean isAutoShop = false;
 	
 	private AutoShopManager() {
 		autoshopList = new Vector<AutoShop>();
@@ -22,7 +23,12 @@ public class AutoShopManager {
 		
 		return uniqueInstance;
 	}
-
+	public boolean isAutoShop(){
+		return isAutoShop;
+	}
+	public void isAutoShop(boolean b){
+		isAutoShop = b;
+	}
 	public void register(AutoShop shop) {
 		if(autoshopList.contains(shop)) return;
 		autoshopList.add(shop);
@@ -41,7 +47,6 @@ public class AutoShopManager {
 		}
 		return autoShop;
 	}
-	
 	public boolean isExistAutoShop(String accountName){
 		AutoShop autoShop = null;
 		for(int i=0; i < autoshopList.size(); i++){
@@ -62,7 +67,6 @@ public class AutoShopManager {
 		}
 		return false;
 	}
-	
 	public int getShopPlayerCount()
 	{
 		return this.autoshopList.size();
@@ -74,7 +78,6 @@ public class AutoShopManager {
 		//pc.stopHpRegeneration();
 		//pc.stopMpRegeneration();
 		pc.stopHalloweenRegeneration();
-		pc.stopRP();
 		pc.stopAHRegeneration();
 		pc.stopHpRegenerationByDoll();
 		pc.stopMpRegenerationByDoll();

@@ -235,6 +235,14 @@ public class L1PcInstance extends L1Character {
 	private int _teleportX = 0;
 	private short _teleportMapId = 0;
 	private int _teleportHeading = 0;
+	
+	private int _speedhackCount = 0;
+	private int _speedhackX = 0;
+	private int _speedhackY = 0;
+	private short _speedhackMapid = 0;
+	private int _speedhackHeading = 0;
+	private int _speedright = 0;
+	private int _speedinterval = 0;
 
 	private int _tempCharGfxAtDead;
 	private int _fightId;
@@ -2747,6 +2755,34 @@ public class L1PcInstance extends L1Character {
 		_ainhasad = calc;
 	}
 	public void setAinHasad(int i) { _ainhasad = i; }
+	
+	/** 스피드핵 관련 */
+	public void addSpeedHackCount(int x) { 
+		_speedhackCount += x;
+		if(_speedhackCount == 3)	sendPackets(new S_Disconnect());		
+	}
+	public int getSpeedHackCount() { return _speedhackCount; }
+	public void setSpeedHackCount(int x) { _speedhackCount = x; }
+	public int getSpeedHackX() { return _speedhackX; }
+	public void setSpeedHackX(int x) { _speedhackX = x; }
+	public int getSpeedHackY() { return _speedhackY; }
+	public void setSpeedHackY(int y) { _speedhackY = y; }
+	public short getSpeedHackMapid() { return _speedhackMapid; }
+	public void setSpeedHackMapid(short mapid) { _speedhackMapid = mapid; }
+	public int getSpeedHackHeading() { return _speedhackHeading; }
+	public void setSpeedHackHeading(int Heading) { _speedhackHeading = Heading; }
+	public int getSpeedRightInterval() { return _speedright;}
+	public void setSpeedRightInterval(int r) { _speedright = r;}
+	public int getSpeedInterval() { return _speedinterval;}
+	public void setSpeedInterval(int i) { _speedinterval = i;}
+	public void speedHackClear(){
+		_speedhackHeading = 0;
+		_speedhackMapid = 0;
+		_speedhackX = 0;
+		_speedhackY = 0;
+		_speedright = 0;
+		_speedinterval = 0;
+	}
 
 	/** 인챈트 버그 예외 처리 */
 	private int _enchantitemid = 0;
@@ -2758,6 +2794,12 @@ public class L1PcInstance extends L1Character {
 			return;
 		}
 		_enchantitemid = i;
+	}
+	// 크레이 버프 받았는지 유무
+	private boolean craybuff = false;
+	public boolean iscraybuff(){ return craybuff;}
+	public void setcraybuff(boolean b){
+		craybuff = b;
 	}
 
 	/** 캐릭터에, pet, summon monster, tame monster, created zombie 를 추가한다. */
@@ -2846,7 +2888,7 @@ public class L1PcInstance extends L1Character {
 	public void setMpcurPoint(int num){
 		this._MpcurPoint = num;
 	}
-/////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////// 스피드핵 방지 //////////////////////////////////////////////////////////
 
 	private int hackTimer = -1;
