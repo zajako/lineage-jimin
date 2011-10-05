@@ -63,7 +63,7 @@ public class L1SkillId {
 	public static final int COUNTER_MAGIC = 31;
 	public static final int MEDITATION = 32;
 
-	// 5단계 일반마법
+	// 5단계 일반마법 
 	public static final int CURSE_PARALYZE = 33;
 	public static final int CALL_LIGHTNING = 34;
 	public static final int GREATER_HEAL = 35;
@@ -73,7 +73,7 @@ public class L1SkillId {
 	public static final int MANA_DRAIN = 39;
 	public static final int DARKNESS = 40;
 
-	// 6단계 일반마법
+	// 6단계 일반마법 
 	public static final int CREATE_ZOMBIE = 41;
 	public static final int PHYSICAL_ENCHANT_STR = 42; // E: ENCHANT_MIGHTY
 	public static final int HASTE = 43;
@@ -83,7 +83,7 @@ public class L1SkillId {
 	public static final int WEAKNESS = 47;
 	public static final int BLESS_WEAPON = 48;
 
-	// 7단계 일반마법
+	// 7단계 일반마법 
 	public static final int HEAL_ALL = 49; // E: HEAL_PLEDGE
 	public static final int ICE_LANCE = 50;
 	public static final int SUMMON_MONSTER = 51;
@@ -152,6 +152,16 @@ public class L1SkillId {
 	public static final int DRESS_MIGHTY = 109;
 	public static final int DRESS_DEXTERITY = 110;
 	public static final int DRESS_EVASION = 111;
+	/** 4대용 마안 버프 */
+	public static final int ANTA_MAAN = 7671;	// 지룡의 마안
+	public static final int FAFU_MAAN = 7672;	// 수룡의 마안
+	public static final int VALA_MAAN = 7673;	// 화룡의 마안
+	public static final int LIND_MAAN = 7674;	// 풍룡의 마안
+	public static final int BIRTH_MAAN = 7675;	// 탄생의 마안
+	public static final int SHAPE_MAAN = 7676;	// 형상의 마안
+	public static final int LIFE_MAAN = 7677;	// 생명의 마안
+	/** 4대용 마안 버프 */
+
 
 	// none = 112
 	/*
@@ -214,19 +224,19 @@ public class L1SkillId {
 	public static final int SOUL_OF_FLAME = 175;
 	public static final int ADDITIONAL_FIRE = 176;
 
-	//	용기사
-	public static final int DRAGON_SKIN = 181;
+	//	용기사 
+	public static final int DRAGON_SKIN = 181; 
 	public static final int BURNING_SLASH = 182;
 	public static final int GUARD_BREAK = 183;
 	public static final int MAGMA_BREATH = 184;
 	public static final int SCALES_EARTH_DRAGON = 185;
-	public static final int BLOOD_LUST = 186;
+	public static final int BLOOD_LUST = 186; 
 	public static final int FOU_SLAYER =187;
-	public static final int FEAR = 188;
+	public static final int FEAR = 188; 
 	public static final int SHOCK_SKIN = 189;
 	public static final int SCALES_WATER_DRAGON = 190;
-	public static final int MORTAL_BODY = 191;
-	public static final int THUNDER_GRAB = 192;
+	public static final int MORTAL_BODY = 191; 
+	public static final int THUNDER_GRAB = 192; 
 	public static final int HORROR_OF_DEATH =193;
 	public static final int FREEZING_BREATH= 194;
 	public static final int SCALES_FIRE_DRAGON = 195;
@@ -240,7 +250,7 @@ public class L1SkillId {
 	public static final int CONCENTRATION = 206;
 	public static final int MIND_BREAK = 207;
 	public static final int BONE_BREAK = 208;
-	public static final int IllUSION_LICH = 209;
+	public static final int IllUSION_LICH = 209; 
 	public static final int CUBE_QUAKE = 210;
 	public static final int PATIENCE = 211;
 	public static final int PHANTASM = 212;
@@ -257,13 +267,19 @@ public class L1SkillId {
 	/*
 	 * Status
 	 */
+	public static final int STATUS_DRAGONPERL = 999;
 	public static final int STATUS_BEGIN = 1000;
 	public static final int STATUS_BRAVE = 1000;
+	public static final int STATUS_AUTOROOT = 76261;//by사부 오토루팅 명령어를위한 
+	public static final int STATUS_MENT = 7626; //추가 by사부 멘트명령어
 	public static final int STATUS_HASTE = 1001;
 	public static final int STATUS_BLUE_POTION = 1002;
 	public static final int STATUS_UNDERWATER_BREATH = 1003;
 	public static final int STATUS_WISDOM_POTION = 1004;
 
+	/** 안타라스 / 파푸리온 마안 버프 */
+	public static final int DRAGONBLOOD_A = 55001;
+	public static final int DRAGONBLOOD_P = 55002;
 	public static final int STATUS_POISON = 1006;
 	public static final int STATUS_POISON_SILENCE = 1007;
 	public static final int STATUS_POISON_PARALYZING = 1008;
@@ -289,7 +305,11 @@ public class L1SkillId {
 	public static final int FEATHER_BUFF_B = 1027;
 	public static final int FEATHER_BUFF_C = 1028;
 	public static final int FEATHER_BUFF_D = 1029;
-//	public static final int STATUS_END = 1023;
+	public static final int BUFF_CRAY = 1126; // 크레이버프
+	public static final int BUFF_SAEL = 1127;// 저주받은 무녀사엘버프
+	public static final int BUFF_SINBI_OSAEG = 1128;	// 신비한 오색 진주 파괴 가능 버프
+	public static final int BUFF_OSAEG = 1129;	// 오색 진주 파괴 가능 버프
+	//	public static final int STATUS_END = 1023;
 	public static final int GMSTATUS_BEGIN = 2000;
 	public static final int GMSTATUS_INVISIBLE = 2000;
 	public static final int GMSTATUS_HPBAR = 2001;
@@ -297,7 +317,9 @@ public class L1SkillId {
 	public static final int GMSTATUS_END = 2002;
 	public static final int COOKING_NOW = 2999;
 	public static final int COOKING_BEGIN = 3000;
-
+	/** 드래곤 에메랄드 */
+	public static final int EMERALD = 10222; 
+	public static final int EMERALD_TIMER = 10224; 
 	/** 1차요리 효과 (노멀) */
 	public static final int COOKING_1_0_N = 3000;
 	public static final int COOKING_1_1_N = 3001;
@@ -361,7 +383,7 @@ public class L1SkillId {
 	public static final int SPECIAL_COOKING = 3074;
 	public static final int COOKING_END = 3075;
 
-	public static final int STATUS_FREEZE = 10071;
+	public static final int STATUS_FREEZE = 10071; 
 	public static final int CURSE_PARALYZE2 = 10101;
 
 	public static final int STATUS_SPOT1 = 20072;
@@ -376,13 +398,15 @@ public class L1SkillId {
 	public static final int STATUS_FRUIT = 20079;
 	public static final int STATUS_OVERLAP = 20080;
 	public static final int EXP_POTION = 20081;
+	public static final int EXP_POTION2 = 9278; // 게렝물약
+	public static final int EXP_POTION3 = 9279; // 게렝물약
 	public static final int STATUS_BLUE_POTION2 = 20082;
 	public static final int STATUS_DESHOCK = 20083;
 	public static final int STATUS_CUBE = 20084;
 	public static final int STATUS_CASHSCROLL = 6993;
 	public static final int STATUS_CASHSCROLL2 = 6994;
 	public static final int STATUS_CASHSCROLL3 = 6995;
-
+	
 	public static final int DRAGON_EMERALD_NO = 7785;
 	public static final int DRAGON_EMERALD_YES = 7786;
 
@@ -398,8 +422,18 @@ public class L1SkillId {
 	public static final int MOB_CURSEPARALYZ_18 = 30007;	//커스 18번모션
 	public static final int MOB_DISEASE_30 = 30008;			//디지즈 30번모션
 	public static final int MOB_WEAKNESS_1 = 30009;			//위크니스 1번모션
-	public static final int MOB_DISEASE_1 = 30079;			//디지즈 1번모션
-	public static final int MOB_SHOCKSTUN_30 = 30081;		//쇼크스턴 30번모션
+	public static final int MOB_DISEASE_1 = 30079;			//디지즈 1번모션	
+	public static final int MOB_SHOCKSTUN_30 = 30081;		//쇼크스턴 30번모션	
 	public static final int MOB_WINDSHACKLE_1 = 30084;		//윈드셰클 1번모션
 
+	public static final int ANTA_SKILL_1 = 10188;
+	public static final int ANTA_SKILL_2 = 10189;
+	public static final int ANTA_SKILL_3 = 10190;
+	public static final int ANTA_SKILL_4 = 10191;
+	public static final int ANTA_SKILL_5 = 10192;
+	public static final int ANTA_SKILL_6 = 10193;	// 안타라스(리뉴얼) 용언 11종
+	public static final int ANTA_SKILL_7 = 10194;
+	public static final int ANTA_SKILL_8 = 10195;
+	public static final int ANTA_SKILL_9 = 10196;
+	public static final int ANTA_SKILL_10 = 10197;
 }

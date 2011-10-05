@@ -284,6 +284,27 @@ public class Account {
 			SQLUtil.close(con);
 		}
 	}
+	
+	public static void updateQuize(final Account account){
+		Connection con = null;
+		PreparedStatement pstm = null;
+		
+		try{
+			con = L1DatabaseFactory.getInstance().getConnection();
+			String sqlstr = "UPDATE accounts SET quize=? WHERE login=?";
+			pstm = con.prepareStatement(sqlstr);
+			pstm.setString(1, account.getquize());
+			pstm.setString(2, account.getName());
+			pstm.execute();
+			account._quize = account.getquize();
+			_log.fine("update quize for " + account.getName());
+		}catch (Exception e){
+			 _log.log(Level.SEVERE, e.getLocalizedMessage(), e);
+		}finally{
+			SQLUtil.close(pstm);
+			SQLUtil.close(con);
+		}
+	}
 
 	/**
 	 * 입력된 비밀번호와 DB에 저장된 패스워드를 비교
@@ -348,6 +369,19 @@ public class Account {
 
 	public boolean isBanned() {
 		return _banned;
+	}
+	
+	/**
+	 * 퀴즈
+	 */
+	private String _quize;
+	
+	public String getquize(){
+		return _quize;
+	}
+	
+	public void setquize(String s){
+		_quize = s;
 	}
 
 	public int getCharSlot() {
