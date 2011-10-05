@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="EUC-KR"?>
-<project name="L1J" default="all" basedir=".">
+<project name="Bone" default="all" basedir=".">
     <description>
         This script will build the L1J server.
 
@@ -27,7 +27,7 @@
     <property name="src.dir" value="src" />
     <property name="lib.dir" value="lib" />
     <property name="build.dir" value="build" />
-    <property name="jarfile" value="l1jserver.jar" />
+    <property name="jarfile" value="bone.jar" />
 
     <path id="classpath">
         <fileset dir="${lib.dir}">
