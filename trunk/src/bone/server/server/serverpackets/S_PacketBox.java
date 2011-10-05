@@ -228,7 +228,7 @@ public class S_PacketBox extends ServerBasePacket {
 	/** 아인하사드 버프 */
 	public static final int AINHASAD = 82;
 
-	/** 에메랄드 아이콘 - playeva.net */
+	/** 에메랄드 아이콘 **/
 	public static final int EMERALD_EVA = 86;
 
 	/** 우호도 UI 표시

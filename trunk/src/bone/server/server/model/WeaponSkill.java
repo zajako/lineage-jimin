@@ -65,6 +65,88 @@ public class WeaponSkill {
 
 	private static Random _random = new Random();
 	
+	private int _weaponId;
+
+	private int _probability;
+
+	private int _fixDamage;
+
+	private int _randomDamage;
+
+	private int _area;
+
+	private int _skillId;
+
+	private int _skillTime;
+
+	private int _effectId;
+
+	private int _effectTarget; // 0:Å¸°Ù 1:¼¿ÇÁ
+
+	private boolean _isArrowType;
+
+	private int _attr;
+	
+	public WeaponSkill(int weaponId, int probability, int fixDamage,
+			int randomDamage, int area, int skillId, int skillTime,
+			int effectId, int effectTarget, boolean isArrowType, int attr) {
+		_weaponId = weaponId;
+		_probability = probability;
+		_fixDamage = fixDamage;
+		_randomDamage = randomDamage;
+		_area = area;
+		_skillId = skillId;
+		_skillTime = skillTime;
+		_effectId = effectId;
+		_effectTarget = effectTarget;
+		_isArrowType = isArrowType;
+		_attr = attr;
+	}
+	
+	public int getWeaponId() {
+		return _weaponId;
+	}
+
+	public int getProbability() {
+		return _probability;
+	}
+
+	public int getFixDamage() {
+		return _fixDamage;
+	}
+
+	public int getRandomDamage() {
+		return _randomDamage;
+	}
+
+	public int getArea() {
+		return _area;
+	}
+
+	public int getSkillId() {
+		return _skillId;
+	}
+
+	public int getSkillTime() {
+		return _skillTime;
+	}
+
+	public int getEffectId() {
+		return _effectId;
+	}
+
+	public int getEffectTarget() {
+		return _effectTarget;
+	}
+
+	public boolean isArrowType() {
+		return _isArrowType;
+	}
+
+	public int getAttr() {
+		return _attr;
+	}
+
 	public static double getIceSpearDamage(L1PcInstance pc, L1Character cha) {
 		double dmg = 0;
 		int chance = _random.nextInt(100) + 1;
