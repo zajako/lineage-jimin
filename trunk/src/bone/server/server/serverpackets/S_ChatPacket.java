@@ -80,7 +80,11 @@ public class S_ChatPacket extends ServerBasePacket {
 			break;
 		case 4:
 			writeC(type);
-			writeS("{" + pc.getName() + "} " + chat);
+			if (pc.getAge() == 0){ // ³ªÀÌ
+				writeS("{" + pc.getName() +"} " + chat);
+			}else{
+				writeS("{" + pc.getName() +"/"+ pc.getAge()+"} " + chat);
+			}
 			break;
 		case 9:
 			writeC(type);

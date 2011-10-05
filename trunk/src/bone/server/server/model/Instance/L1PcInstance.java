@@ -152,6 +152,7 @@ public class L1PcInstance extends L1Character {
 	public boolean Gaho = false;
 	
 	private short _accessLevel;
+	private int _age;
 	
 	/** 현상금 시스템 **/
 	private int _hun;
@@ -306,6 +307,46 @@ public class L1PcInstance extends L1Character {
 	private int _ubscore;
 
 	private L1Quest _quest;
+	
+	//딜레이주기시간 텔렉풀기 등등
+	private long _quiztime = 0;
+	public long getQuizTime() { return _quiztime; }
+	public void setQuizTime(long l) { _quiztime = l ; } 
+	//딜레이주기시간
+
+	//생명의외침
+	private long _SurvivalCry; 
+	public long getSurvivalCry() {  return _SurvivalCry;   }
+	public void setSurvivalCry(long SurvivalCry) { _SurvivalCry = SurvivalCry; }
+	//생명의외침
+
+	//케릭교환
+	private boolean _isChaTradeSlot = false;
+
+	public boolean isChaTradeSlot() { return _isChaTradeSlot; }
+
+	public void setChaTradeSlot(boolean is) { _isChaTradeSlot = is; }
+	private int _elixirStats;
+
+	private String _sealingPW; // ● 클랜명
+
+	public String getSealingPW() {
+		return _sealingPW;
+	}
+
+	public void setSealingPW(String s) {
+		_sealingPW = s;
+	}
+
+
+	//캐릭터 교환
+	public int getElixirStats() {
+		return _elixirStats;
+	}
+
+	public void setElixirStats(int i) {
+		_elixirStats = i;
+	}
 
 	//private HpRegeneration _hpRegen;
 	//private MpRegeneration _mpRegen;
@@ -2714,6 +2755,8 @@ public class L1PcInstance extends L1Character {
 	public void setClanRank(int i) {		_clanRank = i;	}
 	public byte get_sex() {		return _sex;	}
 	public void set_sex(int i) {		_sex = (byte) i;	}
+	public int getAge() {		return _age;			}
+	public void setAge(int i) {		_age = i;		}
 	//현상금시스템
 	private int huntCount;
 	private int huntPrice;

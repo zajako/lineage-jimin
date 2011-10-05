@@ -32,6 +32,7 @@ CREATE TABLE `accounts` (
   `webAccount` varchar(50) DEFAULT NULL,
   `point_time` int(11) NOT NULL DEFAULT '0',
   `Point_time_ready` int(11) NOT NULL DEFAULT '0',
+  `quize` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`login`)
 ) ENGINE=MyISAM DEFAULT CHARSET=euckr COMMENT='MyISAM free: 3072 kB';
 

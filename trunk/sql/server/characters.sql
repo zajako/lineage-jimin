@@ -83,6 +83,7 @@ CREATE TABLE `characters` (
   `PC_Kill` int(10) DEFAULT NULL,
   `PC_Death` int(10) DEFAULT NULL,
   `BirthDay` int(11) DEFAULT NULL,
+  `Age` int(2) DEFAULT 0,
   PRIMARY KEY (`objid`),
   KEY `key_id` (`account_name`,`char_name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=euckr;

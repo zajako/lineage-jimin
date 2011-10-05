@@ -221,6 +221,9 @@ public class S_PacketBox extends ServerBasePacket {
 
 	/** 공성전이 진행중입니다. 80
 	 *  성을 소유하고 있는 혈맹은 다음과 같습니다. */
+	
+	public static final int GREEN_MESSAGE = 84;
+	public static final int YELLOW_MESSAGE = 00000; // 인던 챕터2 대기
 
 	/** 아인하사드 버프 */
 	public static final int AINHASAD = 82;
