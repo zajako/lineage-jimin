@@ -76,6 +76,13 @@ CREATE TABLE `characters` (
   `GdungeonTime` int(10) NOT NULL DEFAULT '0',
   `Ainhasad_Exp` int(11) NOT NULL DEFAULT '0',
   `Logout_time` datetime DEFAULT NULL,
+  `Logout_time` datetime DEFAULT NULL,
+  `HuntCount` int(10) DEFAULT NULL,
+  `HuntPrice` int(10) DEFAULT NULL,
+  `HuntText` varchar(30) DEFAULT NULL,
+  `PC_Kill` int(10) DEFAULT NULL,
+  `PC_Death` int(10) DEFAULT NULL,
+  `BirthDay` int(11) DEFAULT NULL,
   PRIMARY KEY (`objid`),
   KEY `key_id` (`account_name`,`char_name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=euckr;

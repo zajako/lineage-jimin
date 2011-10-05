@@ -54,6 +54,12 @@ public class ShopTable {
 	private ShopTable() {
 		loadShops();
 	}
+	
+	public static void reload() {
+		ShopTable oldInstance = _instance;
+		_instance = new ShopTable();
+		oldInstance._allShops.clear();
+	}
 
 	private ArrayList<Integer> enumNpcIds() {
 		ArrayList<Integer> ids = new ArrayList<Integer>();

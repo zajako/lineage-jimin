@@ -21,6 +21,8 @@ package bone.server.server.clientpackets;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Random;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -291,6 +293,13 @@ public class C_CreateNewCharacter extends ClientBasePacket {
 		pc.setReturnStat(0);
 		pc.setGdungeonTime(0);
 		pc.calAinHasad(0);
+		
+		//생일  
+		Calendar local_c = Calendar.getInstance();  
+		SimpleDateFormat local_sdf = new SimpleDateFormat("yyyyMMdd"); 
+		local_c.setTimeInMillis(System.currentTimeMillis());
+		pc.setBirthDay(Integer.parseInt(local_sdf.format(local_c.getTime())));  
+		//여기까지
 
 		if (pc.isWizard()) { // WIZ
 			pc.sendPackets(new S_AddSkill(3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,

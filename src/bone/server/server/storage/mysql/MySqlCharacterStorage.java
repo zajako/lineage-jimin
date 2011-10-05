@@ -155,6 +155,11 @@ public class MySqlCharacterStorage implements CharacterStorage {
 			pc.setGdungeonTime(rs.getInt("GdungeonTime"));
 			pc.setAinHasad(rs.getInt("Ainhasad_Exp"));
 			pc.setLogOutTime(rs.getTimestamp("Logout_time"));
+			pc.setHuntCount(rs.getInt("HuntCount"));
+			pc.setHuntPrice(rs.getInt("HuntPrice"));
+			pc.setReasonToHunt(rs.getString("HuntText"));
+			pc.setKills(rs.getInt("PC_Kill"));
+			pc.setDeaths(rs.getInt("PC_Death"));
 
 			pc.refresh();
 			pc.getMoveState().setMoveSpeed(0);
@@ -180,7 +185,7 @@ public class MySqlCharacterStorage implements CharacterStorage {
 		try {
 			int i = 0;
 			con = L1DatabaseFactory.getInstance().getConnection();
-			pstm = con.prepareStatement("INSERT INTO characters SET account_name=?,objid=?,char_name=?,level=?,HighLevel=?,Exp=?,MaxHp=?,CurHp=?,MaxMp=?,CurMp=?,Ac=?,Str=?,BaseStr=?,Con=?,BaseCon=?,Dex=?,BaseDex=?,Cha=?,BaseCha=?,Intel=?,BaseIntel=?,Wis=?,BaseWis=?,Status=?,Class=?,Sex=?,Type=?,Heading=?,LocX=?,LocY=?,MapID=?,Food=?,Lawful=?,Title=?,ClanID=?,Clanname=?,ClanRank=?,BonusStatus=?,ElixirStatus=?,ElfAttr=?,PKcount=?,ExpRes=?,PartnerID=?,AccessLevel=?,OnlineStatus=?,HomeTownID=?,Contribution=?,Pay=?,HellTime=?,Banned=?,Karma=?,LastPk=?,DeleteTime=?,ReturnStat=?,GdungeonTime=?,Ainhasad_Exp=?,Logout_time=?");
+			pstm = con.prepareStatement("INSERT INTO characters SET account_name=?,objid=?,char_name=?,level=?,HighLevel=?,Exp=?,MaxHp=?,CurHp=?,MaxMp=?,CurMp=?,Ac=?,Str=?,BaseStr=?,Con=?,BaseCon=?,Dex=?,BaseDex=?,Cha=?,BaseCha=?,Intel=?,BaseIntel=?,Wis=?,BaseWis=?,Status=?,Class=?,Sex=?,Type=?,Heading=?,LocX=?,LocY=?,MapID=?,Food=?,Lawful=?,Title=?,ClanID=?,Clanname=?,ClanRank=?,BonusStatus=?,ElixirStatus=?,ElfAttr=?,PKcount=?,ExpRes=?,PartnerID=?,AccessLevel=?,OnlineStatus=?,HomeTownID=?,Contribution=?,Pay=?,HellTime=?,Banned=?,Karma=?,LastPk=?,DeleteTime=?,ReturnStat=?,GdungeonTime=?,Ainhasad_Exp=?,Logout_time=?, BirthDay=?");
 			pstm.setString(++i, pc.getAccountName());
 			pstm.setInt(++i, pc.getId());
 			pstm.setString(++i, pc.getName());
@@ -242,6 +247,7 @@ public class MySqlCharacterStorage implements CharacterStorage {
 			pstm.setInt(++i, pc.getGdungeonTime());
 			pstm.setInt(++i, pc.getAinHasad());
 			pstm.setTimestamp(++i, pc.getLogOutTime());
+			pstm.setInt(++i, pc.getBirthDay());
 
 			pstm.execute();
 
@@ -318,7 +324,7 @@ public class MySqlCharacterStorage implements CharacterStorage {
 		try {
 			int i = 0;
 			con = L1DatabaseFactory.getInstance().getConnection();
-			pstm = con.prepareStatement("UPDATE characters SET level=?,HighLevel=?,Exp=?,MaxHp=?,CurHp=?,MaxMp=?,CurMp=?,Ac=?,Str=?,BaseStr=?,Con=?,BaseCon=?,Dex=?,BaseDex=?,Cha=?,BaseCha=?,Intel=?,BaseIntel=?,Wis=?,BaseWis=?,Status=?,Class=?,Sex=?,Type=?,Heading=?,LocX=?,LocY=?,MapID=?,Food=?,Lawful=?,Title=?,ClanID=?,Clanname=?,ClanRank=?,BonusStatus=?,ElixirStatus=?,ElfAttr=?,PKcount=?,ExpRes=?,PartnerID=?,AccessLevel=?,OnlineStatus=?,HomeTownID=?,Contribution=?,HellTime=?,Banned=?,Karma=?,LastPk=?,DeleteTime=?,ReturnStat=?,GdungeonTime=?,Ainhasad_Exp=?,Logout_time=? WHERE objid=?");
+			pstm = con.prepareStatement("UPDATE characters SET level=?,HighLevel=?,Exp=?,MaxHp=?,CurHp=?,MaxMp=?,CurMp=?,Ac=?,Str=?,BaseStr=?,Con=?,BaseCon=?,Dex=?,BaseDex=?,Cha=?,BaseCha=?,Intel=?,BaseIntel=?,Wis=?,BaseWis=?,Status=?,Class=?,Sex=?,Type=?,Heading=?,LocX=?,LocY=?,MapID=?,Food=?,Lawful=?,Title=?,ClanID=?,Clanname=?,ClanRank=?,BonusStatus=?,ElixirStatus=?,ElfAttr=?,PKcount=?,ExpRes=?,PartnerID=?,AccessLevel=?,OnlineStatus=?,HomeTownID=?,Contribution=?,HellTime=?,Banned=?,Karma=?,LastPk=?,DeleteTime=?,ReturnStat=?,GdungeonTime=?,Ainhasad_Exp=?,Logout_time=?,HuntPrice=?,HuntCount=?,HuntText=?,PC_Kill=?,PC_Death=? WHERE objid=?");
 			pstm.setInt(++i, pc.getLevel());
 			pstm.setInt(++i, pc.getHighLevel());
 			pstm.setInt(++i, pc.getExp());
@@ -376,6 +382,11 @@ public class MySqlCharacterStorage implements CharacterStorage {
 			pstm.setInt(++i, pc.getGdungeonTime());
 			pstm.setInt(++i, pc.getAinHasad());
 			pstm.setTimestamp(++i, pc.getLogOutTime());
+			pstm.setInt(++i, pc.getHuntPrice());
+			pstm.setInt(++i, pc.getHuntCount());
+			pstm.setString(++i, pc.getReasonToHunt());
+			pstm.setInt(++i, pc.getKills());
+			pstm.setInt(++i, pc.getDeaths());
 			pstm.setInt(++i, pc.getId());
 			pstm.execute();
 			_log.finest("stored char data:" + pc.getName());
