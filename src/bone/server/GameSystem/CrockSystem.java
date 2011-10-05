@@ -6,7 +6,7 @@ import java.util.Calendar;
 import java.util.Locale;
 
 import bone.server.server.GeneralThreadPool;
-import bone.server.server.datatables.EvaSystemTable;
+import bone.server.server.datatables.BoneSystemTable;
 import bone.server.server.model.L1Object;
 import bone.server.server.model.L1Teleport;
 import bone.server.server.model.L1World;
@@ -19,7 +19,7 @@ import bone.server.server.model.item.L1ItemId;
 import bone.server.server.model.skill.L1SkillId;
 import bone.server.server.model.skill.L1SkillUse;
 import bone.server.server.serverpackets.S_ServerMessage;
-import bone.server.server.templates.L1EvaSystem;
+import bone.server.server.templates.L1BoneSystem;
 import bone.server.server.utils.L1SpawnUtil;
 
 public class CrockSystem implements TimeListener{
@@ -34,11 +34,11 @@ public class CrockSystem implements TimeListener{
 		return _instance;
 	}
 	
-	L1EvaSystem eva = EvaSystemTable.getInstance().getSystem(1);
-	private Calendar OpenTime = eva.getEvaTime();// 오픈시간
-	private Calendar CloseTime = (Calendar) eva.getEvaTime().clone();// 닫는시간
-	private Calendar BossTime = (Calendar) eva.getEvaTime().clone();// 보스 열리는 시간
-	private Calendar ContinuationTime = (Calendar) eva.getEvaTime().clone();// 보스가 연장되어
+	L1BoneSystem bone = BoneSystemTable.getInstance().getSystem(1);
+	private Calendar OpenTime = bone.getBoneTime();// 오픈시간
+	private Calendar CloseTime = (Calendar) bone.getBoneTime().clone();// 닫는시간
+	private Calendar BossTime = (Calendar) bone.getBoneTime().clone();// 보스 열리는 시간
+	private Calendar ContinuationTime = (Calendar) bone.getBoneTime().clone();// 보스가 연장되어
 	
 	/**
 	 * 균열 시간 설정
@@ -77,7 +77,7 @@ public class CrockSystem implements TimeListener{
 	private CrockSystem() {
 		CloseTime.add(Calendar.MINUTE, 179);// 3시간(180) 
 		BossTime.add(Calendar.MINUTE, 149);// 2시간 30분
-		if (eva.getOpenContinuation() == 1) {
+		if (bone.getOpenContinuation() == 1) {
 			isOpen = true;
 			ContinuationTime.add(Calendar.HOUR_OF_DAY, extendperiod);
 			ready();
@@ -89,7 +89,7 @@ public class CrockSystem implements TimeListener{
 	 */
 	private void checkCrock(BaseTime time) {
 
-		if (eva.getOpenContinuation() == 1) {
+		if (bone.getOpenContinuation() == 1) {
 			if (ContinuationTime.before(time.getCalendar())) {// 연장시간이 지났다면..
 				clear();
 			}
@@ -123,20 +123,20 @@ public class CrockSystem implements TimeListener{
 	}
 
 	private void ready() {
-		if (eva.getMoveLocation() == 0) {
-			eva.setOpenLocation((int)(Math.random() * 8));
-			eva.setMoveLocation((int) (Math.random() * 2 + 1));
+		if (bone.getMoveLocation() == 0) {
+			bone.setOpenLocation((int)(Math.random() * 8));
+			bone.setMoveLocation((int) (Math.random() * 2 + 1));
 		}
-//		System.out.println("열린곳"+ eva.getOpenLocation());
-//		System.out.println("이동하는곳" +eva.getMoveLocation());
-		int OL = eva.getOpenLocation();
+//		System.out.println("열린곳"+ bone.getOpenLocation());
+//		System.out.println("이동하는곳" +bone.getMoveLocation());
+		int OL = bone.getOpenLocation();
 		L1SpawnUtil.spawn2(loc[OL][0], loc[OL][1], (short) loc[OL][2], 4500100, 0, 0, 0);// 위치에 스폰한다
-		EvaSystemTable.getInstance().updateSystem(eva);
+		BoneSystemTable.getInstance().updateSystem(bone);
 	}
 
 	private void bossStart() {
 		// 보스를 스폰하고 보스 타임을 잰다
-		switch(eva.getMoveLocation()){
+		switch(bone.getMoveLocation()){
 		case 1:// 테베
 			L1SpawnUtil.spawn2(32794, 32825, (short) 782, 400016, 0, 1920*1000, 0);
 			L1SpawnUtil.spawn2(32794, 32836, (short) 782, 400017, 0, 1920*1000, 0);
@@ -159,11 +159,11 @@ public class CrockSystem implements TimeListener{
 		CloseTime.add(Calendar.MINUTE, period);
 		BossTime.add(Calendar.MINUTE, period);
 //		ContinuationTime.add(Calendar.MINUTE, period);
-		eva.setEvaTime(OpenTime);
-		eva.setOpenLocation(0);
-		eva.setMoveLocation(0);
-		eva.setOpenContinuation(0);
-		EvaSystemTable.getInstance().updateSystem(eva);		
+		bone.setBoneTime(OpenTime);
+		bone.setOpenLocation(0);
+		bone.setMoveLocation(0);
+		bone.setOpenContinuation(0);
+		BoneSystemTable.getInstance().updateSystem(bone);		
 		msg = null;		
 	}
 
@@ -174,11 +174,11 @@ public class CrockSystem implements TimeListener{
 		setBossTime(false);
 		CrockMSG msg = new CrockMSG(1);// 선물
 		GeneralThreadPool.getInstance().execute(msg);
-		if(eva.getMoveLocation() == 2)
+		if(bone.getMoveLocation() == 2)
 			BossDieBuff();// 버프를 주고
 		ContinuationTime.add(Calendar.HOUR_OF_DAY, extendperiod);// 닫히는 시간에서 하루 더한다.
-		eva.setOpenContinuation(1);// 연장 상태를 변경
-		EvaSystemTable.getInstance().updateSystem(eva);
+		bone.setOpenContinuation(1);// 연장 상태를 변경
+		BoneSystemTable.getInstance().updateSystem(bone);
 		msg = null;
 	}
 
@@ -217,7 +217,7 @@ public class CrockSystem implements TimeListener{
 	private void setBossTime(boolean isBossTime) { this.isBossTime = isBossTime; }
 	
 	public boolean isContinuationTime() {
-		if (eva.getOpenContinuation() == 0) return false;
+		if (bone.getOpenContinuation() == 0) return false;
 		else return true;
 	}
 
@@ -226,7 +226,7 @@ public class CrockSystem implements TimeListener{
 	 * @return	(int[])	loc		좌표 배열
 	*/
 	public int[] loc(){
-		return loc[eva.getOpenLocation()];
+		return loc[bone.getOpenLocation()];
 	}
 
 	/**
@@ -279,7 +279,7 @@ public class CrockSystem implements TimeListener{
 	 * @return true : 연장
 	 */
 	public boolean isCrockIng(){
-		if(eva.getOpenContinuation() == 1) return true;
+		if(bone.getOpenContinuation() == 1) return true;
 		else return false;
 	}
 	

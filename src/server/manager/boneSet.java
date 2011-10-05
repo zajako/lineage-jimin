@@ -4,7 +4,7 @@
  */
 
 /*
- * evaSet.java
+ * boneSet.java
  *
  * Created on 2009. 8. 29, 오후 5:09:49
  */
@@ -18,10 +18,10 @@ import javax.swing.JOptionPane;
 import bone.server.Config;
 
 @SuppressWarnings("serial")
-public class evaSet extends javax.swing.JFrame {
+public class boneSet extends javax.swing.JFrame {
 		
-	/** Creates new form evaSet */
-	public evaSet() {		
+	/** Creates new form boneSet */
+	public boneSet() {		
 		initComponents();
 		setLocation(200, 200);
 		setVisible(true);
@@ -173,7 +173,7 @@ public class evaSet extends javax.swing.JFrame {
 		Config.ENCHANT_CHANCE_WEAPON = Integer.parseInt(textWeapon.getText());
 		Config.ENCHANT_CHANCE_ARMOR = Integer.parseInt(textArmor.getText());
 		
-		eva.LogServerAppend("[ServerSetting]", "확인하려면 설정 눌러보기");
+		bone.LogServerAppend("[ServerSetting]", "확인하려면 설정 눌러보기");
 		JOptionPane.showMessageDialog(this, "정상적으로 배율이 변경되었습니다.", " Server Message", javax.swing.JOptionPane.INFORMATION_MESSAGE);
 		this.setVisible(false);
 	}

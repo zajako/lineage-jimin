@@ -38,7 +38,7 @@ import server.Server;
  * @author code
  */
 @SuppressWarnings("serial")
-public class eva extends javax.swing.JFrame {
+public class bone extends javax.swing.JFrame {
 
 	private static final Object lock = new Object();
 	private static String date = "";
@@ -56,8 +56,8 @@ public class eva extends javax.swing.JFrame {
 
 	public static boolean isServerStarted;
 	public static int userCount;
-	/** Creates new form eva */
-	public eva() {					
+	/** Creates new form bone */
+	public bone() {					
 
 		initComponents();
 		isServerStarted = true;
@@ -68,7 +68,7 @@ public class eva extends javax.swing.JFrame {
 	public static void main(String args[]) {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				new eva().setVisible(true);
+				new bone().setVisible(true);
 			}
 		});
 	}
@@ -331,7 +331,7 @@ public class eva extends javax.swing.JFrame {
 	}
 	private void buttonSettingClicked(java.awt.event.MouseEvent evt) {
 		// 서버 설정 Click
-		if (isServerStarted) 	new evaSet();
+		if (isServerStarted) 	new boneSet();
 		else 					errorMsg(NoServerStartMSG);
 	}
 	private void buttonSaveClicked(java.awt.event.MouseEvent evt) {

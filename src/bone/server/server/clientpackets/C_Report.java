@@ -1,9 +1,3 @@
-/*
- * make by Eva Team (http://eva.gg.gg)
- *	/½Å°í 
- * 
- */
-
 package bone.server.server.clientpackets;
 
 import java.util.logging.Logger;

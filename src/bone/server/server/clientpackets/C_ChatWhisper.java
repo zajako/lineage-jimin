@@ -20,7 +20,7 @@
 package bone.server.server.clientpackets;
 
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 import bone.server.Config;
 //import bone.server.channel.ChatMonitorChannel;
 import bone.server.server.Opcodes;
@@ -55,7 +55,7 @@ public class C_ChatWhisper extends ClientBasePacket {
 
 		if (targetName.equalsIgnoreCase("******")){	
 			whisperFrom.sendPackets(new S_SystemMessage("-> (******) "+text));
-			eva.LogChatAppend("具", whisperFrom.getName(), "******", text, ">");			
+			bone.LogChatAppend("具", whisperFrom.getName(), "******", text, ">");			
 			return;
 		}
 		L1PcInstance whisperTo = L1World.getInstance().getPlayer(targetName);	
@@ -86,7 +86,7 @@ public class C_ChatWhisper extends ClientBasePacket {
 		whisperTo.sendPackets(new S_ChatPacket(whisperFrom, text, Opcodes.S_OPCODE_WHISPERCHAT, 16));
 		// monitoring
 		// ChatMonitorChannel.getInstance().sendMsg(ChatMonitorChannel.CHAT_MONITOR_WHISPER, " -> "+whisperTo.getName()+" : "+ text, whisperFrom);
-		eva.LogChatAppend("具", whisperFrom.getName(), whisperTo.getName(), text, ">");		
+		bone.LogChatAppend("具", whisperFrom.getName(), whisperTo.getName(), text, ">");		
 	}
 
 	@Override

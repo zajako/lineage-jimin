@@ -16,29 +16,25 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import bone.server.L1DatabaseFactory;
-import bone.server.server.templates.L1EvaSystem;
+import bone.server.server.templates.L1BoneSystem;
 import bone.server.server.utils.SQLUtil;
 
+public class BoneSystemTable {
 
-// Referenced classes of package bone.server.server:
-// IdFactory
+	private static Logger _log = Logger.getLogger(BoneSystemTable.class.getName());
 
-public class EvaSystemTable {
+	private static BoneSystemTable _instance;
 
-	private static Logger _log = Logger.getLogger(EvaSystemTable.class.getName());
+	private final Map<Integer, L1BoneSystem> _bonesystem = new ConcurrentHashMap<Integer, L1BoneSystem>();
 
-	private static EvaSystemTable _instance;
-
-	private final Map<Integer, L1EvaSystem> _evasystem = new ConcurrentHashMap<Integer, L1EvaSystem>();
-
-	public static EvaSystemTable getInstance() {
+	public static BoneSystemTable getInstance() {
 		if (_instance == null) {
-			_instance = new EvaSystemTable();
+			_instance = new BoneSystemTable();
 		}
 		return _instance;
 	}
 
-	private EvaSystemTable() {
+	private BoneSystemTable() {
 		load();
 	}
 
@@ -54,19 +50,19 @@ public class EvaSystemTable {
 		ResultSet rs = null;
 		try {
 			con = L1DatabaseFactory.getInstance().getConnection();
-			pstm = con.prepareStatement("SELECT * FROM evasystem");
+			pstm = con.prepareStatement("SELECT * FROM bonesystem");
 
 			rs = pstm.executeQuery();
-			L1EvaSystem eva = null;
+			L1BoneSystem bone = null;
 			while (rs.next()) {
-				eva = new L1EvaSystem(rs.getInt(1));
-				eva.setEvaTime(timestampToCalendar((Timestamp) rs
+				bone = new L1BoneSystem(rs.getInt(1));
+				bone.setBoneTime(timestampToCalendar((Timestamp) rs
 						.getObject(3)));
-				eva.setOpenLocation(rs.getInt(4));
-				eva.setMoveLocation(rs.getInt(5));
-				eva.setOpenContinuation(rs.getInt(6));
+				bone.setOpenLocation(rs.getInt(4));
+				bone.setMoveLocation(rs.getInt(5));
+				bone.setOpenContinuation(rs.getInt(6));
 				
-				_evasystem.put(eva.getSystemTypeId(), eva);
+				_bonesystem.put(bone.getSystemTypeId(), bone);
 			}
 		} catch (SQLException e) {
 			_log.log(Level.SEVERE, e.getLocalizedMessage(), e);
@@ -82,24 +78,24 @@ public class EvaSystemTable {
 	 * @param id 1: ±Õ¿­
 	 * @return
 	 */
-	public L1EvaSystem getSystem(int id) {
-		return _evasystem.get(id);
+	public L1BoneSystem getSystem(int id) {
+		return _bonesystem.get(id);
 	}
 
-	public void updateSystem(L1EvaSystem eva) {
+	public void updateSystem(L1BoneSystem bone) {
 		Connection con = null;
 		PreparedStatement pstm = null;
 		try {
 			con = L1DatabaseFactory.getInstance().getConnection();
 			pstm = con
-					.prepareStatement("UPDATE evasystem SET time=?, openLoc=?, moveLoc=?, extend=? WHERE id=?");
+					.prepareStatement("UPDATE bonesystem SET time=?, openLoc=?, moveLoc=?, extend=? WHERE id=?");
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-			String fm = sdf.format(eva.getEvaTime().getTime());
+			String fm = sdf.format(bone.getBoneTime().getTime());
 			pstm.setString(1, fm);
-			pstm.setInt(2, eva.getOpenLocation());
-			pstm.setInt(3, eva.getMoveLocation());
-			pstm.setInt(4, eva.getOpenContinuation());
-			pstm.setInt(5, eva.getSystemTypeId());
+			pstm.setInt(2, bone.getOpenLocation());
+			pstm.setInt(3, bone.getMoveLocation());
+			pstm.setInt(4, bone.getOpenContinuation());
+			pstm.setInt(5, bone.getSystemTypeId());
 			pstm.execute();
 
 		} catch (SQLException e) {

@@ -33,7 +33,7 @@ import bone.server.server.serverpackets.S_OwnCharStatus;
 import bone.server.server.serverpackets.S_SPMR;
 import bone.server.server.serverpackets.S_ServerMessage;
 import bone.server.server.templates.L1Item;
-import server.manager.eva;
+import server.manager.bone;
 
 @SuppressWarnings("serial")
 public class Enchant extends L1ItemInstance{
@@ -220,12 +220,12 @@ public class Enchant extends L1ItemInstance{
 		}
 		if (item.getItem().getType2() == 1){
 			if (newEnchantLvl > safe_enchant){
-				eva.LogEnchantAppend("성공:W", pc.getName(), oldEnchantLvl+"->"+newEnchantLvl, item.getName(), item.getId());
+				bone.LogEnchantAppend("성공:W", pc.getName(), oldEnchantLvl+"->"+newEnchantLvl, item.getName(), item.getId());
 			}		
 		}
 		if (item.getItem().getType2() == 2){
 			if (newEnchantLvl > safe_enchant){
-				eva.LogEnchantAppend("성공:A", pc.getName(), oldEnchantLvl+"->"+newEnchantLvl, item.getName(), item.getId());
+				bone.LogEnchantAppend("성공:A", pc.getName(), oldEnchantLvl+"->"+newEnchantLvl, item.getName(), item.getId());
 			}		
 		}
 
@@ -299,9 +299,9 @@ public class Enchant extends L1ItemInstance{
 		pc.getInventory().removeItem(item, item.getCount());		
 		pc.saveInventory();
 		if (itemType == 1){
-			eva.LogEnchantAppend("실패:W", pc.getName(), Integer.toString(item.getEnchantLevel()), item.getName(), item.getId());
+			bone.LogEnchantAppend("실패:W", pc.getName(), Integer.toString(item.getEnchantLevel()), item.getName(), item.getId());
 		} else if (itemType == 2){
-			eva.LogEnchantAppend("실패:A", pc.getName(), Integer.toString(item.getEnchantLevel()), item.getName(), item.getId());
+			bone.LogEnchantAppend("실패:A", pc.getName(), Integer.toString(item.getEnchantLevel()), item.getName(), item.getId());
 		}		
 	}
 	

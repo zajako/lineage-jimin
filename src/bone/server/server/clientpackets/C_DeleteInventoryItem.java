@@ -27,7 +27,7 @@ import bone.server.server.serverpackets.S_OwnCharStatus;
 import bone.server.server.serverpackets.S_ServerMessage;
 import bone.server.server.serverpackets.S_SkillIconGFX;
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 
 //Referenced classes of package bone.server.server.clientpackets:
 //ClientBasePacket
@@ -84,7 +84,7 @@ public class C_DeleteInventoryItem extends ClientBasePacket {
 				}
 			}
 		}
-		eva.LogObserverAppend("템삭제", pc.getName(), item,item.getCount(), itemObjectId);
+		bone.LogObserverAppend("템삭제", pc.getName(), item,item.getCount(), itemObjectId);
 		pc.getInventory().removeItem(item, item.getCount());
 		pc.getLight().turnOnOffLight();		
 	}

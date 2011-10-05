@@ -147,7 +147,7 @@ import bone.server.server.templates.L1GetBackRestart;
 import bone.server.server.templates.L1Skills;
 import bone.server.server.utils.SQLUtil;
 import server.LineageClient;
-import server.manager.eva;
+import server.manager.bone;
 import server.system.autoshop.AutoShop;
 import server.system.autoshop.AutoShopManager;
 
@@ -192,7 +192,7 @@ public class C_SelectCharacter extends ClientBasePacket {
 		}
 
 		_log.info("캐릭터 로그인: char=" + charName + " account=" + accountName	+ " host=" + client.getHostname());
-		eva.LogServerAppend("접속", pc, client.getIp(), 1);
+		bone.LogServerAppend("접속", pc, client.getIp(), 1);
 
 		int currentHpAtLoad = pc.getCurrentHp();
 		int currentMpAtLoad = pc.getCurrentMp();

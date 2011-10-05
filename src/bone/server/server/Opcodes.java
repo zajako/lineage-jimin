@@ -1,33 +1,8 @@
-/**
- * 
- * 					Eva Team - http://eva.pe.kr 
- * 				    
- * 					Member	- 샤샤 (Shax2)				 	 
- * 							- 코드 (Shyeon0111)
- * 							- 뮨법사 (Cr7016)
- * 							- 똥개 (Zinasura)
- * 							- 마스터 (Babuboss)
- * 
- */
-
 package bone.server.server;
 
 public class Opcodes {
 
 	public Opcodes() {}
-
-
-	
-	
-	
-	
-	
-	
-		/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **/
-		/**	* * * * * * * * * * * * * * * * Client Packet * * * * * * * * * * * * * * * * * * * * * * **/
-		/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **/
-	
-
 	
 		public static final int C_OPCODE_PETMENU 										= 0x00; // 펫 메뉴
 		public static final int C_OPCODE_SOLDIERBUY										= 0x01; // 용병 리스트 구입
@@ -307,16 +282,8 @@ public class Opcodes {
 		public static final int S_OPCODE_HPUPDATE 										= 0x7D; // HP 업데이트
 		public static final int S_OPCODE_SELECTTARGET 									= 0x7E; // 펫 공격 목표지정
 //0x7F
-
-		
-		
 		/** Server Packet 안쓰는 것들 **/
-		
 		public static final int S_OPCODE_ALLIANCECHAT 									= 0x1000; // 동맹채팅
 		public static final int S_OPCODE_TELEPORT										= 0x1001; // 텔레포트
 		public static final int S_OPCODE_HOTELENTER										= 0x1002; // 엔피씨로 여관 진입시>>
-		
-		
-		/** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * **/
-			
 }

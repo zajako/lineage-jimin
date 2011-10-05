@@ -15,10 +15,10 @@ Date: 2011-10-05 19:40
 
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
--- Table structure for `evasystem`
+-- Table structure for `bonesystem`
 -- ----------------------------
-DROP TABLE IF EXISTS `evasystem`;
-CREATE TABLE `evasystem` (
+DROP TABLE IF EXISTS `bonesystem`;
+CREATE TABLE `bonesystem` (
   `id` int(2) NOT NULL AUTO_INCREMENT,
   `name` varchar(40) NOT NULL,
   `time` datetime DEFAULT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE `evasystem` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=euckr;
 
 -- ----------------------------
--- Records of evasystem
+-- Records of bonesystem
 -- ----------------------------
-INSERT IGNORE INTO `evasystem` VALUES 
+INSERT IGNORE INTO `bonesystem` VALUES 
 ('1', '½Ã°£ÀÇ ±Õ¿­', '2010-03-24 19:00:00', '0', '0', '0');
