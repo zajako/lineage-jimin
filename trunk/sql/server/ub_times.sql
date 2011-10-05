@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:10:53
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,41 +26,42 @@ CREATE TABLE `ub_times` (
 -- ----------------------------
 -- Records of ub_times
 -- ----------------------------
-INSERT INTO `ub_times` VALUES ('1', '100');
-INSERT INTO `ub_times` VALUES ('1', '300');
-INSERT INTO `ub_times` VALUES ('1', '900');
-INSERT INTO `ub_times` VALUES ('1', '1500');
-INSERT INTO `ub_times` VALUES ('1', '2100');
-INSERT INTO `ub_times` VALUES ('1', '2300');
-INSERT INTO `ub_times` VALUES ('2', '100');
-INSERT INTO `ub_times` VALUES ('2', '400');
-INSERT INTO `ub_times` VALUES ('2', '700');
-INSERT INTO `ub_times` VALUES ('2', '1000');
-INSERT INTO `ub_times` VALUES ('2', '1300');
-INSERT INTO `ub_times` VALUES ('2', '1600');
-INSERT INTO `ub_times` VALUES ('2', '1900');
-INSERT INTO `ub_times` VALUES ('2', '2200');
-INSERT INTO `ub_times` VALUES ('3', '200');
-INSERT INTO `ub_times` VALUES ('3', '500');
-INSERT INTO `ub_times` VALUES ('3', '800');
-INSERT INTO `ub_times` VALUES ('3', '1100');
-INSERT INTO `ub_times` VALUES ('3', '1400');
-INSERT INTO `ub_times` VALUES ('3', '1700');
-INSERT INTO `ub_times` VALUES ('3', '2000');
-INSERT INTO `ub_times` VALUES ('3', '2300');
-INSERT INTO `ub_times` VALUES ('4', '100');
-INSERT INTO `ub_times` VALUES ('4', '400');
-INSERT INTO `ub_times` VALUES ('4', '700');
-INSERT INTO `ub_times` VALUES ('4', '1000');
-INSERT INTO `ub_times` VALUES ('4', '1300');
-INSERT INTO `ub_times` VALUES ('4', '1600');
-INSERT INTO `ub_times` VALUES ('4', '1900');
-INSERT INTO `ub_times` VALUES ('4', '2200');
-INSERT INTO `ub_times` VALUES ('5', '200');
-INSERT INTO `ub_times` VALUES ('5', '500');
-INSERT INTO `ub_times` VALUES ('5', '800');
-INSERT INTO `ub_times` VALUES ('5', '1100');
-INSERT INTO `ub_times` VALUES ('5', '1400');
-INSERT INTO `ub_times` VALUES ('5', '1700');
-INSERT INTO `ub_times` VALUES ('5', '2000');
-INSERT INTO `ub_times` VALUES ('5', '2300');
+INSERT IGNORE INTO `ub_times` VALUES 
+('1', '100'),
+('1', '300'),
+('1', '900'),
+('1', '1500'),
+('1', '2100'),
+('1', '2300'),
+('2', '100'),
+('2', '400'),
+('2', '700'),
+('2', '1000'),
+('2', '1300'),
+('2', '1600'),
+('2', '1900'),
+('2', '2200'),
+('3', '200'),
+('3', '500'),
+('3', '800'),
+('3', '1100'),
+('3', '1400'),
+('3', '1700'),
+('3', '2000'),
+('3', '2300'),
+('4', '100'),
+('4', '400'),
+('4', '700'),
+('4', '1000'),
+('4', '1300'),
+('4', '1600'),
+('4', '1900'),
+('4', '2200'),
+('5', '200'),
+('5', '500'),
+('5', '800'),
+('5', '1100'),
+('5', '1400'),
+('5', '1700'),
+('5', '2000'),
+('5', '2300');

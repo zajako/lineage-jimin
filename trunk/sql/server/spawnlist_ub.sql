@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:10:19
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -34,1119 +34,1120 @@ CREATE TABLE `spawnlist_ub` (
 -- ----------------------------
 -- Records of spawnlist_ub
 -- ----------------------------
-INSERT INTO `spawnlist_ub` VALUES ('1', '1', '1', '1', '스노우 맨', '45133', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('2', '1', '1', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('3', '1', '1', '1', '바크크', '45116', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('4', '1', '1', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('5', '1', '1', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('6', '1', '1', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('7', '1', '1', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('8', '1', '1', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('9', '1', '1', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('10', '1', '1', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('11', '1', '1', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('12', '1', '1', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('13', '1', '1', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('14', '1', '1', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('15', '1', '1', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('16', '1', '1', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('17', '1', '1', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('18', '1', '1', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('19', '1', '1', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('20', '1', '1', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('21', '1', '1', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('22', '1', '1', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('23', '1', '1', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('24', '1', '1', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('25', '1', '1', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('26', '1', '1', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('27', '1', '1', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('28', '1', '1', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('29', '1', '1', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('30', '1', '1', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('31', '1', '1', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('32', '1', '1', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('33', '1', '1', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('34', '1', '1', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('35', '1', '1', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('36', '1', '1', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('37', '1', '1', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('38', '1', '1', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('39', '1', '1', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('40', '1', '1', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('41', '1', '1', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('42', '1', '1', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('43', '1', '1', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('44', '1', '1', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('45', '1', '1', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('46', '1', '1', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('47', '1', '1', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('48', '1', '1', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('49', '1', '1', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('50', '1', '1', '4', '서큐버스퀸', '45451', '5', '15', '3');
-INSERT INTO `spawnlist_ub` VALUES ('51', '1', '2', '1', '페이퍼 맨', '45088', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('52', '1', '2', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('53', '1', '2', '1', '베어', '45040', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('54', '1', '2', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('55', '1', '2', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('56', '1', '2', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('57', '1', '2', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('58', '1', '2', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('59', '1', '2', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('60', '1', '2', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('61', '1', '2', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('62', '1', '2', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('63', '1', '2', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('64', '1', '2', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('65', '1', '2', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('66', '1', '2', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('67', '1', '2', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('68', '1', '2', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('69', '1', '2', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('70', '1', '2', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('71', '1', '2', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('72', '1', '2', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('73', '1', '2', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('74', '1', '2', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('75', '1', '2', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('76', '1', '2', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('77', '1', '2', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('78', '1', '2', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('79', '1', '2', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('80', '1', '2', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('81', '1', '2', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('82', '1', '2', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('83', '1', '2', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('84', '1', '2', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('85', '1', '2', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('86', '1', '2', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('87', '1', '2', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('88', '1', '2', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('89', '1', '2', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('90', '1', '2', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('91', '1', '2', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('92', '1', '2', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('93', '1', '2', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('94', '1', '2', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('95', '1', '2', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('96', '1', '2', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('97', '1', '2', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('98', '1', '2', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('99', '1', '2', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('100', '1', '2', '4', '베레스', '45583', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('101', '1', '2', '4', '베레스', '45583', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('102', '1', '3', '1', '드워후워리아', '45092', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('103', '1', '3', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('104', '1', '3', '1', '바크크', '45116', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('105', '1', '3', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('106', '1', '3', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('107', '1', '3', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('108', '1', '3', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('109', '1', '3', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('110', '1', '3', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('111', '1', '3', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('112', '1', '3', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('113', '1', '3', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('114', '1', '3', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('115', '1', '3', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('116', '1', '3', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('117', '1', '3', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('118', '1', '3', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('119', '1', '3', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('120', '1', '3', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('121', '1', '3', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('122', '1', '3', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('123', '1', '3', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('124', '1', '3', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('125', '1', '3', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('126', '1', '3', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('127', '1', '3', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('128', '1', '3', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('129', '1', '3', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('130', '1', '3', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('131', '1', '3', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('132', '1', '3', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('133', '1', '3', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('134', '1', '3', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('135', '1', '3', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('136', '1', '3', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('137', '1', '3', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('138', '1', '3', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('139', '1', '3', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('140', '1', '3', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('141', '1', '3', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('142', '1', '3', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('143', '1', '3', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('144', '1', '3', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('145', '1', '3', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('146', '1', '3', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('147', '1', '3', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('148', '1', '3', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('149', '1', '3', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('150', '1', '3', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('151', '1', '3', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('152', '1', '4', '1', '아리게이타', '45101', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('153', '1', '4', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('154', '1', '4', '1', '바크크', '45116', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('155', '1', '4', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('156', '1', '4', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('157', '1', '4', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('158', '1', '4', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('159', '1', '4', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('160', '1', '4', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('161', '1', '4', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('162', '1', '4', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('163', '1', '4', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('164', '1', '4', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('165', '1', '4', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('166', '1', '4', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('167', '1', '4', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('168', '1', '4', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('169', '1', '4', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('170', '1', '4', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('171', '1', '4', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('172', '1', '4', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('173', '1', '4', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('174', '1', '4', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('175', '1', '4', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('176', '1', '4', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('177', '1', '4', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('178', '1', '4', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('179', '1', '4', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('180', '1', '4', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('181', '1', '4', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('182', '1', '4', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('183', '1', '4', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('184', '1', '4', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('185', '1', '4', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('186', '1', '4', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('187', '1', '4', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('188', '1', '4', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('189', '1', '4', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('190', '1', '4', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('191', '1', '4', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('192', '1', '4', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('193', '1', '4', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('194', '1', '4', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('195', '1', '4', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('196', '1', '4', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('197', '1', '4', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('198', '1', '4', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('199', '1', '4', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('200', '1', '4', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('201', '1', '4', '4', '바포멧트', '45573', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('202', '1', '4', '4', '바포멧트', '45573', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('203', '1', '5', '1', '호브고브린', '45140', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('204', '1', '5', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('205', '1', '5', '1', '바크크', '45116', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('206', '1', '5', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('207', '1', '5', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('208', '1', '5', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('209', '1', '5', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('210', '1', '5', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('211', '1', '5', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('212', '1', '5', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('213', '1', '5', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('214', '1', '5', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('215', '1', '5', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('216', '1', '5', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('217', '1', '5', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('218', '1', '5', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('219', '1', '5', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('220', '1', '5', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('221', '1', '5', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('222', '1', '5', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('223', '1', '5', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('224', '1', '5', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('225', '1', '5', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('226', '1', '5', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('227', '1', '5', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('228', '1', '5', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('229', '1', '5', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('230', '1', '5', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('231', '1', '5', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('232', '1', '5', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('233', '1', '5', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('234', '1', '5', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('235', '1', '5', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('236', '1', '5', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('237', '1', '5', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('238', '1', '5', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('239', '1', '5', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('240', '1', '5', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('241', '1', '5', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('242', '1', '5', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('243', '1', '5', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('244', '1', '5', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('245', '1', '5', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('246', '1', '5', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('247', '1', '5', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('248', '1', '5', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('249', '1', '5', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('250', '1', '5', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('251', '1', '5', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('252', '1', '5', '4', '쟈이안트안트크인', '45614', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('253', '1', '6', '1', '쟈이안트안트', '45115', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('254', '1', '6', '1', '오크 위저드', '45121', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('255', '1', '6', '1', '바크크', '45116', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('256', '1', '6', '1', '스토고렘', '45126', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('257', '1', '6', '1', '스케르톤아챠', '45129', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('258', '1', '6', '1', '스케르톤악스', '45130', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('259', '1', '6', '1', '스케르톤파이크', '45131', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('260', '1', '6', '1', '자이언트 spider', '45136', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('261', '1', '6', '1', '오크스카우트', '45138', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('262', '1', '6', '1', '리자드만', '45144', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('263', '1', '6', '1', '굴', '45157', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('264', '1', '6', '1', '스파르트이', '45161', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('265', '1', '6', '1', '클럽 맨', '45164', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('266', '1', '6', '1', '라이칸스로프', '45173', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('267', '1', '6', '1', '드렛드스파이다', '45184', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('268', '1', '6', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('269', '1', '6', '1', '래트 맨', '45192', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('270', '1', '6', '1', '에르다', '45215', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('271', '1', '6', '1', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('272', '1', '6', '1', '버그 베어', '45223', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('273', '1', '6', '1', '엘 모어 좀비 솔저', '45216', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('274', '1', '6', '1', '엘 모어 좀비 위저드', '45224', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('275', '1', '6', '1', '엘 모어 좀비 제너럴', '45248', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('276', '1', '6', '1', '케르베로스', '45241', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('277', '1', '6', '1', '스코피온', '45259', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('278', '1', '6', '2', '블랙 나이트', '45165', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('279', '1', '6', '2', '카트', '45600', '3', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('280', '1', '6', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('281', '1', '6', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('282', '1', '6', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('283', '1', '6', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('284', '1', '6', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('285', '1', '6', '2', '바닝워리아', '45284', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('286', '1', '6', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('287', '1', '6', '2', '킹 버그 베어', '45298', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('288', '1', '6', '2', '무리 안', '45289', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('289', '1', '6', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('290', '1', '6', '2', '리빙 아모', '45322', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('291', '1', '6', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('292', '1', '6', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('293', '1', '6', '3', '브락크에르다', '45550', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('294', '1', '6', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('295', '1', '6', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('296', '1', '6', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('297', '1', '6', '3', '아이안고렘', '45372', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('298', '1', '6', '3', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('299', '1', '6', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('300', '1', '6', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('301', '1', '6', '4', '바라카스', '45684', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('302', '2', '1', '1', '호브고브린', '45140', '10', '0', '0');
-INSERT INTO `spawnlist_ub` VALUES ('303', '2', '1', '1', '쟈이안트안트', '45115', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('304', '2', '1', '1', '굴', '45157', '15', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('305', '2', '1', '1', '쟈이안트안트소르쟈', '45190', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('306', '2', '1', '1', '쟈이안트안트', '45115', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('307', '2', '1', '1', '스켈리턴', '45107', '20', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('308', '2', '1', '1', '스케르톤파이크', '45131', '18', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('309', '2', '1', '1', '스케르톤아챠', '45122', '20', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('310', '2', '1', '1', '아이안고렘', '45372', '20', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('311', '2', '1', '1', '바크 베어', '45223', '20', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('312', '2', '1', '1', '다크 에르프', '45364', '10', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('313', '2', '1', '1', '좀비', '45105', '25', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('314', '2', '1', '1', '킹 버그 베어', '45298', '20', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('315', '2', '1', '1', '슬라임', '45060', '10', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('316', '2', '1', '1', '아시타지오', '45359', '15', '40', '0');
-INSERT INTO `spawnlist_ub` VALUES ('317', '2', '1', '2', '스켈리턴 가이드', '45269', '15', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('318', '2', '1', '2', '사벨 타이거', '45267', '20', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('319', '2', '1', '2', '파이어 에그', '45206', '30', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('320', '2', '1', '2', '오가', '45278', '20', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('321', '2', '1', '2', '불트', '45373', '15', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('322', '2', '1', '2', '그리폰', '45445', '10', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('323', '2', '1', '2', '데스', '45221', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('324', '2', '1', '2', '쟈이안트안트소르쟈', '45190', '25', '48', '0');
-INSERT INTO `spawnlist_ub` VALUES ('325', '2', '1', '2', '실루엣', '45162', '25', '24', '0');
-INSERT INTO `spawnlist_ub` VALUES ('326', '2', '1', '2', '킹 버그 베어', '45298', '20', '0', '0');
-INSERT INTO `spawnlist_ub` VALUES ('327', '2', '1', '2', '가스트', '45213', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('328', '2', '1', '2', '사큐바스', '45393', '20', '40', '0');
-INSERT INTO `spawnlist_ub` VALUES ('329', '2', '1', '3', '오가', '45278', '25', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('330', '2', '1', '3', '드렛드스파이다', '45184', '25', '34', '0');
-INSERT INTO `spawnlist_ub` VALUES ('331', '2', '1', '3', '스케르톤아챠', '45122', '15', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('332', '2', '1', '3', '다크 에르프', '45364', '15', '24', '0');
-INSERT INTO `spawnlist_ub` VALUES ('333', '2', '1', '3', '실루엣', '45162', '15', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('334', '2', '1', '3', '아이스 맨', '45182', '15', '4', '0');
-INSERT INTO `spawnlist_ub` VALUES ('335', '2', '1', '3', '인프', '45051', '25', '10', '0');
-INSERT INTO `spawnlist_ub` VALUES ('336', '2', '1', '3', '고우스트', '45174', '20', '34', '0');
-INSERT INTO `spawnlist_ub` VALUES ('337', '2', '1', '3', '킹 버그 베어', '45298', '20', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('338', '2', '1', '3', '사이크로프스', '45420', '25', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('339', '2', '1', '3', '혼케르베로스', '45341', '15', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('340', '2', '1', '3', '아이안고렘', '45372', '5', '14', '0');
-INSERT INTO `spawnlist_ub` VALUES ('341', '2', '1', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('342', '2', '1', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('344', '2', '2', '1', '호브고브린', '45140', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('345', '2', '2', '1', '쟈이안트안트', '45115', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('346', '2', '2', '1', '굴', '45157', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('347', '2', '2', '1', '쟈이안트안트소르쟈', '45190', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('348', '2', '2', '1', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('349', '2', '2', '1', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('350', '2', '2', '1', '스케르톤파이크', '45131', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('351', '2', '2', '1', '스케르톤아챠', '45122', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('352', '2', '2', '1', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('353', '2', '2', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('354', '2', '2', '1', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('355', '2', '2', '1', '좀비', '45105', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('356', '2', '2', '1', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('357', '2', '2', '1', '슬라임', '45060', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('358', '2', '2', '1', '아시타지오', '45359', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('359', '2', '2', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('360', '2', '2', '2', '스코피온', '45277', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('361', '2', '2', '2', '파이어 에그', '45206', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('362', '2', '2', '2', '트롤', '45280', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('363', '2', '2', '2', '폭탄 플라워', '45263', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('364', '2', '2', '2', '바닝아챠', '45291', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('365', '2', '2', '2', '데스', '45221', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('366', '2', '2', '2', '쟈이안트안트소르쟈', '45190', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('367', '2', '2', '2', '동성애자더-', '45349', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('368', '2', '2', '2', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('369', '2', '2', '2', '가스트', '45213', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('370', '2', '2', '2', '사큐바스', '45393', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('371', '2', '2', '2', '베어', '45040', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('372', '2', '2', '3', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('373', '2', '2', '3', '드렛드스파이다', '45184', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('374', '2', '2', '3', '스케르톤아챠', '45129', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('375', '2', '2', '3', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('376', '2', '2', '3', '설인', '45294', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('377', '2', '2', '3', '아이스 맨', '45182', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('378', '2', '2', '3', '인프', '45051', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('379', '2', '2', '3', '고우스트', '45174', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('380', '2', '2', '3', '오크스카우트', '45138', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('381', '2', '2', '3', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('382', '2', '2', '3', '사이크로프스', '45420', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('383', '2', '2', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('384', '2', '2', '3', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('385', '2', '2', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('386', '2', '2', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('387', '2', '3', '1', '호브고브린', '45140', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('388', '2', '3', '1', '쟈이안트안트', '45115', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('389', '2', '3', '1', '굴', '45157', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('390', '2', '3', '1', '쟈이안트안트소르쟈', '45190', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('391', '2', '3', '1', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('392', '2', '3', '1', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('393', '2', '3', '1', '스케르톤파이크', '45131', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('394', '2', '3', '1', '스케르톤아챠', '45129', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('395', '2', '3', '1', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('396', '2', '3', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('397', '2', '3', '1', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('398', '2', '3', '1', '좀비', '45105', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('399', '2', '3', '1', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('400', '2', '3', '1', '슬라임', '45060', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('401', '2', '3', '1', '아시타지오', '45359', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('402', '2', '3', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('403', '2', '3', '2', '사벨 타이거', '45267', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('404', '2', '3', '2', '엘 모어 좀비 제너럴', '45248', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('405', '2', '3', '2', '타트르드라곤', '45262', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('406', '2', '3', '2', '케르베로스', '45241', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('407', '2', '3', '2', '엘 모어 좀비 좀비 위저드', '45224', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('408', '2', '3', '2', '데스', '45221', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('409', '2', '3', '2', '쟈이안트안트소르쟈', '45190', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('410', '2', '3', '2', '시단서', '45228', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('411', '2', '3', '2', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('412', '2', '3', '2', '가스트', '45213', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('413', '2', '3', '2', '사큐바스', '45393', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('414', '2', '3', '3', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('415', '2', '3', '3', '드렛드스파이다', '45184', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('416', '2', '3', '3', '스케르톤아챠', '45129', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('417', '2', '3', '3', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('418', '2', '3', '3', '코카트리스', '45362', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('419', '2', '3', '3', '아이스 맨', '45182', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('420', '2', '3', '3', '인프', '45051', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('421', '2', '3', '3', '고우스트', '45174', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('422', '2', '3', '3', '가스트로드', '45346', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('423', '2', '3', '3', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('424', '2', '3', '3', '사이크로프스', '45420', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('425', '2', '3', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('426', '2', '3', '3', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('427', '2', '3', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('428', '2', '3', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('429', '2', '4', '1', '호브고브린', '45140', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('430', '2', '4', '1', '쟈이안트안트', '45115', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('431', '2', '4', '1', '굴', '45157', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('432', '2', '4', '1', '쟈이안트안트소르쟈', '45190', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('433', '2', '4', '1', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('434', '2', '4', '1', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('435', '2', '4', '1', '스케르톤파이크', '45131', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('436', '2', '4', '1', '스케르톤아챠', '45129', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('437', '2', '4', '1', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('438', '2', '4', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('439', '2', '4', '1', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('440', '2', '4', '1', '좀비', '45105', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('441', '2', '4', '1', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('442', '2', '4', '1', '슬라임', '45060', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('443', '2', '4', '1', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('444', '2', '4', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('445', '2', '4', '2', '사벨 타이거', '45267', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('446', '2', '4', '2', '바닝워리아', '45284', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('447', '2', '4', '2', '바닝아챠', '45291', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('448', '2', '4', '2', '사라만다', '45203', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('449', '2', '4', '2', '그리폰', '45445', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('450', '2', '4', '2', '데스', '45221', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('451', '2', '4', '2', '쟈이안트안트소르쟈', '45190', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('452', '2', '4', '2', '바지리스크', '45531', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('453', '2', '4', '2', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('454', '2', '4', '2', '가스트', '45213', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('455', '2', '4', '2', '사큐바스', '45393', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('456', '2', '4', '3', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('457', '2', '4', '3', '드렛드스파이다', '45184', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('458', '2', '4', '3', '스케르톤아챠', '45129', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('459', '2', '4', '3', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('460', '2', '4', '3', '동성애자더-', '45349', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('461', '2', '4', '3', '아이스 맨', '45182', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('462', '2', '4', '3', '인프', '45051', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('463', '2', '4', '3', '고우스트', '45174', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('464', '2', '4', '3', '브락크에르다', '81176', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('465', '2', '4', '3', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('466', '2', '4', '3', '불트', '45373', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('467', '2', '4', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('468', '2', '4', '3', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('469', '2', '4', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('470', '2', '4', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('471', '2', '5', '1', '호브고브린', '45140', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('472', '2', '5', '1', '쟈이안트안트', '45115', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('473', '2', '5', '1', '굴', '45157', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('474', '2', '5', '1', '쟈이안트안트소르쟈', '45190', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('475', '2', '5', '1', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('476', '2', '5', '1', '스켈리턴', '45107', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('477', '2', '5', '1', '스케르톤파이크', '45131', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('478', '2', '5', '1', '스케르톤아챠', '45129', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('479', '2', '5', '1', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('480', '2', '5', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('481', '2', '5', '1', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('482', '2', '5', '1', '좀비', '45105', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('483', '2', '5', '1', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('484', '2', '5', '1', '슬라임', '45060', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('485', '2', '5', '1', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('486', '2', '5', '2', '스켈리턴 가이드', '45269', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('487', '2', '5', '2', '사벨 타이거', '45267', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('488', '2', '5', '2', '파이어 에그', '45206', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('489', '2', '5', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('490', '2', '5', '2', '불트', '45373', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('491', '2', '5', '2', '사이크로프스', '45420', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('492', '2', '5', '2', '오크 위저드', '45121', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('493', '2', '5', '2', '오크 좀비', '45104', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('494', '2', '5', '2', '오크스카우트', '45138', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('495', '2', '5', '2', '실루엣', '45162', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('496', '2', '5', '2', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('497', '2', '5', '2', '가스트', '45213', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('498', '2', '5', '2', '사큐바스', '45393', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('499', '2', '5', '3', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('500', '2', '5', '3', '드렛드스파이다', '45184', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('501', '2', '5', '3', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('502', '2', '5', '3', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('503', '2', '5', '3', '실루엣', '45162', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('504', '2', '5', '3', '아이스 맨', '45182', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('505', '2', '5', '3', '인프', '45051', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('506', '2', '5', '3', '고우스트', '45174', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('507', '2', '5', '3', '가스트로드', '45346', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('508', '2', '5', '3', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('509', '2', '5', '3', '사이크로프스', '45420', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('510', '2', '5', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('511', '2', '5', '3', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('512', '2', '5', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('513', '2', '5', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('515', '2', '6', '1', '호브고브린', '45140', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('516', '2', '6', '1', '쟈이안트안트', '45115', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('517', '2', '6', '1', '굴', '45157', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('518', '2', '6', '1', '쟈이안트안트소르쟈', '45190', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('519', '2', '6', '1', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('520', '2', '6', '1', '스켈리턴', '45107', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('521', '2', '6', '1', '스케르톤파이크', '45131', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('522', '2', '6', '1', '스케르톤아챠', '45129', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('523', '2', '6', '1', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('524', '2', '6', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('525', '2', '6', '1', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('526', '2', '6', '1', '좀비', '45105', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('527', '2', '6', '1', '킹 바크 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('528', '2', '6', '1', '슬라임', '45060', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('529', '2', '6', '1', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('530', '2', '6', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('531', '2', '6', '2', '사벨 타이거', '45267', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('532', '2', '6', '2', '시단서', '45228', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('533', '2', '6', '2', '오가', '45278', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('534', '2', '6', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('535', '2', '6', '2', '설인', '45294', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('536', '2', '6', '2', '불트', '45373', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('537', '2', '6', '2', '데스', '45221', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('538', '2', '6', '2', '쟈이안트안트소르쟈', '45190', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('539', '2', '6', '2', '트롤', '45280', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('540', '2', '6', '2', '실루엣', '45162', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('541', '2', '6', '2', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('542', '2', '6', '2', '가스트', '45213', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('543', '2', '6', '2', '사큐바스', '45393', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('544', '2', '6', '3', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('545', '2', '6', '3', '드렛드스파이다', '45184', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('546', '2', '6', '3', '스케르톤아챠', '45129', '30', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('547', '2', '6', '3', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('548', '2', '6', '3', '실루엣', '45162', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('549', '2', '6', '3', '아이스 맨', '45182', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('550', '2', '6', '3', '킹 버그 베어', '45298', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('551', '2', '6', '3', '사이크로프스', '45420', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('552', '2', '6', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('553', '2', '6', '3', '아이안고렘', '45372', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('554', '2', '6', '4', '훼닉스', '45617', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('555', '2', '6', '4', '드레이크', '45578', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('557', '3', '1', '1', '스파르트이', '45161', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('558', '3', '1', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('559', '3', '1', '1', '스케르톤악스', '45130', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('560', '3', '1', '1', '스케르톤파이크', '45131', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('561', '3', '1', '1', '오크 fighter', '45082', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('562', '3', '1', '1', '오크스카우트', '45138', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('563', '3', '1', '1', '오크 위저드', '45121', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('564', '3', '1', '1', '래트 맨', '45192', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('565', '3', '1', '1', '리자드만', '45144', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('566', '3', '1', '1', '클럽 맨', '45164', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('567', '3', '1', '1', '바크크', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('568', '3', '1', '1', '라이칸스로프', '45173', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('569', '3', '1', '1', '자이언트 spider', '45136', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('570', '3', '1', '1', '드렛드스파이다', '45184', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('571', '3', '1', '1', '엘 모어 좀비 솔저', '45216', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('572', '3', '1', '1', '엘 모어 좀비 위저드', '45224', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('573', '3', '1', '1', '엘 모어 좀비 제너럴', '45248', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('574', '3', '1', '1', '에르다', '45215', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('575', '3', '1', '1', '가스트', '45213', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('576', '3', '1', '1', '바크 베어', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('577', '3', '1', '2', '스켈리턴 가이드', '45269', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('578', '3', '1', '2', '스케르톤마크스만', '45270', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('579', '3', '1', '2', '스켈리턴 fighter', '45286', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('580', '3', '1', '2', '바닝워리아', '45284', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('581', '3', '1', '2', '바닝아챠', '45291', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('582', '3', '1', '2', '리빙 아모', '45322', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('583', '3', '1', '2', '오가', '45278', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('584', '3', '1', '2', '트롤', '45280', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('585', '3', '1', '2', '다크 에르프', '45364', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('586', '3', '1', '2', '사벨 타이거', '45267', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('587', '3', '1', '2', '바크 베어', '45223', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('588', '3', '1', '2', '킹 버그 베어', '45298', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('589', '3', '1', '2', '설인', '45294', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('590', '3', '1', '3', '라바고렘', '45365', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('591', '3', '1', '3', '가스트로드', '45346', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('592', '3', '1', '3', '아시타지오', '45359', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('593', '3', '1', '3', '브락크에르다', '81176', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('594', '3', '1', '3', '불트', '45373', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('595', '3', '1', '3', '바지리스크', '45531', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('596', '3', '1', '3', '사큐바스', '45393', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('597', '3', '1', '3', '아이안고렘', '45372', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('598', '3', '1', '3', '혼케르베로스', '45341', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('599', '3', '1', '3', '사이크로프스', '45420', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('600', '3', '1', '4', '드레이크', '45578', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('601', '3', '1', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('602', '3', '2', '1', '스파르트이', '45161', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('603', '3', '2', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('604', '3', '2', '1', '래트 맨', '45192', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('605', '3', '2', '1', '스케르톤파이크', '45131', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('606', '3', '2', '1', '오크 fighter', '45082', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('607', '3', '2', '1', '오크스카우트', '45138', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('608', '3', '2', '1', '오크 위저드', '45121', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('609', '3', '2', '1', '아이안고렘', '45372', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('610', '3', '2', '1', '리자드만', '45144', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('611', '3', '2', '1', '클럽 맨', '45164', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('612', '3', '2', '1', '바크크', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('613', '3', '2', '1', '라이칸스로프', '45173', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('614', '3', '2', '1', '자이언트 spider', '45136', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('615', '3', '2', '1', '드렛드스파이다', '45184', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('616', '3', '2', '1', '엘 모어 좀비 솔저', '45216', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('617', '3', '2', '1', '엘 모어 좀비 위저드', '45224', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('618', '3', '2', '1', '엘 모어 좀비 제너럴', '45248', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('619', '3', '2', '1', '에르다', '45215', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('620', '3', '2', '1', '슬라임', '45060', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('621', '3', '2', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('622', '3', '2', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('623', '3', '2', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('624', '3', '2', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('625', '3', '2', '2', '바닝워리아', '45284', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('626', '3', '2', '2', '바닝아챠', '45291', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('627', '3', '2', '2', '리빙 아모', '45322', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('628', '3', '2', '2', '오가', '45278', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('629', '3', '2', '2', '트롤', '45280', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('630', '3', '2', '2', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('631', '3', '2', '2', '사벨 타이거', '45267', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('632', '3', '2', '2', '바크 베어', '45223', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('633', '3', '2', '2', '킹 버그 베어', '45298', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('634', '3', '2', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('635', '3', '2', '3', '라바고렘', '45365', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('636', '3', '2', '3', '가스트로드', '45346', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('637', '3', '2', '3', '아시타지오', '45359', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('638', '3', '2', '3', '브락크에르다', '81176', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('639', '3', '2', '3', '불트', '45373', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('640', '3', '2', '3', '바지리스크', '45531', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('641', '3', '2', '3', '사큐바스', '45393', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('642', '3', '2', '3', '아이안고렘', '45372', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('643', '3', '2', '3', '혼케르베로스', '45341', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('644', '3', '2', '3', '사이크로프스', '45420', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('645', '3', '2', '4', '드레이크', '45578', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('646', '3', '2', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('647', '3', '3', '1', '스파르트이', '45161', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('648', '3', '3', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('649', '3', '3', '1', '래트 맨', '45192', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('650', '3', '3', '1', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('651', '3', '3', '1', '오크 fighter', '45082', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('652', '3', '3', '1', '오크스카우트', '45138', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('653', '3', '3', '1', '오크 위저드', '45121', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('654', '3', '3', '1', '아이안고렘', '45372', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('655', '3', '3', '1', '리자드만', '45144', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('656', '3', '3', '1', '클럽 맨', '45164', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('657', '3', '3', '1', '바크크', '45223', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('658', '3', '3', '1', '라이칸스로프', '45173', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('659', '3', '3', '1', '자이언트 spider', '45136', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('660', '3', '3', '1', '드렛드스파이다', '45184', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('661', '3', '3', '1', '엘 모어 좀비 솔저', '45216', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('662', '3', '3', '1', '엘 모어 좀비 위저드', '45224', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('663', '3', '3', '1', '엘 모어 좀비 제너럴', '45248', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('664', '3', '3', '1', '에르다', '45215', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('665', '3', '3', '1', '슬라임', '45060', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('666', '3', '3', '1', '바크 베어', '45223', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('667', '3', '3', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('668', '3', '3', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('669', '3', '3', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('670', '3', '3', '2', '바닝워리아', '45284', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('671', '3', '3', '2', '바닝아챠', '45291', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('672', '3', '3', '2', '리빙 아모', '45322', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('673', '3', '3', '2', '오가', '45278', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('674', '3', '3', '2', '트롤', '45280', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('675', '3', '3', '2', '다크 에르프', '45364', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('676', '3', '3', '2', '사벨 타이거', '45267', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('677', '3', '3', '2', '바크 베어', '45223', '14', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('678', '3', '3', '2', '킹 버그 베어', '45298', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('679', '3', '3', '3', '사라만다', '45203', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('680', '3', '3', '3', '가스트로드', '45346', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('681', '3', '3', '3', '아시타지오', '45359', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('682', '3', '3', '3', '브락크에르다', '81176', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('683', '3', '3', '3', '동성애자더-', '45349', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('684', '3', '3', '3', '코카트리스', '45362', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('685', '3', '3', '3', '사큐바스', '45393', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('686', '3', '3', '3', '파이어 에그', '45206', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('687', '3', '3', '3', '혼케르베로스', '45341', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('688', '3', '3', '3', '사이크로프스', '45420', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('689', '3', '3', '4', '이후리트', '45515', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('690', '3', '3', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('691', '3', '4', '1', '스파르트이', '45161', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('692', '3', '4', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('693', '3', '4', '1', '래트 맨', '45192', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('694', '3', '4', '1', '스케르톤파이크', '45131', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('695', '3', '4', '1', '오크 fighter', '45082', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('696', '3', '4', '1', '오크스카우트', '45138', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('697', '3', '4', '1', '오크 위저드', '45121', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('698', '3', '4', '1', '아이안고렘', '45372', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('699', '3', '4', '1', '리자드만', '45144', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('700', '3', '4', '1', '클럽 맨', '45164', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('701', '3', '4', '1', '바크크', '45223', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('702', '3', '4', '1', '라이칸스로프', '45173', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('703', '3', '4', '1', '자이언트 spider', '45136', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('704', '3', '4', '1', '드렛드스파이다', '45184', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('705', '3', '4', '1', '엘 모어 좀비 솔저', '45216', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('706', '3', '4', '1', '엘 모어 좀비 위저드', '45224', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('707', '3', '4', '1', '엘 모어 좀비 제너럴', '45248', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('708', '3', '4', '1', '에르다', '45215', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('709', '3', '4', '1', '슬라임', '45060', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('710', '3', '4', '1', '바크 베어', '45223', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('711', '3', '4', '2', '스켈리턴 가이드', '45269', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('712', '3', '4', '2', '스케르톤마크스만', '45270', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('713', '3', '4', '2', '스켈리턴 fighter', '45286', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('714', '3', '4', '2', '바닝워리아', '45284', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('715', '3', '4', '2', '바닝아챠', '45291', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('716', '3', '4', '2', '리빙 아모', '45322', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('717', '3', '4', '2', '오가', '45278', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('718', '3', '4', '2', '트롤', '45280', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('719', '3', '4', '2', '다크 에르프', '45364', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('720', '3', '4', '2', '사벨 타이거', '45267', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('721', '3', '4', '2', '바크 베어', '45223', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('722', '3', '4', '2', '킹 버그 베어', '45298', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('723', '3', '4', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('724', '3', '4', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('725', '3', '4', '3', '가스트로드', '45346', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('726', '3', '4', '3', '아시타지오', '45359', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('727', '3', '4', '3', '불트', '45373', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('728', '3', '4', '3', '파이어 에그', '45206', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('729', '3', '4', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('730', '3', '4', '3', '크로커다일', '45469', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('731', '3', '4', '4', '이후리트', '45515', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('732', '3', '4', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('733', '3', '5', '1', '스파르트이', '45161', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('734', '3', '5', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('735', '3', '5', '1', '스케르톤악스', '45130', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('736', '3', '5', '1', '스케르톤파이크', '45131', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('737', '3', '5', '1', '오크 fighter', '45082', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('738', '3', '5', '1', '오크스카우트', '45138', '17', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('739', '3', '5', '1', '오크 위저드', '45121', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('740', '3', '5', '1', '래트 맨', '45192', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('741', '3', '5', '1', '리자드만', '45144', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('742', '3', '5', '1', '클럽 맨', '45164', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('743', '3', '5', '1', '바크크', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('744', '3', '5', '1', '라이칸스로프', '45173', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('745', '3', '5', '1', '자이언트 spider', '45136', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('746', '3', '5', '1', '드렛드스파이다', '45184', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('747', '3', '5', '1', '엘 모어 좀비 솔저', '45216', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('748', '3', '5', '1', '엘 모어 좀비 위저드', '45224', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('749', '3', '5', '1', '엘 모어 좀비 제너럴', '45248', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('750', '3', '5', '1', '에르다', '45215', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('751', '3', '5', '1', '가스트', '45213', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('752', '3', '5', '1', '바크 베어', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('753', '3', '5', '2', '스켈리턴 가이드', '45269', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('754', '3', '5', '2', '스케르톤마크스만', '45270', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('755', '3', '5', '2', '스켈리턴 fighter', '45286', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('756', '3', '5', '2', '바닝워리아', '45284', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('757', '3', '5', '2', '바닝아챠', '45291', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('758', '3', '5', '2', '리빙 아모', '45322', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('759', '3', '5', '2', '오가', '45278', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('760', '3', '5', '2', '트롤', '45280', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('761', '3', '5', '2', '다크 에르프', '45364', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('762', '3', '5', '2', '사벨 타이거', '45267', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('763', '3', '5', '2', '바크 베어', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('764', '3', '5', '2', '킹 버그 베어', '45298', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('765', '3', '5', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('766', '3', '5', '3', '사라만다', '45203', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('767', '3', '5', '3', '가스트로드', '45346', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('768', '3', '5', '3', '아시타지오', '45359', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('769', '3', '5', '3', '브락크에르다', '81176', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('770', '3', '5', '3', '동성애자더-', '45349', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('771', '3', '5', '3', '코카트리스', '45362', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('772', '3', '5', '3', '사큐바스', '45393', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('773', '3', '5', '3', '파이어 에그', '45206', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('774', '3', '5', '3', '혼케르베로스', '45341', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('775', '3', '5', '3', '사이크로프스', '45420', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('776', '3', '5', '4', '이후리트', '45515', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('777', '3', '5', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('778', '3', '6', '1', '스파르트이', '45161', '22', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('779', '3', '6', '1', '베어', '45040', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('780', '3', '6', '1', '래트 맨', '45192', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('781', '3', '6', '1', '스케르톤파이크', '45131', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('782', '3', '6', '1', '오크 fighter', '45082', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('783', '3', '6', '1', '오크스카우트', '45138', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('784', '3', '6', '1', '오크 위저드', '45121', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('785', '3', '6', '1', '아이안고렘', '45372', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('786', '3', '6', '1', '리자드만', '45144', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('787', '3', '6', '1', '클럽 맨', '45164', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('788', '3', '6', '1', '보브고브린', '45140', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('789', '3', '6', '1', '라이칸스로프', '45173', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('790', '3', '6', '1', '자이언트 spider', '45136', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('791', '3', '6', '1', '드렛드스파이다', '45184', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('792', '3', '6', '1', '엘 모어 좀비 솔저', '45216', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('793', '3', '6', '1', '미믹크', '45141', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('794', '3', '6', '1', '엘 모어 좀비 제너럴', '45248', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('795', '3', '6', '1', '에르다', '45215', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('796', '3', '6', '1', '슬라임', '45060', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('797', '3', '6', '1', '바크 베어', '45223', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('798', '3', '6', '2', '스켈리턴 가이드', '45269', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('799', '3', '6', '2', '스케르톤마크스만', '45270', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('800', '3', '6', '2', '스켈리턴 fighter', '45286', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('801', '3', '6', '2', '바닝워리아', '45284', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('802', '3', '6', '2', '바닝아챠', '45291', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('803', '3', '6', '2', '파이어 에그', '45206', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('804', '3', '6', '2', '오가', '45278', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('805', '3', '6', '2', '트롤', '45280', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('806', '3', '6', '2', '다크 에르프', '45364', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('807', '3', '6', '2', '사벨 타이거', '45267', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('808', '3', '6', '2', '바크 베어', '45223', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('809', '3', '6', '2', '킹 버그 베어', '45298', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('810', '3', '6', '2', '설인', '45294', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('811', '3', '6', '3', '라바고렘', '45365', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('812', '3', '6', '3', '가스트로드', '45346', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('813', '3', '6', '3', '아시타지오', '45359', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('814', '3', '6', '3', '불트', '45373', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('815', '3', '6', '3', '파이어 에그', '45206', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('816', '3', '6', '3', '혼케르베로스', '45341', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('817', '3', '6', '3', '크로커다일', '45469', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('818', '3', '6', '4', '이후리트', '45515', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('819', '3', '6', '4', '드레이크', '45578', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('820', '4', '1', '1', '드워후', '45041', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('821', '4', '1', '1', '인프', '45051', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('822', '4', '1', '1', '슬라임', '45060', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('823', '4', '1', '1', '후로팅아이', '45068', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('824', '4', '1', '1', '드워후', '45041', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('825', '4', '1', '1', '드워후워리아', '45092', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('826', '4', '1', '1', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('827', '4', '1', '1', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('828', '4', '1', '1', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('829', '4', '1', '1', '스케르톤악스', '45130', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('830', '4', '1', '1', '자이언트 spider', '45136', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('831', '4', '1', '1', '슬라임', '45060', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('832', '4', '1', '2', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('833', '4', '1', '2', '스케르톤아챠', '45129', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('834', '4', '1', '2', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('835', '4', '1', '2', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('836', '4', '1', '2', '좀비', '45105', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('837', '4', '1', '2', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('838', '4', '1', '2', '스케르톤파이크', '45131', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('839', '4', '1', '2', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('840', '4', '1', '2', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('841', '4', '1', '2', '스파르트이', '45161', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('842', '4', '1', '3', '스토고렘', '45126', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('843', '4', '1', '3', '미믹크', '45141', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('844', '4', '1', '3', '고우스트', '45174', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('845', '4', '1', '3', '오우르베아', '45371', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('846', '4', '1', '3', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('847', '4', '1', '3', '스케르톤아챠', '45129', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('848', '4', '1', '3', '드렛드스파이다', '45184', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('849', '4', '1', '3', '자이언트 spider', '45136', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('850', '4', '1', '4', '브락크에르다', '81176', '4', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('851', '4', '1', '4', '브락크에르다', '81176', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('852', '4', '2', '1', '드워후', '45041', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('853', '4', '2', '1', '아이드론', '45027', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('854', '4', '2', '1', '노르', '45079', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('855', '4', '2', '1', '페이퍼 맨', '45088', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('856', '4', '2', '1', '오크 fighter', '45082', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('857', '4', '2', '1', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('858', '4', '2', '1', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('859', '4', '2', '1', '스케르톤파이크', '45131', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('860', '4', '2', '1', '스케르톤악스', '45130', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('861', '4', '2', '1', '자이언트 spider', '45136', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('862', '4', '2', '1', '슬라임', '45060', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('863', '4', '2', '2', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('864', '4', '2', '2', '스케르톤아챠', '45129', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('865', '4', '2', '2', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('866', '4', '2', '2', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('867', '4', '2', '2', '여우', '45048', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('868', '4', '2', '2', '스케르톤악스', '45130', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('869', '4', '2', '2', '팡스', '45551', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('870', '4', '2', '2', '베어', '45040', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('871', '4', '2', '2', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('872', '4', '2', '2', '스파르트이', '45161', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('873', '4', '2', '3', '스토고렘', '45126', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('874', '4', '2', '3', '미믹크', '45141', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('875', '4', '2', '3', '고우스트', '45174', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('876', '4', '2', '3', '오우르베아', '45371', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('877', '4', '2', '3', '바크크', '45223', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('878', '4', '2', '3', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('879', '4', '2', '3', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('880', '4', '2', '3', '로바오크', '45127', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('881', '4', '2', '3', '라이칸스로프', '45173', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('882', '4', '2', '3', '자이언트 spider', '45136', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('883', '4', '2', '3', '드렛드스파이다', '45184', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('884', '4', '2', '3', '트롯그', '45155', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('885', '4', '2', '4', '브락크에르다', '81176', '9', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('886', '4', '2', '4', '브락크에르다', '81176', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('887', '4', '3', '1', '드워후', '45041', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('888', '4', '3', '1', '오크', '45017', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('889', '4', '3', '1', '후로팅아이', '45068', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('890', '4', '3', '1', '팡스', '45551', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('891', '4', '3', '1', '노르', '45079', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('892', '4', '3', '1', '오크 fighter', '45082', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('893', '4', '3', '1', '아리게이타', '45101', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('894', '4', '3', '1', '오크 좀비', '45104', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('895', '4', '3', '1', '오크 위저드', '45121', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('896', '4', '3', '1', '자이언트 spider', '45136', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('897', '4', '3', '1', '슬라임', '45060', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('898', '4', '3', '2', '스켈리턴', '45107', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('899', '4', '3', '2', '스케르톤아챠', '45129', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('900', '4', '3', '2', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('901', '4', '3', '2', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('902', '4', '3', '2', '좀비', '45105', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('903', '4', '3', '2', '쟈이안트안트', '45115', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('904', '4', '3', '2', '자이언트 spider', '45136', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('905', '4', '3', '2', '리자드만', '45144', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('906', '4', '3', '2', '스파르트이', '45161', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('907', '4', '3', '3', '스토고렘', '45126', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('908', '4', '3', '3', '미믹크', '45141', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('909', '4', '3', '3', '고우스트', '45174', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('910', '4', '3', '3', '오우르베아', '45371', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('911', '4', '3', '3', '클럽 맨', '45164', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('912', '4', '3', '3', '스케르톤파이크', '45131', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('913', '4', '3', '3', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('914', '4', '3', '3', '드렛드스파이다', '45184', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('915', '4', '3', '3', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('916', '4', '3', '4', '브락크에르다', '81176', '4', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('917', '4', '3', '4', '브락크에르다', '81176', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('918', '4', '4', '1', '드워후', '45041', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('919', '4', '4', '1', '여우', '45048', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('920', '4', '4', '1', '후로팅아이', '45068', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('921', '4', '4', '1', '드워후', '45041', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('922', '4', '4', '1', '노르', '45079', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('923', '4', '4', '1', '오크 fighter', '45082', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('924', '4', '4', '1', '스케르톤아챠', '45129', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('925', '4', '4', '1', '스케르톤파이크', '45131', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('926', '4', '4', '1', '스케르톤악스', '45130', '7', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('927', '4', '4', '1', '자이언트 spider', '45136', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('928', '4', '4', '1', '슬라임', '45060', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('929', '4', '4', '2', '스켈리턴', '45107', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('930', '4', '4', '2', '스케르톤아챠', '45129', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('931', '4', '4', '2', '스케르톤파이크', '45131', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('932', '4', '4', '2', '스케르톤악스', '45130', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('933', '4', '4', '2', '좀비', '45105', '25', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('934', '4', '4', '2', '쟈이안트안트', '45115', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('935', '4', '4', '2', '자이언트 spider', '45136', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('936', '4', '4', '2', '리자드만', '45144', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('937', '4', '4', '2', '스파르트이', '45161', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('938', '4', '4', '3', '스토고렘', '45126', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('939', '4', '4', '3', '미믹크', '45141', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('940', '4', '4', '3', '고우스트', '45174', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('941', '4', '4', '3', '오우르베아', '45371', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('942', '4', '4', '3', '클럽 맨', '45164', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('943', '4', '4', '3', '스케르톤파이크', '45131', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('944', '4', '4', '3', '스케르톤악스', '45130', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('945', '4', '4', '3', '드렛드스파이다', '45184', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('946', '4', '4', '3', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('947', '4', '4', '4', '브락크에르다', '81176', '4', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('948', '4', '4', '4', '브락크에르다', '81176', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('949', '5', '1', '1', '오크아챠', '45019', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('950', '5', '1', '1', '오크 fighter', '45082', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('951', '5', '1', '1', '페이퍼 맨', '45088', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('952', '5', '1', '1', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('953', '5', '1', '1', '베어', '45040', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('954', '5', '1', '1', '오크 위저드', '45121', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('955', '5', '1', '1', '바크크', '45223', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('956', '5', '1', '1', '여우', '45048', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('957', '5', '1', '1', '인프', '45051', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('958', '5', '1', '1', '인프에르다', '45064', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('959', '5', '1', '1', '쟈이안트안트', '45115', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('960', '5', '1', '1', '좀비', '45105', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('961', '5', '1', '1', '노르', '45079', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('962', '5', '1', '1', '스케르톤아챠', '45129', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('963', '5', '1', '2', '미믹크', '45141', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('964', '5', '1', '2', '호브고브린', '45140', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('965', '5', '1', '2', '오우르베아', '45371', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('966', '5', '1', '2', '트롯그', '45155', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('967', '5', '1', '2', '클럽 맨', '45164', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('968', '5', '1', '2', '크리핑크로우', '45083', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('969', '5', '1', '2', '드워후워리아', '45092', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('970', '5', '1', '2', '스켈리턴', '45107', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('971', '5', '1', '2', '자이언트 spider', '45136', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('972', '5', '1', '2', '굴', '45157', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('973', '5', '1', '2', '스파르트이', '45161', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('974', '5', '1', '2', '슬라임', '45060', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('975', '5', '1', '3', '굴', '45157', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('976', '5', '1', '3', '아이드론', '45027', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('977', '5', '1', '3', '인프에르다', '45064', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('978', '5', '1', '3', '트롯그', '45155', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('979', '5', '1', '3', '호브고브린', '45140', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('980', '5', '1', '3', '쟈이안트안트', '45115', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('981', '5', '1', '3', '자이언트 spider', '45136', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('982', '5', '1', '3', '드워후워리아', '45092', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('983', '5', '1', '3', '아이스고렘', '45182', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('984', '5', '1', '3', '스토고렘', '45126', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('985', '5', '1', '3', '쟈이안트안트소르쟈', '45190', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('986', '5', '1', '3', '팡스', '45551', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('987', '5', '1', '3', '노르', '45079', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('988', '5', '1', '3', '스코피온', '45259', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('989', '5', '1', '4', '가스트', '45213', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('990', '5', '1', '4', '가스트로드', '45346', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('991', '5', '2', '1', '좀비', '45105', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('992', '5', '2', '1', '노르', '45079', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('993', '5', '2', '1', '아리게이타', '45101', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('994', '5', '2', '1', '멧돼지', '45023', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('995', '5', '2', '1', '팡스', '45551', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('996', '5', '2', '1', '아이드론', '45027', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('997', '5', '2', '1', '오크 fighter', '45082', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('998', '5', '2', '1', '아트바오크', '45149', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('999', '5', '2', '1', '두다마라오크', '45143', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1000', '5', '2', '1', '오크 좀비', '45104', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1001', '5', '2', '1', '오크스카우트', '45138', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1002', '5', '2', '1', '오크 위저드', '45121', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1003', '5', '2', '1', '스토고렘', '45126', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1004', '5', '2', '2', '리자드만', '45144', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1005', '5', '2', '2', '호브고브린', '45140', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1006', '5', '2', '2', '스케르톤악스', '45130', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1007', '5', '2', '2', '스케르톤파이크', '45131', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1008', '5', '2', '2', '스케르톤아챠', '45129', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1009', '5', '2', '2', '스파르트이', '45161', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1010', '5', '2', '2', '자이언트 spider', '45136', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1011', '5', '2', '2', '오우르베아', '45371', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1012', '5', '2', '2', '좀비', '45105', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1013', '5', '2', '2', '후로팅아이', '45068', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1014', '5', '2', '2', '트롯그', '45155', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1015', '5', '2', '2', '슬라임', '45060', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1016', '5', '2', '3', '좀비', '45105', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1017', '5', '2', '3', '오크 fighter', '45082', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1018', '5', '2', '3', '아리게이타', '45101', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1019', '5', '2', '3', '바크크', '45223', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1020', '5', '2', '3', '슬라임', '45060', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1021', '5', '2', '3', '쟈이안트안트', '45115', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1022', '5', '2', '3', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1023', '5', '2', '3', '드워후워리아', '45092', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1024', '5', '2', '3', '아이스고렘', '45182', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1025', '5', '2', '3', '스토고렘', '45126', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1026', '5', '2', '3', '쟈이안트안트소르쟈', '45190', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1027', '5', '2', '3', '스켈리턴', '45107', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1028', '5', '2', '3', '노르', '45079', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1029', '5', '2', '3', '라미아', '45387', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1030', '5', '2', '3', '미믹크', '45141', '7', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1031', '5', '2', '4', '가스트', '45213', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1032', '5', '2', '4', '가스트로드', '45346', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('1033', '5', '3', '1', '팡스', '45551', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1034', '5', '3', '1', '여우', '45048', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1035', '5', '3', '1', '쟈이안트안트', '45115', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1036', '5', '3', '1', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1037', '5', '3', '1', '좀비', '45105', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1038', '5', '3', '1', '드워후', '45041', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1039', '5', '3', '1', '드워후워리아', '45092', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1040', '5', '3', '1', '스켈리턴', '45107', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1041', '5', '3', '1', '스케르톤아챠', '45129', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1042', '5', '3', '1', '스케르톤악스', '45130', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1043', '5', '3', '1', '스케르톤파이크', '45131', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1044', '5', '3', '1', '스토고렘', '45126', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1045', '5', '3', '1', '오크스카우트', '45138', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1046', '5', '3', '2', '클럽 맨', '45164', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1047', '5', '3', '2', '바크 베어', '45223', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1048', '5', '3', '2', '아이스고렘', '45182', '1', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1049', '5', '3', '2', '드렛드스파이다', '45184', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1050', '5', '3', '2', '호브고브린', '45140', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1051', '5', '3', '2', '오우르베아', '45371', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1052', '5', '3', '2', '트롯그', '45155', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1053', '5', '3', '2', '오크 위저드', '45121', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1054', '5', '3', '2', '래트 맨', '45192', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1055', '5', '3', '2', '라이칸스로프', '45173', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1056', '5', '3', '2', '슬라임', '45060', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1057', '5', '3', '3', '굴', '45157', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1058', '5', '3', '3', '팡스', '45551', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1059', '5', '3', '3', '좀비', '45105', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1060', '5', '3', '3', '베어', '45040', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1061', '5', '3', '3', '트롯그', '45155', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1062', '5', '3', '3', '호브고브린', '45140', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1063', '5', '3', '3', '쟈이안트안트', '45115', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1064', '5', '3', '3', '자이언트 spider', '45136', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1065', '5', '3', '3', '노르', '45079', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1066', '5', '3', '3', '아이스고렘', '45182', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1067', '5', '3', '3', '오크 위저드', '45121', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1068', '5', '3', '3', '쟈이안트안트소르쟈', '45190', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1069', '5', '3', '3', '드렛드스파이다', '45184', '3', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1070', '5', '3', '3', '노르', '45079', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1071', '5', '3', '3', '래트 맨', '45192', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1072', '5', '3', '3', '오우르베아', '45371', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1073', '5', '3', '4', '가스트', '45213', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1074', '5', '3', '4', '가스트로드', '45346', '1', '15', '15');
-INSERT INTO `spawnlist_ub` VALUES ('1075', '5', '4', '1', '후로팅아이', '45068', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1076', '5', '4', '1', '크리핑크로우', '45083', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1077', '5', '4', '1', '인프', '45051', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1078', '5', '4', '1', '인프에르다', '45064', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1079', '5', '4', '1', '멧돼지', '45023', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1080', '5', '4', '1', '드워후', '45041', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1081', '5', '4', '1', '드워후워리아', '45092', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1082', '5', '4', '1', '스켈리턴', '45107', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1083', '5', '4', '1', '베어', '45040', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1084', '5', '4', '1', '바크크', '45223', '12', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1085', '5', '4', '1', '호브고브린', '45140', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1086', '5', '4', '1', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1087', '5', '4', '1', '리자드만', '45144', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1088', '5', '4', '1', '트롯그', '45155', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1089', '5', '4', '2', '쟈이안트안트', '45115', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1090', '5', '4', '2', '오크 좀비', '45104', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1091', '5', '4', '2', '오크 위저드', '45121', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1092', '5', '4', '2', '오크 fighter', '45082', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1093', '5', '4', '2', '여우', '45048', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1094', '5', '4', '2', '아이드론', '45027', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1095', '5', '4', '2', '노르', '45079', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1096', '5', '4', '2', '아리게이타', '45101', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1097', '5', '4', '2', '간지오크', '45098', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1098', '5', '4', '2', '로바오크', '45127', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1099', '5', '4', '2', '아트바오크', '45149', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1100', '5', '4', '2', '두다마라오크', '45143', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1101', '5', '4', '2', '슬라임', '45060', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1102', '5', '4', '3', '굴', '45157', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1103', '5', '4', '3', '팡스', '45551', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1104', '5', '4', '3', '좀비', '45105', '20', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1105', '5', '4', '3', '베어', '45040', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1106', '5', '4', '3', '트롯그', '45155', '13', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1107', '5', '4', '3', '호브고브린', '45140', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1108', '5', '4', '3', '쟈이안트안트', '45115', '8', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1109', '5', '4', '3', '자이언트 spider', '45136', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1110', '5', '4', '3', '노르', '45079', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1111', '5', '4', '3', '아이스고렘', '45182', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1112', '5', '4', '3', '오크 위저드', '45121', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1113', '5', '4', '3', '쟈이안트안트소르쟈', '45190', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1114', '5', '4', '3', '드렛드스파이다', '45184', '5', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1115', '5', '4', '3', '노르', '45079', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1116', '5', '4', '3', '래트 맨', '45192', '15', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1117', '5', '4', '3', '오우르베아', '45371', '10', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1118', '5', '4', '4', '가스트', '45213', '2', '15', '0');
-INSERT INTO `spawnlist_ub` VALUES ('1119', '5', '4', '4', '가스트로드', '45346', '1', '15', '15');
+INSERT IGNORE INTO `spawnlist_ub` VALUES 
+('1', '1', '1', '1', '����� ��', '45133', '15', '10', '0'),
+('2', '1', '1', '1', '��ũ ������', '45121', '15', '10', '0'),
+('3', '1', '1', '1', '��ũũ', '45116', '15', '10', '0'),
+('4', '1', '1', '1', '�������', '45126', '15', '10', '0'),
+('5', '1', '1', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('6', '1', '1', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('7', '1', '1', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('8', '1', '1', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('9', '1', '1', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('10', '1', '1', '1', '���ڵ常', '45144', '15', '10', '0'),
+('11', '1', '1', '1', '��', '45157', '15', '10', '0'),
+('12', '1', '1', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('13', '1', '1', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('14', '1', '1', '1', '����ĭ������', '45173', '15', '10', '0'),
+('15', '1', '1', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('16', '1', '1', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('17', '1', '1', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('18', '1', '1', '1', '������', '45215', '15', '10', '0'),
+('19', '1', '1', '1', '����Ʈ', '45213', '15', '10', '0'),
+('20', '1', '1', '1', '���� ����', '45223', '15', '10', '0'),
+('21', '1', '1', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('22', '1', '1', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('23', '1', '1', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('24', '1', '1', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('25', '1', '1', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('26', '1', '1', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('27', '1', '1', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('28', '1', '1', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('29', '1', '1', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('30', '1', '1', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('31', '1', '1', '2', '����', '45278', '15', '15', '0'),
+('32', '1', '1', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('33', '1', '1', '2', '��ũ ������', '45364', '15', '15', '0'),
+('34', '1', '1', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('35', '1', '1', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('36', '1', '1', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('37', '1', '1', '2', '���� ��', '45289', '15', '15', '0'),
+('38', '1', '1', '2', '����', '45294', '15', '15', '0'),
+('39', '1', '1', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('40', '1', '1', '2', '��󸸴�', '45203', '15', '15', '0'),
+('41', '1', '1', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('42', '1', '1', '3', '���ũ������', '45550', '15', '15', '0'),
+('43', '1', '1', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('44', '1', '1', '3', '��Ʈ', '45373', '15', '15', '0'),
+('45', '1', '1', '3', '��ٰ���', '45365', '15', '15', '0'),
+('46', '1', '1', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('47', '1', '1', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('48', '1', '1', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('49', '1', '1', '3', '����ũ������', '45420', '15', '15', '0'),
+('50', '1', '1', '4', '��ť������', '45451', '5', '15', '3'),
+('51', '1', '2', '1', '������ ��', '45088', '15', '10', '0'),
+('52', '1', '2', '1', '��ũ ������', '45121', '15', '10', '0'),
+('53', '1', '2', '1', '����', '45040', '15', '10', '0'),
+('54', '1', '2', '1', '�������', '45126', '15', '10', '0'),
+('55', '1', '2', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('56', '1', '2', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('57', '1', '2', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('58', '1', '2', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('59', '1', '2', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('60', '1', '2', '1', '���ڵ常', '45144', '15', '10', '0'),
+('61', '1', '2', '1', '��', '45157', '15', '10', '0'),
+('62', '1', '2', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('63', '1', '2', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('64', '1', '2', '1', '����ĭ������', '45173', '15', '10', '0'),
+('65', '1', '2', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('66', '1', '2', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('67', '1', '2', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('68', '1', '2', '1', '������', '45215', '15', '10', '0'),
+('69', '1', '2', '1', '����Ʈ', '45213', '15', '10', '0'),
+('70', '1', '2', '1', '���� ����', '45223', '15', '10', '0'),
+('71', '1', '2', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('72', '1', '2', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('73', '1', '2', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('74', '1', '2', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('75', '1', '2', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('76', '1', '2', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('77', '1', '2', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('78', '1', '2', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('79', '1', '2', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('80', '1', '2', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('81', '1', '2', '2', '����', '45278', '15', '15', '0'),
+('82', '1', '2', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('83', '1', '2', '2', '��ũ ������', '45364', '15', '15', '0'),
+('84', '1', '2', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('85', '1', '2', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('86', '1', '2', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('87', '1', '2', '2', '���� ��', '45289', '15', '15', '0'),
+('88', '1', '2', '2', '����', '45294', '15', '15', '0'),
+('89', '1', '2', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('90', '1', '2', '2', '��󸸴�', '45203', '15', '15', '0'),
+('91', '1', '2', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('92', '1', '2', '3', '���ũ������', '45550', '15', '15', '0'),
+('93', '1', '2', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('94', '1', '2', '3', '��Ʈ', '45373', '15', '15', '0'),
+('95', '1', '2', '3', '��ٰ���', '45365', '15', '15', '0'),
+('96', '1', '2', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('97', '1', '2', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('98', '1', '2', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('99', '1', '2', '3', '����ũ������', '45420', '15', '15', '0'),
+('100', '1', '2', '4', '������', '45583', '2', '15', '0'),
+('101', '1', '2', '4', '������', '45583', '1', '15', '15'),
+('102', '1', '3', '1', '����Ŀ�����', '45092', '15', '10', '0'),
+('103', '1', '3', '1', '��ũ ������', '45121', '15', '10', '0'),
+('104', '1', '3', '1', '��ũũ', '45116', '15', '10', '0'),
+('105', '1', '3', '1', '�������', '45126', '15', '10', '0'),
+('106', '1', '3', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('107', '1', '3', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('108', '1', '3', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('109', '1', '3', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('110', '1', '3', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('111', '1', '3', '1', '���ڵ常', '45144', '15', '10', '0'),
+('112', '1', '3', '1', '��', '45157', '15', '10', '0'),
+('113', '1', '3', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('114', '1', '3', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('115', '1', '3', '1', '����ĭ������', '45173', '15', '10', '0'),
+('116', '1', '3', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('117', '1', '3', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('118', '1', '3', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('119', '1', '3', '1', '������', '45215', '15', '10', '0'),
+('120', '1', '3', '1', '����Ʈ', '45213', '15', '10', '0'),
+('121', '1', '3', '1', '���� ����', '45223', '15', '10', '0'),
+('122', '1', '3', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('123', '1', '3', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('124', '1', '3', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('125', '1', '3', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('126', '1', '3', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('127', '1', '3', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('128', '1', '3', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('129', '1', '3', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('130', '1', '3', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('131', '1', '3', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('132', '1', '3', '2', '����', '45278', '15', '15', '0'),
+('133', '1', '3', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('134', '1', '3', '2', '��ũ ������', '45364', '15', '15', '0'),
+('135', '1', '3', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('136', '1', '3', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('137', '1', '3', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('138', '1', '3', '2', '���� ��', '45289', '15', '15', '0'),
+('139', '1', '3', '2', '����', '45294', '15', '15', '0'),
+('140', '1', '3', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('141', '1', '3', '2', '��󸸴�', '45203', '15', '15', '0'),
+('142', '1', '3', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('143', '1', '3', '3', '���ũ������', '45550', '15', '15', '0'),
+('144', '1', '3', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('145', '1', '3', '3', '��Ʈ', '45373', '15', '15', '0'),
+('146', '1', '3', '3', '��ٰ���', '45365', '15', '15', '0'),
+('147', '1', '3', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('148', '1', '3', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('149', '1', '3', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('150', '1', '3', '3', '����ũ������', '45420', '15', '15', '0'),
+('151', '1', '3', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('152', '1', '4', '1', '�Ƹ�����Ÿ', '45101', '15', '10', '0'),
+('153', '1', '4', '1', '��ũ ������', '45121', '15', '10', '0'),
+('154', '1', '4', '1', '��ũũ', '45116', '15', '10', '0'),
+('155', '1', '4', '1', '�������', '45126', '15', '10', '0'),
+('156', '1', '4', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('157', '1', '4', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('158', '1', '4', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('159', '1', '4', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('160', '1', '4', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('161', '1', '4', '1', '���ڵ常', '45144', '15', '10', '0'),
+('162', '1', '4', '1', '��', '45157', '15', '10', '0'),
+('163', '1', '4', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('164', '1', '4', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('165', '1', '4', '1', '����ĭ������', '45173', '15', '10', '0'),
+('166', '1', '4', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('167', '1', '4', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('168', '1', '4', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('169', '1', '4', '1', '������', '45215', '15', '10', '0'),
+('170', '1', '4', '1', '����Ʈ', '45213', '15', '10', '0'),
+('171', '1', '4', '1', '���� ����', '45223', '15', '10', '0'),
+('172', '1', '4', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('173', '1', '4', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('174', '1', '4', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('175', '1', '4', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('176', '1', '4', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('177', '1', '4', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('178', '1', '4', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('179', '1', '4', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('180', '1', '4', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('181', '1', '4', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('182', '1', '4', '2', '����', '45278', '15', '15', '0'),
+('183', '1', '4', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('184', '1', '4', '2', '��ũ ������', '45364', '15', '15', '0'),
+('185', '1', '4', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('186', '1', '4', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('187', '1', '4', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('188', '1', '4', '2', '���� ��', '45289', '15', '15', '0'),
+('189', '1', '4', '2', '����', '45294', '15', '15', '0'),
+('190', '1', '4', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('191', '1', '4', '2', '��󸸴�', '45203', '15', '15', '0'),
+('192', '1', '4', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('193', '1', '4', '3', '���ũ������', '45550', '15', '15', '0'),
+('194', '1', '4', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('195', '1', '4', '3', '��Ʈ', '45373', '15', '15', '0'),
+('196', '1', '4', '3', '��ٰ���', '45365', '15', '15', '0'),
+('197', '1', '4', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('198', '1', '4', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('199', '1', '4', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('200', '1', '4', '3', '����ũ������', '45420', '15', '15', '0'),
+('201', '1', '4', '4', '������Ʈ', '45573', '2', '15', '0'),
+('202', '1', '4', '4', '������Ʈ', '45573', '1', '15', '15'),
+('203', '1', '5', '1', 'ȣ����기', '45140', '15', '10', '0'),
+('204', '1', '5', '1', '��ũ ������', '45121', '15', '10', '0'),
+('205', '1', '5', '1', '��ũũ', '45116', '15', '10', '0'),
+('206', '1', '5', '1', '�������', '45126', '15', '10', '0'),
+('207', '1', '5', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('208', '1', '5', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('209', '1', '5', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('210', '1', '5', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('211', '1', '5', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('212', '1', '5', '1', '���ڵ常', '45144', '15', '10', '0'),
+('213', '1', '5', '1', '��', '45157', '15', '10', '0'),
+('214', '1', '5', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('215', '1', '5', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('216', '1', '5', '1', '����ĭ������', '45173', '15', '10', '0'),
+('217', '1', '5', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('218', '1', '5', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('219', '1', '5', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('220', '1', '5', '1', '������', '45215', '15', '10', '0'),
+('221', '1', '5', '1', '����Ʈ', '45213', '15', '10', '0'),
+('222', '1', '5', '1', '���� ����', '45223', '15', '10', '0'),
+('223', '1', '5', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('224', '1', '5', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('225', '1', '5', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('226', '1', '5', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('227', '1', '5', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('228', '1', '5', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('229', '1', '5', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('230', '1', '5', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('231', '1', '5', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('232', '1', '5', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('233', '1', '5', '2', '����', '45278', '15', '15', '0'),
+('234', '1', '5', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('235', '1', '5', '2', '��ũ ������', '45364', '15', '15', '0'),
+('236', '1', '5', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('237', '1', '5', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('238', '1', '5', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('239', '1', '5', '2', '���� ��', '45289', '15', '15', '0'),
+('240', '1', '5', '2', '����', '45294', '15', '15', '0'),
+('241', '1', '5', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('242', '1', '5', '2', '��󸸴�', '45203', '15', '15', '0'),
+('243', '1', '5', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('244', '1', '5', '3', '���ũ������', '45550', '15', '15', '0'),
+('245', '1', '5', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('246', '1', '5', '3', '��Ʈ', '45373', '15', '15', '0'),
+('247', '1', '5', '3', '��ٰ���', '45365', '15', '15', '0'),
+('248', '1', '5', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('249', '1', '5', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('250', '1', '5', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('251', '1', '5', '3', '����ũ������', '45420', '15', '15', '0'),
+('252', '1', '5', '4', '���̾�Ʈ��Ʈũ��', '45614', '1', '15', '15'),
+('253', '1', '6', '1', '���̾�Ʈ��Ʈ', '45115', '15', '10', '0'),
+('254', '1', '6', '1', '��ũ ������', '45121', '15', '10', '0'),
+('255', '1', '6', '1', '��ũũ', '45116', '15', '10', '0'),
+('256', '1', '6', '1', '�������', '45126', '15', '10', '0'),
+('257', '1', '6', '1', '���ɸ����í', '45129', '15', '10', '0'),
+('258', '1', '6', '1', '���ɸ���ǽ�', '45130', '15', '10', '0'),
+('259', '1', '6', '1', '���ɸ�������ũ', '45131', '15', '10', '0'),
+('260', '1', '6', '1', '���̾�Ʈ spider', '45136', '15', '10', '0'),
+('261', '1', '6', '1', '��ũ��ī��Ʈ', '45138', '15', '10', '0'),
+('262', '1', '6', '1', '���ڵ常', '45144', '15', '10', '0'),
+('263', '1', '6', '1', '��', '45157', '15', '10', '0'),
+('264', '1', '6', '1', '���ĸ�Ʈ��', '45161', '15', '10', '0'),
+('265', '1', '6', '1', 'Ŭ�� ��', '45164', '15', '10', '0'),
+('266', '1', '6', '1', '����ĭ������', '45173', '15', '10', '0'),
+('267', '1', '6', '1', '�巿�彺���̴�', '45184', '15', '10', '0'),
+('268', '1', '6', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('269', '1', '6', '1', '��Ʈ ��', '45192', '15', '10', '0'),
+('270', '1', '6', '1', '������', '45215', '15', '10', '0'),
+('271', '1', '6', '1', '����Ʈ', '45213', '15', '10', '0'),
+('272', '1', '6', '1', '���� ����', '45223', '15', '10', '0'),
+('273', '1', '6', '1', '�� ��� ���� ����', '45216', '15', '10', '0'),
+('274', '1', '6', '1', '�� ��� ���� ������', '45224', '15', '10', '0'),
+('275', '1', '6', '1', '�� ��� ���� ���ʷ�', '45248', '15', '10', '0'),
+('276', '1', '6', '1', '�ɸ����ν�', '45241', '15', '10', '0'),
+('277', '1', '6', '1', '�����ǿ�', '45259', '15', '10', '0'),
+('278', '1', '6', '2', '���� ����Ʈ', '45165', '15', '15', '0'),
+('279', '1', '6', '2', 'īƮ', '45600', '3', '15', '0'),
+('280', '1', '6', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('281', '1', '6', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('282', '1', '6', '2', '����', '45278', '15', '15', '0'),
+('283', '1', '6', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('284', '1', '6', '2', '��ũ ������', '45364', '15', '15', '0'),
+('285', '1', '6', '2', '�ٴ׿�����', '45284', '15', '15', '0'),
+('286', '1', '6', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('287', '1', '6', '2', 'ŷ ���� ����', '45298', '15', '15', '0'),
+('288', '1', '6', '2', '���� ��', '45289', '15', '15', '0'),
+('289', '1', '6', '2', '����', '45294', '15', '15', '0'),
+('290', '1', '6', '2', '���� �Ƹ�', '45322', '15', '15', '0'),
+('291', '1', '6', '2', '��󸸴�', '45203', '15', '15', '0'),
+('292', '1', '6', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('293', '1', '6', '3', '���ũ������', '45550', '15', '15', '0'),
+('294', '1', '6', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('295', '1', '6', '3', '��Ʈ', '45373', '15', '15', '0'),
+('296', '1', '6', '3', '��ٰ���', '45365', '15', '15', '0'),
+('297', '1', '6', '3', '���̾Ȱ���', '45372', '15', '15', '0'),
+('298', '1', '6', '3', '��ť�ٽ�', '45393', '15', '15', '0'),
+('299', '1', '6', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('300', '1', '6', '3', '����ũ������', '45420', '15', '15', '0'),
+('301', '1', '6', '4', '�ٶ�ī��', '45684', '1', '15', '15'),
+('302', '2', '1', '1', 'ȣ����기', '45140', '10', '0', '0'),
+('303', '2', '1', '1', '���̾�Ʈ��Ʈ', '45115', '15', '10', '0'),
+('304', '2', '1', '1', '��', '45157', '15', '4', '0'),
+('305', '2', '1', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '15', '10', '0'),
+('306', '2', '1', '1', '���̾�Ʈ��Ʈ', '45115', '15', '10', '0'),
+('307', '2', '1', '1', '���̸���', '45107', '20', '4', '0'),
+('308', '2', '1', '1', '���ɸ�������ũ', '45131', '18', '10', '0'),
+('309', '2', '1', '1', '���ɸ����í', '45122', '20', '10', '0'),
+('310', '2', '1', '1', '���̾Ȱ���', '45372', '20', '10', '0'),
+('311', '2', '1', '1', '��ũ ����', '45223', '20', '14', '0'),
+('312', '2', '1', '1', '��ũ ������', '45364', '10', '4', '0'),
+('313', '2', '1', '1', '����', '45105', '25', '4', '0'),
+('314', '2', '1', '1', 'ŷ ���� ����', '45298', '20', '10', '0'),
+('315', '2', '1', '1', '������', '45060', '10', '4', '0'),
+('316', '2', '1', '1', '�ƽ�Ÿ����', '45359', '15', '40', '0'),
+('317', '2', '1', '2', '���̸��� ���̵�', '45269', '15', '14', '0'),
+('318', '2', '1', '2', '�级 Ÿ�̰�', '45267', '20', '14', '0'),
+('319', '2', '1', '2', '���̾� ����', '45206', '30', '10', '0'),
+('320', '2', '1', '2', '����', '45278', '20', '10', '0'),
+('321', '2', '1', '2', '��Ʈ', '45373', '15', '14', '0'),
+('322', '2', '1', '2', '�׸���', '45445', '10', '10', '0'),
+('323', '2', '1', '2', '����', '45221', '15', '10', '0'),
+('324', '2', '1', '2', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '48', '0'),
+('325', '2', '1', '2', '�Ƿ翧', '45162', '25', '24', '0'),
+('326', '2', '1', '2', 'ŷ ���� ����', '45298', '20', '0', '0'),
+('327', '2', '1', '2', '����Ʈ', '45213', '15', '10', '0'),
+('328', '2', '1', '2', '��ť�ٽ�', '45393', '20', '40', '0'),
+('329', '2', '1', '3', '����', '45278', '25', '14', '0'),
+('330', '2', '1', '3', '�巿�彺���̴�', '45184', '25', '34', '0'),
+('331', '2', '1', '3', '���ɸ����í', '45122', '15', '14', '0'),
+('332', '2', '1', '3', '��ũ ������', '45364', '15', '24', '0'),
+('333', '2', '1', '3', '�Ƿ翧', '45162', '15', '10', '0'),
+('334', '2', '1', '3', '���̽� ��', '45182', '15', '4', '0'),
+('335', '2', '1', '3', '����', '45051', '25', '10', '0'),
+('336', '2', '1', '3', '���콺Ʈ', '45174', '20', '34', '0'),
+('337', '2', '1', '3', 'ŷ ���� ����', '45298', '20', '14', '0'),
+('338', '2', '1', '3', '����ũ������', '45420', '25', '14', '0'),
+('339', '2', '1', '3', 'ȥ�ɸ����ν�', '45341', '15', '14', '0'),
+('340', '2', '1', '3', '���̾Ȱ���', '45372', '5', '14', '0'),
+('341', '2', '1', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('342', '2', '1', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('344', '2', '2', '1', 'ȣ����기', '45140', '15', '15', '0'),
+('345', '2', '2', '1', '���̾�Ʈ��Ʈ', '45115', '20', '15', '0'),
+('346', '2', '2', '1', '��', '45157', '20', '15', '0'),
+('347', '2', '2', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '20', '15', '0'),
+('348', '2', '2', '1', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('349', '2', '2', '1', '���̸���', '45107', '20', '15', '0'),
+('350', '2', '2', '1', '���ɸ�������ũ', '45131', '20', '15', '0'),
+('351', '2', '2', '1', '���ɸ����í', '45122', '25', '15', '0'),
+('352', '2', '2', '1', '���̾Ȱ���', '45372', '5', '15', '0'),
+('353', '2', '2', '1', '��ũ ����', '45223', '25', '15', '0'),
+('354', '2', '2', '1', '��ũ ������', '45364', '10', '15', '0'),
+('355', '2', '2', '1', '����', '45105', '25', '15', '0'),
+('356', '2', '2', '1', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('357', '2', '2', '1', '������', '45060', '10', '15', '0'),
+('358', '2', '2', '1', '�ƽ�Ÿ����', '45359', '20', '15', '0'),
+('359', '2', '2', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('360', '2', '2', '2', '�����ǿ�', '45277', '20', '15', '0'),
+('361', '2', '2', '2', '���̾� ����', '45206', '25', '15', '0'),
+('362', '2', '2', '2', 'Ʈ��', '45280', '25', '15', '0'),
+('363', '2', '2', '2', '��ź �ö��', '45263', '15', '15', '0'),
+('364', '2', '2', '2', '�ٴ׾�í', '45291', '15', '15', '0'),
+('365', '2', '2', '2', '����', '45221', '15', '15', '0'),
+('366', '2', '2', '2', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '15', '0'),
+('367', '2', '2', '2', '�������ڴ�-', '45349', '15', '15', '0'),
+('368', '2', '2', '2', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('369', '2', '2', '2', '����Ʈ', '45213', '15', '15', '0'),
+('370', '2', '2', '2', '��ť�ٽ�', '45393', '20', '15', '0'),
+('371', '2', '2', '2', '����', '45040', '30', '15', '0'),
+('372', '2', '2', '3', '����', '45278', '15', '15', '0'),
+('373', '2', '2', '3', '�巿�彺���̴�', '45184', '25', '15', '0'),
+('374', '2', '2', '3', '���ɸ����í', '45129', '20', '15', '0'),
+('375', '2', '2', '3', '��ũ ������', '45364', '10', '15', '0'),
+('376', '2', '2', '3', '����', '45294', '25', '15', '0'),
+('377', '2', '2', '3', '���̽� ��', '45182', '15', '15', '0'),
+('378', '2', '2', '3', '����', '45051', '25', '15', '0'),
+('379', '2', '2', '3', '���콺Ʈ', '45174', '20', '15', '0'),
+('380', '2', '2', '3', '��ũ��ī��Ʈ', '45138', '30', '15', '0'),
+('381', '2', '2', '3', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('382', '2', '2', '3', '����ũ������', '45420', '15', '15', '0'),
+('383', '2', '2', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('384', '2', '2', '3', '���̾Ȱ���', '45372', '5', '15', '0'),
+('385', '2', '2', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('386', '2', '2', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('387', '2', '3', '1', 'ȣ����기', '45140', '15', '15', '0'),
+('388', '2', '3', '1', '���̾�Ʈ��Ʈ', '45115', '20', '15', '0'),
+('389', '2', '3', '1', '��', '45157', '20', '15', '0'),
+('390', '2', '3', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '20', '15', '0'),
+('391', '2', '3', '1', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('392', '2', '3', '1', '���̸���', '45107', '20', '15', '0'),
+('393', '2', '3', '1', '���ɸ�������ũ', '45131', '20', '15', '0'),
+('394', '2', '3', '1', '���ɸ����í', '45129', '25', '15', '0'),
+('395', '2', '3', '1', '���̾Ȱ���', '45372', '5', '15', '0'),
+('396', '2', '3', '1', '��ũ ����', '45223', '25', '15', '0'),
+('397', '2', '3', '1', '��ũ ������', '45364', '10', '15', '0'),
+('398', '2', '3', '1', '����', '45105', '25', '15', '0'),
+('399', '2', '3', '1', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('400', '2', '3', '1', '������', '45060', '10', '15', '0'),
+('401', '2', '3', '1', '�ƽ�Ÿ����', '45359', '20', '15', '0'),
+('402', '2', '3', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('403', '2', '3', '2', '�级 Ÿ�̰�', '45267', '20', '15', '0'),
+('404', '2', '3', '2', '�� ��� ���� ���ʷ�', '45248', '20', '15', '0'),
+('405', '2', '3', '2', 'ŸƮ������', '45262', '5', '15', '0'),
+('406', '2', '3', '2', '�ɸ����ν�', '45241', '25', '15', '0'),
+('407', '2', '3', '2', '�� ��� ���� ���� ������', '45224', '20', '15', '0'),
+('408', '2', '3', '2', '����', '45221', '15', '15', '0'),
+('409', '2', '3', '2', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '15', '0'),
+('410', '2', '3', '2', '�ôܼ�', '45228', '10', '15', '0'),
+('411', '2', '3', '2', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('412', '2', '3', '2', '����Ʈ', '45213', '15', '15', '0'),
+('413', '2', '3', '2', '��ť�ٽ�', '45393', '20', '15', '0'),
+('414', '2', '3', '3', '����', '45278', '15', '15', '0'),
+('415', '2', '3', '3', '�巿�彺���̴�', '45184', '25', '15', '0'),
+('416', '2', '3', '3', '���ɸ����í', '45129', '15', '15', '0'),
+('417', '2', '3', '3', '��ũ ������', '45364', '15', '15', '0'),
+('418', '2', '3', '3', '��īƮ����', '45362', '15', '15', '0'),
+('419', '2', '3', '3', '���̽� ��', '45182', '15', '15', '0'),
+('420', '2', '3', '3', '����', '45051', '20', '15', '0'),
+('421', '2', '3', '3', '���콺Ʈ', '45174', '25', '15', '0'),
+('422', '2', '3', '3', '����Ʈ�ε�', '45346', '15', '15', '0'),
+('423', '2', '3', '3', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('424', '2', '3', '3', '����ũ������', '45420', '20', '15', '0'),
+('425', '2', '3', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('426', '2', '3', '3', '���̾Ȱ���', '45372', '5', '15', '0'),
+('427', '2', '3', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('428', '2', '3', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('429', '2', '4', '1', 'ȣ����기', '45140', '15', '15', '0'),
+('430', '2', '4', '1', '���̾�Ʈ��Ʈ', '45115', '20', '15', '0'),
+('431', '2', '4', '1', '��', '45157', '20', '15', '0'),
+('432', '2', '4', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '20', '15', '0'),
+('433', '2', '4', '1', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('434', '2', '4', '1', '���̸���', '45107', '20', '15', '0'),
+('435', '2', '4', '1', '���ɸ�������ũ', '45131', '20', '15', '0'),
+('436', '2', '4', '1', '���ɸ����í', '45129', '25', '15', '0'),
+('437', '2', '4', '1', '���̾Ȱ���', '45372', '5', '15', '0'),
+('438', '2', '4', '1', '��ũ ����', '45223', '25', '15', '0'),
+('439', '2', '4', '1', '��ũ ������', '45364', '15', '15', '0'),
+('440', '2', '4', '1', '����', '45105', '30', '15', '0'),
+('441', '2', '4', '1', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('442', '2', '4', '1', '������', '45060', '20', '15', '0'),
+('443', '2', '4', '1', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('444', '2', '4', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('445', '2', '4', '2', '�级 Ÿ�̰�', '45267', '25', '15', '0'),
+('446', '2', '4', '2', '�ٴ׿�����', '45284', '25', '15', '0'),
+('447', '2', '4', '2', '�ٴ׾�í', '45291', '25', '15', '0'),
+('448', '2', '4', '2', '��󸸴�', '45203', '15', '15', '0'),
+('449', '2', '4', '2', '�׸���', '45445', '5', '15', '0'),
+('450', '2', '4', '2', '����', '45221', '15', '15', '0'),
+('451', '2', '4', '2', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '15', '0'),
+('452', '2', '4', '2', '��������ũ', '45531', '10', '15', '0'),
+('453', '2', '4', '2', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('454', '2', '4', '2', '����Ʈ', '45213', '25', '15', '0'),
+('455', '2', '4', '2', '��ť�ٽ�', '45393', '15', '15', '0'),
+('456', '2', '4', '3', '����', '45278', '15', '15', '0'),
+('457', '2', '4', '3', '�巿�彺���̴�', '45184', '20', '15', '0'),
+('458', '2', '4', '3', '���ɸ����í', '45129', '20', '15', '0'),
+('459', '2', '4', '3', '��ũ ������', '45364', '15', '15', '0'),
+('460', '2', '4', '3', '�������ڴ�-', '45349', '10', '15', '0'),
+('461', '2', '4', '3', '���̽� ��', '45182', '15', '15', '0'),
+('462', '2', '4', '3', '����', '45051', '25', '15', '0'),
+('463', '2', '4', '3', '���콺Ʈ', '45174', '30', '15', '0'),
+('464', '2', '4', '3', '���ũ������', '81176', '15', '15', '0'),
+('465', '2', '4', '3', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('466', '2', '4', '3', '��Ʈ', '45373', '25', '15', '0'),
+('467', '2', '4', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('468', '2', '4', '3', '���̾Ȱ���', '45372', '5', '15', '0'),
+('469', '2', '4', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('470', '2', '4', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('471', '2', '5', '1', 'ȣ����기', '45140', '15', '15', '0'),
+('472', '2', '5', '1', '���̾�Ʈ��Ʈ', '45115', '25', '15', '0'),
+('473', '2', '5', '1', '��', '45157', '25', '15', '0'),
+('474', '2', '5', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '15', '0'),
+('475', '2', '5', '1', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('476', '2', '5', '1', '���̸���', '45107', '25', '15', '0'),
+('477', '2', '5', '1', '���ɸ�������ũ', '45131', '25', '15', '0'),
+('478', '2', '5', '1', '���ɸ����í', '45129', '25', '15', '0'),
+('479', '2', '5', '1', '���̾Ȱ���', '45372', '5', '15', '0'),
+('480', '2', '5', '1', '��ũ ����', '45223', '25', '15', '0'),
+('481', '2', '5', '1', '��ũ ������', '45364', '15', '15', '0'),
+('482', '2', '5', '1', '����', '45105', '25', '15', '0'),
+('483', '2', '5', '1', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('484', '2', '5', '1', '������', '45060', '20', '15', '0'),
+('485', '2', '5', '1', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('486', '2', '5', '2', '���̸��� ���̵�', '45269', '20', '15', '0'),
+('487', '2', '5', '2', '�级 Ÿ�̰�', '45267', '20', '15', '0'),
+('488', '2', '5', '2', '���̾� ����', '45206', '25', '15', '0'),
+('489', '2', '5', '2', '����', '45278', '15', '15', '0'),
+('490', '2', '5', '2', '��Ʈ', '45373', '10', '15', '0'),
+('491', '2', '5', '2', '����ũ������', '45420', '10', '15', '0'),
+('492', '2', '5', '2', '��ũ ������', '45121', '15', '15', '0'),
+('493', '2', '5', '2', '��ũ ����', '45104', '15', '15', '0'),
+('494', '2', '5', '2', '��ũ��ī��Ʈ', '45138', '25', '15', '0'),
+('495', '2', '5', '2', '�Ƿ翧', '45162', '15', '15', '0'),
+('496', '2', '5', '2', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('497', '2', '5', '2', '����Ʈ', '45213', '15', '15', '0'),
+('498', '2', '5', '2', '��ť�ٽ�', '45393', '25', '15', '0'),
+('499', '2', '5', '3', '����', '45278', '15', '15', '0'),
+('500', '2', '5', '3', '�巿�彺���̴�', '45184', '25', '15', '0'),
+('501', '2', '5', '3', '���ɸ����í', '45129', '10', '15', '0'),
+('502', '2', '5', '3', '��ũ ������', '45364', '15', '15', '0'),
+('503', '2', '5', '3', '�Ƿ翧', '45162', '15', '15', '0'),
+('504', '2', '5', '3', '���̽� ��', '45182', '10', '15', '0'),
+('505', '2', '5', '3', '����', '45051', '30', '15', '0'),
+('506', '2', '5', '3', '���콺Ʈ', '45174', '25', '15', '0'),
+('507', '2', '5', '3', '����Ʈ�ε�', '45346', '25', '15', '0'),
+('508', '2', '5', '3', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('509', '2', '5', '3', '����ũ������', '45420', '20', '15', '0'),
+('510', '2', '5', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('511', '2', '5', '3', '���̾Ȱ���', '45372', '5', '15', '0'),
+('512', '2', '5', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('513', '2', '5', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('515', '2', '6', '1', 'ȣ����기', '45140', '15', '15', '0'),
+('516', '2', '6', '1', '���̾�Ʈ��Ʈ', '45115', '20', '15', '0'),
+('517', '2', '6', '1', '��', '45157', '20', '15', '0'),
+('518', '2', '6', '1', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '25', '15', '0'),
+('519', '2', '6', '1', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('520', '2', '6', '1', '���̸���', '45107', '25', '15', '0'),
+('521', '2', '6', '1', '���ɸ�������ũ', '45131', '25', '15', '0'),
+('522', '2', '6', '1', '���ɸ����í', '45129', '25', '15', '0'),
+('523', '2', '6', '1', '���̾Ȱ���', '45372', '5', '15', '0'),
+('524', '2', '6', '1', '��ũ ����', '45223', '25', '15', '0'),
+('525', '2', '6', '1', '��ũ ������', '45364', '15', '15', '0'),
+('526', '2', '6', '1', '����', '45105', '25', '15', '0'),
+('527', '2', '6', '1', 'ŷ ��ũ ����', '45298', '25', '15', '0'),
+('528', '2', '6', '1', '������', '45060', '20', '15', '0'),
+('529', '2', '6', '1', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('530', '2', '6', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('531', '2', '6', '2', '�级 Ÿ�̰�', '45267', '25', '15', '0'),
+('532', '2', '6', '2', '�ôܼ�', '45228', '10', '15', '0'),
+('533', '2', '6', '2', '����', '45278', '25', '15', '0'),
+('534', '2', '6', '2', '��ũ ������', '45364', '15', '15', '0'),
+('535', '2', '6', '2', '����', '45294', '25', '15', '0'),
+('536', '2', '6', '2', '��Ʈ', '45373', '25', '15', '0'),
+('537', '2', '6', '2', '����', '45221', '10', '15', '0'),
+('538', '2', '6', '2', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '20', '15', '0'),
+('539', '2', '6', '2', 'Ʈ��', '45280', '15', '15', '0'),
+('540', '2', '6', '2', '�Ƿ翧', '45162', '25', '15', '0'),
+('541', '2', '6', '2', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('542', '2', '6', '2', '����Ʈ', '45213', '20', '15', '0'),
+('543', '2', '6', '2', '��ť�ٽ�', '45393', '25', '15', '0'),
+('544', '2', '6', '3', '����', '45278', '15', '15', '0'),
+('545', '2', '6', '3', '�巿�彺���̴�', '45184', '25', '15', '0'),
+('546', '2', '6', '3', '���ɸ����í', '45129', '30', '15', '0'),
+('547', '2', '6', '3', '��ũ ������', '45364', '10', '15', '0'),
+('548', '2', '6', '3', '�Ƿ翧', '45162', '15', '15', '0'),
+('549', '2', '6', '3', '���̽� ��', '45182', '10', '15', '0'),
+('550', '2', '6', '3', 'ŷ ���� ����', '45298', '25', '15', '0'),
+('551', '2', '6', '3', '����ũ������', '45420', '25', '15', '0'),
+('552', '2', '6', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('553', '2', '6', '3', '���̾Ȱ���', '45372', '5', '15', '0'),
+('554', '2', '6', '4', '�Ѵн�', '45617', '1', '15', '15'),
+('555', '2', '6', '4', '�巹��ũ', '45578', '2', '15', '0'),
+('557', '3', '1', '1', '���ĸ�Ʈ��', '45161', '22', '15', '0'),
+('558', '3', '1', '1', '����', '45040', '20', '15', '0'),
+('559', '3', '1', '1', '���ɸ���ǽ�', '45130', '17', '15', '0'),
+('560', '3', '1', '1', '���ɸ�������ũ', '45131', '17', '15', '0'),
+('561', '3', '1', '1', '��ũ fighter', '45082', '20', '15', '0'),
+('562', '3', '1', '1', '��ũ��ī��Ʈ', '45138', '17', '15', '0'),
+('563', '3', '1', '1', '��ũ ������', '45121', '12', '15', '0'),
+('564', '3', '1', '1', '��Ʈ ��', '45192', '12', '15', '0'),
+('565', '3', '1', '1', '���ڵ常', '45144', '12', '15', '0'),
+('566', '3', '1', '1', 'Ŭ�� ��', '45164', '12', '15', '0'),
+('567', '3', '1', '1', '��ũũ', '45223', '12', '15', '0'),
+('568', '3', '1', '1', '����ĭ������', '45173', '12', '15', '0'),
+('569', '3', '1', '1', '���̾�Ʈ spider', '45136', '22', '15', '0'),
+('570', '3', '1', '1', '�巿�彺���̴�', '45184', '17', '15', '0'),
+('571', '3', '1', '1', '�� ��� ���� ����', '45216', '22', '15', '0'),
+('572', '3', '1', '1', '�� ��� ���� ������', '45224', '17', '15', '0'),
+('573', '3', '1', '1', '�� ��� ���� ���ʷ�', '45248', '17', '15', '0'),
+('574', '3', '1', '1', '������', '45215', '17', '15', '0'),
+('575', '3', '1', '1', '����Ʈ', '45213', '17', '15', '0'),
+('576', '3', '1', '1', '��ũ ����', '45223', '12', '15', '0'),
+('577', '3', '1', '2', '���̸��� ���̵�', '45269', '10', '15', '0'),
+('578', '3', '1', '2', '���ɸ��渶ũ����', '45270', '10', '15', '0'),
+('579', '3', '1', '2', '���̸��� fighter', '45286', '10', '15', '0'),
+('580', '3', '1', '2', '�ٴ׿�����', '45284', '12', '15', '0'),
+('581', '3', '1', '2', '�ٴ׾�í', '45291', '12', '15', '0'),
+('582', '3', '1', '2', '���� �Ƹ�', '45322', '12', '15', '0'),
+('583', '3', '1', '2', '����', '45278', '12', '15', '0'),
+('584', '3', '1', '2', 'Ʈ��', '45280', '10', '15', '0'),
+('585', '3', '1', '2', '��ũ ������', '45364', '12', '15', '0'),
+('586', '3', '1', '2', '�级 Ÿ�̰�', '45267', '12', '15', '0'),
+('587', '3', '1', '2', '��ũ ����', '45223', '15', '15', '0'),
+('588', '3', '1', '2', 'ŷ ���� ����', '45298', '10', '15', '0'),
+('589', '3', '1', '2', '����', '45294', '12', '15', '0'),
+('590', '3', '1', '3', '��ٰ���', '45365', '10', '15', '0'),
+('591', '3', '1', '3', '����Ʈ�ε�', '45346', '10', '15', '0'),
+('592', '3', '1', '3', '�ƽ�Ÿ����', '45359', '10', '15', '0'),
+('593', '3', '1', '3', '���ũ������', '81176', '10', '15', '0'),
+('594', '3', '1', '3', '��Ʈ', '45373', '10', '15', '0'),
+('595', '3', '1', '3', '��������ũ', '45531', '10', '15', '0'),
+('596', '3', '1', '3', '��ť�ٽ�', '45393', '10', '15', '0'),
+('597', '3', '1', '3', '���̾Ȱ���', '45372', '10', '15', '0'),
+('598', '3', '1', '3', 'ȥ�ɸ����ν�', '45341', '10', '15', '0'),
+('599', '3', '1', '3', '����ũ������', '45420', '8', '15', '0'),
+('600', '3', '1', '4', '�巹��ũ', '45578', '1', '15', '0'),
+('601', '3', '1', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('602', '3', '2', '1', '���ĸ�Ʈ��', '45161', '22', '15', '0'),
+('603', '3', '2', '1', '����', '45040', '20', '15', '0'),
+('604', '3', '2', '1', '��Ʈ ��', '45192', '17', '15', '0'),
+('605', '3', '2', '1', '���ɸ�������ũ', '45131', '17', '15', '0'),
+('606', '3', '2', '1', '��ũ fighter', '45082', '22', '15', '0'),
+('607', '3', '2', '1', '��ũ��ī��Ʈ', '45138', '20', '15', '0'),
+('608', '3', '2', '1', '��ũ ������', '45121', '12', '15', '0'),
+('609', '3', '2', '1', '���̾Ȱ���', '45372', '8', '15', '0'),
+('610', '3', '2', '1', '���ڵ常', '45144', '12', '15', '0'),
+('611', '3', '2', '1', 'Ŭ�� ��', '45164', '12', '15', '0'),
+('612', '3', '2', '1', '��ũũ', '45223', '12', '15', '0'),
+('613', '3', '2', '1', '����ĭ������', '45173', '12', '15', '0'),
+('614', '3', '2', '1', '���̾�Ʈ spider', '45136', '22', '15', '0'),
+('615', '3', '2', '1', '�巿�彺���̴�', '45184', '17', '15', '0'),
+('616', '3', '2', '1', '�� ��� ���� ����', '45216', '20', '15', '0'),
+('617', '3', '2', '1', '�� ��� ���� ������', '45224', '10', '15', '0'),
+('618', '3', '2', '1', '�� ��� ���� ���ʷ�', '45248', '15', '15', '0'),
+('619', '3', '2', '1', '������', '45215', '15', '15', '0'),
+('620', '3', '2', '1', '������', '45060', '22', '15', '0'),
+('621', '3', '2', '1', '��ũ ����', '45223', '25', '15', '0'),
+('622', '3', '2', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('623', '3', '2', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('624', '3', '2', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('625', '3', '2', '2', '�ٴ׿�����', '45284', '10', '15', '0'),
+('626', '3', '2', '2', '�ٴ׾�í', '45291', '10', '15', '0'),
+('627', '3', '2', '2', '���� �Ƹ�', '45322', '10', '15', '0'),
+('628', '3', '2', '2', '����', '45278', '8', '15', '0'),
+('629', '3', '2', '2', 'Ʈ��', '45280', '8', '15', '0'),
+('630', '3', '2', '2', '��ũ ������', '45364', '10', '15', '0'),
+('631', '3', '2', '2', '�级 Ÿ�̰�', '45267', '10', '15', '0'),
+('632', '3', '2', '2', '��ũ ����', '45223', '10', '15', '0'),
+('633', '3', '2', '2', 'ŷ ���� ����', '45298', '10', '15', '0'),
+('634', '3', '2', '2', '����', '45294', '15', '15', '0'),
+('635', '3', '2', '3', '��ٰ���', '45365', '10', '15', '0'),
+('636', '3', '2', '3', '����Ʈ�ε�', '45346', '10', '15', '0'),
+('637', '3', '2', '3', '�ƽ�Ÿ����', '45359', '10', '15', '0'),
+('638', '3', '2', '3', '���ũ������', '81176', '10', '15', '0'),
+('639', '3', '2', '3', '��Ʈ', '45373', '8', '15', '0'),
+('640', '3', '2', '3', '��������ũ', '45531', '8', '15', '0'),
+('641', '3', '2', '3', '��ť�ٽ�', '45393', '8', '15', '0'),
+('642', '3', '2', '3', '���̾Ȱ���', '45372', '10', '15', '0'),
+('643', '3', '2', '3', 'ȥ�ɸ����ν�', '45341', '8', '15', '0'),
+('644', '3', '2', '3', '����ũ������', '45420', '8', '15', '0'),
+('645', '3', '2', '4', '�巹��ũ', '45578', '1', '15', '0'),
+('646', '3', '2', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('647', '3', '3', '1', '���ĸ�Ʈ��', '45161', '20', '15', '0'),
+('648', '3', '3', '1', '����', '45040', '20', '15', '0'),
+('649', '3', '3', '1', '��Ʈ ��', '45192', '10', '15', '0'),
+('650', '3', '3', '1', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('651', '3', '3', '1', '��ũ fighter', '45082', '25', '15', '0'),
+('652', '3', '3', '1', '��ũ��ī��Ʈ', '45138', '20', '15', '0'),
+('653', '3', '3', '1', '��ũ ������', '45121', '15', '15', '0'),
+('654', '3', '3', '1', '���̾Ȱ���', '45372', '10', '15', '0'),
+('655', '3', '3', '1', '���ڵ常', '45144', '15', '15', '0'),
+('656', '3', '3', '1', 'Ŭ�� ��', '45164', '15', '15', '0'),
+('657', '3', '3', '1', '��ũũ', '45223', '15', '15', '0'),
+('658', '3', '3', '1', '����ĭ������', '45173', '15', '15', '0'),
+('659', '3', '3', '1', '���̾�Ʈ spider', '45136', '25', '15', '0'),
+('660', '3', '3', '1', '�巿�彺���̴�', '45184', '15', '15', '0'),
+('661', '3', '3', '1', '�� ��� ���� ����', '45216', '20', '15', '0'),
+('662', '3', '3', '1', '�� ��� ���� ������', '45224', '15', '15', '0'),
+('663', '3', '3', '1', '�� ��� ���� ���ʷ�', '45248', '15', '15', '0'),
+('664', '3', '3', '1', '������', '45215', '15', '15', '0'),
+('665', '3', '3', '1', '������', '45060', '22', '15', '0'),
+('666', '3', '3', '1', '��ũ ����', '45223', '25', '15', '0'),
+('667', '3', '3', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('668', '3', '3', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('669', '3', '3', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('670', '3', '3', '2', '�ٴ׿�����', '45284', '12', '15', '0'),
+('671', '3', '3', '2', '�ٴ׾�í', '45291', '12', '15', '0'),
+('672', '3', '3', '2', '���� �Ƹ�', '45322', '12', '15', '0'),
+('673', '3', '3', '2', '����', '45278', '10', '15', '0'),
+('674', '3', '3', '2', 'Ʈ��', '45280', '8', '15', '0'),
+('675', '3', '3', '2', '��ũ ������', '45364', '12', '15', '0'),
+('676', '3', '3', '2', '�级 Ÿ�̰�', '45267', '12', '15', '0'),
+('677', '3', '3', '2', '��ũ ����', '45223', '14', '15', '0'),
+('678', '3', '3', '2', 'ŷ ���� ����', '45298', '8', '15', '0'),
+('679', '3', '3', '3', '��󸸴�', '45203', '10', '15', '0'),
+('680', '3', '3', '3', '����Ʈ�ε�', '45346', '10', '15', '0'),
+('681', '3', '3', '3', '�ƽ�Ÿ����', '45359', '10', '15', '0'),
+('682', '3', '3', '3', '���ũ������', '81176', '10', '15', '0'),
+('683', '3', '3', '3', '�������ڴ�-', '45349', '8', '15', '0'),
+('684', '3', '3', '3', '��īƮ����', '45362', '8', '15', '0'),
+('685', '3', '3', '3', '��ť�ٽ�', '45393', '8', '15', '0'),
+('686', '3', '3', '3', '���̾� ����', '45206', '10', '15', '0'),
+('687', '3', '3', '3', 'ȥ�ɸ����ν�', '45341', '8', '15', '0'),
+('688', '3', '3', '3', '����ũ������', '45420', '8', '15', '0'),
+('689', '3', '3', '4', '���ĸ�Ʈ', '45515', '1', '15', '0'),
+('690', '3', '3', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('691', '3', '4', '1', '���ĸ�Ʈ��', '45161', '20', '15', '0'),
+('692', '3', '4', '1', '����', '45040', '20', '15', '0'),
+('693', '3', '4', '1', '��Ʈ ��', '45192', '20', '15', '0'),
+('694', '3', '4', '1', '���ɸ�������ũ', '45131', '20', '15', '0'),
+('695', '3', '4', '1', '��ũ fighter', '45082', '25', '15', '0'),
+('696', '3', '4', '1', '��ũ��ī��Ʈ', '45138', '20', '15', '0'),
+('697', '3', '4', '1', '��ũ ������', '45121', '15', '15', '0'),
+('698', '3', '4', '1', '���̾Ȱ���', '45372', '10', '15', '0'),
+('699', '3', '4', '1', '���ڵ常', '45144', '15', '15', '0'),
+('700', '3', '4', '1', 'Ŭ�� ��', '45164', '15', '15', '0'),
+('701', '3', '4', '1', '��ũũ', '45223', '15', '15', '0'),
+('702', '3', '4', '1', '����ĭ������', '45173', '15', '15', '0'),
+('703', '3', '4', '1', '���̾�Ʈ spider', '45136', '25', '15', '0'),
+('704', '3', '4', '1', '�巿�彺���̴�', '45184', '15', '15', '0'),
+('705', '3', '4', '1', '�� ��� ���� ����', '45216', '20', '15', '0'),
+('706', '3', '4', '1', '�� ��� ���� ������', '45224', '15', '15', '0'),
+('707', '3', '4', '1', '�� ��� ���� ���ʷ�', '45248', '15', '15', '0'),
+('708', '3', '4', '1', '������', '45215', '15', '15', '0'),
+('709', '3', '4', '1', '������', '45060', '20', '15', '0'),
+('710', '3', '4', '1', '��ũ ����', '45223', '20', '15', '0'),
+('711', '3', '4', '2', '���̸��� ���̵�', '45269', '15', '15', '0'),
+('712', '3', '4', '2', '���ɸ��渶ũ����', '45270', '15', '15', '0'),
+('713', '3', '4', '2', '���̸��� fighter', '45286', '15', '15', '0'),
+('714', '3', '4', '2', '�ٴ׿�����', '45284', '10', '15', '0'),
+('715', '3', '4', '2', '�ٴ׾�í', '45291', '10', '15', '0'),
+('716', '3', '4', '2', '���� �Ƹ�', '45322', '10', '15', '0'),
+('717', '3', '4', '2', '����', '45278', '10', '15', '0'),
+('718', '3', '4', '2', 'Ʈ��', '45280', '10', '15', '0'),
+('719', '3', '4', '2', '��ũ ������', '45364', '10', '15', '0'),
+('720', '3', '4', '2', '�级 Ÿ�̰�', '45267', '10', '15', '0'),
+('721', '3', '4', '2', '��ũ ����', '45223', '15', '15', '0'),
+('722', '3', '4', '2', 'ŷ ���� ����', '45298', '8', '15', '0'),
+('723', '3', '4', '2', '����', '45294', '15', '15', '0'),
+('724', '3', '4', '3', '��ٰ���', '45365', '15', '15', '0'),
+('725', '3', '4', '3', '����Ʈ�ε�', '45346', '10', '15', '0'),
+('726', '3', '4', '3', '�ƽ�Ÿ����', '45359', '10', '15', '0'),
+('727', '3', '4', '3', '��Ʈ', '45373', '10', '15', '0'),
+('728', '3', '4', '3', '���̾� ����', '45206', '20', '15', '0'),
+('729', '3', '4', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('730', '3', '4', '3', 'ũ��Ŀ����', '45469', '5', '15', '0'),
+('731', '3', '4', '4', '���ĸ�Ʈ', '45515', '1', '15', '0'),
+('732', '3', '4', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('733', '3', '5', '1', '���ĸ�Ʈ��', '45161', '22', '15', '0'),
+('734', '3', '5', '1', '����', '45040', '20', '15', '0'),
+('735', '3', '5', '1', '���ɸ���ǽ�', '45130', '17', '15', '0'),
+('736', '3', '5', '1', '���ɸ�������ũ', '45131', '17', '15', '0'),
+('737', '3', '5', '1', '��ũ fighter', '45082', '22', '15', '0'),
+('738', '3', '5', '1', '��ũ��ī��Ʈ', '45138', '17', '15', '0'),
+('739', '3', '5', '1', '��ũ ������', '45121', '12', '15', '0'),
+('740', '3', '5', '1', '��Ʈ ��', '45192', '12', '15', '0'),
+('741', '3', '5', '1', '���ڵ常', '45144', '12', '15', '0'),
+('742', '3', '5', '1', 'Ŭ�� ��', '45164', '12', '15', '0'),
+('743', '3', '5', '1', '��ũũ', '45223', '12', '15', '0'),
+('744', '3', '5', '1', '����ĭ������', '45173', '12', '15', '0'),
+('745', '3', '5', '1', '���̾�Ʈ spider', '45136', '22', '15', '0'),
+('746', '3', '5', '1', '�巿�彺���̴�', '45184', '15', '15', '0'),
+('747', '3', '5', '1', '�� ��� ���� ����', '45216', '20', '15', '0'),
+('748', '3', '5', '1', '�� ��� ���� ������', '45224', '15', '15', '0'),
+('749', '3', '5', '1', '�� ��� ���� ���ʷ�', '45248', '15', '15', '0'),
+('750', '3', '5', '1', '������', '45215', '15', '15', '0'),
+('751', '3', '5', '1', '����Ʈ', '45213', '15', '15', '0'),
+('752', '3', '5', '1', '��ũ ����', '45223', '12', '15', '0'),
+('753', '3', '5', '2', '���̸��� ���̵�', '45269', '12', '15', '0'),
+('754', '3', '5', '2', '���ɸ��渶ũ����', '45270', '12', '15', '0'),
+('755', '3', '5', '2', '���̸��� fighter', '45286', '12', '15', '0'),
+('756', '3', '5', '2', '�ٴ׿�����', '45284', '10', '15', '0'),
+('757', '3', '5', '2', '�ٴ׾�í', '45291', '10', '15', '0'),
+('758', '3', '5', '2', '���� �Ƹ�', '45322', '10', '15', '0'),
+('759', '3', '5', '2', '����', '45278', '8', '15', '0'),
+('760', '3', '5', '2', 'Ʈ��', '45280', '10', '15', '0'),
+('761', '3', '5', '2', '��ũ ������', '45364', '12', '15', '0'),
+('762', '3', '5', '2', '�级 Ÿ�̰�', '45267', '12', '15', '0'),
+('763', '3', '5', '2', '��ũ ����', '45223', '12', '15', '0'),
+('764', '3', '5', '2', 'ŷ ���� ����', '45298', '8', '15', '0'),
+('765', '3', '5', '2', '����', '45294', '15', '15', '0'),
+('766', '3', '5', '3', '��󸸴�', '45203', '10', '15', '0'),
+('767', '3', '5', '3', '����Ʈ�ε�', '45346', '10', '15', '0'),
+('768', '3', '5', '3', '�ƽ�Ÿ����', '45359', '12', '15', '0'),
+('769', '3', '5', '3', '���ũ������', '81176', '10', '15', '0'),
+('770', '3', '5', '3', '�������ڴ�-', '45349', '12', '15', '0'),
+('771', '3', '5', '3', '��īƮ����', '45362', '5', '15', '0'),
+('772', '3', '5', '3', '��ť�ٽ�', '45393', '8', '15', '0'),
+('773', '3', '5', '3', '���̾� ����', '45206', '25', '15', '0'),
+('774', '3', '5', '3', 'ȥ�ɸ����ν�', '45341', '12', '15', '0'),
+('775', '3', '5', '3', '����ũ������', '45420', '8', '15', '0'),
+('776', '3', '5', '4', '���ĸ�Ʈ', '45515', '1', '15', '0'),
+('777', '3', '5', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('778', '3', '6', '1', '���ĸ�Ʈ��', '45161', '22', '15', '0'),
+('779', '3', '6', '1', '����', '45040', '20', '15', '0'),
+('780', '3', '6', '1', '��Ʈ ��', '45192', '20', '15', '0'),
+('781', '3', '6', '1', '���ɸ�������ũ', '45131', '20', '15', '0'),
+('782', '3', '6', '1', '��ũ fighter', '45082', '25', '15', '0'),
+('783', '3', '6', '1', '��ũ��ī��Ʈ', '45138', '20', '15', '0'),
+('784', '3', '6', '1', '��ũ ������', '45121', '15', '15', '0'),
+('785', '3', '6', '1', '���̾Ȱ���', '45372', '10', '15', '0'),
+('786', '3', '6', '1', '���ڵ常', '45144', '15', '15', '0'),
+('787', '3', '6', '1', 'Ŭ�� ��', '45164', '15', '15', '0'),
+('788', '3', '6', '1', '������기', '45140', '20', '15', '0'),
+('789', '3', '6', '1', '����ĭ������', '45173', '15', '15', '0'),
+('790', '3', '6', '1', '���̾�Ʈ spider', '45136', '20', '15', '0'),
+('791', '3', '6', '1', '�巿�彺���̴�', '45184', '15', '15', '0'),
+('792', '3', '6', '1', '�� ��� ���� ����', '45216', '20', '15', '0'),
+('793', '3', '6', '1', '�̹�ũ', '45141', '20', '15', '0'),
+('794', '3', '6', '1', '�� ��� ���� ���ʷ�', '45248', '20', '15', '0'),
+('795', '3', '6', '1', '������', '45215', '20', '15', '0'),
+('796', '3', '6', '1', '������', '45060', '20', '15', '0'),
+('797', '3', '6', '1', '��ũ ����', '45223', '20', '15', '0'),
+('798', '3', '6', '2', '���̸��� ���̵�', '45269', '12', '15', '0'),
+('799', '3', '6', '2', '���ɸ��渶ũ����', '45270', '12', '15', '0'),
+('800', '3', '6', '2', '���̸��� fighter', '45286', '12', '15', '0'),
+('801', '3', '6', '2', '�ٴ׿�����', '45284', '10', '15', '0'),
+('802', '3', '6', '2', '�ٴ׾�í', '45291', '10', '15', '0'),
+('803', '3', '6', '2', '���̾� ����', '45206', '20', '15', '0'),
+('804', '3', '6', '2', '����', '45278', '15', '15', '0'),
+('805', '3', '6', '2', 'Ʈ��', '45280', '8', '15', '0'),
+('806', '3', '6', '2', '��ũ ������', '45364', '15', '15', '0'),
+('807', '3', '6', '2', '�级 Ÿ�̰�', '45267', '15', '15', '0'),
+('808', '3', '6', '2', '��ũ ����', '45223', '15', '15', '0'),
+('809', '3', '6', '2', 'ŷ ���� ����', '45298', '8', '15', '0'),
+('810', '3', '6', '2', '����', '45294', '15', '15', '0'),
+('811', '3', '6', '3', '��ٰ���', '45365', '15', '15', '0'),
+('812', '3', '6', '3', '����Ʈ�ε�', '45346', '8', '15', '0'),
+('813', '3', '6', '3', '�ƽ�Ÿ����', '45359', '15', '15', '0'),
+('814', '3', '6', '3', '��Ʈ', '45373', '15', '15', '0'),
+('815', '3', '6', '3', '���̾� ����', '45206', '20', '15', '0'),
+('816', '3', '6', '3', 'ȥ�ɸ����ν�', '45341', '15', '15', '0'),
+('817', '3', '6', '3', 'ũ��Ŀ����', '45469', '5', '15', '0'),
+('818', '3', '6', '4', '���ĸ�Ʈ', '45515', '1', '15', '0'),
+('819', '3', '6', '4', '�巹��ũ', '45578', '1', '15', '15'),
+('820', '4', '1', '1', '�����', '45041', '10', '15', '0'),
+('821', '4', '1', '1', '����', '45051', '15', '15', '0'),
+('822', '4', '1', '1', '������', '45060', '15', '15', '0'),
+('823', '4', '1', '1', '�ķ��þ���', '45068', '10', '15', '0'),
+('824', '4', '1', '1', '�����', '45041', '15', '15', '0'),
+('825', '4', '1', '1', '����Ŀ�����', '45092', '20', '15', '0'),
+('826', '4', '1', '1', '���̸���', '45107', '10', '15', '0'),
+('827', '4', '1', '1', '���ɸ����í', '45129', '10', '15', '0'),
+('828', '4', '1', '1', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('829', '4', '1', '1', '���ɸ���ǽ�', '45130', '5', '15', '0'),
+('830', '4', '1', '1', '���̾�Ʈ spider', '45136', '15', '15', '0'),
+('831', '4', '1', '1', '������', '45060', '15', '15', '0'),
+('832', '4', '1', '2', '���̸���', '45107', '20', '15', '0'),
+('833', '4', '1', '2', '���ɸ����í', '45129', '20', '15', '0'),
+('834', '4', '1', '2', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('835', '4', '1', '2', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('836', '4', '1', '2', '����', '45105', '15', '15', '0'),
+('837', '4', '1', '2', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('838', '4', '1', '2', '���ɸ�������ũ', '45131', '15', '15', '0'),
+('839', '4', '1', '2', '���̸���', '45107', '10', '15', '0'),
+('840', '4', '1', '2', '���ɸ����í', '45129', '10', '15', '0'),
+('841', '4', '1', '2', '���ĸ�Ʈ��', '45161', '10', '15', '0'),
+('842', '4', '1', '3', '�������', '45126', '10', '15', '0'),
+('843', '4', '1', '3', '�̹�ũ', '45141', '10', '15', '0'),
+('844', '4', '1', '3', '���콺Ʈ', '45174', '1', '15', '0'),
+('845', '4', '1', '3', '���츣����', '45371', '10', '15', '0'),
+('846', '4', '1', '3', '���̸���', '45107', '10', '15', '0'),
+('847', '4', '1', '3', '���ɸ����í', '45129', '15', '15', '0'),
+('848', '4', '1', '3', '�巿�彺���̴�', '45184', '10', '15', '0'),
+('849', '4', '1', '3', '���̾�Ʈ spider', '45136', '5', '15', '0'),
+('850', '4', '1', '4', '���ũ������', '81176', '4', '15', '0'),
+('851', '4', '1', '4', '���ũ������', '81176', '1', '15', '15'),
+('852', '4', '2', '1', '�����', '45041', '15', '15', '0'),
+('853', '4', '2', '1', '���̵��', '45027', '10', '15', '0'),
+('854', '4', '2', '1', '�븣', '45079', '15', '15', '0'),
+('855', '4', '2', '1', '������ ��', '45088', '15', '15', '0'),
+('856', '4', '2', '1', '��ũ fighter', '45082', '10', '15', '0'),
+('857', '4', '2', '1', '���̸���', '45107', '10', '15', '0'),
+('858', '4', '2', '1', '���ɸ����í', '45129', '10', '15', '0'),
+('859', '4', '2', '1', '���ɸ�������ũ', '45131', '15', '15', '0'),
+('860', '4', '2', '1', '���ɸ���ǽ�', '45130', '5', '15', '0'),
+('861', '4', '2', '1', '���̾�Ʈ spider', '45136', '5', '15', '0'),
+('862', '4', '2', '1', '������', '45060', '15', '15', '0'),
+('863', '4', '2', '2', '���̸���', '45107', '20', '15', '0'),
+('864', '4', '2', '2', '���ɸ����í', '45129', '20', '15', '0'),
+('865', '4', '2', '2', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('866', '4', '2', '2', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('867', '4', '2', '2', '����', '45048', '15', '15', '0'),
+('868', '4', '2', '2', '���ɸ���ǽ�', '45130', '15', '15', '0'),
+('869', '4', '2', '2', '�ν�', '45551', '15', '15', '0'),
+('870', '4', '2', '2', '����', '45040', '10', '15', '0'),
+('871', '4', '2', '2', '���ɸ����í', '45129', '10', '15', '0'),
+('872', '4', '2', '2', '���ĸ�Ʈ��', '45161', '10', '15', '0'),
+('873', '4', '2', '3', '�������', '45126', '10', '15', '0'),
+('874', '4', '2', '3', '�̹�ũ', '45141', '10', '15', '0'),
+('875', '4', '2', '3', '���콺Ʈ', '45174', '1', '15', '0'),
+('876', '4', '2', '3', '���츣����', '45371', '10', '15', '0'),
+('877', '4', '2', '3', '��ũũ', '45223', '10', '15', '0'),
+('878', '4', '2', '3', '���ɸ����í', '45129', '10', '15', '0'),
+('879', '4', '2', '3', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('880', '4', '2', '3', '�ιٿ�ũ', '45127', '10', '15', '0'),
+('881', '4', '2', '3', '����ĭ������', '45173', '10', '15', '0'),
+('882', '4', '2', '3', '���̾�Ʈ spider', '45136', '5', '15', '0'),
+('883', '4', '2', '3', '�巿�彺���̴�', '45184', '5', '15', '0'),
+('884', '4', '2', '3', 'Ʈ�Ա�', '45155', '10', '15', '0'),
+('885', '4', '2', '4', '���ũ������', '81176', '9', '15', '0'),
+('886', '4', '2', '4', '���ũ������', '81176', '1', '15', '15'),
+('887', '4', '3', '1', '�����', '45041', '10', '15', '0'),
+('888', '4', '3', '1', '��ũ', '45017', '10', '15', '0'),
+('889', '4', '3', '1', '�ķ��þ���', '45068', '10', '15', '0'),
+('890', '4', '3', '1', '�ν�', '45551', '15', '15', '0'),
+('891', '4', '3', '1', '�븣', '45079', '10', '15', '0'),
+('892', '4', '3', '1', '��ũ fighter', '45082', '10', '15', '0'),
+('893', '4', '3', '1', '�Ƹ�����Ÿ', '45101', '15', '15', '0'),
+('894', '4', '3', '1', '��ũ ����', '45104', '10', '15', '0'),
+('895', '4', '3', '1', '��ũ ������', '45121', '5', '15', '0'),
+('896', '4', '3', '1', '���̾�Ʈ spider', '45136', '15', '15', '0'),
+('897', '4', '3', '1', '������', '45060', '15', '15', '0'),
+('898', '4', '3', '2', '���̸���', '45107', '20', '15', '0'),
+('899', '4', '3', '2', '���ɸ����í', '45129', '20', '15', '0'),
+('900', '4', '3', '2', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('901', '4', '3', '2', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('902', '4', '3', '2', '����', '45105', '15', '15', '0'),
+('903', '4', '3', '2', '���̾�Ʈ��Ʈ', '45115', '10', '15', '0'),
+('904', '4', '3', '2', '���̾�Ʈ spider', '45136', '5', '15', '0'),
+('905', '4', '3', '2', '���ڵ常', '45144', '20', '15', '0'),
+('906', '4', '3', '2', '���ĸ�Ʈ��', '45161', '15', '15', '0'),
+('907', '4', '3', '3', '�������', '45126', '10', '15', '0'),
+('908', '4', '3', '3', '�̹�ũ', '45141', '10', '15', '0'),
+('909', '4', '3', '3', '���콺Ʈ', '45174', '1', '15', '0'),
+('910', '4', '3', '3', '���츣����', '45371', '10', '15', '0'),
+('911', '4', '3', '3', 'Ŭ�� ��', '45164', '10', '15', '0'),
+('912', '4', '3', '3', '���ɸ�������ũ', '45131', '15', '15', '0'),
+('913', '4', '3', '3', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('914', '4', '3', '3', '�巿�彺���̴�', '45184', '5', '15', '0'),
+('915', '4', '3', '3', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('916', '4', '3', '4', '���ũ������', '81176', '4', '15', '0'),
+('917', '4', '3', '4', '���ũ������', '81176', '1', '15', '15'),
+('918', '4', '4', '1', '�����', '45041', '12', '15', '0'),
+('919', '4', '4', '1', '����', '45048', '20', '15', '0'),
+('920', '4', '4', '1', '�ķ��þ���', '45068', '12', '15', '0'),
+('921', '4', '4', '1', '�����', '45041', '15', '15', '0'),
+('922', '4', '4', '1', '�븣', '45079', '20', '15', '0'),
+('923', '4', '4', '1', '��ũ fighter', '45082', '15', '15', '0'),
+('924', '4', '4', '1', '���ɸ����í', '45129', '15', '15', '0'),
+('925', '4', '4', '1', '���ɸ�������ũ', '45131', '15', '15', '0'),
+('926', '4', '4', '1', '���ɸ���ǽ�', '45130', '7', '15', '0'),
+('927', '4', '4', '1', '���̾�Ʈ spider', '45136', '15', '15', '0'),
+('928', '4', '4', '1', '������', '45060', '15', '15', '0'),
+('929', '4', '4', '2', '���̸���', '45107', '25', '15', '0'),
+('930', '4', '4', '2', '���ɸ����í', '45129', '15', '15', '0'),
+('931', '4', '4', '2', '���ɸ�������ũ', '45131', '15', '15', '0'),
+('932', '4', '4', '2', '���ɸ���ǽ�', '45130', '15', '15', '0'),
+('933', '4', '4', '2', '����', '45105', '25', '15', '0'),
+('934', '4', '4', '2', '���̾�Ʈ��Ʈ', '45115', '15', '15', '0'),
+('935', '4', '4', '2', '���̾�Ʈ spider', '45136', '5', '15', '0'),
+('936', '4', '4', '2', '���ڵ常', '45144', '15', '15', '0'),
+('937', '4', '4', '2', '���ĸ�Ʈ��', '45161', '10', '15', '0'),
+('938', '4', '4', '3', '�������', '45126', '10', '15', '0'),
+('939', '4', '4', '3', '�̹�ũ', '45141', '10', '15', '0'),
+('940', '4', '4', '3', '���콺Ʈ', '45174', '2', '15', '0'),
+('941', '4', '4', '3', '���츣����', '45371', '12', '15', '0'),
+('942', '4', '4', '3', 'Ŭ�� ��', '45164', '12', '15', '0'),
+('943', '4', '4', '3', '���ɸ�������ũ', '45131', '12', '15', '0'),
+('944', '4', '4', '3', '���ɸ���ǽ�', '45130', '12', '15', '0'),
+('945', '4', '4', '3', '�巿�彺���̴�', '45184', '5', '15', '0'),
+('946', '4', '4', '3', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('947', '4', '4', '4', '���ũ������', '81176', '4', '15', '0'),
+('948', '4', '4', '4', '���ũ������', '81176', '1', '15', '15'),
+('949', '5', '1', '1', '��ũ��í', '45019', '5', '15', '0'),
+('950', '5', '1', '1', '��ũ fighter', '45082', '15', '15', '0'),
+('951', '5', '1', '1', '������ ��', '45088', '10', '15', '0'),
+('952', '5', '1', '1', '���̸���', '45107', '10', '15', '0'),
+('953', '5', '1', '1', '����', '45040', '15', '15', '0'),
+('954', '5', '1', '1', '��ũ ������', '45121', '10', '15', '0'),
+('955', '5', '1', '1', '��ũũ', '45223', '10', '15', '0'),
+('956', '5', '1', '1', '����', '45048', '20', '15', '0'),
+('957', '5', '1', '1', '����', '45051', '10', '15', '0'),
+('958', '5', '1', '1', '����������', '45064', '5', '15', '0'),
+('959', '5', '1', '1', '���̾�Ʈ��Ʈ', '45115', '10', '15', '0'),
+('960', '5', '1', '1', '����', '45105', '20', '15', '0'),
+('961', '5', '1', '1', '�븣', '45079', '10', '15', '0'),
+('962', '5', '1', '1', '���ɸ����í', '45129', '10', '15', '0'),
+('963', '5', '1', '2', '�̹�ũ', '45141', '5', '15', '0'),
+('964', '5', '1', '2', 'ȣ����기', '45140', '8', '15', '0'),
+('965', '5', '1', '2', '���츣����', '45371', '8', '15', '0'),
+('966', '5', '1', '2', 'Ʈ�Ա�', '45155', '8', '15', '0'),
+('967', '5', '1', '2', 'Ŭ�� ��', '45164', '8', '15', '0'),
+('968', '5', '1', '2', 'ũ����ũ�ο�', '45083', '8', '15', '0'),
+('969', '5', '1', '2', '����Ŀ�����', '45092', '8', '15', '0'),
+('970', '5', '1', '2', '���̸���', '45107', '8', '15', '0'),
+('971', '5', '1', '2', '���̾�Ʈ spider', '45136', '8', '15', '0'),
+('972', '5', '1', '2', '��', '45157', '8', '15', '0'),
+('973', '5', '1', '2', '���ĸ�Ʈ��', '45161', '8', '15', '0'),
+('974', '5', '1', '2', '������', '45060', '5', '15', '0'),
+('975', '5', '1', '3', '��', '45157', '10', '15', '0'),
+('976', '5', '1', '3', '���̵��', '45027', '15', '15', '0'),
+('977', '5', '1', '3', '����������', '45064', '10', '15', '0'),
+('978', '5', '1', '3', 'Ʈ�Ա�', '45155', '15', '15', '0'),
+('979', '5', '1', '3', 'ȣ����기', '45140', '10', '15', '0'),
+('980', '5', '1', '3', '���̾�Ʈ��Ʈ', '45115', '10', '15', '0'),
+('981', '5', '1', '3', '���̾�Ʈ spider', '45136', '15', '15', '0'),
+('982', '5', '1', '3', '����Ŀ�����', '45092', '10', '15', '0'),
+('983', '5', '1', '3', '���̽�����', '45182', '5', '15', '0'),
+('984', '5', '1', '3', '�������', '45126', '5', '15', '0'),
+('985', '5', '1', '3', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '2', '15', '0'),
+('986', '5', '1', '3', '�ν�', '45551', '10', '15', '0'),
+('987', '5', '1', '3', '�븣', '45079', '15', '15', '0'),
+('988', '5', '1', '3', '�����ǿ�', '45259', '5', '15', '0'),
+('989', '5', '1', '4', '����Ʈ', '45213', '2', '15', '0'),
+('990', '5', '1', '4', '����Ʈ�ε�', '45346', '1', '15', '15'),
+('991', '5', '2', '1', '����', '45105', '20', '15', '0'),
+('992', '5', '2', '1', '�븣', '45079', '10', '15', '0'),
+('993', '5', '2', '1', '�Ƹ�����Ÿ', '45101', '10', '15', '0'),
+('994', '5', '2', '1', '�����', '45023', '10', '15', '0'),
+('995', '5', '2', '1', '�ν�', '45551', '15', '15', '0'),
+('996', '5', '2', '1', '���̵��', '45027', '10', '15', '0'),
+('997', '5', '2', '1', '��ũ fighter', '45082', '10', '15', '0'),
+('998', '5', '2', '1', '��Ʈ�ٿ�ũ', '45149', '8', '15', '0'),
+('999', '5', '2', '1', '�δٸ����ũ', '45143', '5', '15', '0'),
+('1000', '5', '2', '1', '��ũ ����', '45104', '10', '15', '0'),
+('1001', '5', '2', '1', '��ũ��ī��Ʈ', '45138', '8', '15', '0'),
+('1002', '5', '2', '1', '��ũ ������', '45121', '5', '15', '0'),
+('1003', '5', '2', '1', '�������', '45126', '5', '15', '0'),
+('1004', '5', '2', '2', '���ڵ常', '45144', '15', '15', '0'),
+('1005', '5', '2', '2', 'ȣ����기', '45140', '10', '15', '0'),
+('1006', '5', '2', '2', '���ɸ���ǽ�', '45130', '10', '15', '0'),
+('1007', '5', '2', '2', '���ɸ�������ũ', '45131', '8', '15', '0'),
+('1008', '5', '2', '2', '���ɸ����í', '45129', '8', '15', '0'),
+('1009', '5', '2', '2', '���ĸ�Ʈ��', '45161', '5', '15', '0'),
+('1010', '5', '2', '2', '���̾�Ʈ spider', '45136', '8', '15', '0'),
+('1011', '5', '2', '2', '���츣����', '45371', '5', '15', '0'),
+('1012', '5', '2', '2', '����', '45105', '20', '15', '0'),
+('1013', '5', '2', '2', '�ķ��þ���', '45068', '5', '15', '0'),
+('1014', '5', '2', '2', 'Ʈ�Ա�', '45155', '15', '15', '0'),
+('1015', '5', '2', '2', '������', '45060', '5', '15', '0'),
+('1016', '5', '2', '3', '����', '45105', '20', '15', '0'),
+('1017', '5', '2', '3', '��ũ fighter', '45082', '10', '15', '0'),
+('1018', '5', '2', '3', '�Ƹ�����Ÿ', '45101', '10', '15', '0'),
+('1019', '5', '2', '3', '��ũũ', '45223', '10', '15', '0'),
+('1020', '5', '2', '3', '������', '45060', '8', '15', '0'),
+('1021', '5', '2', '3', '���̾�Ʈ��Ʈ', '45115', '8', '15', '0'),
+('1022', '5', '2', '3', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('1023', '5', '2', '3', '����Ŀ�����', '45092', '10', '15', '0'),
+('1024', '5', '2', '3', '���̽�����', '45182', '5', '15', '0'),
+('1025', '5', '2', '3', '�������', '45126', '5', '15', '0'),
+('1026', '5', '2', '3', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '2', '15', '0'),
+('1027', '5', '2', '3', '���̸���', '45107', '12', '15', '0'),
+('1028', '5', '2', '3', '�븣', '45079', '15', '15', '0'),
+('1029', '5', '2', '3', '��̾�', '45387', '5', '15', '0'),
+('1030', '5', '2', '3', '�̹�ũ', '45141', '7', '15', '0'),
+('1031', '5', '2', '4', '����Ʈ', '45213', '2', '15', '0'),
+('1032', '5', '2', '4', '����Ʈ�ε�', '45346', '1', '15', '15'),
+('1033', '5', '3', '1', '�ν�', '45551', '10', '15', '0'),
+('1034', '5', '3', '1', '����', '45048', '15', '15', '0'),
+('1035', '5', '3', '1', '���̾�Ʈ��Ʈ', '45115', '5', '15', '0'),
+('1036', '5', '3', '1', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('1037', '5', '3', '1', '����', '45105', '15', '15', '0'),
+('1038', '5', '3', '1', '�����', '45041', '15', '15', '0'),
+('1039', '5', '3', '1', '����Ŀ�����', '45092', '12', '15', '0'),
+('1040', '5', '3', '1', '���̸���', '45107', '10', '15', '0'),
+('1041', '5', '3', '1', '���ɸ����í', '45129', '5', '15', '0'),
+('1042', '5', '3', '1', '���ɸ���ǽ�', '45130', '5', '15', '0'),
+('1043', '5', '3', '1', '���ɸ�������ũ', '45131', '10', '15', '0'),
+('1044', '5', '3', '1', '�������', '45126', '5', '15', '0'),
+('1045', '5', '3', '1', '��ũ��ī��Ʈ', '45138', '5', '15', '0'),
+('1046', '5', '3', '2', 'Ŭ�� ��', '45164', '13', '15', '0'),
+('1047', '5', '3', '2', '��ũ ����', '45223', '2', '15', '0'),
+('1048', '5', '3', '2', '���̽�����', '45182', '1', '15', '0'),
+('1049', '5', '3', '2', '�巿�彺���̴�', '45184', '5', '15', '0'),
+('1050', '5', '3', '2', 'ȣ����기', '45140', '10', '15', '0'),
+('1051', '5', '3', '2', '���츣����', '45371', '5', '15', '0'),
+('1052', '5', '3', '2', 'Ʈ�Ա�', '45155', '8', '15', '0'),
+('1053', '5', '3', '2', '��ũ ������', '45121', '5', '15', '0'),
+('1054', '5', '3', '2', '��Ʈ ��', '45192', '10', '15', '0'),
+('1055', '5', '3', '2', '����ĭ������', '45173', '8', '15', '0'),
+('1056', '5', '3', '2', '������', '45060', '5', '15', '0'),
+('1057', '5', '3', '3', '��', '45157', '15', '15', '0'),
+('1058', '5', '3', '3', '�ν�', '45551', '15', '15', '0'),
+('1059', '5', '3', '3', '����', '45105', '15', '15', '0'),
+('1060', '5', '3', '3', '����', '45040', '13', '15', '0'),
+('1061', '5', '3', '3', 'Ʈ�Ա�', '45155', '13', '15', '0'),
+('1062', '5', '3', '3', 'ȣ����기', '45140', '10', '15', '0'),
+('1063', '5', '3', '3', '���̾�Ʈ��Ʈ', '45115', '8', '15', '0'),
+('1064', '5', '3', '3', '���̾�Ʈ spider', '45136', '15', '15', '0'),
+('1065', '5', '3', '3', '�븣', '45079', '15', '15', '0'),
+('1066', '5', '3', '3', '���̽�����', '45182', '5', '15', '0'),
+('1067', '5', '3', '3', '��ũ ������', '45121', '5', '15', '0'),
+('1068', '5', '3', '3', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '2', '15', '0'),
+('1069', '5', '3', '3', '�巿�彺���̴�', '45184', '3', '15', '0'),
+('1070', '5', '3', '3', '�븣', '45079', '20', '15', '0'),
+('1071', '5', '3', '3', '��Ʈ ��', '45192', '15', '15', '0'),
+('1072', '5', '3', '3', '���츣����', '45371', '8', '15', '0'),
+('1073', '5', '3', '4', '����Ʈ', '45213', '2', '15', '0'),
+('1074', '5', '3', '4', '����Ʈ�ε�', '45346', '1', '15', '15'),
+('1075', '5', '4', '1', '�ķ��þ���', '45068', '10', '15', '0'),
+('1076', '5', '4', '1', 'ũ����ũ�ο�', '45083', '8', '15', '0'),
+('1077', '5', '4', '1', '����', '45051', '10', '15', '0'),
+('1078', '5', '4', '1', '����������', '45064', '5', '15', '0'),
+('1079', '5', '4', '1', '�����', '45023', '10', '15', '0'),
+('1080', '5', '4', '1', '�����', '45041', '15', '15', '0'),
+('1081', '5', '4', '1', '����Ŀ�����', '45092', '15', '15', '0'),
+('1082', '5', '4', '1', '���̸���', '45107', '8', '15', '0'),
+('1083', '5', '4', '1', '����', '45040', '12', '15', '0'),
+('1084', '5', '4', '1', '��ũũ', '45223', '12', '15', '0'),
+('1085', '5', '4', '1', 'ȣ����기', '45140', '8', '15', '0'),
+('1086', '5', '4', '1', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('1087', '5', '4', '1', '���ڵ常', '45144', '10', '15', '0'),
+('1088', '5', '4', '1', 'Ʈ�Ա�', '45155', '10', '15', '0'),
+('1089', '5', '4', '2', '���̾�Ʈ��Ʈ', '45115', '8', '15', '0'),
+('1090', '5', '4', '2', '��ũ ����', '45104', '13', '15', '0'),
+('1091', '5', '4', '2', '��ũ ������', '45121', '10', '15', '0'),
+('1092', '5', '4', '2', '��ũ fighter', '45082', '13', '15', '0'),
+('1093', '5', '4', '2', '����', '45048', '15', '15', '0'),
+('1094', '5', '4', '2', '���̵��', '45027', '15', '15', '0'),
+('1095', '5', '4', '2', '�븣', '45079', '10', '15', '0'),
+('1096', '5', '4', '2', '�Ƹ�����Ÿ', '45101', '10', '15', '0'),
+('1097', '5', '4', '2', '������ũ', '45098', '8', '15', '0'),
+('1098', '5', '4', '2', '�ιٿ�ũ', '45127', '8', '15', '0'),
+('1099', '5', '4', '2', '��Ʈ�ٿ�ũ', '45149', '8', '15', '0'),
+('1100', '5', '4', '2', '�δٸ����ũ', '45143', '5', '15', '0'),
+('1101', '5', '4', '2', '������', '45060', '5', '15', '0'),
+('1102', '5', '4', '3', '��', '45157', '20', '15', '0'),
+('1103', '5', '4', '3', '�ν�', '45551', '20', '15', '0'),
+('1104', '5', '4', '3', '����', '45105', '20', '15', '0'),
+('1105', '5', '4', '3', '����', '45040', '13', '15', '0'),
+('1106', '5', '4', '3', 'Ʈ�Ա�', '45155', '13', '15', '0'),
+('1107', '5', '4', '3', 'ȣ����기', '45140', '8', '15', '0'),
+('1108', '5', '4', '3', '���̾�Ʈ��Ʈ', '45115', '8', '15', '0'),
+('1109', '5', '4', '3', '���̾�Ʈ spider', '45136', '10', '15', '0'),
+('1110', '5', '4', '3', '�븣', '45079', '10', '15', '0'),
+('1111', '5', '4', '3', '���̽�����', '45182', '5', '15', '0'),
+('1112', '5', '4', '3', '��ũ ������', '45121', '5', '15', '0'),
+('1113', '5', '4', '3', '���̾�Ʈ��Ʈ�Ҹ���', '45190', '2', '15', '0'),
+('1114', '5', '4', '3', '�巿�彺���̴�', '45184', '5', '15', '0'),
+('1115', '5', '4', '3', '�븣', '45079', '15', '15', '0'),
+('1116', '5', '4', '3', '��Ʈ ��', '45192', '15', '15', '0'),
+('1117', '5', '4', '3', '���츣����', '45371', '10', '15', '0'),
+('1118', '5', '4', '4', '����Ʈ', '45213', '2', '15', '0'),
+('1119', '5', '4', '4', '����Ʈ�ε�', '45346', '1', '15', '15');

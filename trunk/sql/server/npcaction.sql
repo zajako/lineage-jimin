@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:06:58
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -30,1220 +30,1221 @@ CREATE TABLE `npcaction` (
 -- ----------------------------
 -- Records of npcaction
 -- ----------------------------
-INSERT INTO `npcaction` VALUES ('45015', 'duck1', 'duck1', '', '');
-INSERT INTO `npcaction` VALUES ('45154', 'mermaid', 'mermaid', '', '');
-INSERT INTO `npcaction` VALUES ('50001', 'barnia1', 'barnia1', 'barnia4', '');
-INSERT INTO `npcaction` VALUES ('50002', 'sky4', 'sky4', 'sky1', '');
-INSERT INTO `npcaction` VALUES ('50003', 'illdrath', 'illdrath', 'illdrath1', '');
-INSERT INTO `npcaction` VALUES ('50004', 'htel', 'htel', 'htel1', '');
-INSERT INTO `npcaction` VALUES ('50005', 'karen3', 'karen3', 'karen1', '');
-INSERT INTO `npcaction` VALUES ('50006', 'coco4', 'coco4', 'coco1', '');
-INSERT INTO `npcaction` VALUES ('50007', 'esmereld2', 'esmereld2', 'esmereld', '');
-INSERT INTO `npcaction` VALUES ('50008', 'agout', 'agout', 'aghvout', '');
-INSERT INTO `npcaction` VALUES ('50009', 'ishtar', 'ishtar', 'ishtar1', '');
-INSERT INTO `npcaction` VALUES ('50010', 'stel', 'stel', 'stel1', '');
-INSERT INTO `npcaction` VALUES ('50011', 'kun4', 'kun4', 'kun2', '');
-INSERT INTO `npcaction` VALUES ('50012', 'kiyari4', 'kiyari4', 'kiyari2', '');
-INSERT INTO `npcaction` VALUES ('50013', 'agout', 'agout', 'agsiout', '');
-INSERT INTO `npcaction` VALUES ('50014', 'dilong2', 'dilong2', 'dilongs', '');
-INSERT INTO `npcaction` VALUES ('50015', 'teleisland1', 'teleisland1', 'teleisland2', '');
-INSERT INTO `npcaction` VALUES ('50016', 'zeno', 'zeno', 'zeno2', '');
-INSERT INTO `npcaction` VALUES ('50017', 'telefire1', 'telefire2', 'telefire3', '');
-INSERT INTO `npcaction` VALUES ('50018', 'colos', 'colos', 'colos1', '');
-INSERT INTO `npcaction` VALUES ('50019', 'colusher', 'colusher', '', '');
-INSERT INTO `npcaction` VALUES ('50020', 'telekent1', 'telekent1', 'telekent2', 'telekent3');
-INSERT INTO `npcaction` VALUES ('50022', 'telefire1', 'telefire2', 'telefire3', '');
-INSERT INTO `npcaction` VALUES ('50021', 'teleckent1', 'teleckent1', 'teleckent2', '');
-INSERT INTO `npcaction` VALUES ('50023', 'kentober1', 'kentober1', 'kentober2', '');
-INSERT INTO `npcaction` VALUES ('50024', 'telegludin1', 'telegludin1', 'telegludin2', 'telegludin3');
-INSERT INTO `npcaction` VALUES ('50025', 'gltzguard', 'gltzguard', 'gltzguard1', '');
-INSERT INTO `npcaction` VALUES ('50026', 'telegltz1', 'telegltz1', 'telegltz2', '');
-INSERT INTO `npcaction` VALUES ('50027', 'gltztele', 'gltztele', 'gltztele1', '');
-INSERT INTO `npcaction` VALUES ('50028', 'colos', 'colos', 'colos1', '');
-INSERT INTO `npcaction` VALUES ('50029', 'colusher', 'colusher', '', '');
-INSERT INTO `npcaction` VALUES ('50030', 'telefire1', 'telefire2', 'telefire3', '');
-INSERT INTO `npcaction` VALUES ('50031', 'sepia2', 'sepia2', '', '');
-INSERT INTO `npcaction` VALUES ('50032', 'grtzguard', 'grtzguard', 'grtzguard1', '');
-INSERT INTO `npcaction` VALUES ('50033', 'telegrtz1', 'telegrtz1', 'telegrtz2', '');
-INSERT INTO `npcaction` VALUES ('50034', 'grtztele', 'grtztele', 'grtztele1', '');
-INSERT INTO `npcaction` VALUES ('50035', 'telecgiran1', 'telecgiran1', 'telecgiran2', '');
-INSERT INTO `npcaction` VALUES ('50036', 'telegiran1', 'telegiran1', 'telegiran2', 'telegiran3');
-INSERT INTO `npcaction` VALUES ('50037', 'colos', 'colos', 'colos1', '');
-INSERT INTO `npcaction` VALUES ('50038', 'colusher', 'colusher', '', '');
-INSERT INTO `npcaction` VALUES ('50039', 'televala1', 'televala1', 'televala2', 'televala3');
-INSERT INTO `npcaction` VALUES ('50040', 'telecdwarf1', 'telecdwarf1', 'telecdwarf2', '');
-INSERT INTO `npcaction` VALUES ('50041', 'colos', 'colos', 'colos1', '');
-INSERT INTO `npcaction` VALUES ('50042', 'colusher', 'colusher', '', '');
-INSERT INTO `npcaction` VALUES ('50043', 'ramudap2', 'ramudap2', 'ramudap1', '');
-INSERT INTO `npcaction` VALUES ('50044', 'sirius1', 'sirius1', 'sirius2', 'sirius3');
-INSERT INTO `npcaction` VALUES ('50045', 'telephantasm', 'telephantasm', 'phantasmisle', '');
-INSERT INTO `npcaction` VALUES ('50046', 'elleris1', 'elleris1', 'elleris2', 'elleris3');
-INSERT INTO `npcaction` VALUES ('50047', 'telecaden1', 'telecaden1', 'telecaden2', '');
-INSERT INTO `npcaction` VALUES ('50048', 'ortzguard', 'ortzguard', 'ortzguard1', '');
-INSERT INTO `npcaction` VALUES ('50049', 'teleortz1', 'teleortz1', 'teleortz2', '');
-INSERT INTO `npcaction` VALUES ('50050', 'ortztele', 'ortztele', 'ortztele1', '');
-INSERT INTO `npcaction` VALUES ('50051', 'kirius1', 'kirius1', 'kirius2', 'kirius3');
-INSERT INTO `npcaction` VALUES ('50052', 'telecwoods1', 'telecwoods1', 'telecwoods2', '');
-INSERT INTO `npcaction` VALUES ('50053', 'telefire1', 'telefire2', 'telefire3', '');
-INSERT INTO `npcaction` VALUES ('50054', 'telewoods1', 'telewoods1', 'telewoods2', 'telewoods3');
-INSERT INTO `npcaction` VALUES ('50055', 'drist', 'drist', 'drist2', '');
-INSERT INTO `npcaction` VALUES ('50056', 'telesilver1', 'telesilver1', 'telesilver2', 'telesilver3');
-INSERT INTO `npcaction` VALUES ('50057', 'telefire1', 'telefire2', 'telefire3', '');
-INSERT INTO `npcaction` VALUES ('50058', 'sktzguard', 'sktzguard', 'sktzguard1', '');
-INSERT INTO `npcaction` VALUES ('50059', 'telesktz1', 'telesktz1', 'telesktz2', '');
-INSERT INTO `npcaction` VALUES ('50060', 'sktztele', 'sktztele', 'sktztele1', '');
-INSERT INTO `npcaction` VALUES ('50061', 'colos', 'colos', 'colos1', '');
-INSERT INTO `npcaction` VALUES ('50062', 'colusher', 'colusher', '', '');
-INSERT INTO `npcaction` VALUES ('50063', 'telecorc1', 'telecorc1', 'telecorc2', '');
-INSERT INTO `npcaction` VALUES ('50064', 'duvall1', 'duvall1', 'duvall3', '');
-INSERT INTO `npcaction` VALUES ('50065', 'ribian4', 'ribian4', '', '');
-INSERT INTO `npcaction` VALUES ('50066', 'teleheine1', 'teleheine1', 'teleheine2', 'teleheine3');
-INSERT INTO `npcaction` VALUES ('50067', 'telecheine1', 'telecheine1', 'telecheine2', '');
-INSERT INTO `npcaction` VALUES ('50068', 'telescave1', 'telescave1', 'telescave2', '');
-INSERT INTO `npcaction` VALUES ('50069', 'enya1', 'enya1', 'enya3', '');
-INSERT INTO `npcaction` VALUES ('50070', 'luck1', 'luck1', 'luck2', '');
-INSERT INTO `npcaction` VALUES ('50071', 'escapefi1', 'escapefi1', 'escapefi2', '');
-INSERT INTO `npcaction` VALUES ('50072', 'teleoum1', 'teleoum1', 'teleoum2', '');
-INSERT INTO `npcaction` VALUES ('50073', 'telediad1', 'telediad1', 'telediad2', '');
-INSERT INTO `npcaction` VALUES ('50074', 'telecavern1', 'telecavern1', 'telecavern2', '');
-INSERT INTO `npcaction` VALUES ('50075', 'telecdiad1', 'telecdiad1', 'telecdiad2', '');
-INSERT INTO `npcaction` VALUES ('50076', 'telgrave1', 'telgrave1', 'telgrave2', '');
-INSERT INTO `npcaction` VALUES ('50077', 'telabyss1', 'telabyss1', 'telabyss2', '');
-INSERT INTO `npcaction` VALUES ('50078', 'picrystal', 'picrystal', 'picrystal1', '');
-INSERT INTO `npcaction` VALUES ('50079', 'telediad1', 'telediad1', 'telediad2', 'telediad3');
-INSERT INTO `npcaction` VALUES ('50080', 'paul1', 'paul1', 'teleorcbdg1', '');
-INSERT INTO `npcaction` VALUES ('50081', 'subinvest1', 'subinvest1', '', '');
-INSERT INTO `npcaction` VALUES ('50082', 'en0221', 'en0221', '', '');
-INSERT INTO `npcaction` VALUES ('50084', 'exitghost1', 'exitghost1', '', '');
-INSERT INTO `npcaction` VALUES ('50111', 'orenc14', 'orenc14', '', '');
-INSERT INTO `npcaction` VALUES ('50112', 'orenb1', 'orenb1', 'orenb0', '');
-INSERT INTO `npcaction` VALUES ('50113', 'orena1', 'orena1', 'orena0', '');
-INSERT INTO `npcaction` VALUES ('50114', 'orenh1', 'orenh1', 'orenh0', '');
-INSERT INTO `npcaction` VALUES ('50115', 'oreno1', 'oreno1', 'oreno0', '');
-INSERT INTO `npcaction` VALUES ('50116', 'orend1', 'orend1', 'orend0', '');
-INSERT INTO `npcaction` VALUES ('50117', 'orene1', 'orene1', 'orene0', '');
-INSERT INTO `npcaction` VALUES ('50118', 'niki', 'niki', '', '');
-INSERT INTO `npcaction` VALUES ('50119', 'orenf1', 'orenf1', 'orenf0', '');
-INSERT INTO `npcaction` VALUES ('50120', 'oreni1', 'oreni1', 'oreni0', '');
-INSERT INTO `npcaction` VALUES ('50121', 'oreng1', 'oreng1', 'oreng0', '');
-INSERT INTO `npcaction` VALUES ('50122', 'orenj1', 'orenj1', 'orenj0', '');
-INSERT INTO `npcaction` VALUES ('50123', 'orenk1', 'orenk1', 'orenk0', '');
-INSERT INTO `npcaction` VALUES ('50124', 'orenm1', 'orenm1', 'orenm0', '');
-INSERT INTO `npcaction` VALUES ('50125', 'orenl1', 'orenl1', 'orenl0', '');
-INSERT INTO `npcaction` VALUES ('50126', 'orenn1', 'orenn1', 'orenn0', '');
-INSERT INTO `npcaction` VALUES ('50127', 'consul2', 'consul2', 'consul1', '');
-INSERT INTO `npcaction` VALUES ('50501', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50502', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50503', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50504', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50505', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50506', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50507', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50508', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50509', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50510', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50511', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50512', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50513', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50514', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50515', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50516', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50517', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50518', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50519', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50520', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50521', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50522', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50523', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50524', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50525', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50526', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50527', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50528', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50529', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50530', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50531', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50532', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50533', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50534', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50535', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50536', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50537', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50538', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50539', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50540', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50541', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50542', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50543', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50544', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50545', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50546', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50547', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50548', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50549', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50550', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50551', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50552', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50553', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50554', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50555', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50556', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50557', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50558', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50559', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50560', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50561', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50562', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50563', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50564', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50565', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50566', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50567', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50568', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50569', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50570', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50571', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50572', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50573', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50574', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50575', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50576', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50577', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50578', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50579', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50580', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50581', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50582', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50583', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50584', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50585', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50586', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50587', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50588', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50589', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50590', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50591', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50592', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50593', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50594', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50595', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50596', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50597', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50598', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50599', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50600', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50601', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50602', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50603', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50604', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50605', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50606', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50607', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50608', 'kinin2', 'kinin2', '', '');
-INSERT INTO `npcaction` VALUES ('50609', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50610', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50611', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50612', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50613', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50614', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50615', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50616', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50617', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50618', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50619', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50620', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50621', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50622', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50623', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50624', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50625', 'acient1', 'acient1', '', '');
-INSERT INTO `npcaction` VALUES ('50626', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50627', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50628', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50629', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50630', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('50631', 'agit', 'agit', 'agtel0', '');
-INSERT INTO `npcaction` VALUES ('60001', 'dorin', 'dorinl', 'pdorin', '');
-INSERT INTO `npcaction` VALUES ('60002', 'bahof', 'bahof', 'pbahof', '');
-INSERT INTO `npcaction` VALUES ('60003', 'thram', 'thraml', 'pthram', '');
-INSERT INTO `npcaction` VALUES ('60004', 'denitz', 'denitzl', 'pdenitz', '');
-INSERT INTO `npcaction` VALUES ('60005', 'luku', 'lukul', 'pluku', '');
-INSERT INTO `npcaction` VALUES ('60006', 'jianku', 'jiankul', 'pjianku', '');
-INSERT INTO `npcaction` VALUES ('60007', 'karim', 'kariml', 'pkarim', '');
-INSERT INTO `npcaction` VALUES ('60008', 'nodim', 'nodiml', 'pnodim', '');
-INSERT INTO `npcaction` VALUES ('60009', 'sauram', 'sauraml', 'psauram', '');
-INSERT INTO `npcaction` VALUES ('60010', 'kasham', 'kashaml', 'pkasham', '');
-INSERT INTO `npcaction` VALUES ('60011', 'kuron', 'kuronl', 'pkuron', '');
-INSERT INTO `npcaction` VALUES ('60012', 'tofen', 'tofen', 'ptofen', '');
-INSERT INTO `npcaction` VALUES ('60013', 'axellon', 'axellonl', 'paxellon', '');
-INSERT INTO `npcaction` VALUES ('60014', 'kriom', 'kriom', 'pkriom', '');
-INSERT INTO `npcaction` VALUES ('60015', 'ogi', 'ogi', 'pogi', '');
-INSERT INTO `npcaction` VALUES ('60016', 'juke', 'jukel', 'pjuke', '');
-INSERT INTO `npcaction` VALUES ('60017', 'karudim', 'karudiml', 'pkarudim', '');
-INSERT INTO `npcaction` VALUES ('60018', 'kamu', 'kamul', 'pkamu', '');
-INSERT INTO `npcaction` VALUES ('60019', 'timpukin', 'timpukinl', 'ptimpukin', '');
-INSERT INTO `npcaction` VALUES ('60020', 'tulak', 'tulakl', 'ptulak', '');
-INSERT INTO `npcaction` VALUES ('60021', 'hirim', 'hiriml', 'phirim', '');
-INSERT INTO `npcaction` VALUES ('60022', 'borgin', 'borgin', 'pborgin', '');
-INSERT INTO `npcaction` VALUES ('60023', 'tarkin', 'tarkinl', 'ptarkin', '');
-INSERT INTO `npcaction` VALUES ('60024', 'gotham', 'gothaml', 'pgotham', '');
-INSERT INTO `npcaction` VALUES ('60025', 'kusian', 'kusianl', 'pkusian', '');
-INSERT INTO `npcaction` VALUES ('60026', 'orclon', 'orclon', 'porclon', '');
-INSERT INTO `npcaction` VALUES ('60027', 'kuhatin', 'kuhatinl', 'pkuhatin', '');
-INSERT INTO `npcaction` VALUES ('60028', 'elE1', 'elE1', 'elCE1', '');
-INSERT INTO `npcaction` VALUES ('60029', 'haidrim', 'haidrim', 'phaidrim', '');
-INSERT INTO `npcaction` VALUES ('60030', 'hakim', 'hakiml', 'phakim', '');
-INSERT INTO `npcaction` VALUES ('60031', 'rayearth1', 'rayearth2', 'pgotham', '');
-INSERT INTO `npcaction` VALUES ('60032', 'garin', 'garinl', 'pgarin', '');
-INSERT INTO `npcaction` VALUES ('60033', 'gawl', 'gawll', 'pgawl', '');
-INSERT INTO `npcaction` VALUES ('60034', 'kuud', 'kuudl', 'pkuud', '');
-INSERT INTO `npcaction` VALUES ('60035', 'zidar', 'zadarl', 'pgawl', '');
-INSERT INTO `npcaction` VALUES ('60036', 'tigus', 'tigusl', 'pgawl', '');
-INSERT INTO `npcaction` VALUES ('60037', 'en1011', 'en1011', '', '');
-INSERT INTO `npcaction` VALUES ('60501', 'patguard', 'patguard', '', '');
-INSERT INTO `npcaction` VALUES ('60502', 'patguard', 'patguard', '', '');
-INSERT INTO `npcaction` VALUES ('60506', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60507', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60508', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60509', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60510', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60513', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60514', 'ktguard6', 'ktguard6', 'ktguard6', '');
-INSERT INTO `npcaction` VALUES ('60515', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60516', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60517', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60522', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60523', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60524', 'grguard6', 'grguard6', 'grguard6', '');
-INSERT INTO `npcaction` VALUES ('60525', 'grguard6', 'grguard6', 'grguard6', '');
-INSERT INTO `npcaction` VALUES ('60526', 'gdummy1', 'gdummy1', 'gdummy1', '');
-INSERT INTO `npcaction` VALUES ('60527', 'gdummy1', 'gdummy1', 'gdummy1', '');
-INSERT INTO `npcaction` VALUES ('60528', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60529', 'grguard6', 'grguard6', 'grguard6', '');
-INSERT INTO `npcaction` VALUES ('60530', 'dcguard6', 'dcguard6', 'dcguard6', '');
-INSERT INTO `npcaction` VALUES ('60531', 'dcguard6', 'dcguard6', 'dcguard6', '');
-INSERT INTO `npcaction` VALUES ('60533', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60534', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60537', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60538', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60539', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60540', 'adguard6', 'adguard6', 'adguard6', '');
-INSERT INTO `npcaction` VALUES ('60551', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('60552', 'wdguard6', 'wdguard6', 'wdguard6', '');
-INSERT INTO `npcaction` VALUES ('60553', 'wdummy1', 'wdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('60554', 'wdummy1', 'wdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('60558', 'sdummy1', 'sdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('60559', 'sdummy1', 'sdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('60560', 'orcguard6', 'orcguard6', 'orcguard6', '');
-INSERT INTO `npcaction` VALUES ('60563', 'heguard6', 'heguard6', 'heguard6', '');
-INSERT INTO `npcaction` VALUES ('60565', 'wdguard4', 'wdguard4', 'wdguard5', '');
-INSERT INTO `npcaction` VALUES ('70001', 'rose1', 'rose1', 'rose6', '');
-INSERT INTO `npcaction` VALUES ('70002', 'sasha', 'sasha', '', '');
-INSERT INTO `npcaction` VALUES ('70003', 'siriss', 'siriss', 'sirissmg', '');
-INSERT INTO `npcaction` VALUES ('70004', 'johan', 'johan', 'johan1', '');
-INSERT INTO `npcaction` VALUES ('70005', 'en0131', 'en0131', '', '');
-INSERT INTO `npcaction` VALUES ('70006', 'kiris', 'kiris', '', '');
-INSERT INTO `npcaction` VALUES ('70007', 'tina1', 'tina1', 'tina6', '');
-INSERT INTO `npcaction` VALUES ('70008', 'fraoun', 'fraoun', '', '');
-INSERT INTO `npcaction` VALUES ('70009', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70010', 'balsim', 'balsim', '', '');
-INSERT INTO `npcaction` VALUES ('70011', 'shipEvI3', 'shipEvI1', '', '');
-INSERT INTO `npcaction` VALUES ('70012', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70013', 'cold1', 'cold2', '', '');
-INSERT INTO `npcaction` VALUES ('70014', 'pandora', 'pandora5', '', '');
-INSERT INTO `npcaction` VALUES ('70015', 'arieh1', 'arieh1', 'arieh6', '');
-INSERT INTO `npcaction` VALUES ('70016', 'andyn', 'andyn', 'andyn3', '');
-INSERT INTO `npcaction` VALUES ('70017', 'orim1', 'orim1', 'orim2', '');
-INSERT INTO `npcaction` VALUES ('70018', 'ysorya', 'ysorya', 'ysorya3', '');
-INSERT INTO `npcaction` VALUES ('70019', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70020', 'rollko', 'rollko', 'rollko1', '');
-INSERT INTO `npcaction` VALUES ('70021', 'luth', 'luth', 'luth3', '');
-INSERT INTO `npcaction` VALUES ('70022', 'shipEvM1', 'shipEvM1', 'shipEvM2', '');
-INSERT INTO `npcaction` VALUES ('70023', 'tzmerchant', 'tzmerchant', '', '');
-INSERT INTO `npcaction` VALUES ('70024', 'catty', 'catty', 'catty3', '');
-INSERT INTO `npcaction` VALUES ('70025', 'pasim', 'pasim', 'pasim2', '');
-INSERT INTO `npcaction` VALUES ('70026', 'derek1', 'derek1', 'derek2', '');
-INSERT INTO `npcaction` VALUES ('70027', 'dio1', 'dio1', 'dio2', '');
-INSERT INTO `npcaction` VALUES ('70028', 'randal1', 'randal1', 'randal2', '');
-INSERT INTO `npcaction` VALUES ('70029', 'margaret1', 'margaret1', 'margaret2', '');
-INSERT INTO `npcaction` VALUES ('70030', 'mayer', 'mayer', 'mayer3', '');
-INSERT INTO `npcaction` VALUES ('70031', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70032', 'vergil', 'vergil', 'vergil3', '');
-INSERT INTO `npcaction` VALUES ('70033', 'verita', 'verita', 'verita3', '');
-INSERT INTO `npcaction` VALUES ('70034', 'vincent1', 'vincent1', 'vincent2', '');
-INSERT INTO `npcaction` VALUES ('70035', 'raymond1', 'raymond1', '', '');
-INSERT INTO `npcaction` VALUES ('70036', 'stella1', 'stella1', 'stella6', '');
-INSERT INTO `npcaction` VALUES ('70037', 'tzmerchant', 'tzmerchant', '', '');
-INSERT INTO `npcaction` VALUES ('70038', 'evert1', 'evert1', 'evert2', '');
-INSERT INTO `npcaction` VALUES ('70039', 'werner', 'werner', 'werner3', '');
-INSERT INTO `npcaction` VALUES ('70040', 'jason1', 'jason1', 'jason2', '');
-INSERT INTO `npcaction` VALUES ('70041', 'raymond1', 'raymond1', '', '');
-INSERT INTO `npcaction` VALUES ('70042', 'raymond1', 'raymond1', '', '');
-INSERT INTO `npcaction` VALUES ('70043', 'philip1', 'philip1', 'philip2', '');
-INSERT INTO `npcaction` VALUES ('70044', 'ralf1', 'ralf1', 'ralf6', '');
-INSERT INTO `npcaction` VALUES ('70045', 'berry1', 'berry1', 'berry6', '');
-INSERT INTO `npcaction` VALUES ('70046', 'jin1', 'jin1', 'jin6', '');
-INSERT INTO `npcaction` VALUES ('70047', 'defman', 'defman', 'defman3', '');
-INSERT INTO `npcaction` VALUES ('70048', 'raon', 'raon', 'raon3', '');
-INSERT INTO `npcaction` VALUES ('70049', 'rozen1', 'rozen1', 'rozen2', '');
-INSERT INTO `npcaction` VALUES ('70050', 'ruky1', 'ruky1', 'ruky6', '');
-INSERT INTO `npcaction` VALUES ('70051', 'magus', 'magus', 'magus2', '');
-INSERT INTO `npcaction` VALUES ('70052', 'mellisa', 'mellisa', 'mellisa3', '');
-INSERT INTO `npcaction` VALUES ('70053', 'sharu1', 'sharu1', 'sharu2', '');
-INSERT INTO `npcaction` VALUES ('70054', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70055', 'ashinnue', 'ashinnue1', '', '');
-INSERT INTO `npcaction` VALUES ('70056', 'jode', 'jode', 'jode1', '');
-INSERT INTO `npcaction` VALUES ('70057', 'catherine', 'catherine', 'catherine3', '');
-INSERT INTO `npcaction` VALUES ('70058', 'fega', 'fega', 'fega3', '');
-INSERT INTO `npcaction` VALUES ('70059', 'dico', 'dico', 'dico3', '');
-INSERT INTO `npcaction` VALUES ('70060', 'rinda', 'rinda', 'rinda3', '');
-INSERT INTO `npcaction` VALUES ('70061', 'mandra', 'mandra', 'mandra3', '');
-INSERT INTO `npcaction` VALUES ('70062', 'varyeth', 'varyeth', 'varyeth3', '');
-INSERT INTO `npcaction` VALUES ('70063', 'bius', 'bius', 'bius3', '');
-INSERT INTO `npcaction` VALUES ('70064', 'tzmerchant', 'tzmerchant', '', '');
-INSERT INTO `npcaction` VALUES ('70065', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70066', 'kreister', 'kreister', 'kreister3', '');
-INSERT INTO `npcaction` VALUES ('70067', 'pagoru', 'pagoru', 'pagoru3', '');
-INSERT INTO `npcaction` VALUES ('70068', 'franko', 'franko', 'franko1', '');
-INSERT INTO `npcaction` VALUES ('70069', 'momo1', 'momo1', 'momo6', '');
-INSERT INTO `npcaction` VALUES ('70070', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70071', 'ashur', 'ashur', 'ashur3', '');
-INSERT INTO `npcaction` VALUES ('70072', 'elmina', 'elmina', 'elmina3', '');
-INSERT INTO `npcaction` VALUES ('70073', 'glen', 'glen1', '', '');
-INSERT INTO `npcaction` VALUES ('70074', 'mellin', 'mellin1', '', '');
-INSERT INTO `npcaction` VALUES ('70075', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70076', 'tzmerchant', 'tzmerchant', '', '');
-INSERT INTO `npcaction` VALUES ('70077', 'dogdealer', 'dogdealer', 'rodney', '');
-INSERT INTO `npcaction` VALUES ('70078', 'orcm1', 'orcm1', 'orcm6', '');
-INSERT INTO `npcaction` VALUES ('70079', 'jackson', 'jackson', 'jackson3', '');
-INSERT INTO `npcaction` VALUES ('70080', 'horunev1', 'horunev1', 'horunev2', '');
-INSERT INTO `npcaction` VALUES ('70081', 'buakheu1', 'buakheu1', 'buakheu2', '');
-INSERT INTO `npcaction` VALUES ('70082', 'britt', 'britt', 'britt3', '');
-INSERT INTO `npcaction` VALUES ('70083', 'shivan', 'shivan', 'shivan3', '');
-INSERT INTO `npcaction` VALUES ('70084', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70085', 'old1', 'old1', 'old6', '');
-INSERT INTO `npcaction` VALUES ('70086', 'isvall4', 'isvall4', 'isvall1', '');
-INSERT INTO `npcaction` VALUES ('70087', 'sedia4', 'sedia4', '', '');
-INSERT INTO `npcaction` VALUES ('70088', 'scwaty1', 'scwaty1', 'scwaty2', '');
-INSERT INTO `npcaction` VALUES ('70089', 'oblivion1', 'oblivion1', 'oblivion2', '');
-INSERT INTO `npcaction` VALUES ('70090', 'chiky1', 'chiky1', 'chiky3', '');
-INSERT INTO `npcaction` VALUES ('70091', 'tilon1', 'tilon1', 'tilon13', '');
-INSERT INTO `npcaction` VALUES ('70092', 'emart', 'emart', '', '');
-INSERT INTO `npcaction` VALUES ('70093', 'karupu', 'karupu', '', '');
-INSERT INTO `npcaction` VALUES ('70094', 'duran', 'duran', 'duran2', '');
-INSERT INTO `npcaction` VALUES ('70095', 'duron1', 'duron1', '', '');
-INSERT INTO `npcaction` VALUES ('70096', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70097', 'foni1', 'foni1', '', '');
-INSERT INTO `npcaction` VALUES ('70098', 'bobo1', 'bobo1', '', '');
-INSERT INTO `npcaction` VALUES ('70099', 'kuper2', 'kuper2', '', '');
-INSERT INTO `npcaction` VALUES ('70100', 'lengo1', 'lengo1', '', '');
-INSERT INTO `npcaction` VALUES ('70101', 'fiin1', 'fiin1', '', '');
-INSERT INTO `npcaction` VALUES ('70102', 'judice1', 'judice1', '', '');
-INSERT INTO `npcaction` VALUES ('70503', 'goodman', 'goodman', '', '');
-INSERT INTO `npcaction` VALUES ('70504', 'neutralman', 'neutralman', '', '');
-INSERT INTO `npcaction` VALUES ('70506', 'ruba', 'ruba', '', '');
-INSERT INTO `npcaction` VALUES ('70507', 'rion1', 'rion1', 'rion2', '');
-INSERT INTO `npcaction` VALUES ('70508', 'enchanterw1', 'enchanterw1', 'encw', '');
-INSERT INTO `npcaction` VALUES ('70509', 'enchantera1', 'enchantera1', 'enca', '');
-INSERT INTO `npcaction` VALUES ('70510', 'newgypsy', 'newgypsy', 'gypsy1', '');
-INSERT INTO `npcaction` VALUES ('70511', 'evilman', 'evilman', '', '');
-INSERT INTO `npcaction` VALUES ('70512', 'noved', 'noved', '', '');
-INSERT INTO `npcaction` VALUES ('70513', 'peria1', 'peria1', 'peria2', '');
-INSERT INTO `npcaction` VALUES ('70514', 'freehaste', 'freehaste', '', '');
-INSERT INTO `npcaction` VALUES ('70517', 'cuse1', 'cuse1', 'cuse3', '');
-INSERT INTO `npcaction` VALUES ('70518', 'tio', 'tio', '', '');
-INSERT INTO `npcaction` VALUES ('70519', 'peria1', 'peria1', 'peria2', '');
-INSERT INTO `npcaction` VALUES ('70520', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70522', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70523', 'ladar1', 'ladarC1', '', '');
-INSERT INTO `npcaction` VALUES ('70524', 'lavienue9', 'lavienue9', 'lavienue2', '');
-INSERT INTO `npcaction` VALUES ('70525', 'lien1', 'lienC1', '', '');
-INSERT INTO `npcaction` VALUES ('70526', 'raiders1', 'raiders1', 'raiders3', '');
-INSERT INTO `npcaction` VALUES ('70527', 'lengo1', 'lengo1', '', '');
-INSERT INTO `npcaction` VALUES ('70528', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70529', 'mona1', 'mona1', '', '');
-INSERT INTO `npcaction` VALUES ('70530', 'restore1pk', 'restore1pk', 'helppk', '');
-INSERT INTO `npcaction` VALUES ('70531', 'jem2', 'jem2', '', '');
-INSERT INTO `npcaction` VALUES ('70532', 'johnson1', 'johnson1', '', '');
-INSERT INTO `npcaction` VALUES ('70533', 'judice1', 'judice1', '', '');
-INSERT INTO `npcaction` VALUES ('70534', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70535', 'kuper1', 'kuper1', '', '');
-INSERT INTO `npcaction` VALUES ('70536', 'touma1', 'touma1', 'touma2', '');
-INSERT INTO `npcaction` VALUES ('70537', 'farlin1', 'farlinC1', '', '');
-INSERT INTO `npcaction` VALUES ('70538', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70539', 'fiin1', 'fiin1', '', '');
-INSERT INTO `npcaction` VALUES ('70540', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70544', 'dick1', 'dick1', 'dick2', '');
-INSERT INTO `npcaction` VALUES ('70545', 'richard3', 'richard3', '', '');
-INSERT INTO `npcaction` VALUES ('70546', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70547', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70549', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70550', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70553', 'ishmael1', 'ishmael1', 'ishmael2', '');
-INSERT INTO `npcaction` VALUES ('70554', 'zero2', 'zero2', '', '');
-INSERT INTO `npcaction` VALUES ('70555', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70556', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70560', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70562', 'hunt1', 'hunt1', 'hunt2', '');
-INSERT INTO `npcaction` VALUES ('70563', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70567', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70568', 'yuno', 'yuno', '', '');
-INSERT INTO `npcaction` VALUES ('70572', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70574', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70577', 'auction1', 'auction1', 'auction3', '');
-INSERT INTO `npcaction` VALUES ('70594', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70598', 'moria1', 'moria1', 'moria4', '');
-INSERT INTO `npcaction` VALUES ('70599', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70600', 'orckeeperop', 'orckeeperop', 'orckeeperop', '');
-INSERT INTO `npcaction` VALUES ('70601', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70605', 'blaise1', 'blaise1', 'blaise4', '');
-INSERT INTO `npcaction` VALUES ('70607', 'sarsha1', 'sarsha1', 'sarsha2', '');
-INSERT INTO `npcaction` VALUES ('70611', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70614', 'anton1', 'anton1', '', '');
-INSERT INTO `npcaction` VALUES ('70617', 'almon1', 'almon1', 'almon2', '');
-INSERT INTO `npcaction` VALUES ('70623', 'orville1', 'orville1', 'orville2', '');
-INSERT INTO `npcaction` VALUES ('70631', 'secretary4', 'secretary4', 'secretary1', '');
-INSERT INTO `npcaction` VALUES ('70632', 'kevin1', 'kevin1', 'kevin2', '');
-INSERT INTO `npcaction` VALUES ('70633', 'colbert1', 'colbert1', 'colbert2', '');
-INSERT INTO `npcaction` VALUES ('70641', 'herbert1', 'herbert1', 'herbert2', '');
-INSERT INTO `npcaction` VALUES ('70642', 'hector1', 'hector1', 'hector2', '');
-INSERT INTO `npcaction` VALUES ('70644', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70645', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70653', 'masha', 'masha', '', '');
-INSERT INTO `npcaction` VALUES ('70654', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70655', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70656', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70657', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70658', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70662', 'ivelviin1', 'ivelviin1', 'ivelviin2', '');
-INSERT INTO `npcaction` VALUES ('70663', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70664', 'cove1', 'cove1', 'cove2', '');
-INSERT INTO `npcaction` VALUES ('70665', 'potempin1', 'potempin1', 'potempin2', '');
-INSERT INTO `npcaction` VALUES ('70666', 'freckson1', 'freckson1', 'freckson2', '');
-INSERT INTO `npcaction` VALUES ('70667', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70668', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70670', 'citizen8', 'citizen8', '', '');
-INSERT INTO `npcaction` VALUES ('70671', 'nose', 'nose', 'nose1', '');
-INSERT INTO `npcaction` VALUES ('70674', 'reona1', 'reona1', 'reona2', '');
-INSERT INTO `npcaction` VALUES ('70675', 'citizen1', 'citizen1', '', '');
-INSERT INTO `npcaction` VALUES ('70676', 'ryumiel1', 'ryumiel1', '', '');
-INSERT INTO `npcaction` VALUES ('70683', 'montes2', 'montes2', 'montes4', '');
-INSERT INTO `npcaction` VALUES ('70686', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70687', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70688', 'citizen10', 'citizen10', '', '');
-INSERT INTO `npcaction` VALUES ('70690', 'bamute1', 'bamute1', 'bamute2', '');
-INSERT INTO `npcaction` VALUES ('70692', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70695', 'biust1', 'biust1', 'biust2', '');
-INSERT INTO `npcaction` VALUES ('70701', 'restore', 'restore', '', '');
-INSERT INTO `npcaction` VALUES ('70702', 'ring1', 'ring1', '', '');
-INSERT INTO `npcaction` VALUES ('70707', 'eno1', 'eno1', 'enoc1', '');
-INSERT INTO `npcaction` VALUES ('70711', 'giantk1', 'giantk1', 'giantk2', '');
-INSERT INTO `npcaction` VALUES ('70715', 'jimuk1', 'jimuk1', 'jimuk2', '');
-INSERT INTO `npcaction` VALUES ('70721', 'timon1', 'timon1', 'timon2', '');
-INSERT INTO `npcaction` VALUES ('70722', 'paruit01', 'paruit01', 'paruitC', '');
-INSERT INTO `npcaction` VALUES ('70723', 'pau1', 'pau1', 'pau2', '');
-INSERT INTO `npcaction` VALUES ('70724', 'heit4', 'heit4', '', '');
-INSERT INTO `npcaction` VALUES ('70725', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70734', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70739', 'dicardinge1', 'dicardinge1', 'dicardinge2', '');
-INSERT INTO `npcaction` VALUES ('70740', 'zero2', 'zero2', '', '');
-INSERT INTO `npcaction` VALUES ('70742', 'detecter1', 'detecter1', 'detecter2', '');
-INSERT INTO `npcaction` VALUES ('70744', 'roje16', 'roje16', '', '');
-INSERT INTO `npcaction` VALUES ('70748', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70749', 'mild1', 'mild1', 'mild2', '');
-INSERT INTO `npcaction` VALUES ('70751', 'brad1', 'brad1', '', '');
-INSERT INTO `npcaction` VALUES ('70757', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70758', 'sabin', 'sabin', '', '');
-INSERT INTO `npcaction` VALUES ('70760', 'ellyonne', 'ellyonne', 'ellyonne4', '');
-INSERT INTO `npcaction` VALUES ('70761', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70762', 'karif1', 'karif1', '', '');
-INSERT INTO `npcaction` VALUES ('70763', 'talass', 'talass', '', '');
-INSERT INTO `npcaction` VALUES ('70768', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70771', 'randith1', 'randith1', 'randith2', '');
-INSERT INTO `npcaction` VALUES ('70773', 'marbin1', 'marbin1', 'marbin2', '');
-INSERT INTO `npcaction` VALUES ('70772', 'ladar1', 'ladarC1', '', '');
-INSERT INTO `npcaction` VALUES ('70774', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70775', 'mark1', 'mark1', 'mark2', '');
-INSERT INTO `npcaction` VALUES ('70776', 'meg4', 'meg4', '', '');
-INSERT INTO `npcaction` VALUES ('70777', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70778', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70779', 'ants2', 'ants2', 'antss', '');
-INSERT INTO `npcaction` VALUES ('70780', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70781', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70782', 'ant2', 'ant2', '', '');
-INSERT INTO `npcaction` VALUES ('70783', 'aria4', 'aria4', '', '');
-INSERT INTO `npcaction` VALUES ('70784', 'othmond1', 'othmond1', 'othmond2', '');
-INSERT INTO `npcaction` VALUES ('70788', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70789', 'halt1', 'halt1', 'halt2', '');
-INSERT INTO `npcaction` VALUES ('70790', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70792', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70794', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70796', 'dunham2', 'dunham2', '', '');
-INSERT INTO `npcaction` VALUES ('70797', 'drist', 'drist', '', '');
-INSERT INTO `npcaction` VALUES ('70798', 'riky2', 'riky2', '', '');
-INSERT INTO `npcaction` VALUES ('70799', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70800', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70801', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70802', 'aanon1', 'aanon1', '', '');
-INSERT INTO `npcaction` VALUES ('70804', 'lien1', 'lienC1', '', '');
-INSERT INTO `npcaction` VALUES ('70805', 'ladar1', 'ladarC1', '', '');
-INSERT INTO `npcaction` VALUES ('70806', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70807', 'farlin1', 'farlinC1', '', '');
-INSERT INTO `npcaction` VALUES ('70808', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70809', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70811', 'lyraEv1', 'lyraEv1', 'lyraEv3', '');
-INSERT INTO `npcaction` VALUES ('70815', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70816', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70817', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70820', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70822', 'seghem1', 'seghem1', 'seghem2', '');
-INSERT INTO `npcaction` VALUES ('70823', 'restore1pk', 'restore1pk', '', '');
-INSERT INTO `npcaction` VALUES ('70824', 'assassin4', 'assassin4', '', '');
-INSERT INTO `npcaction` VALUES ('70826', 'oth2', 'oth2', '', '');
-INSERT INTO `npcaction` VALUES ('70830', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70831', 'kentu1', 'kentu1', 'kentu2', '');
-INSERT INTO `npcaction` VALUES ('70836', 'hans1', 'hans1', 'hans2', '');
-INSERT INTO `npcaction` VALUES ('70837', 'narhenE3', 'narhenE3', 'narhenE1', '');
-INSERT INTO `npcaction` VALUES ('70838', 'nerupaE1', 'nerupaE1', 'nerupaCE1', '');
-INSERT INTO `npcaction` VALUES ('70840', 'robinwood1', 'robinwood1', 'robinwood3', '');
-INSERT INTO `npcaction` VALUES ('70841', 'luudiel1', 'luudiel1', '', '');
-INSERT INTO `npcaction` VALUES ('70844', '', '', '', '');
-INSERT INTO `npcaction` VALUES ('70846', 'arachnee1', 'arachnee1', 'arachnem1', '');
-INSERT INTO `npcaction` VALUES ('70847', 'estE1', 'estE1', 'estCE1', '');
-INSERT INTO `npcaction` VALUES ('70848', 'ente1', 'ente1', 'entm1', '');
-INSERT INTO `npcaction` VALUES ('70850', 'pane1', 'pane1', 'panm1', '');
-INSERT INTO `npcaction` VALUES ('70851', 'fairye1', 'fairye1', 'fairym1', '');
-INSERT INTO `npcaction` VALUES ('70852', 'fairyqe1', 'fairyqe1', 'fairyqm1', '');
-INSERT INTO `npcaction` VALUES ('70853', 'fairyp3', 'fairyp3', '', '');
-INSERT INTO `npcaction` VALUES ('70855', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70857', 'heguard6', 'heguard6', 'heguard6', '');
-INSERT INTO `npcaction` VALUES ('70860', 'othertown', 'othertown', 'othertownh', '');
-INSERT INTO `npcaction` VALUES ('70861', 'encwc', 'encwc', '', '');
-INSERT INTO `npcaction` VALUES ('70862', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70863', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70865', 'encac', 'encac', '', '');
-INSERT INTO `npcaction` VALUES ('70872', 'eveurol1', 'eveurol1', 'eveurol5', '');
-INSERT INTO `npcaction` VALUES ('70873', 'ellan1', 'ellan1', 'ellan2', '');
-INSERT INTO `npcaction` VALUES ('70876', 'secretary1', 'secretary1', 'secretary4', '');
-INSERT INTO `npcaction` VALUES ('70880', 'fisher1', 'fisher1', 'fisher2', '');
-INSERT INTO `npcaction` VALUES ('70881', 'hdummy1', 'hdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70882', 'vaiger1', 'vaiger1', 'vaiger2', '');
-INSERT INTO `npcaction` VALUES ('70884', 'bpledge2', 'bpledge2', 'bpledge1', '');
-INSERT INTO `npcaction` VALUES ('70885', 'kanguard4', 'kanguard4', '', '');
-INSERT INTO `npcaction` VALUES ('70889', 'lamune1', 'lamune1', '', '');
-INSERT INTO `npcaction` VALUES ('70892', 'ronde6', 'ronde6', '', '');
-INSERT INTO `npcaction` VALUES ('70895', 'bluedikaq4', 'bluedikaq4', '', '');
-INSERT INTO `npcaction` VALUES ('70898', 'inn', 'Inn1', '', '');
-INSERT INTO `npcaction` VALUES ('70904', 'koup1', 'koup1', 'koupdwaf', '');
-INSERT INTO `npcaction` VALUES ('70906', 'kimaq1', 'kimaq1', 'kimaq2', '');
-INSERT INTO `npcaction` VALUES ('70908', 'pears1', 'pears1', '', '');
-INSERT INTO `npcaction` VALUES ('70910', 'hadesty1', 'hadesty1', 'hadesty2', '');
-INSERT INTO `npcaction` VALUES ('70912', 'woumsix1', 'woumsix1', '', '');
-INSERT INTO `npcaction` VALUES ('70913', 'woumfour1', 'woumfour1', '', '');
-INSERT INTO `npcaction` VALUES ('70916', 'redin1', 'redin1', '', '');
-INSERT INTO `npcaction` VALUES ('70917', 'burns1', 'burns1', '', '');
-INSERT INTO `npcaction` VALUES ('70919', 'smiter1', 'smiter1', '', '');
-INSERT INTO `npcaction` VALUES ('70920', 'dfguard1', 'dfguard1', '', '');
-INSERT INTO `npcaction` VALUES ('70922', 'credonas1', 'credonas1', '', '');
-INSERT INTO `npcaction` VALUES ('70923', 'olle1', 'olle1', '', '');
-INSERT INTO `npcaction` VALUES ('70924', 'genes1', 'genes1', '', '');
-INSERT INTO `npcaction` VALUES ('70925', 'elderoum1', 'elderoum1', '', '');
-INSERT INTO `npcaction` VALUES ('70927', 'coderage1', 'coderage1', '', '');
-INSERT INTO `npcaction` VALUES ('70928', 'tristan1', 'tristan1', '', '');
-INSERT INTO `npcaction` VALUES ('70934', 'lesta', 'lesta', '', '');
-INSERT INTO `npcaction` VALUES ('70953', 'alchemy1', 'alchemy1', 'alchemy4', '');
-INSERT INTO `npcaction` VALUES ('70970', 'clalchemist1', 'clalchemist1', 'clalchemist2', '');
-INSERT INTO `npcaction` VALUES ('70971', 'sialchemist1', 'sialchemist1', 'sialchemist2', '');
-INSERT INTO `npcaction` VALUES ('70980', 'orenc0', 'orenc0', '', '');
-INSERT INTO `npcaction` VALUES ('70981', 'hen1', 'hen1', '', '');
-INSERT INTO `npcaction` VALUES ('70983', 'pig1', 'pig1', '', '');
-INSERT INTO `npcaction` VALUES ('70984', 'milkcow1', 'milkcow1', 'none', '');
-INSERT INTO `npcaction` VALUES ('70985', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70986', 'orckeeperop', 'orckeeperop', 'orckeeperop', '');
-INSERT INTO `npcaction` VALUES ('70987', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70988', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70989', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70990', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70991', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70992', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70993', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70994', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70995', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70996', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', '');
-INSERT INTO `npcaction` VALUES ('70997', 'jpe0011', 'jpe0011', '', '');
-INSERT INTO `npcaction` VALUES ('70998', 'en0307', 'en0307', '', '');
-INSERT INTO `npcaction` VALUES ('70999', 'jpe0021', 'jpe0021', '', '');
-INSERT INTO `npcaction` VALUES ('71000', 'jpe0031', 'jpe0031', '', '');
-INSERT INTO `npcaction` VALUES ('71001', 'en0011', 'en0015', '', '');
-INSERT INTO `npcaction` VALUES ('71002', 'jpe0161', 'jpe0161', '', '');
-INSERT INTO `npcaction` VALUES ('71003', 'en0021', 'en0025', '', '');
-INSERT INTO `npcaction` VALUES ('71004', 'en0051', 'en0051', '', '');
-INSERT INTO `npcaction` VALUES ('71005', 'jpe0041', 'jpe0041', '', '');
-INSERT INTO `npcaction` VALUES ('71006', 'jpe0051', 'jpe0051', '', '');
-INSERT INTO `npcaction` VALUES ('71007', 'en0031', 'en0031', '', '');
-INSERT INTO `npcaction` VALUES ('71009', 'jpe0076', 'jpe0076', '', '');
-INSERT INTO `npcaction` VALUES ('71010', 'en0061', 'en0061', '', '');
-INSERT INTO `npcaction` VALUES ('71011', 'jpe0067', 'jpe0067', '', '');
-INSERT INTO `npcaction` VALUES ('71012', 'en0041', 'en0041', '', '');
-INSERT INTO `npcaction` VALUES ('71013', 'karen2', 'karen2', '', '');
-INSERT INTO `npcaction` VALUES ('71014', 'en0242', 'en0242', '', '');
-INSERT INTO `npcaction` VALUES ('71015', 'en0263', 'en0263', '', '');
-INSERT INTO `npcaction` VALUES ('71016', 'en0251', 'en0251', '', '');
-INSERT INTO `npcaction` VALUES ('71017', 'en0251', 'en0251', '', '');
-INSERT INTO `npcaction` VALUES ('71018', 'jpe0134', 'jpe0134', '', '');
-INSERT INTO `npcaction` VALUES ('71019', 'jpe0115', 'jpe0115', '', '');
-INSERT INTO `npcaction` VALUES ('71020', 'jpe0121', 'jpe0121', '', '');
-INSERT INTO `npcaction` VALUES ('71021', 'en0197', 'en0197', '', '');
-INSERT INTO `npcaction` VALUES ('71022', 'jpe0151', 'jpe0151', '', '');
-INSERT INTO `npcaction` VALUES ('71023', 'jpe0141', 'jpe0141', '', '');
-INSERT INTO `npcaction` VALUES ('71024', 'garret1', 'garret1', '', '');
-INSERT INTO `npcaction` VALUES ('71025', 'jpe0086', 'jpe0086', '', '');
-INSERT INTO `npcaction` VALUES ('71026', 'en0112', 'en0112', '', '');
-INSERT INTO `npcaction` VALUES ('71027', 'en0282', 'en0282', '', '');
-INSERT INTO `npcaction` VALUES ('71028', 'en0121', 'en0121', '', '');
-INSERT INTO `npcaction` VALUES ('71029', 'en0291', 'en0291', '', '');
-INSERT INTO `npcaction` VALUES ('71030', 'en1021', 'en1021', '', '');
-INSERT INTO `npcaction` VALUES ('71031', 'en0085', 'en0085', '', '');
-INSERT INTO `npcaction` VALUES ('71032', 'en0091e', 'en0091e', '', '');
-INSERT INTO `npcaction` VALUES ('71033', 'en0214', 'en0214', '', '');
-INSERT INTO `npcaction` VALUES ('71034', 'en0205', 'en0205', '', '');
-INSERT INTO `npcaction` VALUES ('71035', 'en0231', 'en0231', '', '');
-INSERT INTO `npcaction` VALUES ('71036', 'kamyla000', 'kamyla000', '', '');
-INSERT INTO `npcaction` VALUES ('71037', 'treno', 'treno', '', '');
-INSERT INTO `npcaction` VALUES ('71038', 'orcfnoname1', 'orcfnoname1', '', '');
-INSERT INTO `npcaction` VALUES ('71039', 'orcfbuwoo1', 'orcfbuwoo1', '', '');
-INSERT INTO `npcaction` VALUES ('71040', 'orcfnoa2', 'orcfnoa2', '', '');
-INSERT INTO `npcaction` VALUES ('71041', 'orcfhuwoomo1', 'orcfhuwoomo1', '', '');
-INSERT INTO `npcaction` VALUES ('71042', 'orcfbakumo1', 'orcfbakumo1', '', '');
-INSERT INTO `npcaction` VALUES ('71043', 'orcfbuka1', 'orcfbuka1', '', '');
-INSERT INTO `npcaction` VALUES ('71044', 'orcfkame1', 'orcfkame1', '', '');
-INSERT INTO `npcaction` VALUES ('71045', 'orcfbawoo1', 'orcfbawoo1', '', '');
-INSERT INTO `npcaction` VALUES ('71046', 'roberto', 'roberto', '', '');
-INSERT INTO `npcaction` VALUES ('71047', 'lupus', 'lupus', '', '');
-INSERT INTO `npcaction` VALUES ('71048', 'karu', 'karu', '', '');
-INSERT INTO `npcaction` VALUES ('71051', 'monett', 'monett', '', '');
-INSERT INTO `npcaction` VALUES ('71052', 'enishia', 'enishia', '', '');
-INSERT INTO `npcaction` VALUES ('71053', 'berik1', 'berik1', '', '');
-INSERT INTO `npcaction` VALUES ('71054', 'roxxan', 'roxxan', '', '');
-INSERT INTO `npcaction` VALUES ('71055', 'lukein1', 'lukein1', '', '');
-INSERT INTO `npcaction` VALUES ('71056', 'simizz1', 'simizz1', '', '');
-INSERT INTO `npcaction` VALUES ('71057', 'doil1', 'doilc', '', '');
-INSERT INTO `npcaction` VALUES ('71058', 'ratsyu1', 'ratsyu1', '', '');
-INSERT INTO `npcaction` VALUES ('71059', 'rudian1a', 'rudian1a', '', '');
-INSERT INTO `npcaction` VALUES ('71060', 'resta1', 'resta1', '', '');
-INSERT INTO `npcaction` VALUES ('71061', 'cadmus1', 'cadmus1', '', '');
-INSERT INTO `npcaction` VALUES ('71062', 'kamit1', 'kamit1', '', '');
-INSERT INTO `npcaction` VALUES ('71063', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71064', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71065', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71066', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71067', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71068', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71069', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71070', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71071', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71072', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71073', 'maptbox0', 'maptbox0', '', '');
-INSERT INTO `npcaction` VALUES ('71074', 'lelder0', 'lelder0', '', '');
-INSERT INTO `npcaction` VALUES ('71075', 'llizard1a', 'llizard1a', '', '');
-INSERT INTO `npcaction` VALUES ('71076', 'ylizardb', 'ylizardb', '', '');
-INSERT INTO `npcaction` VALUES ('71077', 'invest1', 'invest1', '', '');
-INSERT INTO `npcaction` VALUES ('71078', 'usender1', 'usender1', '', '');
-INSERT INTO `npcaction` VALUES ('71079', 'ubuy', 'ubuy1', '', '');
-INSERT INTO `npcaction` VALUES ('71080', 'amisoo1', 'amisoo1', '', '');
-INSERT INTO `npcaction` VALUES ('71081', 'blackkey1', 'blackkey1', '', '');
-INSERT INTO `npcaction` VALUES ('71082', 'blackkey2', 'blackkey2', '', '');
-INSERT INTO `npcaction` VALUES ('71083', 'blackkey3', 'blackkey3', '', '');
-INSERT INTO `npcaction` VALUES ('71084', 'blackkey4', 'blackkey4', '', '');
-INSERT INTO `npcaction` VALUES ('71085', 'redkey1', 'redkey1', '', '');
-INSERT INTO `npcaction` VALUES ('71086', 'redkey2', 'redkey2', '', '');
-INSERT INTO `npcaction` VALUES ('71087', 'redkey3', 'redkey3', '', '');
-INSERT INTO `npcaction` VALUES ('71088', 'redkey4', 'redkey4', '', '');
-INSERT INTO `npcaction` VALUES ('71089', 'francu1', 'francu001', '', '');
-INSERT INTO `npcaction` VALUES ('71090', 'jcrystal0', 'jcrystal0', '', '');
-INSERT INTO `npcaction` VALUES ('71091', 'jcrystall0', 'jcrystall0', '', '');
-INSERT INTO `npcaction` VALUES ('71108', 'chaotictp1', 'chaotictp1', '', '');
-INSERT INTO `npcaction` VALUES ('71109', 'lawfultp1', 'lawfultp1', '', '');
-INSERT INTO `npcaction` VALUES ('71110', 'caexplorer1', 'caexplorer1', '', '');
-INSERT INTO `npcaction` VALUES ('71111', 'cahunterone1', 'cahunterone1', '', '');
-INSERT INTO `npcaction` VALUES ('71112', 'cahuntertwo1', 'cahuntertwo1', '', '');
-INSERT INTO `npcaction` VALUES ('71113', 'clalchemist1', 'clalchemist1', '', '');
-INSERT INTO `npcaction` VALUES ('71114', 'sialchemist1', 'sialchemist1', '', '');
-INSERT INTO `npcaction` VALUES ('71115', 'inforaden1', 'inforaden1', '', '');
-INSERT INTO `npcaction` VALUES ('71116', 'agelder1', 'agelder1', '', '');
-INSERT INTO `npcaction` VALUES ('71117', 'aggeneral1', 'aggeneral1', '', '');
-INSERT INTO `npcaction` VALUES ('71118', 'talkingoum1', 'talkingoum1', '', '');
-INSERT INTO `npcaction` VALUES ('71119', 'ataroze', 'ataroze', '', '');
-INSERT INTO `npcaction` VALUES ('71120', 'rian1', 'rian1', '', '');
-INSERT INTO `npcaction` VALUES ('71121', 'leonard1', 'leonard1', '', '');
-INSERT INTO `npcaction` VALUES ('71122', 'fesco1', 'fesco1', '', '');
-INSERT INTO `npcaction` VALUES ('71123', 'rubo1', 'rubo1', '', '');
-INSERT INTO `npcaction` VALUES ('71124', 'alri1', 'alri1', '', '');
-INSERT INTO `npcaction` VALUES ('71125', 'adelio', 'adelio', '', '');
-INSERT INTO `npcaction` VALUES ('71126', 'eris1', 'eris1', '', '');
-INSERT INTO `npcaction` VALUES ('71127', 'scwaru1', 'scwaru1', '', '');
-INSERT INTO `npcaction` VALUES ('71128', 'perita1', 'perita1', '', '');
-INSERT INTO `npcaction` VALUES ('71129', 'rumtis1', 'rumtis1', '', '');
-INSERT INTO `npcaction` VALUES ('71130', 'rabla', 'rabla', '', '');
-INSERT INTO `npcaction` VALUES ('71131', 'rabor', 'rabor', '', '');
-INSERT INTO `npcaction` VALUES ('71132', 'woumfive1', 'woumfive1', '', '');
-INSERT INTO `npcaction` VALUES ('71133', 'woumone1', 'woumone1', '', '');
-INSERT INTO `npcaction` VALUES ('71134', 'woumtwo1', 'woumtwo1', '', '');
-INSERT INTO `npcaction` VALUES ('71135', 'woumthir1', 'woumthir1', '', '');
-INSERT INTO `npcaction` VALUES ('71136', 'woumele1', 'woumele1', '', '');
-INSERT INTO `npcaction` VALUES ('71137', 'woumseven1', 'woumseven1', '', '');
-INSERT INTO `npcaction` VALUES ('71138', 'woumnine1', 'woumnine1', '', '');
-INSERT INTO `npcaction` VALUES ('71139', 'woumeight1', 'woumeight1', '', '');
-INSERT INTO `npcaction` VALUES ('71140', 'woumten1', 'woumten1', '', '');
-INSERT INTO `npcaction` VALUES ('71141', 'moumthree2', 'moumthree2', '', '');
-INSERT INTO `npcaction` VALUES ('71142', 'moumtwo2', 'moumtwo2', '', '');
-INSERT INTO `npcaction` VALUES ('71143', 'woumthree1', 'woumthree1', '', '');
-INSERT INTO `npcaction` VALUES ('71144', 'woumtwel1', 'woumtwel1', '', '');
-INSERT INTO `npcaction` VALUES ('71145', 'moumone2', 'moumone2', '', '');
-INSERT INTO `npcaction` VALUES ('71146', 'midoum1', 'midoum1', '', '');
-INSERT INTO `npcaction` VALUES ('71147', 'cutoum', 'cutoum', '', '');
-INSERT INTO `npcaction` VALUES ('71148', 'eoumone1', 'eoumone1', '', '');
-INSERT INTO `npcaction` VALUES ('71149', 'soumthree1', 'soumthree1', '', '');
-INSERT INTO `npcaction` VALUES ('71150', 'soumone1', 'soumone1', '', '');
-INSERT INTO `npcaction` VALUES ('71151', 'soumtwo1', 'soumtwo1', '', '');
-INSERT INTO `npcaction` VALUES ('71152', 'stoumone1', 'stoumone1', '', '');
-INSERT INTO `npcaction` VALUES ('71153', 'stoumthree1', 'stoumthree1', '', '');
-INSERT INTO `npcaction` VALUES ('71154', 'stoumtwo1', 'stoumtwo1', '', '');
-INSERT INTO `npcaction` VALUES ('71155', 'eoumtwo1', 'eoumtwo1', '', '');
-INSERT INTO `npcaction` VALUES ('71156', 'prisondef1', 'prisondef1', '', '');
-INSERT INTO `npcaction` VALUES ('71157', 'prisondef4', 'prisondef4', '', '');
-INSERT INTO `npcaction` VALUES ('71158', 'prisondef5', 'prisondef5', '', '');
-INSERT INTO `npcaction` VALUES ('71159', 'prisondef9', 'prisondef9', '', '');
-INSERT INTO `npcaction` VALUES ('71160', 'prisondef6', 'prisondef6', '', '');
-INSERT INTO `npcaction` VALUES ('71161', 'prisondef7', 'prisondef7', '', '');
-INSERT INTO `npcaction` VALUES ('71162', 'prisondef8', 'prisondef8', '', '');
-INSERT INTO `npcaction` VALUES ('71163', 'yastin1', 'yastin1', '', '');
-INSERT INTO `npcaction` VALUES ('71164', 'lance1', 'lance1', '', '');
-INSERT INTO `npcaction` VALUES ('71165', 'xestin1', 'xestin1', '', '');
-INSERT INTO `npcaction` VALUES ('71166', 'guardin1', 'guardin1', '', '');
-INSERT INTO `npcaction` VALUES ('71167', 'frim2', 'frim2', '', '');
-INSERT INTO `npcaction` VALUES ('71168', 'dantes', 'dantes', '', '');
-INSERT INTO `npcaction` VALUES ('71169', 'marbes1', 'marbes1', '', '');
-INSERT INTO `npcaction` VALUES ('71170', 'clorence', 'clorence', '', '');
-INSERT INTO `npcaction` VALUES ('71171', 'debow1', 'debow1', '', '');
-INSERT INTO `npcaction` VALUES ('71172', 'dethief1', 'dethief1', '', '');
-INSERT INTO `npcaction` VALUES ('71173', 'degeneral1', 'degeneral1', '', '');
-INSERT INTO `npcaction` VALUES ('71174', 'desword1', 'desword1', '', '');
-INSERT INTO `npcaction` VALUES ('71175', 'Ep5event16', 'Ep5event16', '', '');
-INSERT INTO `npcaction` VALUES ('71176', 'adummy1', 'adummy1', '', '');
-INSERT INTO `npcaction` VALUES ('71177', 'adummy1', 'adummy1', '', '');
-INSERT INTO `npcaction` VALUES ('71178', 'ru1', 'ru1', '', '');
-INSERT INTO `npcaction` VALUES ('71179', 'dh1', 'dh1', '', '');
-INSERT INTO `npcaction` VALUES ('71180', 'jp1', 'jp1', '', '');
-INSERT INTO `npcaction` VALUES ('71181', 'my2', 'my2', '', '');
-INSERT INTO `npcaction` VALUES ('71182', 'sm2', 'sm2', '', '');
-INSERT INTO `npcaction` VALUES ('71184', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('71187', 'diadummy1', 'diadummy1', '', '');
-INSERT INTO `npcaction` VALUES ('71188', 'diadummy1', 'diadummy1', '', '');
-INSERT INTO `npcaction` VALUES ('71189', 'diaguard1', 'diaguard1', '', '');
-INSERT INTO `npcaction` VALUES ('71190', 'jericho1', 'jericho1', '', '');
-INSERT INTO `npcaction` VALUES ('71191', 'becky1', 'becky1', '', '');
-INSERT INTO `npcaction` VALUES ('71192', 'carmel1', 'carmel1', '', '');
-INSERT INTO `npcaction` VALUES ('71193', 'chase1', 'chase1', '', '');
-INSERT INTO `npcaction` VALUES ('71194', 'aurora1', 'aurora1', '', '');
-INSERT INTO `npcaction` VALUES ('71195', 'winston1', 'winston1', '', '');
-INSERT INTO `npcaction` VALUES ('71196', 'alfred', 'alfred1', '', '');
-INSERT INTO `npcaction` VALUES ('71197', 'endel1', 'endel1', '', '');
-INSERT INTO `npcaction` VALUES ('71198', 'tion1', 'tion1', '', '');
-INSERT INTO `npcaction` VALUES ('71199', 'jeron1', 'jeron1', '', '');
-INSERT INTO `npcaction` VALUES ('80010', 'aprincess1', 'aprincess1', 'aprincess2', '');
-INSERT INTO `npcaction` VALUES ('80019', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80020', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80021', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80022', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80023', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80024', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80025', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80026', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80027', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80028', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80029', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80030', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80031', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80032', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80033', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80034', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80035', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80036', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80037', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80038', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80039', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80040', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80041', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80042', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80043', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80044', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80045', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('80047', 'uhelp1', 'uhelp1', '', '');
-INSERT INTO `npcaction` VALUES ('80048', 'entgate', 'entgate', '', '');
-INSERT INTO `npcaction` VALUES ('80049', 'betray12', 'betray12', '', '');
-INSERT INTO `npcaction` VALUES ('80050', 'meet101', 'meet101', '', '');
-INSERT INTO `npcaction` VALUES ('80051', 'qyahee', 'qyahee', '', '');
-INSERT INTO `npcaction` VALUES ('80052', 'u_hunt', 'u_hunt', '', '');
-INSERT INTO `npcaction` VALUES ('80053', 'alice_no', 'alice_no', '', '');
-INSERT INTO `npcaction` VALUES ('80054', 'lapyahee', 'lapyahee', '', '');
-INSERT INTO `npcaction` VALUES ('80055', 'uamulet0', 'uamulet0', '', '');
-INSERT INTO `npcaction` VALUES ('80056', 'infamous12', 'infamous12', '', '');
-INSERT INTO `npcaction` VALUES ('80057', 'alfons1', 'alfons1', '', '');
-INSERT INTO `npcaction` VALUES ('80058', 'cpass01', 'cpass01', 'cpass01', '');
-INSERT INTO `npcaction` VALUES ('80059', 'wpass05', 'wpass05', 'wpass05', '');
-INSERT INTO `npcaction` VALUES ('80060', 'wpass05', 'wpass05', 'wpass05', '');
-INSERT INTO `npcaction` VALUES ('80061', 'wpass05', 'wpass05', 'wpass05', '');
-INSERT INTO `npcaction` VALUES ('80062', 'wpass05', 'wpass05', 'wpass05', '');
-INSERT INTO `npcaction` VALUES ('80063', 'gpass01', 'gpass01', 'gpass01', '');
-INSERT INTO `npcaction` VALUES ('80064', 'meet001', 'meet001', '', '');
-INSERT INTO `npcaction` VALUES ('80065', 'uturn0', 'uturn0', '', '');
-INSERT INTO `npcaction` VALUES ('80066', 'betray01', 'betray01', '', '');
-INSERT INTO `npcaction` VALUES ('80067', 'minicod08', 'minicod08', '', '');
-INSERT INTO `npcaction` VALUES ('80068', 'fakebarlog1', 'fakebarlog1', '', '');
-INSERT INTO `npcaction` VALUES ('80069', 'ldemon1', 'ldemon1', '', '');
-INSERT INTO `npcaction` VALUES ('80070', 'tldemon1', 'tldemon1', '', '');
-INSERT INTO `npcaction` VALUES ('80071', 'lring0', 'lring0', '', '');
-INSERT INTO `npcaction` VALUES ('80072', 'lsmith0', 'lsmith0', '', '');
-INSERT INTO `npcaction` VALUES ('80073', 'l_hunt', 'l_hunt', '', '');
-INSERT INTO `npcaction` VALUES ('80074', 'infamous02', 'infamous02', '', '');
-INSERT INTO `npcaction` VALUES ('80075', 'vehikeu1', 'vehikeu1', '', '');
-INSERT INTO `npcaction` VALUES ('80076', 'voyager1', 'voyager1', '', '');
-INSERT INTO `npcaction` VALUES ('80077', 'aldran1', 'aldran1', '', '');
-INSERT INTO `npcaction` VALUES ('80078', 'arka1', 'arka1', '', '');
-INSERT INTO `npcaction` VALUES ('80079', 'keplisha1', 'keplisha4', 'keplisha2', '');
-INSERT INTO `npcaction` VALUES ('80080', 'f_elder', 'f_elder', '', '');
-INSERT INTO `npcaction` VALUES ('80081', 'f_grandma1', 'f_grandma1', '', '');
-INSERT INTO `npcaction` VALUES ('80082', 'fk_in_1', 'fk_in_1', '', '');
-INSERT INTO `npcaction` VALUES ('80083', 'fk_out_1', 'fk_out_1', '', '');
-INSERT INTO `npcaction` VALUES ('80084', 'rparum', 'rparum', '', '');
-INSERT INTO `npcaction` VALUES ('80085', 'duo', 'duo', '', '');
-INSERT INTO `npcaction` VALUES ('80086', 'kusan', 'kusan', '', '');
-INSERT INTO `npcaction` VALUES ('80087', 'datu', 'datu', '', '');
-INSERT INTO `npcaction` VALUES ('80088', 'petmatcher', 'petmatcher', '', '');
-INSERT INTO `npcaction` VALUES ('80089', 'medalbuyer', 'medalbuyer', '', '');
-INSERT INTO `npcaction` VALUES ('80090', 'rakuki1', 'rakuki1', '', '');
-INSERT INTO `npcaction` VALUES ('80091', 'rrafons', 'rrafons', '', '');
-INSERT INTO `npcaction` VALUES ('80092', 'rjaint1', 'rjaint1', '', '');
-INSERT INTO `npcaction` VALUES ('80093', 'rjyta1', 'rjyta1', '', '');
-INSERT INTO `npcaction` VALUES ('80094', 'altar1', 'altar1', '', '');
-INSERT INTO `npcaction` VALUES ('80095', 'rostin1', 'rostin1', '', '');
-INSERT INTO `npcaction` VALUES ('80096', 'sharon1', 'sharon1', '', '');
-INSERT INTO `npcaction` VALUES ('80097', 'rryman', 'rryman', '', '');
-INSERT INTO `npcaction` VALUES ('80098', 'rfarbo1', 'rfarbo1', '', '');
-INSERT INTO `npcaction` VALUES ('80099', 'rarson1', 'rarson8', 'rarson11', '');
-INSERT INTO `npcaction` VALUES ('80100', 'maijin1', 'maijin1', '', '');
-INSERT INTO `npcaction` VALUES ('80101', 'kuen1', 'kuen1', '', '');
-INSERT INTO `npcaction` VALUES ('80102', 'fillis1', 'fillis3', '', '');
-INSERT INTO `npcaction` VALUES ('80103', 'auction1', 'auction1', '', '');
-INSERT INTO `npcaction` VALUES ('80104', 'horseseller1', 'horseseller0', '', '');
-INSERT INTO `npcaction` VALUES ('80105', 'horserestore', 'horserestore', '', '');
-INSERT INTO `npcaction` VALUES ('80127', 'cook1', 'cook1', '', '');
-INSERT INTO `npcaction` VALUES ('80128', 'cointrader', 'cointrader', '', '');
-INSERT INTO `npcaction` VALUES ('4205000', 'dgkeeperk1', 'dgkeeperk1', '', '');
-INSERT INTO `npcaction` VALUES ('70803', 'anotte1', 'anotte1', '', '');
-INSERT INTO `npcaction` VALUES ('60521', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('60520', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70559', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70558', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70542', 'gayle4', 'gayle4', '', '');
-INSERT INTO `npcaction` VALUES ('70557', 'cana1', 'cana1', '', '');
-INSERT INTO `npcaction` VALUES ('70552', 'ashton1', 'ashton1', '', '');
-INSERT INTO `npcaction` VALUES ('70548', 'moor1', 'moor1', '', '');
-INSERT INTO `npcaction` VALUES ('70787', 'wdummyc1', 'wdummyc1', '', '');
-INSERT INTO `npcaction` VALUES ('4711001', 'wdguard6', 'wdguard6', 'wdguard6', '');
-INSERT INTO `npcaction` VALUES ('4711000', 'wdguard6', 'wdguard6', 'wdguard6', '');
-INSERT INTO `npcaction` VALUES ('70786', 'wdummy1', 'wdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('81105', 'stoenm4', 'stoenm4', '', '');
-INSERT INTO `npcaction` VALUES ('81110', 'cold1', 'cold1', '', '');
-INSERT INTO `npcaction` VALUES ('81112', 'rader1', 'rader1', '', '');
-INSERT INTO `npcaction` VALUES ('81113', 'hagutin1', 'hagutin1', '', '');
-INSERT INTO `npcaction` VALUES ('81114', 'fsflame1', 'fsflame1', '', '');
-INSERT INTO `npcaction` VALUES ('81115', 'adjutant1', 'adjutant1', '', '');
-INSERT INTO `npcaction` VALUES ('81118', 'bsoul1', 'bsoul1', '', '');
-INSERT INTO `npcaction` VALUES ('81119', 'laryaide1', 'laryaide1', '', '');
-INSERT INTO `npcaction` VALUES ('81120', 'kalbass1', 'kalbass1', '', '');
-INSERT INTO `npcaction` VALUES ('81121', 'pielemental', 'pielemental', '', '');
-INSERT INTO `npcaction` VALUES ('81123', 'en2551-0', 'en2551-0', '', '');
-INSERT INTO `npcaction` VALUES ('81124', 'en2556', 'en2556', '', '');
-INSERT INTO `npcaction` VALUES ('81155', 'olle1', 'olle1', 'olle1', '');
-INSERT INTO `npcaction` VALUES ('81156', 'dfguard1', 'dfguard1', 'dfguard1', '');
-INSERT INTO `npcaction` VALUES ('70660', 'gdummyc1', 'gdummyc1', '', '');
-INSERT INTO `npcaction` VALUES ('70661', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70896', 'bluedum', 'bluedum', '', '');
-INSERT INTO `npcaction` VALUES ('70890', 'rabor', 'rabor', '', '');
-INSERT INTO `npcaction` VALUES ('70894', 'rondedum', 'rondedum', '', '');
-INSERT INTO `npcaction` VALUES ('70903', 'kandum', 'kandum', '', '');
-INSERT INTO `npcaction` VALUES ('70909', 'pierot1', 'pierot1', '', '');
-INSERT INTO `npcaction` VALUES ('4206000', 'baseReset', 'baseReset', '', '');
-INSERT INTO `npcaction` VALUES ('4206002', 'dufo', 'dufo', '', '');
-INSERT INTO `npcaction` VALUES ('4206001', 'candleg1', 'candleg1', '', '');
-INSERT INTO `npcaction` VALUES ('4200003', 'joegolem17', 'joegolem17', '', '');
-INSERT INTO `npcaction` VALUES ('70764', 'taus', 'taus', '', '');
-INSERT INTO `npcaction` VALUES ('71200', 'pieta1', 'pieta1', '', '');
-INSERT INTO `npcaction` VALUES ('4200005', 'tebegate1', 'tebegate1', '', '');
-INSERT INTO `npcaction` VALUES ('4220000', 'suspicious1', 'suspicious1', '', '');
-INSERT INTO `npcaction` VALUES ('4220001', 'suspicious1a', 'suspicious1a', '', '');
-INSERT INTO `npcaction` VALUES ('4220002', 'suspicious1b', 'suspicious1b', '', '');
-INSERT INTO `npcaction` VALUES ('4220003', 'suspicious1c', 'suspicious1c', '', '');
-INSERT INTO `npcaction` VALUES ('70659', 'atara1', 'atara1', '', '');
-INSERT INTO `npcaction` VALUES ('70648', 'daley1', 'daley1', '', '');
-INSERT INTO `npcaction` VALUES ('70647', 'gavin1', 'gavin1', '', '');
-INSERT INTO `npcaction` VALUES ('4212000', 'joegolem', 'joegolem', '', '');
-INSERT INTO `npcaction` VALUES ('4200001', '2008hallo1', '2008hallo1', '', '');
-INSERT INTO `npcaction` VALUES ('4200500', '2008illu', '2008illu2', '', '');
-INSERT INTO `npcaction` VALUES ('4218000', 'jepar1', 'jepar2', '', '');
-INSERT INTO `npcaction` VALUES ('4218001', 'pual1', 'pual1', '', '');
-INSERT INTO `npcaction` VALUES ('4218002', 'elas1', 'elas1', '', '');
-INSERT INTO `npcaction` VALUES ('4218003', 'prokel1', 'prokel1', '', '');
-INSERT INTO `npcaction` VALUES ('4218004', 'talrion1', 'talrion1', '', '');
-INSERT INTO `npcaction` VALUES ('4918000', 'dekabia1', 'dekabia1', 'dekabia2', 'dekabia3');
-INSERT INTO `npcaction` VALUES ('4219000', 'sbial1', 'sbial2', '', '');
-INSERT INTO `npcaction` VALUES ('4219001', 'batr1', 'batr1', '', '');
-INSERT INTO `npcaction` VALUES ('4219002', 'azel1', 'azel1', '', '');
-INSERT INTO `npcaction` VALUES ('4219003', 'rark1', 'rark1', '', '');
-INSERT INTO `npcaction` VALUES ('4219004', 'silrein1', 'silrein1', '', '');
-INSERT INTO `npcaction` VALUES ('4919000', 'sharial1', 'sharial1', 'sharial2', 'sharial3');
-INSERT INTO `npcaction` VALUES ('4202000', 'feaena2', 'feaena2', '', '');
-INSERT INTO `npcaction` VALUES ('4201000', 'asha2', 'asha2', '', '');
-INSERT INTO `npcaction` VALUES ('4213002', 'sciairen1', 'sciairen2', '', '');
-INSERT INTO `npcaction` VALUES ('4220010', 'feathercol1', 'feathercol1', '', '');
-INSERT INTO `npcaction` VALUES ('4220011', 'subsusp1', 'subsusp1', '', '');
-INSERT INTO `npcaction` VALUES ('4220700', 'suspicious1', 'suspicious1', '', '');
-INSERT INTO `npcaction` VALUES ('81200', 'nobelt', 'nobelt', '', '');
-INSERT INTO `npcaction` VALUES ('4902000', 'agin', 'agin', 'agsiin', '');
-INSERT INTO `npcaction` VALUES ('4901000', 'agin', 'agin', 'aghvin', '');
-INSERT INTO `npcaction` VALUES ('4203000', '2008santa', '2008santa', '', '');
-INSERT INTO `npcaction` VALUES ('4218005', 'evdcs', 'evdcs', '', '');
-INSERT INTO `npcaction` VALUES ('4219005', 'evics', 'evics', '', '');
-INSERT INTO `npcaction` VALUES ('4309003', 'sharna1', 'sharna1', '', '');
-INSERT INTO `npcaction` VALUES ('4309000', 'event_boss1', 'event_boss1', '', '');
-INSERT INTO `npcaction` VALUES ('4309002', 'event_boss2', 'event_boss2', '', '');
-INSERT INTO `npcaction` VALUES ('4309001', 'event_boss3', 'event_boss3', '', '');
-INSERT INTO `npcaction` VALUES ('4300000', 'tauga', 'tauga', '', '');
-INSERT INTO `npcaction` VALUES ('4300001', 'targa', 'targa', '', '');
-INSERT INTO `npcaction` VALUES ('4300002', 'tadga', 'tadga', '', '');
-INSERT INTO `npcaction` VALUES ('4300003', 'tahuga', 'tahuga', '', '');
-INSERT INTO `npcaction` VALUES ('4300004', 'tatga', 'tatga', '', '');
-INSERT INTO `npcaction` VALUES ('4300005', 'tasga', 'tasga', '', '');
-INSERT INTO `npcaction` VALUES ('4300006', 'tamiga', 'tamiga', '', '');
-INSERT INTO `npcaction` VALUES ('6000014', 'gr_mammon1', 'gr_mammon1', 'gr_mammon3', '');
-INSERT INTO `npcaction` VALUES ('6000015', 'adenshadow1', 'adenshadow1', '', '');
-INSERT INTO `npcaction` VALUES ('6000016', 'adenflora1', 'adenflora1', 'adenflora2', '');
-INSERT INTO `npcaction` VALUES ('81202', 'minitos08', 'minitos08', '', '');
-INSERT INTO `npcaction` VALUES ('81203', 'minitos3', 'minitos3', '', '');
-INSERT INTO `npcaction` VALUES ('81204', 'minitos3', 'minitos3', '', '');
-INSERT INTO `npcaction` VALUES ('81205', 'minitos2', 'minitos2', '', '');
-INSERT INTO `npcaction` VALUES ('81206', 'minitos2', 'minitos2', '', '');
-INSERT INTO `npcaction` VALUES ('81207', 'minitos1', 'minitos1', '', '');
-INSERT INTO `npcaction` VALUES ('81208', 'minibrob01', 'minibrob01', '', '');
-INSERT INTO `npcaction` VALUES ('46069', 'minicod1', 'minicod1', '', '');
-INSERT INTO `npcaction` VALUES ('46070', 'minicod3', 'minicod3', '', '');
-INSERT INTO `npcaction` VALUES ('46077', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46072', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46076', 'minicod1', 'minicod1', '', '');
-INSERT INTO `npcaction` VALUES ('46074', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46075', 'minicod3', 'minicod3', '', '');
-INSERT INTO `npcaction` VALUES ('46078', 'minicod1', 'minicod1', '', '');
-INSERT INTO `npcaction` VALUES ('46079', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46080', 'minicod1', 'minicod1', '', '');
-INSERT INTO `npcaction` VALUES ('46081', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46092', 'minicod3', 'minicod3', '', '');
-INSERT INTO `npcaction` VALUES ('46093', 'minicod3', 'minicod3', '', '');
-INSERT INTO `npcaction` VALUES ('46094', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46095', 'minicod2', 'minicod2', '', '');
-INSERT INTO `npcaction` VALUES ('46096', 'minicod1', 'minicod1', '', '');
-INSERT INTO `npcaction` VALUES ('70964', 'basch', 'basch', '', '');
-INSERT INTO `npcaction` VALUES ('70516', 'belgeter', 'belgeter', '', '');
-INSERT INTO `npcaction` VALUES ('70515', 'mubo', 'mubo', '', '');
-INSERT INTO `npcaction` VALUES ('70505', 'luder', 'luder', '', '');
-INSERT INTO `npcaction` VALUES ('4204000', 'robinhood2', 'robinhood2', '', '');
-INSERT INTO `npcaction` VALUES ('4210000', 'zybril19', 'zybril19', '', '');
-INSERT INTO `npcaction` VALUES ('4200000', '8event5', '8event5', '', '');
-INSERT INTO `npcaction` VALUES ('70839', 'doettE1', 'doettE1', '', '');
-INSERT INTO `npcaction` VALUES ('70854', 'hurinE1', 'hurinE1', '', '');
-INSERT INTO `npcaction` VALUES ('70843', 'morienE1', 'morienE1', '', '');
-INSERT INTO `npcaction` VALUES ('70849', 'theodorE1', 'theodorE1', '', '');
-INSERT INTO `npcaction` VALUES ('70842', 'marba3', 'marba3', '', '');
-INSERT INTO `npcaction` VALUES ('70735', 'garuga1', 'garuga1', '', '');
-INSERT INTO `npcaction` VALUES ('70753', 'bion1', 'bion1', '', '');
-INSERT INTO `npcaction` VALUES ('70737', 'dekan1', 'dekan1', '', '');
-INSERT INTO `npcaction` VALUES ('70741', 'dima1', 'dima1', '', '');
-INSERT INTO `npcaction` VALUES ('70746', 'rotus1', 'rotus1', '', '');
-INSERT INTO `npcaction` VALUES ('70736', 'derian1', 'derian1', '', '');
-INSERT INTO `npcaction` VALUES ('70767', 'haro1', 'haro1', '', '');
-INSERT INTO `npcaction` VALUES ('70747', 'ruru1', 'ruru1', '', '');
-INSERT INTO `npcaction` VALUES ('70743', 'lazloth', 'lazloth', '', '');
-INSERT INTO `npcaction` VALUES ('4411000', 'bauman1', 'bauman1', '', '');
-INSERT INTO `npcaction` VALUES ('4707000', 'ktguard6', 'ktguard6', 'ktguard6', '');
-INSERT INTO `npcaction` VALUES ('70907', 'kimadum', 'kimadum', '', '');
-INSERT INTO `npcaction` VALUES ('70900', 'ellvienue1', 'ellvienue1', '', '');
-INSERT INTO `npcaction` VALUES ('70902', 'kalynue1', 'kalynue1', '', '');
-INSERT INTO `npcaction` VALUES ('70911', 'hamud1', 'hamud1', '', '');
-INSERT INTO `npcaction` VALUES ('70891', 'rondo1', 'rondo1', '', '');
-INSERT INTO `npcaction` VALUES ('70897', 'bishop1', 'bishop1', '', '');
-INSERT INTO `npcaction` VALUES ('70901', 'jeti1', 'jeti1', '', '');
-INSERT INTO `npcaction` VALUES ('70905', 'crevas1', 'crevas1', '', '');
-INSERT INTO `npcaction` VALUES ('4710000', 'hdummy1', 'hdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('4710001', 'heguard6', 'heguard6', 'heguard6', '');
-INSERT INTO `npcaction` VALUES ('70883', 'harry1', 'harry1', '', '');
-INSERT INTO `npcaction` VALUES ('70874', 'elina1', 'elina1', '', '');
-INSERT INTO `npcaction` VALUES ('70878', 'felix1', 'felix1', '', '');
-INSERT INTO `npcaction` VALUES ('70868', 'stra1', 'stra1', '', '');
-INSERT INTO `npcaction` VALUES ('70869', 'spencer1', 'spencer1', '', '');
-INSERT INTO `npcaction` VALUES ('70879', 'paults1', 'paults1', '', '');
-INSERT INTO `npcaction` VALUES ('70867', 'shannon1', 'shannon1', '', '');
-INSERT INTO `npcaction` VALUES ('70877', 'trion1', 'trion1', '', '');
-INSERT INTO `npcaction` VALUES ('70858', 'derick1', 'derick1', '', '');
-INSERT INTO `npcaction` VALUES ('70870', 'arina1', 'arina1', '', '');
-INSERT INTO `npcaction` VALUES ('70856', 'gale1', 'gale1', '', '');
-INSERT INTO `npcaction` VALUES ('70866', 'barent1', 'barent1', '', '');
-INSERT INTO `npcaction` VALUES ('70875', 'oriel1', 'oriel1', '', '');
-INSERT INTO `npcaction` VALUES ('70871', 'annabel1', 'annabel1', '', '');
-INSERT INTO `npcaction` VALUES ('70859', 'velma1', 'velma1', '', '');
-INSERT INTO `npcaction` VALUES ('60519', 'gkeeper1', 'gkeeper1', '', '');
-INSERT INTO `npcaction` VALUES ('70821', 'sanita1', 'sanita1', '', '');
-INSERT INTO `npcaction` VALUES ('70833', 'tommy1', 'tommy1', '', '');
-INSERT INTO `npcaction` VALUES ('70819', 'bob1', 'bob1', '', '');
-INSERT INTO `npcaction` VALUES ('70812', 'rohan1', 'rohan1', '', '');
-INSERT INTO `npcaction` VALUES ('70829', 'woodford1', 'woodford1', '', '');
-INSERT INTO `npcaction` VALUES ('70814', 'ruka1', 'ruka1', '', '');
-INSERT INTO `npcaction` VALUES ('70828', 'ofo1', 'ofo1', '', '');
-INSERT INTO `npcaction` VALUES ('70825', 'ellne1', 'ellne1', '', '');
-INSERT INTO `npcaction` VALUES ('70835', 'hanna1', 'hanna1', '', '');
-INSERT INTO `npcaction` VALUES ('70834', 'torban1', 'torban1', '', '');
-INSERT INTO `npcaction` VALUES ('70818', 'bazure1', 'bazure1', '', '');
-INSERT INTO `npcaction` VALUES ('70832', 'taga1', 'taga1', '', '');
-INSERT INTO `npcaction` VALUES ('70810', 'nenani1', 'nenani1', '', '');
-INSERT INTO `npcaction` VALUES ('70813', 'ruu1', 'ruu1', '', '');
-INSERT INTO `npcaction` VALUES ('4708000', 'grguard6', 'grguard6', '', '');
-INSERT INTO `npcaction` VALUES ('4708001', 'grguard6', 'grguard6', '', '');
-INSERT INTO `npcaction` VALUES ('70618', 'andrew1', 'andrew1', '', '');
-INSERT INTO `npcaction` VALUES ('70603', 'bruno1', 'bruno1', '', '');
-INSERT INTO `npcaction` VALUES ('70582', 'neil1', 'neil1', '', '');
-INSERT INTO `npcaction` VALUES ('70608', 'shalina1', 'shalina1', '', '');
-INSERT INTO `npcaction` VALUES ('4208000', 'doyo', 'doyo', '', '');
-INSERT INTO `npcaction` VALUES ('70613', 'amanda1', 'amanda1', '', '');
-INSERT INTO `npcaction` VALUES ('70622', 'eliza1', 'eliza1', '', '');
-INSERT INTO `npcaction` VALUES ('70626', 'jack1', 'jack1', '', '');
-INSERT INTO `npcaction` VALUES ('70590', 'luke1', 'luke1', '', '');
-INSERT INTO `npcaction` VALUES ('70589', 'laban1', 'laban1', '', '');
-INSERT INTO `npcaction` VALUES ('70606', 'victor1', 'victor1', '', '');
-INSERT INTO `npcaction` VALUES ('70620', 'eban1', 'eban1', '', '');
-INSERT INTO `npcaction` VALUES ('70628', 'jessy1', 'jessy1', '', '');
-INSERT INTO `npcaction` VALUES ('70602', 'velma1', 'velma1', '', '');
-INSERT INTO `npcaction` VALUES ('70639', 'ferdinand1', 'ferdinand1', '', '');
-INSERT INTO `npcaction` VALUES ('70636', 'terry1', 'terry1', '', '');
-INSERT INTO `npcaction` VALUES ('70581', 'gulian1', 'gulian1', '', '');
-INSERT INTO `npcaction` VALUES ('70586', 'daisy1', 'daisy1', '', '');
-INSERT INTO `npcaction` VALUES ('70634', 'tanya1', 'tanya1', '', '');
-INSERT INTO `npcaction` VALUES ('70593', 'manus1', 'manus1', '', '');
-INSERT INTO `npcaction` VALUES ('70591', 'lina1', 'lina1', '', '');
-INSERT INTO `npcaction` VALUES ('70630', 'giles1', 'giles1', '', '');
-INSERT INTO `npcaction` VALUES ('70616', 'aldred1', 'aldred1', '', '');
-INSERT INTO `npcaction` VALUES ('70604', 'bridget1', 'bridget1', '', '');
-INSERT INTO `npcaction` VALUES ('70640', 'pierre1', 'pierre1', '', '');
-INSERT INTO `npcaction` VALUES ('70576', 'garth1', 'garth1', '', '');
-INSERT INTO `npcaction` VALUES ('70619', 'alice1', 'alice1', '', '');
-INSERT INTO `npcaction` VALUES ('70621', 'evelyn1', 'evelyn1', '', '');
-INSERT INTO `npcaction` VALUES ('4408000', 'ernest1', 'ernest1', '', '');
-INSERT INTO `npcaction` VALUES ('70637', 'tovia1', 'tovia1', '', '');
-INSERT INTO `npcaction` VALUES ('70615', 'alda1', 'alda1', '', '');
-INSERT INTO `npcaction` VALUES ('70592', 'leal1', 'leal1', '', '');
-INSERT INTO `npcaction` VALUES ('70624', 'oliver1', 'oliver1', '', '');
-INSERT INTO `npcaction` VALUES ('70629', 'james1', 'james1', '', '');
-INSERT INTO `npcaction` VALUES ('70587', 'doris1', 'doris1', '', '');
-INSERT INTO `npcaction` VALUES ('70584', 'daria1', 'daria1', '', '');
-INSERT INTO `npcaction` VALUES ('70585', 'damon1', 'damon1', '', '');
-INSERT INTO `npcaction` VALUES ('70625', 'iola1', 'iola1', '', '');
-INSERT INTO `npcaction` VALUES ('70610', 'sherwin1', 'sherwin1', '', '');
-INSERT INTO `npcaction` VALUES ('70595', 'mandel1', 'mandel1', '', '');
-INSERT INTO `npcaction` VALUES ('70596', 'malcom1', 'malcom1', '', '');
-INSERT INTO `npcaction` VALUES ('70597', 'moran1', 'moran1', '', '');
-INSERT INTO `npcaction` VALUES ('70612', 'sidney1', 'sidney1', '', '');
-INSERT INTO `npcaction` VALUES ('70609', 'sally1', 'sally1', '', '');
-INSERT INTO `npcaction` VALUES ('4208001', 'gr_trick1', 'gr_trick2', '', '');
-INSERT INTO `npcaction` VALUES ('70578', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70579', 'gdummy1', 'gdummy1', '', '');
-INSERT INTO `npcaction` VALUES ('70580', 'gdummyc1', 'gdummyc1', '', '');
-INSERT INTO `npcaction` VALUES ('70672', 'rapael1', 'rapael1', '', '');
-INSERT INTO `npcaction` VALUES ('70713', 'jessica1', 'jessica1', '', '');
-INSERT INTO `npcaction` VALUES ('70679', 'marja1', 'marja1', '', '');
-INSERT INTO `npcaction` VALUES ('70697', 'citizen5', 'citizen5', '', '');
-INSERT INTO `npcaction` VALUES ('70680', 'mikey1', 'mikey1', '', '');
-INSERT INTO `npcaction` VALUES ('70678', 'maren1', 'maren1', '', '');
-INSERT INTO `npcaction` VALUES ('70682', 'marx1', 'marx1', '', '');
-INSERT INTO `npcaction` VALUES ('70719', 'calvin1', 'calvin1', '', '');
-INSERT INTO `npcaction` VALUES ('70726', 'citizen2', 'citizen2', '', '');
-INSERT INTO `npcaction` VALUES ('70718', 'citizen9', 'citizen9', '', '');
-INSERT INTO `npcaction` VALUES ('70673', 'citizen3', 'citizen3', '', '');
-INSERT INTO `npcaction` VALUES ('4413013', 'citizen6', 'citizen6', '', '');
-INSERT INTO `npcaction` VALUES ('70709', 'elleano1', 'elleano1', '', '');
-INSERT INTO `npcaction` VALUES ('70717', 'citizen11', 'citizen11', '', '');
-INSERT INTO `npcaction` VALUES ('4213000', 'eggg', 'eggg', '', '');
-INSERT INTO `npcaction` VALUES ('70714', 'jaimy1', 'jaimy1', '', '');
-INSERT INTO `npcaction` VALUES ('70699', 'sheryan1', 'sheryan1', '', '');
-INSERT INTO `npcaction` VALUES ('70727', 'jones1', 'jones1', '', '');
-INSERT INTO `npcaction` VALUES ('70693', 'buckley1', 'buckley1', '', '');
-INSERT INTO `npcaction` VALUES ('70728', 'bim1', 'bim1', '', '');
-INSERT INTO `npcaction` VALUES ('70681', 'matilda1', 'matilda1', '', '');
-INSERT INTO `npcaction` VALUES ('70698', 'selma1', 'selma1', '', '');
-INSERT INTO `npcaction` VALUES ('70689', 'misa1', 'misa1', '', '');
-INSERT INTO `npcaction` VALUES ('70712', 'jennifer1', 'jennifer1', '', '');
-INSERT INTO `npcaction` VALUES ('4213001', 'yuris1', 'yuris1', '', '');
-INSERT INTO `npcaction` VALUES ('70705', 'arin1', 'arin1', '', '');
-INSERT INTO `npcaction` VALUES ('70729', 'rafga1', 'rafga1', '', '');
-INSERT INTO `npcaction` VALUES ('70677', 'riria1', 'riria1', '', '');
-INSERT INTO `npcaction` VALUES ('70710', 'owon1', 'owon1', '', '');
-INSERT INTO `npcaction` VALUES ('70716', 'chobi1', 'chobi1', '', '');
-INSERT INTO `npcaction` VALUES ('70730', 'melly1', 'melly1', '', '');
-INSERT INTO `npcaction` VALUES ('60535', 'adguard6', 'adguard6', '', '');
-INSERT INTO `npcaction` VALUES ('60536', 'adguard6', 'adguard6', '', '');
-INSERT INTO `npcaction` VALUES ('4200002', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('70765', 'tifany', 'tifany', '', '');
-INSERT INTO `npcaction` VALUES ('70766', 'paperman', 'paperman', '', '');
-INSERT INTO `npcaction` VALUES ('70738', 'defuri', 'defuri', '', '');
-INSERT INTO `npcaction` VALUES ('70752', 'biyan', 'biyan', '', '');
-INSERT INTO `npcaction` VALUES ('4309004', 'benedic5', 'benedic5', '', '');
-INSERT INTO `npcaction` VALUES ('70745', 'roku', 'roku', '', '');
-INSERT INTO `npcaction` VALUES ('70845', 'aras1', 'aras1', '', '');
-INSERT INTO `npcaction` VALUES ('4200007', 'joegolem21', 'joegolem21', '', '');
-INSERT INTO `npcaction` VALUES ('4200006', 'tikalgate1', 'tikalgate1', '', '');
-INSERT INTO `npcaction` VALUES ('4200100', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4200101', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4200102', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4208002', 'merlin1', 'merlin1', 'merlin2', '');
-INSERT INTO `npcaction` VALUES ('4206003', 'coma1', 'coma1', '', '');
-INSERT INTO `npcaction` VALUES ('70708', 'affleck1', 'affleck1', '', '');
-INSERT INTO `npcaction` VALUES ('71265', 'sinwarrior', 'sinwarrior', '', '');
-INSERT INTO `npcaction` VALUES ('4212001', 'veil1', 'veil1', '', '');
-INSERT INTO `npcaction` VALUES ('4212002', 'sherme2', 'sherme2', '', '');
-INSERT INTO `npcaction` VALUES ('4212003', 'fivelviin2', 'fivelviin2', '', '');
-INSERT INTO `npcaction` VALUES ('4212004', 'fivelviin3', 'fivelviin3', '', '');
-INSERT INTO `npcaction` VALUES ('4212005', 'fivelviin1', 'fivelviin1', '', '');
-INSERT INTO `npcaction` VALUES ('4212006', 'fivelviin4', 'fivelviin4', '', '');
-INSERT INTO `npcaction` VALUES ('4212007', 'dwfmerchant', 'dwfmerchant', '', '');
-INSERT INTO `npcaction` VALUES ('4212008', 'bankoo1', 'bankoo1', '', '');
-INSERT INTO `npcaction` VALUES ('4212009', 'hankoo1', 'hankoo2', '', '');
-INSERT INTO `npcaction` VALUES ('4212013', 'dsecret3', 'dsecret3', '', '');
-INSERT INTO `npcaction` VALUES ('4200008', 'expgive', 'expgive', '', '');
-INSERT INTO `npcaction` VALUES ('4200103', 'es_seller1', 'es_seller2', '', '');
-INSERT INTO `npcaction` VALUES ('4200104', 'es_battlet1', 'es_battlet2', '', '');
-INSERT INTO `npcaction` VALUES ('4212011', 'familyed', 'familyed', '', '');
-INSERT INTO `npcaction` VALUES ('4212010', 'ilbakiel', 'ilbakiel', '', '');
-INSERT INTO `npcaction` VALUES ('4200105', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4200009', '8event3', '8event3', '', '');
-INSERT INTO `npcaction` VALUES ('4500162', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500163', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500164', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500165', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500166', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500167', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500168', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500169', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500170', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500171', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500173', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4500174', 'pandora', 'pandora', '', '');
-INSERT INTO `npcaction` VALUES ('4220013', 'pctel1', 'pctel1', 'pctel1', '');
-INSERT INTO `npcaction` VALUES ('4220012', 'suschef1', 'suschef1', '', '');
+INSERT IGNORE INTO `npcaction` VALUES 
+('45015', 'duck1', 'duck1', '', ''),
+('45154', 'mermaid', 'mermaid', '', ''),
+('50001', 'barnia1', 'barnia1', 'barnia4', ''),
+('50002', 'sky4', 'sky4', 'sky1', ''),
+('50003', 'illdrath', 'illdrath', 'illdrath1', ''),
+('50004', 'htel', 'htel', 'htel1', ''),
+('50005', 'karen3', 'karen3', 'karen1', ''),
+('50006', 'coco4', 'coco4', 'coco1', ''),
+('50007', 'esmereld2', 'esmereld2', 'esmereld', ''),
+('50008', 'agout', 'agout', 'aghvout', ''),
+('50009', 'ishtar', 'ishtar', 'ishtar1', ''),
+('50010', 'stel', 'stel', 'stel1', ''),
+('50011', 'kun4', 'kun4', 'kun2', ''),
+('50012', 'kiyari4', 'kiyari4', 'kiyari2', ''),
+('50013', 'agout', 'agout', 'agsiout', ''),
+('50014', 'dilong2', 'dilong2', 'dilongs', ''),
+('50015', 'teleisland1', 'teleisland1', 'teleisland2', ''),
+('50016', 'zeno', 'zeno', 'zeno2', ''),
+('50017', 'telefire1', 'telefire2', 'telefire3', ''),
+('50018', 'colos', 'colos', 'colos1', ''),
+('50019', 'colusher', 'colusher', '', ''),
+('50020', 'telekent1', 'telekent1', 'telekent2', 'telekent3'),
+('50022', 'telefire1', 'telefire2', 'telefire3', ''),
+('50021', 'teleckent1', 'teleckent1', 'teleckent2', ''),
+('50023', 'kentober1', 'kentober1', 'kentober2', ''),
+('50024', 'telegludin1', 'telegludin1', 'telegludin2', 'telegludin3'),
+('50025', 'gltzguard', 'gltzguard', 'gltzguard1', ''),
+('50026', 'telegltz1', 'telegltz1', 'telegltz2', ''),
+('50027', 'gltztele', 'gltztele', 'gltztele1', ''),
+('50028', 'colos', 'colos', 'colos1', ''),
+('50029', 'colusher', 'colusher', '', ''),
+('50030', 'telefire1', 'telefire2', 'telefire3', ''),
+('50031', 'sepia2', 'sepia2', '', ''),
+('50032', 'grtzguard', 'grtzguard', 'grtzguard1', ''),
+('50033', 'telegrtz1', 'telegrtz1', 'telegrtz2', ''),
+('50034', 'grtztele', 'grtztele', 'grtztele1', ''),
+('50035', 'telecgiran1', 'telecgiran1', 'telecgiran2', ''),
+('50036', 'telegiran1', 'telegiran1', 'telegiran2', 'telegiran3'),
+('50037', 'colos', 'colos', 'colos1', ''),
+('50038', 'colusher', 'colusher', '', ''),
+('50039', 'televala1', 'televala1', 'televala2', 'televala3'),
+('50040', 'telecdwarf1', 'telecdwarf1', 'telecdwarf2', ''),
+('50041', 'colos', 'colos', 'colos1', ''),
+('50042', 'colusher', 'colusher', '', ''),
+('50043', 'ramudap2', 'ramudap2', 'ramudap1', ''),
+('50044', 'sirius1', 'sirius1', 'sirius2', 'sirius3'),
+('50045', 'telephantasm', 'telephantasm', 'phantasmisle', ''),
+('50046', 'elleris1', 'elleris1', 'elleris2', 'elleris3'),
+('50047', 'telecaden1', 'telecaden1', 'telecaden2', ''),
+('50048', 'ortzguard', 'ortzguard', 'ortzguard1', ''),
+('50049', 'teleortz1', 'teleortz1', 'teleortz2', ''),
+('50050', 'ortztele', 'ortztele', 'ortztele1', ''),
+('50051', 'kirius1', 'kirius1', 'kirius2', 'kirius3'),
+('50052', 'telecwoods1', 'telecwoods1', 'telecwoods2', ''),
+('50053', 'telefire1', 'telefire2', 'telefire3', ''),
+('50054', 'telewoods1', 'telewoods1', 'telewoods2', 'telewoods3'),
+('50055', 'drist', 'drist', 'drist2', ''),
+('50056', 'telesilver1', 'telesilver1', 'telesilver2', 'telesilver3'),
+('50057', 'telefire1', 'telefire2', 'telefire3', ''),
+('50058', 'sktzguard', 'sktzguard', 'sktzguard1', ''),
+('50059', 'telesktz1', 'telesktz1', 'telesktz2', ''),
+('50060', 'sktztele', 'sktztele', 'sktztele1', ''),
+('50061', 'colos', 'colos', 'colos1', ''),
+('50062', 'colusher', 'colusher', '', ''),
+('50063', 'telecorc1', 'telecorc1', 'telecorc2', ''),
+('50064', 'duvall1', 'duvall1', 'duvall3', ''),
+('50065', 'ribian4', 'ribian4', '', ''),
+('50066', 'teleheine1', 'teleheine1', 'teleheine2', 'teleheine3'),
+('50067', 'telecheine1', 'telecheine1', 'telecheine2', ''),
+('50068', 'telescave1', 'telescave1', 'telescave2', ''),
+('50069', 'enya1', 'enya1', 'enya3', ''),
+('50070', 'luck1', 'luck1', 'luck2', ''),
+('50071', 'escapefi1', 'escapefi1', 'escapefi2', ''),
+('50072', 'teleoum1', 'teleoum1', 'teleoum2', ''),
+('50073', 'telediad1', 'telediad1', 'telediad2', ''),
+('50074', 'telecavern1', 'telecavern1', 'telecavern2', ''),
+('50075', 'telecdiad1', 'telecdiad1', 'telecdiad2', ''),
+('50076', 'telgrave1', 'telgrave1', 'telgrave2', ''),
+('50077', 'telabyss1', 'telabyss1', 'telabyss2', ''),
+('50078', 'picrystal', 'picrystal', 'picrystal1', ''),
+('50079', 'telediad1', 'telediad1', 'telediad2', 'telediad3'),
+('50080', 'paul1', 'paul1', 'teleorcbdg1', ''),
+('50081', 'subinvest1', 'subinvest1', '', ''),
+('50082', 'en0221', 'en0221', '', ''),
+('50084', 'exitghost1', 'exitghost1', '', ''),
+('50111', 'orenc14', 'orenc14', '', ''),
+('50112', 'orenb1', 'orenb1', 'orenb0', ''),
+('50113', 'orena1', 'orena1', 'orena0', ''),
+('50114', 'orenh1', 'orenh1', 'orenh0', ''),
+('50115', 'oreno1', 'oreno1', 'oreno0', ''),
+('50116', 'orend1', 'orend1', 'orend0', ''),
+('50117', 'orene1', 'orene1', 'orene0', ''),
+('50118', 'niki', 'niki', '', ''),
+('50119', 'orenf1', 'orenf1', 'orenf0', ''),
+('50120', 'oreni1', 'oreni1', 'oreni0', ''),
+('50121', 'oreng1', 'oreng1', 'oreng0', ''),
+('50122', 'orenj1', 'orenj1', 'orenj0', ''),
+('50123', 'orenk1', 'orenk1', 'orenk0', ''),
+('50124', 'orenm1', 'orenm1', 'orenm0', ''),
+('50125', 'orenl1', 'orenl1', 'orenl0', ''),
+('50126', 'orenn1', 'orenn1', 'orenn0', ''),
+('50127', 'consul2', 'consul2', 'consul1', ''),
+('50501', 'agit', 'agit', 'agtel0', ''),
+('50502', 'agit', 'agit', 'agtel0', ''),
+('50503', 'agit', 'agit', 'agtel0', ''),
+('50504', 'agit', 'agit', 'agtel0', ''),
+('50505', 'agit', 'agit', 'agtel0', ''),
+('50506', 'agit', 'agit', 'agtel0', ''),
+('50507', 'agit', 'agit', 'agtel0', ''),
+('50508', 'agit', 'agit', 'agtel0', ''),
+('50509', 'agit', 'agit', 'agtel0', ''),
+('50510', 'agit', 'agit', 'agtel0', ''),
+('50511', 'agit', 'agit', 'agtel0', ''),
+('50512', 'agit', 'agit', 'agtel0', ''),
+('50513', 'agit', 'agit', 'agtel0', ''),
+('50514', 'agit', 'agit', 'agtel0', ''),
+('50515', 'agit', 'agit', 'agtel0', ''),
+('50516', 'agit', 'agit', 'agtel0', ''),
+('50517', 'agit', 'agit', 'agtel0', ''),
+('50518', 'agit', 'agit', 'agtel0', ''),
+('50519', 'agit', 'agit', 'agtel0', ''),
+('50520', 'agit', 'agit', 'agtel0', ''),
+('50521', 'agit', 'agit', 'agtel0', ''),
+('50522', 'agit', 'agit', 'agtel0', ''),
+('50523', 'agit', 'agit', 'agtel0', ''),
+('50524', 'agit', 'agit', 'agtel0', ''),
+('50525', 'agit', 'agit', 'agtel0', ''),
+('50526', 'agit', 'agit', 'agtel0', ''),
+('50527', 'agit', 'agit', 'agtel0', ''),
+('50528', 'agit', 'agit', 'agtel0', ''),
+('50529', 'agit', 'agit', 'agtel0', ''),
+('50530', 'agit', 'agit', 'agtel0', ''),
+('50531', 'agit', 'agit', 'agtel0', ''),
+('50532', 'agit', 'agit', 'agtel0', ''),
+('50533', 'agit', 'agit', 'agtel0', ''),
+('50534', 'agit', 'agit', 'agtel0', ''),
+('50535', 'agit', 'agit', 'agtel0', ''),
+('50536', 'agit', 'agit', 'agtel0', ''),
+('50537', 'agit', 'agit', 'agtel0', ''),
+('50538', 'agit', 'agit', 'agtel0', ''),
+('50539', 'agit', 'agit', 'agtel0', ''),
+('50540', 'agit', 'agit', 'agtel0', ''),
+('50541', 'agit', 'agit', 'agtel0', ''),
+('50542', 'agit', 'agit', 'agtel0', ''),
+('50543', 'agit', 'agit', 'agtel0', ''),
+('50544', 'agit', 'agit', 'agtel0', ''),
+('50545', 'agit', 'agit', 'agtel0', ''),
+('50546', 'agit', 'agit', 'agtel0', ''),
+('50547', 'agit', 'agit', 'agtel0', ''),
+('50548', 'agit', 'agit', 'agtel0', ''),
+('50549', 'agit', 'agit', 'agtel0', ''),
+('50550', 'agit', 'agit', 'agtel0', ''),
+('50551', 'agit', 'agit', 'agtel0', ''),
+('50552', 'agit', 'agit', 'agtel0', ''),
+('50553', 'agit', 'agit', 'agtel0', ''),
+('50554', 'agit', 'agit', 'agtel0', ''),
+('50555', 'agit', 'agit', 'agtel0', ''),
+('50556', 'agit', 'agit', 'agtel0', ''),
+('50557', 'agit', 'agit', 'agtel0', ''),
+('50558', 'agit', 'agit', 'agtel0', ''),
+('50559', 'agit', 'agit', 'agtel0', ''),
+('50560', 'agit', 'agit', 'agtel0', ''),
+('50561', 'agit', 'agit', 'agtel0', ''),
+('50562', 'agit', 'agit', 'agtel0', ''),
+('50563', 'agit', 'agit', 'agtel0', ''),
+('50564', 'agit', 'agit', 'agtel0', ''),
+('50565', 'agit', 'agit', 'agtel0', ''),
+('50566', 'agit', 'agit', 'agtel0', ''),
+('50567', 'agit', 'agit', 'agtel0', ''),
+('50568', 'agit', 'agit', 'agtel0', ''),
+('50569', 'agit', 'agit', 'agtel0', ''),
+('50570', 'agit', 'agit', 'agtel0', ''),
+('50571', 'agit', 'agit', 'agtel0', ''),
+('50572', 'agit', 'agit', 'agtel0', ''),
+('50573', 'agit', 'agit', 'agtel0', ''),
+('50574', 'agit', 'agit', 'agtel0', ''),
+('50575', 'agit', 'agit', 'agtel0', ''),
+('50576', 'agit', 'agit', 'agtel0', ''),
+('50577', 'agit', 'agit', 'agtel0', ''),
+('50578', 'agit', 'agit', 'agtel0', ''),
+('50579', 'agit', 'agit', 'agtel0', ''),
+('50580', 'agit', 'agit', 'agtel0', ''),
+('50581', 'agit', 'agit', 'agtel0', ''),
+('50582', 'agit', 'agit', 'agtel0', ''),
+('50583', 'agit', 'agit', 'agtel0', ''),
+('50584', 'agit', 'agit', 'agtel0', ''),
+('50585', 'agit', 'agit', 'agtel0', ''),
+('50586', 'agit', 'agit', 'agtel0', ''),
+('50587', 'agit', 'agit', 'agtel0', ''),
+('50588', 'agit', 'agit', 'agtel0', ''),
+('50589', 'agit', 'agit', 'agtel0', ''),
+('50590', 'agit', 'agit', 'agtel0', ''),
+('50591', 'agit', 'agit', 'agtel0', ''),
+('50592', 'agit', 'agit', 'agtel0', ''),
+('50593', 'agit', 'agit', 'agtel0', ''),
+('50594', 'agit', 'agit', 'agtel0', ''),
+('50595', 'agit', 'agit', 'agtel0', ''),
+('50596', 'agit', 'agit', 'agtel0', ''),
+('50597', 'agit', 'agit', 'agtel0', ''),
+('50598', 'agit', 'agit', 'agtel0', ''),
+('50599', 'agit', 'agit', 'agtel0', ''),
+('50600', 'agit', 'agit', 'agtel0', ''),
+('50601', 'agit', 'agit', 'agtel0', ''),
+('50602', 'agit', 'agit', 'agtel0', ''),
+('50603', 'agit', 'agit', 'agtel0', ''),
+('50604', 'agit', 'agit', 'agtel0', ''),
+('50605', 'agit', 'agit', 'agtel0', ''),
+('50606', 'agit', 'agit', 'agtel0', ''),
+('50607', 'agit', 'agit', 'agtel0', ''),
+('50608', 'kinin2', 'kinin2', '', ''),
+('50609', 'agit', 'agit', 'agtel0', ''),
+('50610', 'agit', 'agit', 'agtel0', ''),
+('50611', 'agit', 'agit', 'agtel0', ''),
+('50612', 'agit', 'agit', 'agtel0', ''),
+('50613', 'agit', 'agit', 'agtel0', ''),
+('50614', 'agit', 'agit', 'agtel0', ''),
+('50615', 'agit', 'agit', 'agtel0', ''),
+('50616', 'agit', 'agit', 'agtel0', ''),
+('50617', 'agit', 'agit', 'agtel0', ''),
+('50618', 'agit', 'agit', 'agtel0', ''),
+('50619', 'agit', 'agit', 'agtel0', ''),
+('50620', 'agit', 'agit', 'agtel0', ''),
+('50621', 'agit', 'agit', 'agtel0', ''),
+('50622', 'agit', 'agit', 'agtel0', ''),
+('50623', 'agit', 'agit', 'agtel0', ''),
+('50624', 'agit', 'agit', 'agtel0', ''),
+('50625', 'acient1', 'acient1', '', ''),
+('50626', 'agit', 'agit', 'agtel0', ''),
+('50627', 'agit', 'agit', 'agtel0', ''),
+('50628', 'agit', 'agit', 'agtel0', ''),
+('50629', 'agit', 'agit', 'agtel0', ''),
+('50630', 'agit', 'agit', 'agtel0', ''),
+('50631', 'agit', 'agit', 'agtel0', ''),
+('60001', 'dorin', 'dorinl', 'pdorin', ''),
+('60002', 'bahof', 'bahof', 'pbahof', ''),
+('60003', 'thram', 'thraml', 'pthram', ''),
+('60004', 'denitz', 'denitzl', 'pdenitz', ''),
+('60005', 'luku', 'lukul', 'pluku', ''),
+('60006', 'jianku', 'jiankul', 'pjianku', ''),
+('60007', 'karim', 'kariml', 'pkarim', ''),
+('60008', 'nodim', 'nodiml', 'pnodim', ''),
+('60009', 'sauram', 'sauraml', 'psauram', ''),
+('60010', 'kasham', 'kashaml', 'pkasham', ''),
+('60011', 'kuron', 'kuronl', 'pkuron', ''),
+('60012', 'tofen', 'tofen', 'ptofen', ''),
+('60013', 'axellon', 'axellonl', 'paxellon', ''),
+('60014', 'kriom', 'kriom', 'pkriom', ''),
+('60015', 'ogi', 'ogi', 'pogi', ''),
+('60016', 'juke', 'jukel', 'pjuke', ''),
+('60017', 'karudim', 'karudiml', 'pkarudim', ''),
+('60018', 'kamu', 'kamul', 'pkamu', ''),
+('60019', 'timpukin', 'timpukinl', 'ptimpukin', ''),
+('60020', 'tulak', 'tulakl', 'ptulak', ''),
+('60021', 'hirim', 'hiriml', 'phirim', ''),
+('60022', 'borgin', 'borgin', 'pborgin', ''),
+('60023', 'tarkin', 'tarkinl', 'ptarkin', ''),
+('60024', 'gotham', 'gothaml', 'pgotham', ''),
+('60025', 'kusian', 'kusianl', 'pkusian', ''),
+('60026', 'orclon', 'orclon', 'porclon', ''),
+('60027', 'kuhatin', 'kuhatinl', 'pkuhatin', ''),
+('60028', 'elE1', 'elE1', 'elCE1', ''),
+('60029', 'haidrim', 'haidrim', 'phaidrim', ''),
+('60030', 'hakim', 'hakiml', 'phakim', ''),
+('60031', 'rayearth1', 'rayearth2', 'pgotham', ''),
+('60032', 'garin', 'garinl', 'pgarin', ''),
+('60033', 'gawl', 'gawll', 'pgawl', ''),
+('60034', 'kuud', 'kuudl', 'pkuud', ''),
+('60035', 'zidar', 'zadarl', 'pgawl', ''),
+('60036', 'tigus', 'tigusl', 'pgawl', ''),
+('60037', 'en1011', 'en1011', '', ''),
+('60501', 'patguard', 'patguard', '', ''),
+('60502', 'patguard', 'patguard', '', ''),
+('60506', '', '', '', ''),
+('60507', '', '', '', ''),
+('60508', '', '', '', ''),
+('60509', '', '', '', ''),
+('60510', '', '', '', ''),
+('60513', '', '', '', ''),
+('60514', 'ktguard6', 'ktguard6', 'ktguard6', ''),
+('60515', '', '', '', ''),
+('60516', '', '', '', ''),
+('60517', '', '', '', ''),
+('60522', '', '', '', ''),
+('60523', '', '', '', ''),
+('60524', 'grguard6', 'grguard6', 'grguard6', ''),
+('60525', 'grguard6', 'grguard6', 'grguard6', ''),
+('60526', 'gdummy1', 'gdummy1', 'gdummy1', ''),
+('60527', 'gdummy1', 'gdummy1', 'gdummy1', ''),
+('60528', '', '', '', ''),
+('60529', 'grguard6', 'grguard6', 'grguard6', ''),
+('60530', 'dcguard6', 'dcguard6', 'dcguard6', ''),
+('60531', 'dcguard6', 'dcguard6', 'dcguard6', ''),
+('60533', 'adguard6', 'adguard6', 'adguard6', ''),
+('60534', 'adguard6', 'adguard6', 'adguard6', ''),
+('60537', 'adguard6', 'adguard6', 'adguard6', ''),
+('60538', 'adguard6', 'adguard6', 'adguard6', ''),
+('60539', 'adguard6', 'adguard6', 'adguard6', ''),
+('60540', 'adguard6', 'adguard6', 'adguard6', ''),
+('60551', '', '', '', ''),
+('60552', 'wdguard6', 'wdguard6', 'wdguard6', ''),
+('60553', 'wdummy1', 'wdummy1', '', ''),
+('60554', 'wdummy1', 'wdummy1', '', ''),
+('60558', 'sdummy1', 'sdummy1', '', ''),
+('60559', 'sdummy1', 'sdummy1', '', ''),
+('60560', 'orcguard6', 'orcguard6', 'orcguard6', ''),
+('60563', 'heguard6', 'heguard6', 'heguard6', ''),
+('60565', 'wdguard4', 'wdguard4', 'wdguard5', ''),
+('70001', 'rose1', 'rose1', 'rose6', ''),
+('70002', 'sasha', 'sasha', '', ''),
+('70003', 'siriss', 'siriss', 'sirissmg', ''),
+('70004', 'johan', 'johan', 'johan1', ''),
+('70005', 'en0131', 'en0131', '', ''),
+('70006', 'kiris', 'kiris', '', ''),
+('70007', 'tina1', 'tina1', 'tina6', ''),
+('70008', 'fraoun', 'fraoun', '', ''),
+('70009', '', '', '', ''),
+('70010', 'balsim', 'balsim', '', ''),
+('70011', 'shipEvI3', 'shipEvI1', '', ''),
+('70012', 'inn', 'Inn1', '', ''),
+('70013', 'cold1', 'cold2', '', ''),
+('70014', 'pandora', 'pandora5', '', ''),
+('70015', 'arieh1', 'arieh1', 'arieh6', ''),
+('70016', 'andyn', 'andyn', 'andyn3', ''),
+('70017', 'orim1', 'orim1', 'orim2', ''),
+('70018', 'ysorya', 'ysorya', 'ysorya3', ''),
+('70019', 'inn', 'Inn1', '', ''),
+('70020', 'rollko', 'rollko', 'rollko1', ''),
+('70021', 'luth', 'luth', 'luth3', ''),
+('70022', 'shipEvM1', 'shipEvM1', 'shipEvM2', ''),
+('70023', 'tzmerchant', 'tzmerchant', '', ''),
+('70024', 'catty', 'catty', 'catty3', ''),
+('70025', 'pasim', 'pasim', 'pasim2', ''),
+('70026', 'derek1', 'derek1', 'derek2', ''),
+('70027', 'dio1', 'dio1', 'dio2', ''),
+('70028', 'randal1', 'randal1', 'randal2', ''),
+('70029', 'margaret1', 'margaret1', 'margaret2', ''),
+('70030', 'mayer', 'mayer', 'mayer3', ''),
+('70031', 'inn', 'Inn1', '', ''),
+('70032', 'vergil', 'vergil', 'vergil3', ''),
+('70033', 'verita', 'verita', 'verita3', ''),
+('70034', 'vincent1', 'vincent1', 'vincent2', ''),
+('70035', 'raymond1', 'raymond1', '', ''),
+('70036', 'stella1', 'stella1', 'stella6', ''),
+('70037', 'tzmerchant', 'tzmerchant', '', ''),
+('70038', 'evert1', 'evert1', 'evert2', ''),
+('70039', 'werner', 'werner', 'werner3', ''),
+('70040', 'jason1', 'jason1', 'jason2', ''),
+('70041', 'raymond1', 'raymond1', '', ''),
+('70042', 'raymond1', 'raymond1', '', ''),
+('70043', 'philip1', 'philip1', 'philip2', ''),
+('70044', 'ralf1', 'ralf1', 'ralf6', ''),
+('70045', 'berry1', 'berry1', 'berry6', ''),
+('70046', 'jin1', 'jin1', 'jin6', ''),
+('70047', 'defman', 'defman', 'defman3', ''),
+('70048', 'raon', 'raon', 'raon3', ''),
+('70049', 'rozen1', 'rozen1', 'rozen2', ''),
+('70050', 'ruky1', 'ruky1', 'ruky6', ''),
+('70051', 'magus', 'magus', 'magus2', ''),
+('70052', 'mellisa', 'mellisa', 'mellisa3', ''),
+('70053', 'sharu1', 'sharu1', 'sharu2', ''),
+('70054', 'inn', 'Inn1', '', ''),
+('70055', 'ashinnue', 'ashinnue1', '', ''),
+('70056', 'jode', 'jode', 'jode1', ''),
+('70057', 'catherine', 'catherine', 'catherine3', ''),
+('70058', 'fega', 'fega', 'fega3', ''),
+('70059', 'dico', 'dico', 'dico3', ''),
+('70060', 'rinda', 'rinda', 'rinda3', ''),
+('70061', 'mandra', 'mandra', 'mandra3', ''),
+('70062', 'varyeth', 'varyeth', 'varyeth3', ''),
+('70063', 'bius', 'bius', 'bius3', ''),
+('70064', 'tzmerchant', 'tzmerchant', '', ''),
+('70065', 'inn', 'Inn1', '', ''),
+('70066', 'kreister', 'kreister', 'kreister3', ''),
+('70067', 'pagoru', 'pagoru', 'pagoru3', ''),
+('70068', 'franko', 'franko', 'franko1', ''),
+('70069', 'momo1', 'momo1', 'momo6', ''),
+('70070', 'inn', 'Inn1', '', ''),
+('70071', 'ashur', 'ashur', 'ashur3', ''),
+('70072', 'elmina', 'elmina', 'elmina3', ''),
+('70073', 'glen', 'glen1', '', ''),
+('70074', 'mellin', 'mellin1', '', ''),
+('70075', 'inn', 'Inn1', '', ''),
+('70076', 'tzmerchant', 'tzmerchant', '', ''),
+('70077', 'dogdealer', 'dogdealer', 'rodney', ''),
+('70078', 'orcm1', 'orcm1', 'orcm6', ''),
+('70079', 'jackson', 'jackson', 'jackson3', ''),
+('70080', 'horunev1', 'horunev1', 'horunev2', ''),
+('70081', 'buakheu1', 'buakheu1', 'buakheu2', ''),
+('70082', 'britt', 'britt', 'britt3', ''),
+('70083', 'shivan', 'shivan', 'shivan3', ''),
+('70084', 'inn', 'Inn1', '', ''),
+('70085', 'old1', 'old1', 'old6', ''),
+('70086', 'isvall4', 'isvall4', 'isvall1', ''),
+('70087', 'sedia4', 'sedia4', '', ''),
+('70088', 'scwaty1', 'scwaty1', 'scwaty2', ''),
+('70089', 'oblivion1', 'oblivion1', 'oblivion2', ''),
+('70090', 'chiky1', 'chiky1', 'chiky3', ''),
+('70091', 'tilon1', 'tilon1', 'tilon13', ''),
+('70092', 'emart', 'emart', '', ''),
+('70093', 'karupu', 'karupu', '', ''),
+('70094', 'duran', 'duran', 'duran2', ''),
+('70095', 'duron1', 'duron1', '', ''),
+('70096', 'inn', 'Inn1', '', ''),
+('70097', 'foni1', 'foni1', '', ''),
+('70098', 'bobo1', 'bobo1', '', ''),
+('70099', 'kuper2', 'kuper2', '', ''),
+('70100', 'lengo1', 'lengo1', '', ''),
+('70101', 'fiin1', 'fiin1', '', ''),
+('70102', 'judice1', 'judice1', '', ''),
+('70503', 'goodman', 'goodman', '', ''),
+('70504', 'neutralman', 'neutralman', '', ''),
+('70506', 'ruba', 'ruba', '', ''),
+('70507', 'rion1', 'rion1', 'rion2', ''),
+('70508', 'enchanterw1', 'enchanterw1', 'encw', ''),
+('70509', 'enchantera1', 'enchantera1', 'enca', ''),
+('70510', 'newgypsy', 'newgypsy', 'gypsy1', ''),
+('70511', 'evilman', 'evilman', '', ''),
+('70512', 'noved', 'noved', '', ''),
+('70513', 'peria1', 'peria1', 'peria2', ''),
+('70514', 'freehaste', 'freehaste', '', ''),
+('70517', 'cuse1', 'cuse1', 'cuse3', ''),
+('70518', 'tio', 'tio', '', ''),
+('70519', 'peria1', 'peria1', 'peria2', ''),
+('70520', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70522', '', '', '', ''),
+('70523', 'ladar1', 'ladarC1', '', ''),
+('70524', 'lavienue9', 'lavienue9', 'lavienue2', ''),
+('70525', 'lien1', 'lienC1', '', ''),
+('70526', 'raiders1', 'raiders1', 'raiders3', ''),
+('70527', 'lengo1', 'lengo1', '', ''),
+('70528', 'othertown', 'othertown', 'othertownh', ''),
+('70529', 'mona1', 'mona1', '', ''),
+('70530', 'restore1pk', 'restore1pk', 'helppk', ''),
+('70531', 'jem2', 'jem2', '', ''),
+('70532', 'johnson1', 'johnson1', '', ''),
+('70533', 'judice1', 'judice1', '', ''),
+('70534', 'secretary1', 'secretary1', 'secretary4', ''),
+('70535', 'kuper1', 'kuper1', '', ''),
+('70536', 'touma1', 'touma1', 'touma2', ''),
+('70537', 'farlin1', 'farlinC1', '', ''),
+('70538', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70539', 'fiin1', 'fiin1', '', ''),
+('70540', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70544', 'dick1', 'dick1', 'dick2', ''),
+('70545', 'richard3', 'richard3', '', ''),
+('70546', 'othertown', 'othertown', 'othertownh', ''),
+('70547', 'encwc', 'encwc', '', ''),
+('70549', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70550', 'encac', 'encac', '', ''),
+('70553', 'ishmael1', 'ishmael1', 'ishmael2', ''),
+('70554', 'zero2', 'zero2', '', ''),
+('70555', '', '', '', ''),
+('70556', 'secretary1', 'secretary1', 'secretary4', ''),
+('70560', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70562', 'hunt1', 'hunt1', 'hunt2', ''),
+('70563', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70567', 'othertown', 'othertown', 'othertownh', ''),
+('70568', 'yuno', 'yuno', '', ''),
+('70572', 'secretary1', 'secretary1', 'secretary4', ''),
+('70574', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70577', 'auction1', 'auction1', 'auction3', ''),
+('70594', 'othertown', 'othertown', 'othertownh', ''),
+('70598', 'moria1', 'moria1', 'moria4', ''),
+('70599', 'encwc', 'encwc', '', ''),
+('70600', 'orckeeperop', 'orckeeperop', 'orckeeperop', ''),
+('70601', 'encac', 'encac', '', ''),
+('70605', 'blaise1', 'blaise1', 'blaise4', ''),
+('70607', 'sarsha1', 'sarsha1', 'sarsha2', ''),
+('70611', 'restore1pk', 'restore1pk', '', ''),
+('70614', 'anton1', 'anton1', '', ''),
+('70617', 'almon1', 'almon1', 'almon2', ''),
+('70623', 'orville1', 'orville1', 'orville2', ''),
+('70631', 'secretary4', 'secretary4', 'secretary1', ''),
+('70632', 'kevin1', 'kevin1', 'kevin2', ''),
+('70633', 'colbert1', 'colbert1', 'colbert2', ''),
+('70641', 'herbert1', 'herbert1', 'herbert2', ''),
+('70642', 'hector1', 'hector1', 'hector2', ''),
+('70644', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70645', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70653', 'masha', 'masha', '', ''),
+('70654', 'othertown', 'othertown', 'othertownh', ''),
+('70655', 'encwc', 'encwc', '', ''),
+('70656', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70657', 'encac', 'encac', '', ''),
+('70658', 'restore1pk', 'restore1pk', '', ''),
+('70662', 'ivelviin1', 'ivelviin1', 'ivelviin2', ''),
+('70663', 'secretary1', 'secretary1', 'secretary4', ''),
+('70664', 'cove1', 'cove1', 'cove2', ''),
+('70665', 'potempin1', 'potempin1', 'potempin2', ''),
+('70666', 'freckson1', 'freckson1', 'freckson2', ''),
+('70667', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70668', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70670', 'citizen8', 'citizen8', '', ''),
+('70671', 'nose', 'nose', 'nose1', ''),
+('70674', 'reona1', 'reona1', 'reona2', ''),
+('70675', 'citizen1', 'citizen1', '', ''),
+('70676', 'ryumiel1', 'ryumiel1', '', ''),
+('70683', 'montes2', 'montes2', 'montes4', ''),
+('70686', 'encwc', 'encwc', '', ''),
+('70687', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70688', 'citizen10', 'citizen10', '', ''),
+('70690', 'bamute1', 'bamute1', 'bamute2', ''),
+('70692', 'encac', 'encac', '', ''),
+('70695', 'biust1', 'biust1', 'biust2', ''),
+('70701', 'restore', 'restore', '', ''),
+('70702', 'ring1', 'ring1', '', ''),
+('70707', 'eno1', 'eno1', 'enoc1', ''),
+('70711', 'giantk1', 'giantk1', 'giantk2', ''),
+('70715', 'jimuk1', 'jimuk1', 'jimuk2', ''),
+('70721', 'timon1', 'timon1', 'timon2', ''),
+('70722', 'paruit01', 'paruit01', 'paruitC', ''),
+('70723', 'pau1', 'pau1', 'pau2', ''),
+('70724', 'heit4', 'heit4', '', ''),
+('70725', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70734', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70739', 'dicardinge1', 'dicardinge1', 'dicardinge2', ''),
+('70740', 'zero2', 'zero2', '', ''),
+('70742', 'detecter1', 'detecter1', 'detecter2', ''),
+('70744', 'roje16', 'roje16', '', ''),
+('70748', 'othertown', 'othertown', 'othertownh', ''),
+('70749', 'mild1', 'mild1', 'mild2', ''),
+('70751', 'brad1', 'brad1', '', ''),
+('70757', 'restore1pk', 'restore1pk', '', ''),
+('70758', 'sabin', 'sabin', '', ''),
+('70760', 'ellyonne', 'ellyonne', 'ellyonne4', ''),
+('70761', 'secretary1', 'secretary1', 'secretary4', ''),
+('70762', 'karif1', 'karif1', '', ''),
+('70763', 'talass', 'talass', '', ''),
+('70768', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70771', 'randith1', 'randith1', 'randith2', ''),
+('70773', 'marbin1', 'marbin1', 'marbin2', ''),
+('70772', 'ladar1', 'ladarC1', '', ''),
+('70774', 'othertown', 'othertown', 'othertownh', ''),
+('70775', 'mark1', 'mark1', 'mark2', ''),
+('70776', 'meg4', 'meg4', '', ''),
+('70777', 'encwc', 'encwc', '', ''),
+('70778', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70779', 'ants2', 'ants2', 'antss', ''),
+('70780', 'encac', 'encac', '', ''),
+('70781', 'restore1pk', 'restore1pk', '', ''),
+('70782', 'ant2', 'ant2', '', ''),
+('70783', 'aria4', 'aria4', '', ''),
+('70784', 'othmond1', 'othmond1', 'othmond2', ''),
+('70788', 'secretary1', 'secretary1', 'secretary4', ''),
+('70789', 'halt1', 'halt1', 'halt2', ''),
+('70790', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70792', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70794', '', '', '', ''),
+('70796', 'dunham2', 'dunham2', '', ''),
+('70797', 'drist', 'drist', '', ''),
+('70798', 'riky2', 'riky2', '', ''),
+('70799', 'othertown', 'othertown', 'othertownh', ''),
+('70800', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70801', 'restore1pk', 'restore1pk', '', ''),
+('70802', 'aanon1', 'aanon1', '', ''),
+('70804', 'lien1', 'lienC1', '', ''),
+('70805', 'ladar1', 'ladarC1', '', ''),
+('70806', 'secretary1', 'secretary1', 'secretary4', ''),
+('70807', 'farlin1', 'farlinC1', '', ''),
+('70808', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70809', '', '', '', ''),
+('70811', 'lyraEv1', 'lyraEv1', 'lyraEv3', ''),
+('70815', 'othertown', 'othertown', 'othertownh', ''),
+('70816', 'encwc', 'encwc', '', ''),
+('70817', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70820', 'encac', 'encac', '', ''),
+('70822', 'seghem1', 'seghem1', 'seghem2', ''),
+('70823', 'restore1pk', 'restore1pk', '', ''),
+('70824', 'assassin4', 'assassin4', '', ''),
+('70826', 'oth2', 'oth2', '', ''),
+('70830', 'secretary1', 'secretary1', 'secretary4', ''),
+('70831', 'kentu1', 'kentu1', 'kentu2', ''),
+('70836', 'hans1', 'hans1', 'hans2', ''),
+('70837', 'narhenE3', 'narhenE3', 'narhenE1', ''),
+('70838', 'nerupaE1', 'nerupaE1', 'nerupaCE1', ''),
+('70840', 'robinwood1', 'robinwood1', 'robinwood3', ''),
+('70841', 'luudiel1', 'luudiel1', '', ''),
+('70844', '', '', '', ''),
+('70846', 'arachnee1', 'arachnee1', 'arachnem1', ''),
+('70847', 'estE1', 'estE1', 'estCE1', ''),
+('70848', 'ente1', 'ente1', 'entm1', ''),
+('70850', 'pane1', 'pane1', 'panm1', ''),
+('70851', 'fairye1', 'fairye1', 'fairym1', ''),
+('70852', 'fairyqe1', 'fairyqe1', 'fairyqm1', ''),
+('70853', 'fairyp3', 'fairyp3', '', ''),
+('70855', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70857', 'heguard6', 'heguard6', 'heguard6', ''),
+('70860', 'othertown', 'othertown', 'othertownh', ''),
+('70861', 'encwc', 'encwc', '', ''),
+('70862', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70863', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70865', 'encac', 'encac', '', ''),
+('70872', 'eveurol1', 'eveurol1', 'eveurol5', ''),
+('70873', 'ellan1', 'ellan1', 'ellan2', ''),
+('70876', 'secretary1', 'secretary1', 'secretary4', ''),
+('70880', 'fisher1', 'fisher1', 'fisher2', ''),
+('70881', 'hdummy1', 'hdummy1', '', ''),
+('70882', 'vaiger1', 'vaiger1', 'vaiger2', ''),
+('70884', 'bpledge2', 'bpledge2', 'bpledge1', ''),
+('70885', 'kanguard4', 'kanguard4', '', ''),
+('70889', 'lamune1', 'lamune1', '', ''),
+('70892', 'ronde6', 'ronde6', '', ''),
+('70895', 'bluedikaq4', 'bluedikaq4', '', ''),
+('70898', 'inn', 'Inn1', '', ''),
+('70904', 'koup1', 'koup1', 'koupdwaf', ''),
+('70906', 'kimaq1', 'kimaq1', 'kimaq2', ''),
+('70908', 'pears1', 'pears1', '', ''),
+('70910', 'hadesty1', 'hadesty1', 'hadesty2', ''),
+('70912', 'woumsix1', 'woumsix1', '', ''),
+('70913', 'woumfour1', 'woumfour1', '', ''),
+('70916', 'redin1', 'redin1', '', ''),
+('70917', 'burns1', 'burns1', '', ''),
+('70919', 'smiter1', 'smiter1', '', ''),
+('70920', 'dfguard1', 'dfguard1', '', ''),
+('70922', 'credonas1', 'credonas1', '', ''),
+('70923', 'olle1', 'olle1', '', ''),
+('70924', 'genes1', 'genes1', '', ''),
+('70925', 'elderoum1', 'elderoum1', '', ''),
+('70927', 'coderage1', 'coderage1', '', ''),
+('70928', 'tristan1', 'tristan1', '', ''),
+('70934', 'lesta', 'lesta', '', ''),
+('70953', 'alchemy1', 'alchemy1', 'alchemy4', ''),
+('70970', 'clalchemist1', 'clalchemist1', 'clalchemist2', ''),
+('70971', 'sialchemist1', 'sialchemist1', 'sialchemist2', ''),
+('70980', 'orenc0', 'orenc0', '', ''),
+('70981', 'hen1', 'hen1', '', ''),
+('70983', 'pig1', 'pig1', '', ''),
+('70984', 'milkcow1', 'milkcow1', 'none', ''),
+('70985', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70986', 'orckeeperop', 'orckeeperop', 'orckeeperop', ''),
+('70987', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70988', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70989', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70990', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70991', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70992', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70993', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70994', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70995', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70996', 'gatekeeperop', 'gatekeeperop', 'gatekeeperop', ''),
+('70997', 'jpe0011', 'jpe0011', '', ''),
+('70998', 'en0307', 'en0307', '', ''),
+('70999', 'jpe0021', 'jpe0021', '', ''),
+('71000', 'jpe0031', 'jpe0031', '', ''),
+('71001', 'en0011', 'en0015', '', ''),
+('71002', 'jpe0161', 'jpe0161', '', ''),
+('71003', 'en0021', 'en0025', '', ''),
+('71004', 'en0051', 'en0051', '', ''),
+('71005', 'jpe0041', 'jpe0041', '', ''),
+('71006', 'jpe0051', 'jpe0051', '', ''),
+('71007', 'en0031', 'en0031', '', ''),
+('71009', 'jpe0076', 'jpe0076', '', ''),
+('71010', 'en0061', 'en0061', '', ''),
+('71011', 'jpe0067', 'jpe0067', '', ''),
+('71012', 'en0041', 'en0041', '', ''),
+('71013', 'karen2', 'karen2', '', ''),
+('71014', 'en0242', 'en0242', '', ''),
+('71015', 'en0263', 'en0263', '', ''),
+('71016', 'en0251', 'en0251', '', ''),
+('71017', 'en0251', 'en0251', '', ''),
+('71018', 'jpe0134', 'jpe0134', '', ''),
+('71019', 'jpe0115', 'jpe0115', '', ''),
+('71020', 'jpe0121', 'jpe0121', '', ''),
+('71021', 'en0197', 'en0197', '', ''),
+('71022', 'jpe0151', 'jpe0151', '', ''),
+('71023', 'jpe0141', 'jpe0141', '', ''),
+('71024', 'garret1', 'garret1', '', ''),
+('71025', 'jpe0086', 'jpe0086', '', ''),
+('71026', 'en0112', 'en0112', '', ''),
+('71027', 'en0282', 'en0282', '', ''),
+('71028', 'en0121', 'en0121', '', ''),
+('71029', 'en0291', 'en0291', '', ''),
+('71030', 'en1021', 'en1021', '', ''),
+('71031', 'en0085', 'en0085', '', ''),
+('71032', 'en0091e', 'en0091e', '', ''),
+('71033', 'en0214', 'en0214', '', ''),
+('71034', 'en0205', 'en0205', '', ''),
+('71035', 'en0231', 'en0231', '', ''),
+('71036', 'kamyla000', 'kamyla000', '', ''),
+('71037', 'treno', 'treno', '', ''),
+('71038', 'orcfnoname1', 'orcfnoname1', '', ''),
+('71039', 'orcfbuwoo1', 'orcfbuwoo1', '', ''),
+('71040', 'orcfnoa2', 'orcfnoa2', '', ''),
+('71041', 'orcfhuwoomo1', 'orcfhuwoomo1', '', ''),
+('71042', 'orcfbakumo1', 'orcfbakumo1', '', ''),
+('71043', 'orcfbuka1', 'orcfbuka1', '', ''),
+('71044', 'orcfkame1', 'orcfkame1', '', ''),
+('71045', 'orcfbawoo1', 'orcfbawoo1', '', ''),
+('71046', 'roberto', 'roberto', '', ''),
+('71047', 'lupus', 'lupus', '', ''),
+('71048', 'karu', 'karu', '', ''),
+('71051', 'monett', 'monett', '', ''),
+('71052', 'enishia', 'enishia', '', ''),
+('71053', 'berik1', 'berik1', '', ''),
+('71054', 'roxxan', 'roxxan', '', ''),
+('71055', 'lukein1', 'lukein1', '', ''),
+('71056', 'simizz1', 'simizz1', '', ''),
+('71057', 'doil1', 'doilc', '', ''),
+('71058', 'ratsyu1', 'ratsyu1', '', ''),
+('71059', 'rudian1a', 'rudian1a', '', ''),
+('71060', 'resta1', 'resta1', '', ''),
+('71061', 'cadmus1', 'cadmus1', '', ''),
+('71062', 'kamit1', 'kamit1', '', ''),
+('71063', 'maptbox0', 'maptbox0', '', ''),
+('71064', 'maptbox0', 'maptbox0', '', ''),
+('71065', 'maptbox0', 'maptbox0', '', ''),
+('71066', 'maptbox0', 'maptbox0', '', ''),
+('71067', 'maptbox0', 'maptbox0', '', ''),
+('71068', 'maptbox0', 'maptbox0', '', ''),
+('71069', 'maptbox0', 'maptbox0', '', ''),
+('71070', 'maptbox0', 'maptbox0', '', ''),
+('71071', 'maptbox0', 'maptbox0', '', ''),
+('71072', 'maptbox0', 'maptbox0', '', ''),
+('71073', 'maptbox0', 'maptbox0', '', ''),
+('71074', 'lelder0', 'lelder0', '', ''),
+('71075', 'llizard1a', 'llizard1a', '', ''),
+('71076', 'ylizardb', 'ylizardb', '', ''),
+('71077', 'invest1', 'invest1', '', ''),
+('71078', 'usender1', 'usender1', '', ''),
+('71079', 'ubuy', 'ubuy1', '', ''),
+('71080', 'amisoo1', 'amisoo1', '', ''),
+('71081', 'blackkey1', 'blackkey1', '', ''),
+('71082', 'blackkey2', 'blackkey2', '', ''),
+('71083', 'blackkey3', 'blackkey3', '', ''),
+('71084', 'blackkey4', 'blackkey4', '', ''),
+('71085', 'redkey1', 'redkey1', '', ''),
+('71086', 'redkey2', 'redkey2', '', ''),
+('71087', 'redkey3', 'redkey3', '', ''),
+('71088', 'redkey4', 'redkey4', '', ''),
+('71089', 'francu1', 'francu001', '', ''),
+('71090', 'jcrystal0', 'jcrystal0', '', ''),
+('71091', 'jcrystall0', 'jcrystall0', '', ''),
+('71108', 'chaotictp1', 'chaotictp1', '', ''),
+('71109', 'lawfultp1', 'lawfultp1', '', ''),
+('71110', 'caexplorer1', 'caexplorer1', '', ''),
+('71111', 'cahunterone1', 'cahunterone1', '', ''),
+('71112', 'cahuntertwo1', 'cahuntertwo1', '', ''),
+('71113', 'clalchemist1', 'clalchemist1', '', ''),
+('71114', 'sialchemist1', 'sialchemist1', '', ''),
+('71115', 'inforaden1', 'inforaden1', '', ''),
+('71116', 'agelder1', 'agelder1', '', ''),
+('71117', 'aggeneral1', 'aggeneral1', '', ''),
+('71118', 'talkingoum1', 'talkingoum1', '', ''),
+('71119', 'ataroze', 'ataroze', '', ''),
+('71120', 'rian1', 'rian1', '', ''),
+('71121', 'leonard1', 'leonard1', '', ''),
+('71122', 'fesco1', 'fesco1', '', ''),
+('71123', 'rubo1', 'rubo1', '', ''),
+('71124', 'alri1', 'alri1', '', ''),
+('71125', 'adelio', 'adelio', '', ''),
+('71126', 'eris1', 'eris1', '', ''),
+('71127', 'scwaru1', 'scwaru1', '', ''),
+('71128', 'perita1', 'perita1', '', ''),
+('71129', 'rumtis1', 'rumtis1', '', ''),
+('71130', 'rabla', 'rabla', '', ''),
+('71131', 'rabor', 'rabor', '', ''),
+('71132', 'woumfive1', 'woumfive1', '', ''),
+('71133', 'woumone1', 'woumone1', '', ''),
+('71134', 'woumtwo1', 'woumtwo1', '', ''),
+('71135', 'woumthir1', 'woumthir1', '', ''),
+('71136', 'woumele1', 'woumele1', '', ''),
+('71137', 'woumseven1', 'woumseven1', '', ''),
+('71138', 'woumnine1', 'woumnine1', '', ''),
+('71139', 'woumeight1', 'woumeight1', '', ''),
+('71140', 'woumten1', 'woumten1', '', ''),
+('71141', 'moumthree2', 'moumthree2', '', ''),
+('71142', 'moumtwo2', 'moumtwo2', '', ''),
+('71143', 'woumthree1', 'woumthree1', '', ''),
+('71144', 'woumtwel1', 'woumtwel1', '', ''),
+('71145', 'moumone2', 'moumone2', '', ''),
+('71146', 'midoum1', 'midoum1', '', ''),
+('71147', 'cutoum', 'cutoum', '', ''),
+('71148', 'eoumone1', 'eoumone1', '', ''),
+('71149', 'soumthree1', 'soumthree1', '', ''),
+('71150', 'soumone1', 'soumone1', '', ''),
+('71151', 'soumtwo1', 'soumtwo1', '', ''),
+('71152', 'stoumone1', 'stoumone1', '', ''),
+('71153', 'stoumthree1', 'stoumthree1', '', ''),
+('71154', 'stoumtwo1', 'stoumtwo1', '', ''),
+('71155', 'eoumtwo1', 'eoumtwo1', '', ''),
+('71156', 'prisondef1', 'prisondef1', '', ''),
+('71157', 'prisondef4', 'prisondef4', '', ''),
+('71158', 'prisondef5', 'prisondef5', '', ''),
+('71159', 'prisondef9', 'prisondef9', '', ''),
+('71160', 'prisondef6', 'prisondef6', '', ''),
+('71161', 'prisondef7', 'prisondef7', '', ''),
+('71162', 'prisondef8', 'prisondef8', '', ''),
+('71163', 'yastin1', 'yastin1', '', ''),
+('71164', 'lance1', 'lance1', '', ''),
+('71165', 'xestin1', 'xestin1', '', ''),
+('71166', 'guardin1', 'guardin1', '', ''),
+('71167', 'frim2', 'frim2', '', ''),
+('71168', 'dantes', 'dantes', '', ''),
+('71169', 'marbes1', 'marbes1', '', ''),
+('71170', 'clorence', 'clorence', '', ''),
+('71171', 'debow1', 'debow1', '', ''),
+('71172', 'dethief1', 'dethief1', '', ''),
+('71173', 'degeneral1', 'degeneral1', '', ''),
+('71174', 'desword1', 'desword1', '', ''),
+('71175', 'Ep5event16', 'Ep5event16', '', ''),
+('71176', 'adummy1', 'adummy1', '', ''),
+('71177', 'adummy1', 'adummy1', '', ''),
+('71178', 'ru1', 'ru1', '', ''),
+('71179', 'dh1', 'dh1', '', ''),
+('71180', 'jp1', 'jp1', '', ''),
+('71181', 'my2', 'my2', '', ''),
+('71182', 'sm2', 'sm2', '', ''),
+('71184', 'gdummy1', 'gdummy1', '', ''),
+('71187', 'diadummy1', 'diadummy1', '', ''),
+('71188', 'diadummy1', 'diadummy1', '', ''),
+('71189', 'diaguard1', 'diaguard1', '', ''),
+('71190', 'jericho1', 'jericho1', '', ''),
+('71191', 'becky1', 'becky1', '', ''),
+('71192', 'carmel1', 'carmel1', '', ''),
+('71193', 'chase1', 'chase1', '', ''),
+('71194', 'aurora1', 'aurora1', '', ''),
+('71195', 'winston1', 'winston1', '', ''),
+('71196', 'alfred', 'alfred1', '', ''),
+('71197', 'endel1', 'endel1', '', ''),
+('71198', 'tion1', 'tion1', '', ''),
+('71199', 'jeron1', 'jeron1', '', ''),
+('80010', 'aprincess1', 'aprincess1', 'aprincess2', ''),
+('80019', 'cold1', 'cold1', '', ''),
+('80020', 'cold1', 'cold1', '', ''),
+('80021', 'cold1', 'cold1', '', ''),
+('80022', 'cold1', 'cold1', '', ''),
+('80023', 'cold1', 'cold1', '', ''),
+('80024', 'cold1', 'cold1', '', ''),
+('80025', 'cold1', 'cold1', '', ''),
+('80026', 'cold1', 'cold1', '', ''),
+('80027', 'cold1', 'cold1', '', ''),
+('80028', 'cold1', 'cold1', '', ''),
+('80029', 'cold1', 'cold1', '', ''),
+('80030', 'cold1', 'cold1', '', ''),
+('80031', 'cold1', 'cold1', '', ''),
+('80032', 'cold1', 'cold1', '', ''),
+('80033', 'cold1', 'cold1', '', ''),
+('80034', 'cold1', 'cold1', '', ''),
+('80035', 'cold1', 'cold1', '', ''),
+('80036', 'cold1', 'cold1', '', ''),
+('80037', 'cold1', 'cold1', '', ''),
+('80038', 'cold1', 'cold1', '', ''),
+('80039', 'cold1', 'cold1', '', ''),
+('80040', 'cold1', 'cold1', '', ''),
+('80041', 'cold1', 'cold1', '', ''),
+('80042', 'cold1', 'cold1', '', ''),
+('80043', 'cold1', 'cold1', '', ''),
+('80044', 'cold1', 'cold1', '', ''),
+('80045', 'cold1', 'cold1', '', ''),
+('80047', 'uhelp1', 'uhelp1', '', ''),
+('80048', 'entgate', 'entgate', '', ''),
+('80049', 'betray12', 'betray12', '', ''),
+('80050', 'meet101', 'meet101', '', ''),
+('80051', 'qyahee', 'qyahee', '', ''),
+('80052', 'u_hunt', 'u_hunt', '', ''),
+('80053', 'alice_no', 'alice_no', '', ''),
+('80054', 'lapyahee', 'lapyahee', '', ''),
+('80055', 'uamulet0', 'uamulet0', '', ''),
+('80056', 'infamous12', 'infamous12', '', ''),
+('80057', 'alfons1', 'alfons1', '', ''),
+('80058', 'cpass01', 'cpass01', 'cpass01', ''),
+('80059', 'wpass05', 'wpass05', 'wpass05', ''),
+('80060', 'wpass05', 'wpass05', 'wpass05', ''),
+('80061', 'wpass05', 'wpass05', 'wpass05', ''),
+('80062', 'wpass05', 'wpass05', 'wpass05', ''),
+('80063', 'gpass01', 'gpass01', 'gpass01', ''),
+('80064', 'meet001', 'meet001', '', ''),
+('80065', 'uturn0', 'uturn0', '', ''),
+('80066', 'betray01', 'betray01', '', ''),
+('80067', 'minicod08', 'minicod08', '', ''),
+('80068', 'fakebarlog1', 'fakebarlog1', '', ''),
+('80069', 'ldemon1', 'ldemon1', '', ''),
+('80070', 'tldemon1', 'tldemon1', '', ''),
+('80071', 'lring0', 'lring0', '', ''),
+('80072', 'lsmith0', 'lsmith0', '', ''),
+('80073', 'l_hunt', 'l_hunt', '', ''),
+('80074', 'infamous02', 'infamous02', '', ''),
+('80075', 'vehikeu1', 'vehikeu1', '', ''),
+('80076', 'voyager1', 'voyager1', '', ''),
+('80077', 'aldran1', 'aldran1', '', ''),
+('80078', 'arka1', 'arka1', '', ''),
+('80079', 'keplisha1', 'keplisha4', 'keplisha2', ''),
+('80080', 'f_elder', 'f_elder', '', ''),
+('80081', 'f_grandma1', 'f_grandma1', '', ''),
+('80082', 'fk_in_1', 'fk_in_1', '', ''),
+('80083', 'fk_out_1', 'fk_out_1', '', ''),
+('80084', 'rparum', 'rparum', '', ''),
+('80085', 'duo', 'duo', '', ''),
+('80086', 'kusan', 'kusan', '', ''),
+('80087', 'datu', 'datu', '', ''),
+('80088', 'petmatcher', 'petmatcher', '', ''),
+('80089', 'medalbuyer', 'medalbuyer', '', ''),
+('80090', 'rakuki1', 'rakuki1', '', ''),
+('80091', 'rrafons', 'rrafons', '', ''),
+('80092', 'rjaint1', 'rjaint1', '', ''),
+('80093', 'rjyta1', 'rjyta1', '', ''),
+('80094', 'altar1', 'altar1', '', ''),
+('80095', 'rostin1', 'rostin1', '', ''),
+('80096', 'sharon1', 'sharon1', '', ''),
+('80097', 'rryman', 'rryman', '', ''),
+('80098', 'rfarbo1', 'rfarbo1', '', ''),
+('80099', 'rarson1', 'rarson8', 'rarson11', ''),
+('80100', 'maijin1', 'maijin1', '', ''),
+('80101', 'kuen1', 'kuen1', '', ''),
+('80102', 'fillis1', 'fillis3', '', ''),
+('80103', 'auction1', 'auction1', '', ''),
+('80104', 'horseseller1', 'horseseller0', '', ''),
+('80105', 'horserestore', 'horserestore', '', ''),
+('80127', 'cook1', 'cook1', '', ''),
+('80128', 'cointrader', 'cointrader', '', ''),
+('4205000', 'dgkeeperk1', 'dgkeeperk1', '', ''),
+('70803', 'anotte1', 'anotte1', '', ''),
+('60521', 'gdummy1', 'gdummy1', '', ''),
+('60520', 'gdummy1', 'gdummy1', '', ''),
+('70559', 'gdummy1', 'gdummy1', '', ''),
+('70558', 'gdummy1', 'gdummy1', '', ''),
+('70542', 'gayle4', 'gayle4', '', ''),
+('70557', 'cana1', 'cana1', '', ''),
+('70552', 'ashton1', 'ashton1', '', ''),
+('70548', 'moor1', 'moor1', '', ''),
+('70787', 'wdummyc1', 'wdummyc1', '', ''),
+('4711001', 'wdguard6', 'wdguard6', 'wdguard6', ''),
+('4711000', 'wdguard6', 'wdguard6', 'wdguard6', ''),
+('70786', 'wdummy1', 'wdummy1', '', ''),
+('81105', 'stoenm4', 'stoenm4', '', ''),
+('81110', 'cold1', 'cold1', '', ''),
+('81112', 'rader1', 'rader1', '', ''),
+('81113', 'hagutin1', 'hagutin1', '', ''),
+('81114', 'fsflame1', 'fsflame1', '', ''),
+('81115', 'adjutant1', 'adjutant1', '', ''),
+('81118', 'bsoul1', 'bsoul1', '', ''),
+('81119', 'laryaide1', 'laryaide1', '', ''),
+('81120', 'kalbass1', 'kalbass1', '', ''),
+('81121', 'pielemental', 'pielemental', '', ''),
+('81123', 'en2551-0', 'en2551-0', '', ''),
+('81124', 'en2556', 'en2556', '', ''),
+('81155', 'olle1', 'olle1', 'olle1', ''),
+('81156', 'dfguard1', 'dfguard1', 'dfguard1', ''),
+('70660', 'gdummyc1', 'gdummyc1', '', ''),
+('70661', 'gdummy1', 'gdummy1', '', ''),
+('70896', 'bluedum', 'bluedum', '', ''),
+('70890', 'rabor', 'rabor', '', ''),
+('70894', 'rondedum', 'rondedum', '', ''),
+('70903', 'kandum', 'kandum', '', ''),
+('70909', 'pierot1', 'pierot1', '', ''),
+('4206000', 'baseReset', 'baseReset', '', ''),
+('4206002', 'dufo', 'dufo', '', ''),
+('4206001', 'candleg1', 'candleg1', '', ''),
+('4200003', 'joegolem17', 'joegolem17', '', ''),
+('70764', 'taus', 'taus', '', ''),
+('71200', 'pieta1', 'pieta1', '', ''),
+('4200005', 'tebegate1', 'tebegate1', '', ''),
+('4220000', 'suspicious1', 'suspicious1', '', ''),
+('4220001', 'suspicious1a', 'suspicious1a', '', ''),
+('4220002', 'suspicious1b', 'suspicious1b', '', ''),
+('4220003', 'suspicious1c', 'suspicious1c', '', ''),
+('70659', 'atara1', 'atara1', '', ''),
+('70648', 'daley1', 'daley1', '', ''),
+('70647', 'gavin1', 'gavin1', '', ''),
+('4212000', 'joegolem', 'joegolem', '', ''),
+('4200001', '2008hallo1', '2008hallo1', '', ''),
+('4200500', '2008illu', '2008illu2', '', ''),
+('4218000', 'jepar1', 'jepar2', '', ''),
+('4218001', 'pual1', 'pual1', '', ''),
+('4218002', 'elas1', 'elas1', '', ''),
+('4218003', 'prokel1', 'prokel1', '', ''),
+('4218004', 'talrion1', 'talrion1', '', ''),
+('4918000', 'dekabia1', 'dekabia1', 'dekabia2', 'dekabia3'),
+('4219000', 'sbial1', 'sbial2', '', ''),
+('4219001', 'batr1', 'batr1', '', ''),
+('4219002', 'azel1', 'azel1', '', ''),
+('4219003', 'rark1', 'rark1', '', ''),
+('4219004', 'silrein1', 'silrein1', '', ''),
+('4919000', 'sharial1', 'sharial1', 'sharial2', 'sharial3'),
+('4202000', 'feaena2', 'feaena2', '', ''),
+('4201000', 'asha2', 'asha2', '', ''),
+('4213002', 'sciairen1', 'sciairen2', '', ''),
+('4220010', 'feathercol1', 'feathercol1', '', ''),
+('4220011', 'subsusp1', 'subsusp1', '', ''),
+('4220700', 'suspicious1', 'suspicious1', '', ''),
+('81200', 'nobelt', 'nobelt', '', ''),
+('4902000', 'agin', 'agin', 'agsiin', ''),
+('4901000', 'agin', 'agin', 'aghvin', ''),
+('4203000', '2008santa', '2008santa', '', ''),
+('4218005', 'evdcs', 'evdcs', '', ''),
+('4219005', 'evics', 'evics', '', ''),
+('4309003', 'sharna1', 'sharna1', '', ''),
+('4309000', 'event_boss1', 'event_boss1', '', ''),
+('4309002', 'event_boss2', 'event_boss2', '', ''),
+('4309001', 'event_boss3', 'event_boss3', '', ''),
+('4300000', 'tauga', 'tauga', '', ''),
+('4300001', 'targa', 'targa', '', ''),
+('4300002', 'tadga', 'tadga', '', ''),
+('4300003', 'tahuga', 'tahuga', '', ''),
+('4300004', 'tatga', 'tatga', '', ''),
+('4300005', 'tasga', 'tasga', '', ''),
+('4300006', 'tamiga', 'tamiga', '', ''),
+('6000014', 'gr_mammon1', 'gr_mammon1', 'gr_mammon3', ''),
+('6000015', 'adenshadow1', 'adenshadow1', '', ''),
+('6000016', 'adenflora1', 'adenflora1', 'adenflora2', ''),
+('81202', 'minitos08', 'minitos08', '', ''),
+('81203', 'minitos3', 'minitos3', '', ''),
+('81204', 'minitos3', 'minitos3', '', ''),
+('81205', 'minitos2', 'minitos2', '', ''),
+('81206', 'minitos2', 'minitos2', '', ''),
+('81207', 'minitos1', 'minitos1', '', ''),
+('81208', 'minibrob01', 'minibrob01', '', ''),
+('46069', 'minicod1', 'minicod1', '', ''),
+('46070', 'minicod3', 'minicod3', '', ''),
+('46077', 'minicod2', 'minicod2', '', ''),
+('46072', 'minicod2', 'minicod2', '', ''),
+('46076', 'minicod1', 'minicod1', '', ''),
+('46074', 'minicod2', 'minicod2', '', ''),
+('46075', 'minicod3', 'minicod3', '', ''),
+('46078', 'minicod1', 'minicod1', '', ''),
+('46079', 'minicod2', 'minicod2', '', ''),
+('46080', 'minicod1', 'minicod1', '', ''),
+('46081', 'minicod2', 'minicod2', '', ''),
+('46092', 'minicod3', 'minicod3', '', ''),
+('46093', 'minicod3', 'minicod3', '', ''),
+('46094', 'minicod2', 'minicod2', '', ''),
+('46095', 'minicod2', 'minicod2', '', ''),
+('46096', 'minicod1', 'minicod1', '', ''),
+('70964', 'basch', 'basch', '', ''),
+('70516', 'belgeter', 'belgeter', '', ''),
+('70515', 'mubo', 'mubo', '', ''),
+('70505', 'luder', 'luder', '', ''),
+('4204000', 'robinhood2', 'robinhood2', '', ''),
+('4210000', 'zybril19', 'zybril19', '', ''),
+('4200000', '8event5', '8event5', '', ''),
+('70839', 'doettE1', 'doettE1', '', ''),
+('70854', 'hurinE1', 'hurinE1', '', ''),
+('70843', 'morienE1', 'morienE1', '', ''),
+('70849', 'theodorE1', 'theodorE1', '', ''),
+('70842', 'marba3', 'marba3', '', ''),
+('70735', 'garuga1', 'garuga1', '', ''),
+('70753', 'bion1', 'bion1', '', ''),
+('70737', 'dekan1', 'dekan1', '', ''),
+('70741', 'dima1', 'dima1', '', ''),
+('70746', 'rotus1', 'rotus1', '', ''),
+('70736', 'derian1', 'derian1', '', ''),
+('70767', 'haro1', 'haro1', '', ''),
+('70747', 'ruru1', 'ruru1', '', ''),
+('70743', 'lazloth', 'lazloth', '', ''),
+('4411000', 'bauman1', 'bauman1', '', ''),
+('4707000', 'ktguard6', 'ktguard6', 'ktguard6', ''),
+('70907', 'kimadum', 'kimadum', '', ''),
+('70900', 'ellvienue1', 'ellvienue1', '', ''),
+('70902', 'kalynue1', 'kalynue1', '', ''),
+('70911', 'hamud1', 'hamud1', '', ''),
+('70891', 'rondo1', 'rondo1', '', ''),
+('70897', 'bishop1', 'bishop1', '', ''),
+('70901', 'jeti1', 'jeti1', '', ''),
+('70905', 'crevas1', 'crevas1', '', ''),
+('4710000', 'hdummy1', 'hdummy1', '', ''),
+('4710001', 'heguard6', 'heguard6', 'heguard6', ''),
+('70883', 'harry1', 'harry1', '', ''),
+('70874', 'elina1', 'elina1', '', ''),
+('70878', 'felix1', 'felix1', '', ''),
+('70868', 'stra1', 'stra1', '', ''),
+('70869', 'spencer1', 'spencer1', '', ''),
+('70879', 'paults1', 'paults1', '', ''),
+('70867', 'shannon1', 'shannon1', '', ''),
+('70877', 'trion1', 'trion1', '', ''),
+('70858', 'derick1', 'derick1', '', ''),
+('70870', 'arina1', 'arina1', '', ''),
+('70856', 'gale1', 'gale1', '', ''),
+('70866', 'barent1', 'barent1', '', ''),
+('70875', 'oriel1', 'oriel1', '', ''),
+('70871', 'annabel1', 'annabel1', '', ''),
+('70859', 'velma1', 'velma1', '', ''),
+('60519', 'gkeeper1', 'gkeeper1', '', ''),
+('70821', 'sanita1', 'sanita1', '', ''),
+('70833', 'tommy1', 'tommy1', '', ''),
+('70819', 'bob1', 'bob1', '', ''),
+('70812', 'rohan1', 'rohan1', '', ''),
+('70829', 'woodford1', 'woodford1', '', ''),
+('70814', 'ruka1', 'ruka1', '', ''),
+('70828', 'ofo1', 'ofo1', '', ''),
+('70825', 'ellne1', 'ellne1', '', ''),
+('70835', 'hanna1', 'hanna1', '', ''),
+('70834', 'torban1', 'torban1', '', ''),
+('70818', 'bazure1', 'bazure1', '', ''),
+('70832', 'taga1', 'taga1', '', ''),
+('70810', 'nenani1', 'nenani1', '', ''),
+('70813', 'ruu1', 'ruu1', '', ''),
+('4708000', 'grguard6', 'grguard6', '', ''),
+('4708001', 'grguard6', 'grguard6', '', ''),
+('70618', 'andrew1', 'andrew1', '', ''),
+('70603', 'bruno1', 'bruno1', '', ''),
+('70582', 'neil1', 'neil1', '', ''),
+('70608', 'shalina1', 'shalina1', '', ''),
+('4208000', 'doyo', 'doyo', '', ''),
+('70613', 'amanda1', 'amanda1', '', ''),
+('70622', 'eliza1', 'eliza1', '', ''),
+('70626', 'jack1', 'jack1', '', ''),
+('70590', 'luke1', 'luke1', '', ''),
+('70589', 'laban1', 'laban1', '', ''),
+('70606', 'victor1', 'victor1', '', ''),
+('70620', 'eban1', 'eban1', '', ''),
+('70628', 'jessy1', 'jessy1', '', ''),
+('70602', 'velma1', 'velma1', '', ''),
+('70639', 'ferdinand1', 'ferdinand1', '', ''),
+('70636', 'terry1', 'terry1', '', ''),
+('70581', 'gulian1', 'gulian1', '', ''),
+('70586', 'daisy1', 'daisy1', '', ''),
+('70634', 'tanya1', 'tanya1', '', ''),
+('70593', 'manus1', 'manus1', '', ''),
+('70591', 'lina1', 'lina1', '', ''),
+('70630', 'giles1', 'giles1', '', ''),
+('70616', 'aldred1', 'aldred1', '', ''),
+('70604', 'bridget1', 'bridget1', '', ''),
+('70640', 'pierre1', 'pierre1', '', ''),
+('70576', 'garth1', 'garth1', '', ''),
+('70619', 'alice1', 'alice1', '', ''),
+('70621', 'evelyn1', 'evelyn1', '', ''),
+('4408000', 'ernest1', 'ernest1', '', ''),
+('70637', 'tovia1', 'tovia1', '', ''),
+('70615', 'alda1', 'alda1', '', ''),
+('70592', 'leal1', 'leal1', '', ''),
+('70624', 'oliver1', 'oliver1', '', ''),
+('70629', 'james1', 'james1', '', ''),
+('70587', 'doris1', 'doris1', '', ''),
+('70584', 'daria1', 'daria1', '', ''),
+('70585', 'damon1', 'damon1', '', ''),
+('70625', 'iola1', 'iola1', '', ''),
+('70610', 'sherwin1', 'sherwin1', '', ''),
+('70595', 'mandel1', 'mandel1', '', ''),
+('70596', 'malcom1', 'malcom1', '', ''),
+('70597', 'moran1', 'moran1', '', ''),
+('70612', 'sidney1', 'sidney1', '', ''),
+('70609', 'sally1', 'sally1', '', ''),
+('4208001', 'gr_trick1', 'gr_trick2', '', ''),
+('70578', 'gdummy1', 'gdummy1', '', ''),
+('70579', 'gdummy1', 'gdummy1', '', ''),
+('70580', 'gdummyc1', 'gdummyc1', '', ''),
+('70672', 'rapael1', 'rapael1', '', ''),
+('70713', 'jessica1', 'jessica1', '', ''),
+('70679', 'marja1', 'marja1', '', ''),
+('70697', 'citizen5', 'citizen5', '', ''),
+('70680', 'mikey1', 'mikey1', '', ''),
+('70678', 'maren1', 'maren1', '', ''),
+('70682', 'marx1', 'marx1', '', ''),
+('70719', 'calvin1', 'calvin1', '', ''),
+('70726', 'citizen2', 'citizen2', '', ''),
+('70718', 'citizen9', 'citizen9', '', ''),
+('70673', 'citizen3', 'citizen3', '', ''),
+('4413013', 'citizen6', 'citizen6', '', ''),
+('70709', 'elleano1', 'elleano1', '', ''),
+('70717', 'citizen11', 'citizen11', '', ''),
+('4213000', 'eggg', 'eggg', '', ''),
+('70714', 'jaimy1', 'jaimy1', '', ''),
+('70699', 'sheryan1', 'sheryan1', '', ''),
+('70727', 'jones1', 'jones1', '', ''),
+('70693', 'buckley1', 'buckley1', '', ''),
+('70728', 'bim1', 'bim1', '', ''),
+('70681', 'matilda1', 'matilda1', '', ''),
+('70698', 'selma1', 'selma1', '', ''),
+('70689', 'misa1', 'misa1', '', ''),
+('70712', 'jennifer1', 'jennifer1', '', ''),
+('4213001', 'yuris1', 'yuris1', '', ''),
+('70705', 'arin1', 'arin1', '', ''),
+('70729', 'rafga1', 'rafga1', '', ''),
+('70677', 'riria1', 'riria1', '', ''),
+('70710', 'owon1', 'owon1', '', ''),
+('70716', 'chobi1', 'chobi1', '', ''),
+('70730', 'melly1', 'melly1', '', ''),
+('60535', 'adguard6', 'adguard6', '', ''),
+('60536', 'adguard6', 'adguard6', '', ''),
+('4200002', 'pandora', 'pandora', '', ''),
+('70765', 'tifany', 'tifany', '', ''),
+('70766', 'paperman', 'paperman', '', ''),
+('70738', 'defuri', 'defuri', '', ''),
+('70752', 'biyan', 'biyan', '', ''),
+('4309004', 'benedic5', 'benedic5', '', ''),
+('70745', 'roku', 'roku', '', ''),
+('70845', 'aras1', 'aras1', '', ''),
+('4200007', 'joegolem21', 'joegolem21', '', ''),
+('4200006', 'tikalgate1', 'tikalgate1', '', ''),
+('4200100', 'pandora', 'pandora', '', ''),
+('4200101', 'pandora', 'pandora', '', ''),
+('4200102', 'pandora', 'pandora', '', ''),
+('4208002', 'merlin1', 'merlin1', 'merlin2', ''),
+('4206003', 'coma1', 'coma1', '', ''),
+('70708', 'affleck1', 'affleck1', '', ''),
+('71265', 'sinwarrior', 'sinwarrior', '', ''),
+('4212001', 'veil1', 'veil1', '', ''),
+('4212002', 'sherme2', 'sherme2', '', ''),
+('4212003', 'fivelviin2', 'fivelviin2', '', ''),
+('4212004', 'fivelviin3', 'fivelviin3', '', ''),
+('4212005', 'fivelviin1', 'fivelviin1', '', ''),
+('4212006', 'fivelviin4', 'fivelviin4', '', ''),
+('4212007', 'dwfmerchant', 'dwfmerchant', '', ''),
+('4212008', 'bankoo1', 'bankoo1', '', ''),
+('4212009', 'hankoo1', 'hankoo2', '', ''),
+('4212013', 'dsecret3', 'dsecret3', '', ''),
+('4200008', 'expgive', 'expgive', '', ''),
+('4200103', 'es_seller1', 'es_seller2', '', ''),
+('4200104', 'es_battlet1', 'es_battlet2', '', ''),
+('4212011', 'familyed', 'familyed', '', ''),
+('4212010', 'ilbakiel', 'ilbakiel', '', ''),
+('4200105', 'pandora', 'pandora', '', ''),
+('4200009', '8event3', '8event3', '', ''),
+('4500162', 'pandora', 'pandora', '', ''),
+('4500163', 'pandora', 'pandora', '', ''),
+('4500164', 'pandora', 'pandora', '', ''),
+('4500165', 'pandora', 'pandora', '', ''),
+('4500166', 'pandora', 'pandora', '', ''),
+('4500167', 'pandora', 'pandora', '', ''),
+('4500168', 'pandora', 'pandora', '', ''),
+('4500169', 'pandora', 'pandora', '', ''),
+('4500170', 'pandora', 'pandora', '', ''),
+('4500171', 'pandora', 'pandora', '', ''),
+('4500173', 'pandora', 'pandora', '', ''),
+('4500174', 'pandora', 'pandora', '', ''),
+('4220013', 'pctel1', 'pctel1', 'pctel1', ''),
+('4220012', 'suschef1', 'suschef1', '', '');

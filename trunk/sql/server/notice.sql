@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:06:48
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -27,4 +27,6 @@ CREATE TABLE `notice` (
 -- ----------------------------
 -- Records of notice
 -- ----------------------------
-INSERT INTO `notice` VALUES ('1', '\\f=EVA Server ^               PlayEva.net^ ^');
+INSERT IGNORE INTO `notice` VALUES 
+('1', '\\f=Bone 서버 방문을 진심으로 환영합니다.^즐거운 게임 즐겨주세요^ ^'),
+('2', '\\f=Bone 서버 방문을 진심으로 환영합니다.^즐거운 게임 즐겨주세요^ ^');

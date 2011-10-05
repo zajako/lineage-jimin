@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:02:20
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,7 +35,7 @@ CREATE TABLE `character_package_warehouse` (
   `buytime` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `key_id` (`account_name`)
-) ENGINE=MyISAM AUTO_INCREMENT=315192537 DEFAULT CHARSET=euckr;
+) DEFAULT CHARSET=euckr;
 
 -- ----------------------------
 -- Records of character_package_warehouse

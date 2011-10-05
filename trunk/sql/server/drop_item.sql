@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:03:43
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -29,277 +29,278 @@ CREATE TABLE `drop_item` (
 -- ----------------------------
 -- Records of drop_item
 -- ----------------------------
-INSERT INTO `drop_item` VALUES ('20007', '0', '1', 'ë‚œìŸì´ì¡± ì²  íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('20008', '0', '1', 'ë‚¡ì€ ë°”ëžŒì˜ íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('20012', '0', '1', 'ë§ˆë²•ì‚¬ì˜ ëª¨ìž');
-INSERT INTO `drop_item` VALUES ('20034', '0', '1', 'ì˜¤í¬ì¡± íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('20043', '0', '1', 'íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('20052', '0', '1', 'ë‚œìŸì´ì¡± ë§í† ');
-INSERT INTO `drop_item` VALUES ('20053', '0', '1', 'ëŠ‘ëŒ€ê°€ì£½ ë§í† ');
-INSERT INTO `drop_item` VALUES ('20066', '0', '1', 'ë¸”ëž™ í‹°ê±° ê°€ì£½ ë§í† ');
-INSERT INTO `drop_item` VALUES ('20096', '0', '1', 'ê³ ë¦¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20097', '0', '1', 'ë‚˜ë¬´ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20098', '0', '1', 'ë‹¤í¬ í¬ë ˆìŠ¤í„°ì˜ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20102', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë ˆë” ì•„ë¨¸');
-INSERT INTO `drop_item` VALUES ('20103', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë¡œë¸Œ');
-INSERT INTO `drop_item` VALUES ('20104', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ì§•ë°•ížŒ ë ˆë” ì•„ë¨¸');
-INSERT INTO `drop_item` VALUES ('20105', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ì²´ì¸ ë©”ì¼');
-INSERT INTO `drop_item` VALUES ('20110', '0', '1', 'ë§ˆë²• ë°©ì–´ ì‚¬ìŠ¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20111', '0', '1', 'ë§ˆë²•ì‚¬ì˜ ì˜·');
-INSERT INTO `drop_item` VALUES ('20114', '0', '1', 'ë¬´ëª… ë¡œë¸Œ');
-INSERT INTO `drop_item` VALUES ('20122', '0', '1', 'ë¹„ëŠ˜ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20123', '0', '1', 'ë¹„ìŠ¤íŠ¸ ì„œë¨¸ë„ˆì˜ ë¡œë¸Œ');
-INSERT INTO `drop_item` VALUES ('20124', '0', '1', 'ë¼ˆê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20125', '0', '1', 'ì‚¬ìŠ¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20135', '0', '1', 'ì˜¤í¬ì¡± ê³ ë¦¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20136', '0', '1', 'ì˜¤í¬ì¡± ì‚¬ìŠ¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20139', '0', '1', 'ìš”ì •ì¡± í‰ê°‘');
-INSERT INTO `drop_item` VALUES ('20147', '0', '1', 'ì§•ë°•ížŒ ê°€ì£½ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20149', '0', '1', 'ì²­ë™ íŒê¸ˆ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20154', '0', '1', 'íŒê¸ˆ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20155', '0', '1', 'í‘¸ë¥¸ í•´ì  ê°€ì£½ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20157', '0', '1', 'í”Œë ˆì´íŠ¸ì›œ ê»ì§ˆ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('20162', '0', '1', 'ê°€ì£½ ìž¥ê°‘');
-INSERT INTO `drop_item` VALUES ('20174', '0', '1', 'ì„¤ì¸ ìž¥ê°‘');
-INSERT INTO `drop_item` VALUES ('20199', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë¶€ì¸ ');
-INSERT INTO `drop_item` VALUES ('20205', '0.5', '1', 'ë¶€ì¸ ');
-INSERT INTO `drop_item` VALUES ('20213', '0', '1', 'ì§§ì€ ë¶€ì¸ ');
-INSERT INTO `drop_item` VALUES ('20217', '0', '1', 'í‘¸ë¥¸ í•´ì  ë¶€ì¸ ');
-INSERT INTO `drop_item` VALUES ('20222', '0', '1', 'ë‚˜ë¬´ ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('20223', '0', '1', 'ë‚œìŸì´ì¡± ë‘¥ê·¼ ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('20224', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë¼ìš´ë“œ ì‹¤ë“œ');
-INSERT INTO `drop_item` VALUES ('20237', '0', '1', 'ìš°ëŸ­í•˜ì´ ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('20239', '0', '1', 'ìž‘ì€ ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('20242', '0.5', '1', 'í° ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('120043', '0', '1', 'íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('120242', '0', '1', 'í° ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('220034', '0', '1', 'ì˜¤í¬ì¡± íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('220043', '0', '1', 'íˆ¬êµ¬');
-INSERT INTO `drop_item` VALUES ('220056', '0', '1', 'ë§ˆë²• ë§í† ');
-INSERT INTO `drop_item` VALUES ('220101', '0', '1', 'ë  ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220115', '0', '1', 'ë¯¸ëŠ˜ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220122', '0', '1', 'ë¹„ëŠ˜ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220125', '0', '1', 'ì‚¬ìŠ¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220135', '0', '1', 'ì˜¤í¬ì¡± ê³ ë¦¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220136', '0', '1', 'ì˜¤í¬ì¡± ì‚¬ìŠ¬ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220147', '0', '1', 'ì§•ë°•ížŒ ê°€ì£½ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220154', '0', '1', 'íŒê¸ˆ ê°‘ì˜·');
-INSERT INTO `drop_item` VALUES ('220213', '0', '1', 'ì§§ì€ ë¶€ì¸ ');
-INSERT INTO `drop_item` VALUES ('220237', '0', '1', 'ìš°ëŸ­í•˜ì´ ë°©íŒ¨');
-INSERT INTO `drop_item` VALUES ('1', '0', '1', 'ì˜¤í¬ì¡± ë‹¨ê²€');
-INSERT INTO `drop_item` VALUES ('10', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ë¸”ë ˆì´ë“œ');
-INSERT INTO `drop_item` VALUES ('11', '0', '1', 'ìˆ˜ì • ë‹¨ê²€');
-INSERT INTO `drop_item` VALUES ('21', '0', '1', 'ì˜¤í¬ì¡± ê²€');
-INSERT INTO `drop_item` VALUES ('23', '0', '1', 'ë„“ì€ ê²€');
-INSERT INTO `drop_item` VALUES ('24', '0', '1', 'ì§§ì€ ê²€');
-INSERT INTO `drop_item` VALUES ('25', '0', '1', 'ì€ê²€');
-INSERT INTO `drop_item` VALUES ('26', '0', '1', 'ë‚œìŸì´ì¡± ê²€');
-INSERT INTO `drop_item` VALUES ('27', '0', '1', 'ì–¸ì›”ë„');
-INSERT INTO `drop_item` VALUES ('29', '0', '1', 'ì€ìž¥ê²€');
-INSERT INTO `drop_item` VALUES ('31', '0', '1', 'ìž¥ê²€');
-INSERT INTO `drop_item` VALUES ('32', '0.5', '1', 'ê·¸ë¼ë””ìš°ìŠ¤');
-INSERT INTO `drop_item` VALUES ('37', '0', '1', 'ë‹¤ë§ˆìŠ¤ì»¤ìŠ¤ ê²€');
-INSERT INTO `drop_item` VALUES ('38', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ìž¥ê²€');
-INSERT INTO `drop_item` VALUES ('41', '0', '1', 'ì¼ë³¸ë„');
-INSERT INTO `drop_item` VALUES ('43', '0', '1', 'ìƒ´ì‰¬ë¥´');
-INSERT INTO `drop_item` VALUES ('69', '0', '1', 'êµ¬ë¦¬ë¹› ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('70', '0', '1', 'ì†¡ê³³ë‚  ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('71', '0', '1', 'ê°•ì²  ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('72', '0', '1', 'ê·¸ë¦¼ìž ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('77', '0', '1', 'ì§§ì€ ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('82', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('83', '0', '1', 'ë””ì•„ë“œìš”ìƒˆ ì´ë„ë¥˜');
-INSERT INTO `drop_item` VALUES ('87', '0', '1', 'ì•Œë ¤ì§€ì§€ ì•Šì€ ì°½');
-INSERT INTO `drop_item` VALUES ('90', '0', '1', 'ë°”ë¥´ë””ì‰');
-INSERT INTO `drop_item` VALUES ('91', '0', '1', 'ì˜¤í¬ì¡± ì°½');
-INSERT INTO `drop_item` VALUES ('92', '0', '1', 'ë¹Œê·€ì‚¬ë¦„');
-INSERT INTO `drop_item` VALUES ('93', '0', '1', 'ì‚¼ì§€ì°½');
-INSERT INTO `drop_item` VALUES ('94', '0', '1', 'íŒŒë¥´í‹°ìž”');
-INSERT INTO `drop_item` VALUES ('95', '0', '1', 'ê¸°ë³‘ì°½');
-INSERT INTO `drop_item` VALUES ('96', '0', '1', 'ì°½');
-INSERT INTO `drop_item` VALUES ('97', '0', '1', 'ê·€ì‚¬ë¦„');
-INSERT INTO `drop_item` VALUES ('98', '0', '1', 'ë„“ì€ ì°½');
-INSERT INTO `drop_item` VALUES ('101', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ í•œì†ì°½');
-INSERT INTO `drop_item` VALUES ('102', '0', '1', 'ë£¨ì„ í•´ë¨¸');
-INSERT INTO `drop_item` VALUES ('122', '0', '1', 'ë¼ìŠ¤íƒ€ë°”ë“œ ìŠ¤íƒœí”„');
-INSERT INTO `drop_item` VALUES ('125', '0', '1', 'ë§ˆë ¥ì˜ ì§€íŒ¡ì´');
-INSERT INTO `drop_item` VALUES ('128', '0', '1', 'ì°¸ë‚˜ë¬´ ì§€íŒ¡ì´');
-INSERT INTO `drop_item` VALUES ('129', '0', '1', 'ë§ˆë²•ì‚¬ì˜ ì§€íŒ¡ì´');
-INSERT INTO `drop_item` VALUES ('135', '0', '1', 'ì•Œë ¤ì§€ì§€ ì•Šì€ ë„ë¼');
-INSERT INTO `drop_item` VALUES ('136', '0', '1', 'ë„ë¼');
-INSERT INTO `drop_item` VALUES ('137', '0', '1', 'ì•„íƒ');
-INSERT INTO `drop_item` VALUES ('138', '0', '1', 'ëª½ë‘¥ì´');
-INSERT INTO `drop_item` VALUES ('139', '0', '1', 'ë„ë¦¬ê¹¨');
-INSERT INTO `drop_item` VALUES ('140', '0', '1', 'ì² í‡´');
-INSERT INTO `drop_item` VALUES ('141', '0', '1', 'ì›Œí•´ë¨¸');
-INSERT INTO `drop_item` VALUES ('142', '0.5', '1', 'ì€ë„ë¼');
-INSERT INTO `drop_item` VALUES ('143', '0', '1', 'ì „íˆ¬ ë„ë¼');
-INSERT INTO `drop_item` VALUES ('144', '0', '1', 'ë‚œìŸì´ì¡± ë„ë¼');
-INSERT INTO `drop_item` VALUES ('145', '0.5', '1', 'ê´‘ì „ì‚¬ì˜ ë„ë¼');
-INSERT INTO `drop_item` VALUES ('146', '0', '1', 'ëª¨ë‹ìŠ¤íƒ€');
-INSERT INTO `drop_item` VALUES ('147', '0', '1', 'ìƒì•„íƒ‘ì˜ ë„ë¼');
-INSERT INTO `drop_item` VALUES ('169', '0', '1', 'ì‚¬ëƒ¥ê¾¼ í™œ');
-INSERT INTO `drop_item` VALUES ('171', '0', '1', 'ì˜¤í¬ì¡± í™œ');
-INSERT INTO `drop_item` VALUES ('172', '0', '1', 'í™œ');
-INSERT INTO `drop_item` VALUES ('100041', '0', '1', 'ì¼ë³¸ë„');
-INSERT INTO `drop_item` VALUES ('100095', '0', '1', 'ê¸°ë³‘ì°½');
-INSERT INTO `drop_item` VALUES ('100098', '0', '1', 'ë„“ì€ ì°½');
-INSERT INTO `drop_item` VALUES ('100099', '0', '1', 'ìš”ì •ì¡± ì°½');
-INSERT INTO `drop_item` VALUES ('100102', '0', '1', 'ë£¨ì„ í•´ë¨¸');
-INSERT INTO `drop_item` VALUES ('100103', '0.5', '1', 'ë¯¸ëŠ˜ì°½');
-INSERT INTO `drop_item` VALUES ('100143', '0', '1', 'ì „íˆ¬ ë„ë¼');
-INSERT INTO `drop_item` VALUES ('100146', '0', '1', 'ëª¨ë‹ìŠ¤íƒ€');
-INSERT INTO `drop_item` VALUES ('200001', '0', '1', 'ì˜¤í¬ì¡± ë‹¨ê²€');
-INSERT INTO `drop_item` VALUES ('200027', '0', '1', 'ì–¸ì›”ë„');
-INSERT INTO `drop_item` VALUES ('200032', '0', '1', 'ê·¸ë¼ë””ìš°ìŠ¤');
-INSERT INTO `drop_item` VALUES ('200041', '0', '1', 'ì¼ë³¸ë„');
-INSERT INTO `drop_item` VALUES ('200171', '0', '1', 'ì˜¤í¬ì¡± í™œ');
-INSERT INTO `drop_item` VALUES ('40001', '0', '1', 'ë“±ìž”');
-INSERT INTO `drop_item` VALUES ('40005', '0', '1', 'ì–‘ì´ˆ');
-INSERT INTO `drop_item` VALUES ('40006', '0', '1', 'ì†Œë‚˜ë¬´ ë§‰ëŒ€');
-INSERT INTO `drop_item` VALUES ('40010', '0', '1', 'ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40011', '0', '1', 'ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40012', '0', '1', 'ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40013', '0', '1', 'ì†ë„ í–¥ìƒ ë¬¼ì•½');
-INSERT INTO `drop_item` VALUES ('40019', '0', '1', 'ë†ì¶• ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40020', '0', '1', 'ë†ì¶• ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40021', '1', '1', 'ë†ì¶• ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40022', '0', '1', 'ê³ ëŒ€ì˜ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40023', '0', '1', 'ê³ ëŒ€ì˜ ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40024', '1', '1', 'ê³ ëŒ€ì˜ ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('40059', '0', '1', 'ë‹¬ê±€');
-INSERT INTO `drop_item` VALUES ('40060', '0', '1', 'ë‹¹ê·¼');
-INSERT INTO `drop_item` VALUES ('40061', '0', '1', 'ë ˆëª¬');
-INSERT INTO `drop_item` VALUES ('40062', '0', '1', 'ë°”ë‚˜ë‚˜');
-INSERT INTO `drop_item` VALUES ('40064', '0', '1', 'ì‚¬ê³¼');
-INSERT INTO `drop_item` VALUES ('40069', '0', '1', 'ì˜¤ë Œì§€');
-INSERT INTO `drop_item` VALUES ('40079', '0', '1', 'ê·€í™˜ ì£¼ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40090', '0', '1', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 1)');
-INSERT INTO `drop_item` VALUES ('40091', '0', '1', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 2)');
-INSERT INTO `drop_item` VALUES ('40092', '0', '1', 'ë¹ˆ ì£¼ë¬¸ì„œ (ë ˆë²¨ 3)');
-INSERT INTO `drop_item` VALUES ('40100', '0', '1', 'ìˆœê°„ì´ë™ ì£¼ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40119', '0', '1', 'ì €ì£¼ í’€ê¸° ì£¼ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40126', '0', '1', 'í™•ì¸ ì£¼ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40170', '0', '1', 'ë§ˆë²•ì„œ (íŒŒì´ì–´ë³¼)');
-INSERT INTO `drop_item` VALUES ('40171', '0', '1', 'ë§ˆë²•ì„œ (ì¸ì±ˆíŠ¸ ë±ìŠ¤í„°ë¦¬í‹°)');
-INSERT INTO `drop_item` VALUES ('40172', '0', '1', 'ë§ˆë²•ì„œ (ì›¨í° ë¸Œë ˆì´í¬)');
-INSERT INTO `drop_item` VALUES ('40173', '0', '1', 'ë§ˆë²•ì„œ (ë±€íŒŒì´ì–´ë¦­ í„°ì¹˜)');
-INSERT INTO `drop_item` VALUES ('40174', '0', '1', 'ë§ˆë²•ì„œ (ìŠ¬ë¡œìš°)');
-INSERT INTO `drop_item` VALUES ('40175', '0', '1', 'ë§ˆë²•ì„œ (ì¹´ìš´í„° ë§¤ì§)');
-INSERT INTO `drop_item` VALUES ('40176', '0', '1', 'ë§ˆë²•ì„œ (ë©”ë””í…Œì´ì…˜)');
-INSERT INTO `drop_item` VALUES ('40177', '0', '1', 'ë§ˆë²•ì„œ (ì–´ìŠ¤ ìž¬ì¼)');
-INSERT INTO `drop_item` VALUES ('40178', '0', '1', 'ë§ˆë²•ì„œ (ì»¤ìŠ¤: íŒ¨ëŸ´ë¼ì´ì¦ˆ)');
-INSERT INTO `drop_item` VALUES ('40179', '0', '1', 'ë§ˆë²•ì„œ (ì½œ ë¼ì´íŠ¸ë‹)');
-INSERT INTO `drop_item` VALUES ('40180', '0', '1', 'ë§ˆë²•ì„œ (ê·¸ë ˆì´í„° íž)');
-INSERT INTO `drop_item` VALUES ('40181', '0', '1', 'ë§ˆë²•ì„œ (í…Œì´ë° ëª¬ìŠ¤í„°)');
-INSERT INTO `drop_item` VALUES ('40182', '0', '1', 'ë§ˆë²•ì„œ (ë¦¬ë¬´ë¸Œ ì»¤ìŠ¤)');
-INSERT INTO `drop_item` VALUES ('40183', '0', '1', 'ë§ˆë²•ì„œ (ì½˜ ì˜¤ë¸Œ ì½œë“œ)');
-INSERT INTO `drop_item` VALUES ('40184', '0', '1', 'ë§ˆë²•ì„œ (ë§ˆë‚˜ ë“œë ˆì¸)');
-INSERT INTO `drop_item` VALUES ('40185', '0', '1', 'ë§ˆë²•ì„œ (ë‹¤í¬ë‹ˆìŠ¤)');
-INSERT INTO `drop_item` VALUES ('40186', '0', '1', 'ë§ˆë²•ì„œ (í¬ë¦¬ì—ì´íŠ¸ ì¢€ë¹„)');
-INSERT INTO `drop_item` VALUES ('40187', '0', '1', 'ë§ˆë²•ì„œ (ì¸ì±ˆíŠ¸ ë§ˆì´í‹°)');
-INSERT INTO `drop_item` VALUES ('40188', '0', '1', 'ë§ˆë²•ì„œ (í—¤ì´ìŠ¤íŠ¸)');
-INSERT INTO `drop_item` VALUES ('40189', '0', '1', 'ë§ˆë²•ì„œ (ìº”ìŠ¬ë ˆì´ì…˜)');
-INSERT INTO `drop_item` VALUES ('40190', '0', '1', 'ë§ˆë²•ì„œ (ì´ëŸ½ì…˜)');
-INSERT INTO `drop_item` VALUES ('40191', '0', '1', 'ë§ˆë²•ì„œ (ì„  ë²„ìŠ¤íŠ¸)');
-INSERT INTO `drop_item` VALUES ('40192', '0', '1', 'ë§ˆë²•ì„œ (ìœ„í¬ë‹ˆìŠ¤)');
-INSERT INTO `drop_item` VALUES ('40193', '0', '1', 'ë§ˆë²•ì„œ (ë¸”ë ˆìŠ¤ ì›¨í°)');
-INSERT INTO `drop_item` VALUES ('40232', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ë ˆì§€ìŠ¤íŠ¸ ë§¤ì§)');
-INSERT INTO `drop_item` VALUES ('40233', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ë°”ë”” íˆ¬ ë§ˆì¸ë“œ)');
-INSERT INTO `drop_item` VALUES ('40234', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (í…”ë ˆí¬íŠ¸ íˆ¬ ë§ˆë”)');
-INSERT INTO `drop_item` VALUES ('40235', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (í´ë¦¬ì–´ ë§ˆì¸ë“œ)');
-INSERT INTO `drop_item` VALUES ('40236', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ë ˆì§€ìŠ¤íŠ¸ ì—˜ë¦¬ë©˜íŠ¸)');
-INSERT INTO `drop_item` VALUES ('40237', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ë¦¬í„´ íˆ¬ ë„¤ì´ì²˜)');
-INSERT INTO `drop_item` VALUES ('40240', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (íŠ¸ë¦¬í”Œ ì• ë¡œìš°)');
-INSERT INTO `drop_item` VALUES ('40241', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ì—˜ë¦¬ë©˜íƒˆ í´ë‹¤ìš´)');
-INSERT INTO `drop_item` VALUES ('40242', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ì´ë ˆì´ì¦ˆ ë§¤ì§)');
-INSERT INTO `drop_item` VALUES ('40243', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ì„œë¨¼ ë ˆì„œ ì—˜ë¦¬ë©˜íƒˆ)');
-INSERT INTO `drop_item` VALUES ('40245', '0', '1', 'ì •ë ¹ì˜ ìˆ˜ì • (ì„œë¨¼ ê·¸ë ˆì´í„° ì—˜ë¦¬ë©˜íƒˆ)');
-INSERT INTO `drop_item` VALUES ('40265', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¸”ë¼ì¸ë“œ í•˜ì´ë”©)');
-INSERT INTO `drop_item` VALUES ('40266', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì¸ì±ˆíŠ¸ ë² ë†ˆ)');
-INSERT INTO `drop_item` VALUES ('40267', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì‰ë„ìš° ì•„ë¨¸)');
-INSERT INTO `drop_item` VALUES ('40268', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¸Œë§ ìŠ¤í†¤)');
-INSERT INTO `drop_item` VALUES ('40269', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ë§ˆì´í‹°)');
-INSERT INTO `drop_item` VALUES ('40270', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë¬´ë¹™ ì•…ì…€ë ˆì´ì…˜)');
-INSERT INTO `drop_item` VALUES ('40271', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë²„ë‹ ìŠ¤í”¼ë¦¿ì¸ )');
-INSERT INTO `drop_item` VALUES ('40272', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë‹¤í¬ ë¸”ë¼ì¸ë“œ)');
-INSERT INTO `drop_item` VALUES ('40273', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë² ë†ˆ ë ˆì§€ìŠ¤íŠ¸)');
-INSERT INTO `drop_item` VALUES ('40274', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ë±ìŠ¤í„°ë¦¬í‹°)');
-INSERT INTO `drop_item` VALUES ('40275', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë”ë¸” ë¸Œë ˆì´í¬)');
-INSERT INTO `drop_item` VALUES ('40276', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì–¸ì¼€ë‹ˆ ë‹·ì§€)');
-INSERT INTO `drop_item` VALUES ('40277', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ì‰ë„ìš° íŒ½)');
-INSERT INTO `drop_item` VALUES ('40278', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (íŒŒì´ë„ ë²ˆ)');
-INSERT INTO `drop_item` VALUES ('40279', '0', '1', 'í‘ì •ë ¹ì˜ ìˆ˜ì • (ë“œë ˆìŠ¤ ì´ë² ì´ì ¼)');
-INSERT INTO `drop_item` VALUES ('40405', '0', '1', 'ë™ë¬¼ê°€ì£½');
-INSERT INTO `drop_item` VALUES ('40407', '0', '1', 'ë¼ˆì¡°ê°');
-INSERT INTO `drop_item` VALUES ('40429', '0', '1', 'ëŒ€ê³µë™ ì£¼ë¬¸ì„œ ì¡°ê°');
-INSERT INTO `drop_item` VALUES ('40431', '1', '1', 'ë‘ë”ì§€ì˜ ê°€ì£½');
-INSERT INTO `drop_item` VALUES ('40432', '0', '1', 'ë””ì•„ë“œ ì£¼ë¬¸ì„œ ì¡°ê°');
-INSERT INTO `drop_item` VALUES ('40433', '1', '1', 'ë”œë¡œ ë°œí†±');
-INSERT INTO `drop_item` VALUES ('40434', '1', '1', 'ë”œë¡œì˜ ê¼¬ë¦¬');
-INSERT INTO `drop_item` VALUES ('40435', '1', '1', 'ë”¥ í”Œë¼ì›Œì˜ ê½ƒ ë´‰ì˜¤ë¦¬');
-INSERT INTO `drop_item` VALUES ('40436', '0', '1', 'ë”¥ í”Œë¼ì›Œì˜ ë¿Œë¦¬');
-INSERT INTO `drop_item` VALUES ('40437', '1', '1', 'ë”¥í”Œë¼ì›Œ ì¤„ê¸°');
-INSERT INTO `drop_item` VALUES ('40438', '1', '1', 'ë°•ì¥ ì†¡ê³³ë‹ˆ');
-INSERT INTO `drop_item` VALUES ('40483', '1', '1', 'í”Œë ˆì´íŠ¸ì›œì˜ ê»ì§ˆ');
-INSERT INTO `drop_item` VALUES ('40484', '1', '1', 'í”Œë ˆì´íŠ¸ì›œì˜ ë…ì£¼ë¨¸ë‹ˆ');
-INSERT INTO `drop_item` VALUES ('40485', '1', '1', 'í”Œë ˆì´íŠ¸ì›œì˜ ì†¡ê³³ë‹ˆ');
-INSERT INTO `drop_item` VALUES ('40494', '0', '1', 'ë¯¸ìŠ¤ë¦´');
-INSERT INTO `drop_item` VALUES ('40538', '0', '1', 'êµ¬ìš¸ì˜ ì†í†±');
-INSERT INTO `drop_item` VALUES ('40539', '0', '1', 'êµ¬ìš¸ì˜ ì´ë¹¨');
-INSERT INTO `drop_item` VALUES ('40540', '0', '1', 'ë‚¡ì€ ê±°ëž˜ ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40564', '0', '1', 'ìƒëª…ì˜ ë¹„ë°€');
-INSERT INTO `drop_item` VALUES ('40565', '0', '1', 'ìˆ˜ìƒ‰ë¬¸ì„œ');
-INSERT INTO `drop_item` VALUES ('40601', '0', '1', 'í„°í‹€ ë“œëž˜ê³¤ì˜ ê»ì§ˆ');
-INSERT INTO `drop_item` VALUES ('40608', '0', '1', 'í‘ê¸°ì‚¬ì˜ ì„œì•½ì„œ');
-INSERT INTO `drop_item` VALUES ('40609', '0', '1', 'ê°„ë”” ì˜¤í¬ ë§ˆë²•ì„œ');
-INSERT INTO `drop_item` VALUES ('40610', '0', '1', 'ë„¤ë£¨ê°€ ì˜¤í¬ ë§ˆë²•ì„œ');
-INSERT INTO `drop_item` VALUES ('40611', '0', '1', 'ë‘ë‹¤ ë§ˆë¼ ì˜¤í¬ ë§ˆë²•ì„œ');
-INSERT INTO `drop_item` VALUES ('40612', '0', '1', 'ì•„íˆ¬ë°” ì˜¤í¬ ë§ˆë²•ì„œ');
-INSERT INTO `drop_item` VALUES ('40638', '1', '1', 'ë§ˆìˆ˜êµ°ì˜ ì§•í‘œ');
-INSERT INTO `drop_item` VALUES ('40635', '1', '1', 'ë§ˆë ¹êµ°ì˜ ì§•í‘œ');
-INSERT INTO `drop_item` VALUES ('40738', '0', '1', 'ì‹¤ë²„ ìŠ¤íŒ…');
-INSERT INTO `drop_item` VALUES ('40739', '0', '1', 'ìŠ¤íŒ…');
-INSERT INTO `drop_item` VALUES ('40740', '0', '1', 'í—¤ë¹„ ìŠ¤íŒ…');
-INSERT INTO `drop_item` VALUES ('40999', '0', '1', 'ë‹¤í¬ì—˜í”„ ë³‘ì‚¬ì˜ ë°°ì§€');
-INSERT INTO `drop_item` VALUES ('41000', '0', '1', 'ë‹¤í¬ì—˜í”„ ìž¥êµ°ì˜ ë°°ì§€');
-INSERT INTO `drop_item` VALUES ('140006', '0', '1', 'ì†Œë‚˜ë¬´ ë§‰ëŒ€');
-INSERT INTO `drop_item` VALUES ('140010', '0', '1', 'ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('140011', '0', '1', 'ê³ ê¸‰ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('140012', '0', '1', 'ê°•ë ¥ ì²´ë ¥ íšŒë³µì œ');
-INSERT INTO `drop_item` VALUES ('140013', '0', '1', 'ì†ë„í–¥ìƒ ë¬¼ì•½');
-INSERT INTO `drop_item` VALUES ('439000', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ë¯¸ëŸ¬ ì´ë¯¸ì§€)');
-INSERT INTO `drop_item` VALUES ('439001', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì»¨í“¨ì „)');
-INSERT INTO `drop_item` VALUES ('439002', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ìŠ¤ë§¤ì‰¬)');
-INSERT INTO `drop_item` VALUES ('439003', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¼ë£¨ì…˜:ì˜¤ê±°)');
-INSERT INTO `drop_item` VALUES ('439004', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íë¸Œ:ì´ê·¸ë‹ˆì…˜)');
-INSERT INTO `drop_item` VALUES ('439005', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì»¨ì„¼íŠ¸ë ˆì´ì…˜)');
-INSERT INTO `drop_item` VALUES ('439006', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ë§ˆì¸ë“œ ë¸Œë ˆì´í¬)');
-INSERT INTO `drop_item` VALUES ('439007', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ë³¸ ë¸Œë ˆì´í¬)');
-INSERT INTO `drop_item` VALUES ('439008', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¼ë£¨ì…˜:ë¦¬ì¹˜)');
-INSERT INTO `drop_item` VALUES ('439009', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íë¸Œ:í€˜ì´í¬)');
-INSERT INTO `drop_item` VALUES ('439010', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íŽ˜ì´ì…˜ìŠ¤)');
-INSERT INTO `drop_item` VALUES ('439011', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íŒíƒ€ì¦˜)');
-INSERT INTO `drop_item` VALUES ('439012', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì•” ë¸Œë ˆì´ì»¤)');
-INSERT INTO `drop_item` VALUES ('439013', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¼ë£¨ì…˜:ë‹¤ì´ì•„ëª¬ë“œ ê³¨ë ˜)');
-INSERT INTO `drop_item` VALUES ('439014', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íë¸Œ:ì‡¼í¬)');
-INSERT INTO `drop_item` VALUES ('439015', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¸ì‚¬ì´íŠ¸)');
-INSERT INTO `drop_item` VALUES ('439016', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íŒ¨ë‹‰)');
-INSERT INTO `drop_item` VALUES ('439017', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¡°ì´ ì˜¤ë¸Œ íŽ˜ì¸)');
-INSERT INTO `drop_item` VALUES ('439018', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(ì¼ë£¨ì…˜:ì•„ë°”íƒ€)');
-INSERT INTO `drop_item` VALUES ('439019', '0', '1', 'ê¸°ì–µì˜ ìˆ˜ì •(íë¸Œ:ë°¸ëŸ°ìŠ¤)');
-INSERT INTO `drop_item` VALUES ('439100', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ë“œëž˜ê³¤ ìŠ¤í‚¨)');
-INSERT INTO `drop_item` VALUES ('439101', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ë²„ë‹ ìŠ¬ëž˜ì‰¬)');
-INSERT INTO `drop_item` VALUES ('439102', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ê°€ë“œ ë¸Œë ˆì´í¬)');
-INSERT INTO `drop_item` VALUES ('439103', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ë§ˆê·¸ë§ˆ ë¸Œë ˆìŠ¤)');
-INSERT INTO `drop_item` VALUES ('439104', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ê°ì„±[ì•ˆíƒ€ë¼ìŠ¤])');
-INSERT INTO `drop_item` VALUES ('439105', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ë¸”ëŸ¬ë“œëŸ¬ìŠ¤íŠ¸)');
-INSERT INTO `drop_item` VALUES ('439106', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(í¬ìš° ìŠ¬ë ˆì´ì–´)');
-INSERT INTO `drop_item` VALUES ('439107', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(í”¼ì–´)');
-INSERT INTO `drop_item` VALUES ('439108', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ì‡¼í¬ ìŠ¤í‚¨)');
-INSERT INTO `drop_item` VALUES ('439109', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ê°ì„±[íŒŒí‘¸ë¦¬ì˜¨])');
-INSERT INTO `drop_item` VALUES ('439110', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ëª¨íƒˆ ë°”ë””)');
-INSERT INTO `drop_item` VALUES ('439111', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ì¬ë” ê·¸ëž©)');
-INSERT INTO `drop_item` VALUES ('439112', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(í˜¸ëŸ¬ ì˜¤ë¸Œ ë°ìŠ¤)');
-INSERT INTO `drop_item` VALUES ('439113', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(í”„ë¦¬ì§• ë¸Œë ˆìŠ¤)');
-INSERT INTO `drop_item` VALUES ('439114', '0', '1', 'ìš©ê¸°ì‚¬ì˜ ì„œíŒ(ê°ì„±[ë°œë¼ì¹´ìŠ¤])');
+INSERT IGNORE INTO `drop_item` VALUES 
+('20007', '0', '1', '³­ÀïÀÌÁ· Ã¶ Åõ±¸'),
+('20008', '0', '1', '³°Àº ¹Ù¶÷ÀÇ Åõ±¸'),
+('20012', '0', '1', '¸¶¹ý»çÀÇ ¸ðÀÚ'),
+('20034', '0', '1', '¿ÀÅ©Á· Åõ±¸'),
+('20043', '0', '1', 'Åõ±¸'),
+('20052', '0', '1', '³­ÀïÀÌÁ· ¸ÁÅä'),
+('20053', '0', '1', '´Á´ë°¡Á× ¸ÁÅä'),
+('20066', '0', '1', 'ºí·¢ Æ¼°Å °¡Á× ¸ÁÅä'),
+('20096', '0', '1', '°í¸® °©¿Ê'),
+('20097', '0', '1', '³ª¹« °©¿Ê'),
+('20098', '0', '1', '´ÙÅ© Æ÷·¹½ºÅÍÀÇ °©¿Ê'),
+('20102', '0', '1', '¶ó½ºÅ¸¹Ùµå ·¹´õ ¾Æ¸Ó'),
+('20103', '0', '1', '¶ó½ºÅ¸¹Ùµå ·Îºê'),
+('20104', '0', '1', '¶ó½ºÅ¸¹Ùµå Â¡¹ÚÈù ·¹´õ ¾Æ¸Ó'),
+('20105', '0', '1', '¶ó½ºÅ¸¹Ùµå Ã¼ÀÎ ¸ÞÀÏ'),
+('20110', '0', '1', '¸¶¹ý ¹æ¾î »ç½½ °©¿Ê'),
+('20111', '0', '1', '¸¶¹ý»çÀÇ ¿Ê'),
+('20114', '0', '1', '¹«¸í ·Îºê'),
+('20122', '0', '1', 'ºñ´Ã °©¿Ê'),
+('20123', '0', '1', 'ºñ½ºÆ® ¼­¸Ó³ÊÀÇ ·Îºê'),
+('20124', '0', '1', '»À°©¿Ê'),
+('20125', '0', '1', '»ç½½ °©¿Ê'),
+('20135', '0', '1', '¿ÀÅ©Á· °í¸® °©¿Ê'),
+('20136', '0', '1', '¿ÀÅ©Á· »ç½½ °©¿Ê'),
+('20139', '0', '1', '¿äÁ¤Á· Èä°©'),
+('20147', '0', '1', 'Â¡¹ÚÈù °¡Á× °©¿Ê'),
+('20149', '0', '1', 'Ã»µ¿ ÆÇ±Ý °©¿Ê'),
+('20154', '0', '1', 'ÆÇ±Ý °©¿Ê'),
+('20155', '0', '1', 'Çª¸¥ ÇØÀû °¡Á×°©¿Ê'),
+('20157', '0', '1', 'ÇÃ·¹ÀÌÆ®¿ú ²®Áú °©¿Ê'),
+('20162', '0', '1', '°¡Á× Àå°©'),
+('20174', '0', '1', '¼³ÀÎ Àå°©'),
+('20199', '0', '1', '¶ó½ºÅ¸¹Ùµå ºÎÃ÷'),
+('20205', '0.5', '1', 'ºÎÃ÷'),
+('20213', '0', '1', 'ÂªÀº ºÎÃ÷'),
+('20217', '0', '1', 'Çª¸¥ ÇØÀû ºÎÃ÷'),
+('20222', '0', '1', '³ª¹« ¹æÆÐ'),
+('20223', '0', '1', '³­ÀïÀÌÁ· µÕ±Ù ¹æÆÐ'),
+('20224', '0', '1', '¶ó½ºÅ¸¹Ùµå ¶ó¿îµå ½Çµå'),
+('20237', '0', '1', '¿ì·°ÇÏÀÌ ¹æÆÐ'),
+('20239', '0', '1', 'ÀÛÀº ¹æÆÐ'),
+('20242', '0.5', '1', 'Å« ¹æÆÐ'),
+('120043', '0', '1', 'Åõ±¸'),
+('120242', '0', '1', 'Å« ¹æÆÐ'),
+('220034', '0', '1', '¿ÀÅ©Á· Åõ±¸'),
+('220043', '0', '1', 'Åõ±¸'),
+('220056', '0', '1', '¸¶¹ý ¸ÁÅä'),
+('220101', '0', '1', '¶ì °©¿Ê'),
+('220115', '0', '1', '¹Ì´Ã °©¿Ê'),
+('220122', '0', '1', 'ºñ´Ã °©¿Ê'),
+('220125', '0', '1', '»ç½½ °©¿Ê'),
+('220135', '0', '1', '¿ÀÅ©Á· °í¸® °©¿Ê'),
+('220136', '0', '1', '¿ÀÅ©Á· »ç½½ °©¿Ê'),
+('220147', '0', '1', 'Â¡¹ÚÈù °¡Á× °©¿Ê'),
+('220154', '0', '1', 'ÆÇ±Ý °©¿Ê'),
+('220213', '0', '1', 'ÂªÀº ºÎÃ÷'),
+('220237', '0', '1', '¿ì·°ÇÏÀÌ ¹æÆÐ'),
+('1', '0', '1', '¿ÀÅ©Á· ´Ü°Ë'),
+('10', '0', '1', '¶ó½ºÅ¸¹Ùµå ºí·¹ÀÌµå'),
+('11', '0', '1', '¼öÁ¤ ´Ü°Ë'),
+('21', '0', '1', '¿ÀÅ©Á· °Ë'),
+('23', '0', '1', '³ÐÀº °Ë'),
+('24', '0', '1', 'ÂªÀº °Ë'),
+('25', '0', '1', 'Àº°Ë'),
+('26', '0', '1', '³­ÀïÀÌÁ· °Ë'),
+('27', '0', '1', '¾ð¿ùµµ'),
+('29', '0', '1', 'ÀºÀå°Ë'),
+('31', '0', '1', 'Àå°Ë'),
+('32', '0.5', '1', '±×¶óµð¿ì½º'),
+('37', '0', '1', '´Ù¸¶½ºÄ¿½º °Ë'),
+('38', '0', '1', '¶ó½ºÅ¸¹Ùµå Àå°Ë'),
+('41', '0', '1', 'ÀÏº»µµ'),
+('43', '0', '1', '¼¤½¬¸£'),
+('69', '0', '1', '±¸¸®ºû ÀÌµµ·ù'),
+('70', '0', '1', '¼Û°÷³¯ ÀÌµµ·ù'),
+('71', '0', '1', '°­Ã¶ ÀÌµµ·ù'),
+('72', '0', '1', '±×¸²ÀÚ ÀÌµµ·ù'),
+('77', '0', '1', 'ÂªÀº ÀÌµµ·ù'),
+('82', '0', '1', '¶ó½ºÅ¸¹Ùµå ÀÌµµ·ù'),
+('83', '0', '1', 'µð¾Æµå¿ä»õ ÀÌµµ·ù'),
+('87', '0', '1', '¾Ë·ÁÁöÁö ¾ÊÀº Ã¢'),
+('90', '0', '1', '¹Ù¸£µð½¦'),
+('91', '0', '1', '¿ÀÅ©Á· Ã¢'),
+('92', '0', '1', 'ºô±Í»ç¸§'),
+('93', '0', '1', '»ïÁöÃ¢'),
+('94', '0', '1', 'ÆÄ¸£Æ¼ÀÜ'),
+('95', '0', '1', '±âº´Ã¢'),
+('96', '0', '1', 'Ã¢'),
+('97', '0', '1', '±Í»ç¸§'),
+('98', '0', '1', '³ÐÀº Ã¢'),
+('101', '0', '1', '¶ó½ºÅ¸¹Ùµå ÇÑ¼ÕÃ¢'),
+('102', '0', '1', '·ç¼±ÇØ¸Ó'),
+('122', '0', '1', '¶ó½ºÅ¸¹Ùµå ½ºÅÂÇÁ'),
+('125', '0', '1', '¸¶·ÂÀÇ ÁöÆÎÀÌ'),
+('128', '0', '1', 'Âü³ª¹« ÁöÆÎÀÌ'),
+('129', '0', '1', '¸¶¹ý»çÀÇ ÁöÆÎÀÌ'),
+('135', '0', '1', '¾Ë·ÁÁöÁö ¾ÊÀº µµ³¢'),
+('136', '0', '1', 'µµ³¢'),
+('137', '0', '1', '¾ÆÅ½'),
+('138', '0', '1', '¸ùµÕÀÌ'),
+('139', '0', '1', 'µµ¸®±ú'),
+('140', '0', '1', 'Ã¶Åð'),
+('141', '0', '1', '¿öÇØ¸Ó'),
+('142', '0.5', '1', 'Àºµµ³¢'),
+('143', '0', '1', 'ÀüÅõ µµ³¢'),
+('144', '0', '1', '³­ÀïÀÌÁ· µµ³¢'),
+('145', '0.5', '1', '±¤Àü»çÀÇ µµ³¢'),
+('146', '0', '1', '¸ð´×½ºÅ¸'),
+('147', '0', '1', '»ó¾ÆÅ¾ÀÇ µµ³¢'),
+('169', '0', '1', '»ç³É²Û È°'),
+('171', '0', '1', '¿ÀÅ©Á· È°'),
+('172', '0', '1', 'È°'),
+('100041', '0', '1', 'ÀÏº»µµ'),
+('100095', '0', '1', '±âº´Ã¢'),
+('100098', '0', '1', '³ÐÀº Ã¢'),
+('100099', '0', '1', '¿äÁ¤Á· Ã¢'),
+('100102', '0', '1', '·ç¼±ÇØ¸Ó'),
+('100103', '0.5', '1', '¹Ì´ÃÃ¢'),
+('100143', '0', '1', 'ÀüÅõ µµ³¢'),
+('100146', '0', '1', '¸ð´×½ºÅ¸'),
+('200001', '0', '1', '¿ÀÅ©Á· ´Ü°Ë'),
+('200027', '0', '1', '¾ð¿ùµµ'),
+('200032', '0', '1', '±×¶óµð¿ì½º'),
+('200041', '0', '1', 'ÀÏº»µµ'),
+('200171', '0', '1', '¿ÀÅ©Á· È°'),
+('40001', '0', '1', 'µîÀÜ'),
+('40005', '0', '1', '¾çÃÊ'),
+('40006', '0', '1', '¼Ò³ª¹« ¸·´ë'),
+('40010', '0', '1', 'Ã¼·Â È¸º¹Á¦'),
+('40011', '0', '1', '°í±Þ Ã¼·Â È¸º¹Á¦'),
+('40012', '0', '1', '°­·Â Ã¼·Â È¸º¹Á¦'),
+('40013', '0', '1', '¼Óµµ Çâ»ó ¹°¾à'),
+('40019', '0', '1', '³óÃà Ã¼·Â È¸º¹Á¦'),
+('40020', '0', '1', '³óÃà °í±Þ Ã¼·Â È¸º¹Á¦'),
+('40021', '1', '1', '³óÃà °­·Â Ã¼·Â È¸º¹Á¦'),
+('40022', '0', '1', '°í´ëÀÇ Ã¼·Â È¸º¹Á¦'),
+('40023', '0', '1', '°í´ëÀÇ °í±Þ Ã¼·Â È¸º¹Á¦'),
+('40024', '1', '1', '°í´ëÀÇ °­·Â Ã¼·Â È¸º¹Á¦'),
+('40059', '0', '1', '´Þ°¿'),
+('40060', '0', '1', '´ç±Ù'),
+('40061', '0', '1', '·¹¸ó'),
+('40062', '0', '1', '¹Ù³ª³ª'),
+('40064', '0', '1', '»ç°ú'),
+('40069', '0', '1', '¿À·»Áö'),
+('40079', '0', '1', '±ÍÈ¯ ÁÖ¹®¼­'),
+('40090', '0', '1', 'ºó ÁÖ¹®¼­ (·¹º§ 1)'),
+('40091', '0', '1', 'ºó ÁÖ¹®¼­ (·¹º§ 2)'),
+('40092', '0', '1', 'ºó ÁÖ¹®¼­ (·¹º§ 3)'),
+('40100', '0', '1', '¼ø°£ÀÌµ¿ ÁÖ¹®¼­'),
+('40119', '0', '1', 'ÀúÁÖ Ç®±â ÁÖ¹®¼­'),
+('40126', '0', '1', 'È®ÀÎ ÁÖ¹®¼­'),
+('40170', '0', '1', '¸¶¹ý¼­ (ÆÄÀÌ¾îº¼)'),
+('40171', '0', '1', '¸¶¹ý¼­ (ÀÎÃ¦Æ® µ¦½ºÅÍ¸®Æ¼)'),
+('40172', '0', '1', '¸¶¹ý¼­ (¿þÆù ºê·¹ÀÌÅ©)'),
+('40173', '0', '1', '¸¶¹ý¼­ (¹ìÆÄÀÌ¾î¸¯ ÅÍÄ¡)'),
+('40174', '0', '1', '¸¶¹ý¼­ (½½·Î¿ì)'),
+('40175', '0', '1', '¸¶¹ý¼­ (Ä«¿îÅÍ ¸ÅÁ÷)'),
+('40176', '0', '1', '¸¶¹ý¼­ (¸ÞµðÅ×ÀÌ¼Ç)'),
+('40177', '0', '1', '¸¶¹ý¼­ (¾î½º ÀçÀÏ)'),
+('40178', '0', '1', '¸¶¹ý¼­ (Ä¿½º: ÆÐ·²¶óÀÌÁî)'),
+('40179', '0', '1', '¸¶¹ý¼­ (ÄÝ ¶óÀÌÆ®´×)'),
+('40180', '0', '1', '¸¶¹ý¼­ (±×·¹ÀÌÅÍ Èú)'),
+('40181', '0', '1', '¸¶¹ý¼­ (Å×ÀÌ¹Ö ¸ó½ºÅÍ)'),
+('40182', '0', '1', '¸¶¹ý¼­ (¸®¹«ºê Ä¿½º)'),
+('40183', '0', '1', '¸¶¹ý¼­ (ÄÜ ¿Àºê ÄÝµå)'),
+('40184', '0', '1', '¸¶¹ý¼­ (¸¶³ª µå·¹ÀÎ)'),
+('40185', '0', '1', '¸¶¹ý¼­ (´ÙÅ©´Ï½º)'),
+('40186', '0', '1', '¸¶¹ý¼­ (Å©¸®¿¡ÀÌÆ® Á»ºñ)'),
+('40187', '0', '1', '¸¶¹ý¼­ (ÀÎÃ¦Æ® ¸¶ÀÌÆ¼)'),
+('40188', '0', '1', '¸¶¹ý¼­ (ÇìÀÌ½ºÆ®)'),
+('40189', '0', '1', '¸¶¹ý¼­ (Äµ½½·¹ÀÌ¼Ç)'),
+('40190', '0', '1', '¸¶¹ý¼­ (ÀÌ·´¼Ç)'),
+('40191', '0', '1', '¸¶¹ý¼­ (¼± ¹ö½ºÆ®)'),
+('40192', '0', '1', '¸¶¹ý¼­ (À§Å©´Ï½º)'),
+('40193', '0', '1', '¸¶¹ý¼­ (ºí·¹½º ¿þÆù)'),
+('40232', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (·¹Áö½ºÆ® ¸ÅÁ÷)'),
+('40233', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (¹Ùµð Åõ ¸¶ÀÎµå)'),
+('40234', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (ÅÚ·¹Æ÷Æ® Åõ ¸¶´õ)'),
+('40235', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (Å¬¸®¾î ¸¶ÀÎµå)'),
+('40236', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (·¹Áö½ºÆ® ¿¤¸®¸àÆ®)'),
+('40237', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (¸®ÅÏ Åõ ³×ÀÌÃ³)'),
+('40240', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (Æ®¸®ÇÃ ¾Ö·Î¿ì)'),
+('40241', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (¿¤¸®¸àÅ» Æú´Ù¿î)'),
+('40242', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (ÀÌ·¹ÀÌÁî ¸ÅÁ÷)'),
+('40243', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (¼­¸Õ ·¹¼­ ¿¤¸®¸àÅ»)'),
+('40245', '0', '1', 'Á¤·ÉÀÇ ¼öÁ¤ (¼­¸Õ ±×·¹ÀÌÅÍ ¿¤¸®¸àÅ»)'),
+('40265', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ºí¶óÀÎµå ÇÏÀÌµù)'),
+('40266', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ÀÎÃ¦Æ® º£³ð)'),
+('40267', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (½¦µµ¿ì ¾Æ¸Ó)'),
+('40268', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ºê¸µ ½ºÅæ)'),
+('40269', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º ¸¶ÀÌÆ¼)'),
+('40270', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¹«ºù ¾Ç¼¿·¹ÀÌ¼Ç)'),
+('40271', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¹ö´× ½ºÇÇ¸´Ã÷)'),
+('40272', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (´ÙÅ© ºí¶óÀÎµå)'),
+('40273', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (º£³ð ·¹Áö½ºÆ®)'),
+('40274', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º µ¦½ºÅÍ¸®Æ¼)'),
+('40275', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (´õºí ºê·¹ÀÌÅ©)'),
+('40276', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (¾ðÄÉ´Ï ´åÁö)'),
+('40277', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (½¦µµ¿ì ÆØ)'),
+('40278', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (ÆÄÀÌ³Î ¹ø)'),
+('40279', '0', '1', 'ÈæÁ¤·ÉÀÇ ¼öÁ¤ (µå·¹½º ÀÌº£ÀÌÁ¯)'),
+('40405', '0', '1', 'µ¿¹°°¡Á×'),
+('40407', '0', '1', '»ÀÁ¶°¢'),
+('40429', '0', '1', '´ë°øµ¿ ÁÖ¹®¼­ Á¶°¢'),
+('40431', '1', '1', 'µÎ´õÁöÀÇ °¡Á×'),
+('40432', '0', '1', 'µð¾Æµå ÁÖ¹®¼­ Á¶°¢'),
+('40433', '1', '1', 'µô·Î ¹ßÅé'),
+('40434', '1', '1', 'µô·ÎÀÇ ²¿¸®'),
+('40435', '1', '1', 'µö ÇÃ¶ó¿öÀÇ ²É ºÀ¿À¸®'),
+('40436', '0', '1', 'µö ÇÃ¶ó¿öÀÇ »Ñ¸®'),
+('40437', '1', '1', 'µöÇÃ¶ó¿ö ÁÙ±â'),
+('40438', '1', '1', '¹ÚÁã ¼Û°÷´Ï'),
+('40483', '1', '1', 'ÇÃ·¹ÀÌÆ®¿úÀÇ ²®Áú'),
+('40484', '1', '1', 'ÇÃ·¹ÀÌÆ®¿úÀÇ µ¶ÁÖ¸Ó´Ï'),
+('40485', '1', '1', 'ÇÃ·¹ÀÌÆ®¿úÀÇ ¼Û°÷´Ï'),
+('40494', '0', '1', '¹Ì½º¸±'),
+('40538', '0', '1', '±¸¿ïÀÇ ¼ÕÅé'),
+('40539', '0', '1', '±¸¿ïÀÇ ÀÌ»¡'),
+('40540', '0', '1', '³°Àº °Å·¡ ¹®¼­'),
+('40564', '0', '1', '»ý¸íÀÇ ºñ¹Ð'),
+('40565', '0', '1', '¼ö»ö¹®¼­'),
+('40601', '0', '1', 'ÅÍÆ² µå·¡°ïÀÇ ²®Áú'),
+('40608', '0', '1', 'Èæ±â»çÀÇ ¼­¾à¼­'),
+('40609', '0', '1', '°£µð ¿ÀÅ© ¸¶¹ý¼­'),
+('40610', '0', '1', '³×·ç°¡ ¿ÀÅ© ¸¶¹ý¼­'),
+('40611', '0', '1', 'µÎ´Ù ¸¶¶ó ¿ÀÅ© ¸¶¹ý¼­'),
+('40612', '0', '1', '¾ÆÅõ¹Ù ¿ÀÅ© ¸¶¹ý¼­'),
+('40638', '1', '1', '¸¶¼ö±ºÀÇ Â¡Ç¥'),
+('40635', '1', '1', '¸¶·É±ºÀÇ Â¡Ç¥'),
+('40738', '0', '1', '½Ç¹ö ½ºÆÃ'),
+('40739', '0', '1', '½ºÆÃ'),
+('40740', '0', '1', 'Çìºñ ½ºÆÃ'),
+('40999', '0', '1', '´ÙÅ©¿¤ÇÁ º´»çÀÇ ¹èÁö'),
+('41000', '0', '1', '´ÙÅ©¿¤ÇÁ Àå±ºÀÇ ¹èÁö'),
+('140006', '0', '1', '¼Ò³ª¹« ¸·´ë'),
+('140010', '0', '1', 'Ã¼·Â È¸º¹Á¦'),
+('140011', '0', '1', '°í±Þ Ã¼·Â È¸º¹Á¦'),
+('140012', '0', '1', '°­·Â Ã¼·Â È¸º¹Á¦'),
+('140013', '0', '1', '¼ÓµµÇâ»ó ¹°¾à'),
+('439000', '0', '1', '±â¾ïÀÇ ¼öÁ¤(¹Ì·¯ ÀÌ¹ÌÁö)'),
+('439001', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÄÁÇ»Àü)'),
+('439002', '0', '1', '±â¾ïÀÇ ¼öÁ¤(½º¸Å½¬)'),
+('439003', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÀÏ·ç¼Ç:¿À°Å)'),
+('439004', '0', '1', '±â¾ïÀÇ ¼öÁ¤(Å¥ºê:ÀÌ±×´Ï¼Ç)'),
+('439005', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÄÁ¼¾Æ®·¹ÀÌ¼Ç)'),
+('439006', '0', '1', '±â¾ïÀÇ ¼öÁ¤(¸¶ÀÎµå ºê·¹ÀÌÅ©)'),
+('439007', '0', '1', '±â¾ïÀÇ ¼öÁ¤(º» ºê·¹ÀÌÅ©)'),
+('439008', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÀÏ·ç¼Ç:¸®Ä¡)'),
+('439009', '0', '1', '±â¾ïÀÇ ¼öÁ¤(Å¥ºê:ÄùÀÌÅ©)'),
+('439010', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÆäÀÌ¼Ç½º)'),
+('439011', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÆÇÅ¸Áò)'),
+('439012', '0', '1', '±â¾ïÀÇ ¼öÁ¤(¾Ï ºê·¹ÀÌÄ¿)'),
+('439013', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÀÏ·ç¼Ç:´ÙÀÌ¾Æ¸óµå °ñ·½)'),
+('439014', '0', '1', '±â¾ïÀÇ ¼öÁ¤(Å¥ºê:¼îÅ©)'),
+('439015', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÀÎ»çÀÌÆ®)'),
+('439016', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÆÐ´Ð)'),
+('439017', '0', '1', '±â¾ïÀÇ ¼öÁ¤(Á¶ÀÌ ¿Àºê ÆäÀÎ)'),
+('439018', '0', '1', '±â¾ïÀÇ ¼öÁ¤(ÀÏ·ç¼Ç:¾Æ¹ÙÅ¸)'),
+('439019', '0', '1', '±â¾ïÀÇ ¼öÁ¤(Å¥ºê:¹ë·±½º)'),
+('439100', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(µå·¡°ï ½ºÅ²)'),
+('439101', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(¹ö´× ½½·¡½¬)'),
+('439102', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(°¡µå ºê·¹ÀÌÅ©)'),
+('439103', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(¸¶±×¸¶ ºê·¹½º)'),
+('439104', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(°¢¼º[¾ÈÅ¸¶ó½º])'),
+('439105', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(ºí·¯µå·¯½ºÆ®)'),
+('439106', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(Æ÷¿ì ½½·¹ÀÌ¾î)'),
+('439107', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(ÇÇ¾î)'),
+('439108', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(¼îÅ© ½ºÅ²)'),
+('439109', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(°¢¼º[ÆÄÇª¸®¿Â])'),
+('439110', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(¸ðÅ» ¹Ùµð)'),
+('439111', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(½ã´õ ±×·¦)'),
+('439112', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(È£·¯ ¿Àºê µ¥½º)'),
+('439113', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(ÇÁ¸®Â¡ ºê·¹½º)'),
+('439114', '0', '1', '¿ë±â»çÀÇ ¼­ÆÇ(°¢¼º[¹ß¶óÄ«½º])');

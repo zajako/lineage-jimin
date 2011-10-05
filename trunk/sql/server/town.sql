@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:10:29
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -35,13 +35,14 @@ CREATE TABLE `town` (
 -- ----------------------------
 -- Records of town
 -- ----------------------------
-INSERT INTO `town` VALUES ('1', 'ÎßêÌïòÎäîÏÑ¨', '0', '', '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('2', 'ÏùÄÍ∏∞ÏÇ¨ ÎßàÏùÑ', '0', null, '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('3', 'Í∏ÄÎ£®ÎîîÏò§', '0', null, '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('4', 'ÌôîÏ†ÑÎØº ÎßàÏùÑ', '0', '', '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('5', 'Ïö∞Ï¶àÎ∞±', '0', '', '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('6', 'ÏºÑÌä∏', '0', '', '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('7', 'Í∏∞ÎûÄ', '0', null, '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('8', 'ÌïòÏù¥ÎÑ§', '0', null, '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('9', 'Ïõ∞Îçò', '0', '', '0', '0', '0', '0', '0', '0');
-INSERT INTO `town` VALUES ('10', 'Ïò§Î†å', '0', '', '0', '0', '0', '0', '0', '0');
+INSERT IGNORE INTO `town` VALUES 
+('1', '∏ª«œ¥¬º∂', '0', '', '0', '0', '0', '0', '0', '0'),
+('2', '¿∫±‚ªÁ ∏∂¿ª', '0', null, '0', '0', '0', '0', '0', '0'),
+('3', '±€∑Áµø¿', '0', null, '0', '0', '0', '0', '0', '0'),
+('4', '»≠¿¸πŒ ∏∂¿ª', '0', '', '0', '0', '0', '0', '0', '0'),
+('5', 'øÏ¡ÓπÈ', '0', '', '0', '0', '0', '0', '0', '0'),
+('6', 'ƒÀ∆Æ', '0', '', '0', '0', '0', '0', '0', '0'),
+('7', '±‚∂ı', '0', null, '0', '0', '0', '0', '0', '0'),
+('8', '«œ¿Ã≥◊', '0', null, '0', '0', '0', '0', '0', '0'),
+('9', '¿£¥¯', '0', '', '0', '0', '0', '0', '0', '0'),
+('10', 'ø¿∑ª', '0', '', '0', '0', '0', '0', '0', '0');

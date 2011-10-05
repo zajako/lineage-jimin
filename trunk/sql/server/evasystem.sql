@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : playlive
+Source Server         : localhost
 Source Server Version : 60008
-Source Host           : 59.1.238.62:3306
-Source Database       : eva
+Source Host           : localhost:3306
+Source Database       : bone
 
 Target Server Type    : MYSQL
 Target Server Version : 60008
 File Encoding         : 65001
 
-Date: 2011-06-14 10:04:01
+Date: 2011-10-05 19:40
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,4 +31,5 @@ CREATE TABLE `evasystem` (
 -- ----------------------------
 -- Records of evasystem
 -- ----------------------------
-INSERT INTO `evasystem` VALUES ('1', 'ÏãúÍ∞ÑÏùò Í∑†Ïó¥', '2010-03-24 19:00:00', '0', '0', '0');
+INSERT IGNORE INTO `evasystem` VALUES 
+('1', 'Ω√∞£¿« ±’ø≠', '2010-03-24 19:00:00', '0', '0', '0');
