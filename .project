@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>openEva</name>
-	<comment>playeva.net</comment>
-	<projects>eva open project</projects>
+	<name>Bone</name>
+	<comment>wlals1978@nate.com</comment>
+	<projects>Bone Open Project</projects>
 	<buildSpec>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
